@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": "0.1.0-pilot",
+  "status": "pilot",
+  "audiences": {
+    "student": {
+      "title": "گزارش انتخاب‌یار",
+      "sections": [
+        "academic_profile",
+        "top_families",
+        "top_majors",
+        "interpretation"
+      ],
+      "disclaimer": "این نتیجه برای شناخت مسیرهای قابل بررسی است و جایگزین مشاوره تخصصی یا اطلاعات رسمی پذیرش نیست."
+    },
+    "counselor": {
+      "title": "گزارش تفصیلی انتخاب‌یار",
+      "sections": [
+        "academic_profile",
+        "all_dimensions",
+        "riasec",
+        "abilities",
+        "values",
+        "family_ranking",
+        "major_ranking",
+        "reasons",
+        "review_points",
+        "interpretation"
+      ],
+      "disclaimer": "امتیازها بر پایه خودگزارشی و وزن‌های آزمایشی هستند؛ برای تصمیم نهایی باید با گفت‌وگو و منابع رسمی بررسی شوند."
+    }
+  },
+  "labels": {
+    "matchScore": "امتیاز تناسب",
+    "strengths": "نقاط قوت مرتبط",
+    "reviewPoints": "مواردی برای بررسی",
+    "why": "چرا پیشنهاد شده"
+  }
+}

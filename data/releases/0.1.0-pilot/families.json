@@ -1,0 +1,1137 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": "0.1.0-pilot",
+  "status": "pilot",
+  "items": [
+    {
+      "id": "exp-health",
+      "group": "experimental",
+      "title": "سلامت و درمان",
+      "description": "شناخت بدن و ارائه خدمت درمانی",
+      "profile": {
+        "realistic": {
+          "target": 50,
+          "importance": 0
+        },
+        "investigative": {
+          "target": 88,
+          "importance": 2
+        },
+        "artistic": {
+          "target": 50,
+          "importance": 0
+        },
+        "social": {
+          "target": 92,
+          "importance": 2
+        },
+        "enterprising": {
+          "target": 50,
+          "importance": 0
+        },
+        "conventional": {
+          "target": 50,
+          "importance": 0
+        },
+        "openness": {
+          "target": 50,
+          "importance": 0
+        },
+        "conscientiousness": {
+          "target": 50,
+          "importance": 0
+        },
+        "extraversion": {
+          "target": 50,
+          "importance": 0
+        },
+        "agreeableness": {
+          "target": 50,
+          "importance": 0
+        },
+        "emotional_stability": {
+          "target": 82,
+          "importance": 2
+        },
+        "income": {
+          "target": 50,
+          "importance": 0
+        },
+        "security": {
+          "target": 50,
+          "importance": 0
+        },
+        "freedom": {
+          "target": 50,
+          "importance": 0
+        },
+        "impact": {
+          "target": 90,
+          "importance": 2
+        },
+        "growth": {
+          "target": 50,
+          "importance": 0
+        },
+        "lifestyle": {
+          "target": 50,
+          "importance": 0
+        },
+        "analytical": {
+          "target": 50,
+          "importance": 0
+        },
+        "numerical": {
+          "target": 50,
+          "importance": 0
+        },
+        "verbal": {
+          "target": 72,
+          "importance": 2
+        },
+        "spatial": {
+          "target": 50,
+          "importance": 0
+        },
+        "creativity": {
+          "target": 50,
+          "importance": 0
+        },
+        "learning": {
+          "target": 90,
+          "importance": 2
+        },
+        "focus": {
+          "target": 50,
+          "importance": 0
+        },
+        "persistence": {
+          "target": 88,
+          "importance": 2
+        },
+        "independence": {
+          "target": 50,
+          "importance": 0
+        }
+      },
+      "profileStatus": "editorial_draft"
+    },
+    {
+      "id": "exp-rehab",
+      "group": "experimental",
+      "title": "توانبخشی",
+      "description": "کمک به بازیابی و تقویت توانایی‌های فرد",
+      "profile": {
+        "realistic": {
+          "target": 74,
+          "importance": 2
+        },
+        "investigative": {
+          "target": 50,
+          "importance": 0
+        },
+        "artistic": {
+          "target": 50,
+          "importance": 0
+        },
+        "social": {
+          "target": 94,
+          "importance": 2
+        },
+        "enterprising": {
+          "target": 50,
+          "importance": 0
+        },
+        "conventional": {
+          "target": 50,
+          "importance": 0
+        },
+        "openness": {
+          "target": 50,
+          "importance": 0
+        },
+        "conscientiousness": {
+          "target": 50,
+          "importance": 0
+        },
+        "extraversion": {
+          "target": 50,
+          "importance": 0
+        },
+        "agreeableness": {
+          "target": 88,
+          "importance": 2
+        },
+        "emotional_stability": {
+          "target": 50,
+          "importance": 0
+        },
+        "income": {
+          "target": 50,
+          "importance": 0
+        },
+        "security": {
+          "target": 50,
+          "importance": 0
+        },
+        "freedom": {
+          "target": 50,
+          "importance": 0
+        },
+        "impact": {
+          "target": 92,
+          "importance": 2
+        },
+        "growth": {
+          "target": 50,
+          "importance": 0
+        },
+        "lifestyle": {
+          "target": 50,
+          "importance": 0
+        },
+        "analytical": {
+          "target": 50,
+          "importance": 0
+        },
+        "numerical": {
+          "target": 50,
+          "importance": 0
+        },
+        "verbal": {
+          "target": 80,
+          "importance": 2
+        },
+        "spatial": {
+          "target": 50,
+          "importance": 0
+        },
+        "creativity": {
+          "target": 50,
+          "importance": 0
+        },
+        "learning": {
+          "target": 50,
+          "importance": 0
+        },
+        "focus": {
+          "target": 50,
+          "importance": 0
+        },
+        "persistence": {
+          "target": 84,
+          "importance": 2
+        },
+        "independence": {
+          "target": 50,
+          "importance": 0
+        }
+      },
+      "profileStatus": "editorial_draft"
+    },
+    {
+      "id": "exp-clinical",
+      "group": "experimental",
+      "title": "علوم آزمایشگاهی و سلامت",
+      "description": "کار دقیق و فنی در خدمات سلامت",
+      "profile": {
+        "realistic": {
+          "target": 72,
+          "importance": 2
+        },
+        "investigative": {
+          "target": 82,
+          "importance": 2
+        },
+        "artistic": {
+          "target": 50,
+          "importance": 0
+        },
+        "social": {
+          "target": 50,
+          "importance": 0
+        },
+        "enterprising": {
+          "target": 50,
+          "importance": 0
+        },
+        "conventional": {
+          "target": 82,
+          "importance": 2
+        },
+        "openness": {
+          "target": 50,
+          "importance": 0
+        },
+        "conscientiousness": {
+          "target": 50,
+          "importance": 0
+        },
+        "extraversion": {
+          "target": 50,
+          "importance": 0
+        },
+        "agreeableness": {
+          "target": 50,
+          "importance": 0
+        },
+        "emotional_stability": {
+          "target": 50,
+          "importance": 0
+        },
+        "income": {
+          "target": 50,
+          "importance": 0
+        },
+        "security": {
+          "target": 72,
+          "importance": 2
+        },
+        "freedom": {
+          "target": 50,
+          "importance": 0
+        },
+        "impact": {
+          "target": 50,
+          "importance": 0
+        },
+        "growth": {
+          "target": 50,
+          "importance": 0
+        },
+        "lifestyle": {
+          "target": 50,
+          "importance": 0
+        },
+        "analytical": {
+          "target": 80,
+          "importance": 2
+        },
+        "numerical": {
+          "target": 50,
+          "importance": 0
+        },
+        "verbal": {
+          "target": 50,
+          "importance": 0
+        },
+        "spatial": {
+          "target": 50,
+          "importance": 0
+        },
+        "creativity": {
+          "target": 50,
+          "importance": 0
+        },
+        "learning": {
+          "target": 50,
+          "importance": 0
+        },
+        "focus": {
+          "target": 92,
+          "importance": 2
+        },
+        "persistence": {
+          "target": 50,
+          "importance": 0
+        },
+        "independence": {
+          "target": 50,
+          "importance": 0
+        }
+      },
+      "profileStatus": "editorial_draft"
+    },
+    {
+      "id": "exp-bio",
+      "group": "experimental",
+      "title": "زیست و فناوری",
+      "description": "پژوهش و فناوری مرتبط با زیست",
+      "profile": {
+        "realistic": {
+          "target": 50,
+          "importance": 0
+        },
+        "investigative": {
+          "target": 94,
+          "importance": 2
+        },
+        "artistic": {
+          "target": 50,
+          "importance": 0
+        },
+        "social": {
+          "target": 50,
+          "importance": 0
+        },
+        "enterprising": {
+          "target": 50,
+          "importance": 0
+        },
+        "conventional": {
+          "target": 50,
+          "importance": 0
+        },
+        "openness": {
+          "target": 84,
+          "importance": 2
+        },
+        "conscientiousness": {
+          "target": 50,
+          "importance": 0
+        },
+        "extraversion": {
+          "target": 50,
+          "importance": 0
+        },
+        "agreeableness": {
+          "target": 50,
+          "importance": 0
+        },
+        "emotional_stability": {
+          "target": 50,
+          "importance": 0
+        },
+        "income": {
+          "target": 50,
+          "importance": 0
+        },
+        "security": {
+          "target": 50,
+          "importance": 0
+        },
+        "freedom": {
+          "target": 50,
+          "importance": 0
+        },
+        "impact": {
+          "target": 50,
+          "importance": 0
+        },
+        "growth": {
+          "target": 88,
+          "importance": 2
+        },
+        "lifestyle": {
+          "target": 50,
+          "importance": 0
+        },
+        "analytical": {
+          "target": 90,
+          "importance": 2
+        },
+        "numerical": {
+          "target": 72,
+          "importance": 2
+        },
+        "verbal": {
+          "target": 50,
+          "importance": 0
+        },
+        "spatial": {
+          "target": 50,
+          "importance": 0
+        },
+        "creativity": {
+          "target": 50,
+          "importance": 0
+        },
+        "learning": {
+          "target": 90,
+          "importance": 2
+        },
+        "focus": {
+          "target": 50,
+          "importance": 0
+        },
+        "persistence": {
+          "target": 50,
+          "importance": 0
+        },
+        "independence": {
+          "target": 50,
+          "importance": 0
+        }
+      },
+      "profileStatus": "editorial_draft"
+    },
+    {
+      "id": "exp-people",
+      "group": "experimental",
+      "title": "انسان و رفتار",
+      "description": "شناخت رفتار و کمک آموزشی یا مشاوره‌ای",
+      "profile": {
+        "realistic": {
+          "target": 50,
+          "importance": 0
+        },
+        "investigative": {
+          "target": 72,
+          "importance": 2
+        },
+        "artistic": {
+          "target": 50,
+          "importance": 0
+        },
+        "social": {
+          "target": 94,
+          "importance": 2
+        },
+        "enterprising": {
+          "target": 50,
+          "importance": 0
+        },
+        "conventional": {
+          "target": 50,
+          "importance": 0
+        },
+        "openness": {
+          "target": 50,
+          "importance": 0
+        },
+        "conscientiousness": {
+          "target": 50,
+          "importance": 0
+        },
+        "extraversion": {
+          "target": 50,
+          "importance": 0
+        },
+        "agreeableness": {
+          "target": 86,
+          "importance": 2
+        },
+        "emotional_stability": {
+          "target": 50,
+          "importance": 0
+        },
+        "income": {
+          "target": 50,
+          "importance": 0
+        },
+        "security": {
+          "target": 50,
+          "importance": 0
+        },
+        "freedom": {
+          "target": 50,
+          "importance": 0
+        },
+        "impact": {
+          "target": 88,
+          "importance": 2
+        },
+        "growth": {
+          "target": 50,
+          "importance": 0
+        },
+        "lifestyle": {
+          "target": 50,
+          "importance": 0
+        },
+        "analytical": {
+          "target": 50,
+          "importance": 0
+        },
+        "numerical": {
+          "target": 50,
+          "importance": 0
+        },
+        "verbal": {
+          "target": 88,
+          "importance": 2
+        },
+        "spatial": {
+          "target": 50,
+          "importance": 0
+        },
+        "creativity": {
+          "target": 50,
+          "importance": 0
+        },
+        "learning": {
+          "target": 74,
+          "importance": 2
+        },
+        "focus": {
+          "target": 50,
+          "importance": 0
+        },
+        "persistence": {
+          "target": 50,
+          "importance": 0
+        },
+        "independence": {
+          "target": 50,
+          "importance": 0
+        }
+      },
+      "profileStatus": "editorial_draft"
+    },
+    {
+      "id": "math-tech",
+      "group": "mathematics",
+      "title": "فناوری و داده",
+      "description": "ساخت نرم‌افزار و تحلیل داده",
+      "profile": {
+        "realistic": {
+          "target": 50,
+          "importance": 0
+        },
+        "investigative": {
+          "target": 92,
+          "importance": 2
+        },
+        "artistic": {
+          "target": 50,
+          "importance": 0
+        },
+        "social": {
+          "target": 50,
+          "importance": 0
+        },
+        "enterprising": {
+          "target": 50,
+          "importance": 0
+        },
+        "conventional": {
+          "target": 50,
+          "importance": 0
+        },
+        "openness": {
+          "target": 50,
+          "importance": 0
+        },
+        "conscientiousness": {
+          "target": 50,
+          "importance": 0
+        },
+        "extraversion": {
+          "target": 50,
+          "importance": 0
+        },
+        "agreeableness": {
+          "target": 50,
+          "importance": 0
+        },
+        "emotional_stability": {
+          "target": 50,
+          "importance": 0
+        },
+        "income": {
+          "target": 50,
+          "importance": 0
+        },
+        "security": {
+          "target": 50,
+          "importance": 0
+        },
+        "freedom": {
+          "target": 50,
+          "importance": 0
+        },
+        "impact": {
+          "target": 50,
+          "importance": 0
+        },
+        "growth": {
+          "target": 88,
+          "importance": 2
+        },
+        "lifestyle": {
+          "target": 50,
+          "importance": 0
+        },
+        "analytical": {
+          "target": 96,
+          "importance": 2
+        },
+        "numerical": {
+          "target": 88,
+          "importance": 2
+        },
+        "verbal": {
+          "target": 50,
+          "importance": 0
+        },
+        "spatial": {
+          "target": 50,
+          "importance": 0
+        },
+        "creativity": {
+          "target": 50,
+          "importance": 0
+        },
+        "learning": {
+          "target": 94,
+          "importance": 2
+        },
+        "focus": {
+          "target": 50,
+          "importance": 0
+        },
+        "persistence": {
+          "target": 50,
+          "importance": 0
+        },
+        "independence": {
+          "target": 82,
+          "importance": 2
+        }
+      },
+      "profileStatus": "editorial_draft"
+    },
+    {
+      "id": "math-engineering",
+      "group": "mathematics",
+      "title": "مهندسی",
+      "description": "طراحی و تحلیل سیستم‌های فنی",
+      "profile": {
+        "realistic": {
+          "target": 84,
+          "importance": 2
+        },
+        "investigative": {
+          "target": 88,
+          "importance": 2
+        },
+        "artistic": {
+          "target": 50,
+          "importance": 0
+        },
+        "social": {
+          "target": 50,
+          "importance": 0
+        },
+        "enterprising": {
+          "target": 50,
+          "importance": 0
+        },
+        "conventional": {
+          "target": 50,
+          "importance": 0
+        },
+        "openness": {
+          "target": 50,
+          "importance": 0
+        },
+        "conscientiousness": {
+          "target": 50,
+          "importance": 0
+        },
+        "extraversion": {
+          "target": 50,
+          "importance": 0
+        },
+        "agreeableness": {
+          "target": 50,
+          "importance": 0
+        },
+        "emotional_stability": {
+          "target": 50,
+          "importance": 0
+        },
+        "income": {
+          "target": 50,
+          "importance": 0
+        },
+        "security": {
+          "target": 50,
+          "importance": 0
+        },
+        "freedom": {
+          "target": 50,
+          "importance": 0
+        },
+        "impact": {
+          "target": 50,
+          "importance": 0
+        },
+        "growth": {
+          "target": 50,
+          "importance": 0
+        },
+        "lifestyle": {
+          "target": 50,
+          "importance": 0
+        },
+        "analytical": {
+          "target": 88,
+          "importance": 2
+        },
+        "numerical": {
+          "target": 84,
+          "importance": 2
+        },
+        "verbal": {
+          "target": 50,
+          "importance": 0
+        },
+        "spatial": {
+          "target": 78,
+          "importance": 2
+        },
+        "creativity": {
+          "target": 50,
+          "importance": 0
+        },
+        "learning": {
+          "target": 50,
+          "importance": 0
+        },
+        "focus": {
+          "target": 50,
+          "importance": 0
+        },
+        "persistence": {
+          "target": 82,
+          "importance": 2
+        },
+        "independence": {
+          "target": 50,
+          "importance": 0
+        }
+      },
+      "profileStatus": "editorial_draft"
+    },
+    {
+      "id": "math-design",
+      "group": "mathematics",
+      "title": "طراحی",
+      "description": "حل مسئله با ترکیب شکل و کارکرد",
+      "profile": {
+        "realistic": {
+          "target": 68,
+          "importance": 2
+        },
+        "investigative": {
+          "target": 50,
+          "importance": 0
+        },
+        "artistic": {
+          "target": 94,
+          "importance": 2
+        },
+        "social": {
+          "target": 50,
+          "importance": 0
+        },
+        "enterprising": {
+          "target": 50,
+          "importance": 0
+        },
+        "conventional": {
+          "target": 50,
+          "importance": 0
+        },
+        "openness": {
+          "target": 82,
+          "importance": 2
+        },
+        "conscientiousness": {
+          "target": 50,
+          "importance": 0
+        },
+        "extraversion": {
+          "target": 50,
+          "importance": 0
+        },
+        "agreeableness": {
+          "target": 50,
+          "importance": 0
+        },
+        "emotional_stability": {
+          "target": 50,
+          "importance": 0
+        },
+        "income": {
+          "target": 50,
+          "importance": 0
+        },
+        "security": {
+          "target": 50,
+          "importance": 0
+        },
+        "freedom": {
+          "target": 50,
+          "importance": 0
+        },
+        "impact": {
+          "target": 50,
+          "importance": 0
+        },
+        "growth": {
+          "target": 50,
+          "importance": 0
+        },
+        "lifestyle": {
+          "target": 50,
+          "importance": 0
+        },
+        "analytical": {
+          "target": 50,
+          "importance": 0
+        },
+        "numerical": {
+          "target": 50,
+          "importance": 0
+        },
+        "verbal": {
+          "target": 72,
+          "importance": 2
+        },
+        "spatial": {
+          "target": 94,
+          "importance": 2
+        },
+        "creativity": {
+          "target": 94,
+          "importance": 2
+        },
+        "learning": {
+          "target": 50,
+          "importance": 0
+        },
+        "focus": {
+          "target": 50,
+          "importance": 0
+        },
+        "persistence": {
+          "target": 50,
+          "importance": 0
+        },
+        "independence": {
+          "target": 50,
+          "importance": 0
+        }
+      },
+      "profileStatus": "editorial_draft"
+    },
+    {
+      "id": "math-systems",
+      "group": "mathematics",
+      "title": "سیستم و مدیریت",
+      "description": "هماهنگی، تصمیم‌گیری و بهبود فرایندها",
+      "profile": {
+        "realistic": {
+          "target": 50,
+          "importance": 0
+        },
+        "investigative": {
+          "target": 50,
+          "importance": 0
+        },
+        "artistic": {
+          "target": 50,
+          "importance": 0
+        },
+        "social": {
+          "target": 50,
+          "importance": 0
+        },
+        "enterprising": {
+          "target": 84,
+          "importance": 2
+        },
+        "conventional": {
+          "target": 82,
+          "importance": 2
+        },
+        "openness": {
+          "target": 50,
+          "importance": 0
+        },
+        "conscientiousness": {
+          "target": 50,
+          "importance": 0
+        },
+        "extraversion": {
+          "target": 50,
+          "importance": 0
+        },
+        "agreeableness": {
+          "target": 50,
+          "importance": 0
+        },
+        "emotional_stability": {
+          "target": 50,
+          "importance": 0
+        },
+        "income": {
+          "target": 50,
+          "importance": 0
+        },
+        "security": {
+          "target": 72,
+          "importance": 2
+        },
+        "freedom": {
+          "target": 50,
+          "importance": 0
+        },
+        "impact": {
+          "target": 50,
+          "importance": 0
+        },
+        "growth": {
+          "target": 50,
+          "importance": 0
+        },
+        "lifestyle": {
+          "target": 50,
+          "importance": 0
+        },
+        "analytical": {
+          "target": 86,
+          "importance": 2
+        },
+        "numerical": {
+          "target": 78,
+          "importance": 2
+        },
+        "verbal": {
+          "target": 78,
+          "importance": 2
+        },
+        "spatial": {
+          "target": 50,
+          "importance": 0
+        },
+        "creativity": {
+          "target": 50,
+          "importance": 0
+        },
+        "learning": {
+          "target": 50,
+          "importance": 0
+        },
+        "focus": {
+          "target": 50,
+          "importance": 0
+        },
+        "persistence": {
+          "target": 50,
+          "importance": 0
+        },
+        "independence": {
+          "target": 50,
+          "importance": 0
+        }
+      },
+      "profileStatus": "editorial_draft"
+    },
+    {
+      "id": "math-science",
+      "group": "mathematics",
+      "title": "علوم پایه",
+      "description": "پژوهش در مفاهیم بنیادی و مدل‌ها",
+      "profile": {
+        "realistic": {
+          "target": 50,
+          "importance": 0
+        },
+        "investigative": {
+          "target": 96,
+          "importance": 2
+        },
+        "artistic": {
+          "target": 50,
+          "importance": 0
+        },
+        "social": {
+          "target": 50,
+          "importance": 0
+        },
+        "enterprising": {
+          "target": 50,
+          "importance": 0
+        },
+        "conventional": {
+          "target": 50,
+          "importance": 0
+        },
+        "openness": {
+          "target": 50,
+          "importance": 0
+        },
+        "conscientiousness": {
+          "target": 50,
+          "importance": 0
+        },
+        "extraversion": {
+          "target": 50,
+          "importance": 0
+        },
+        "agreeableness": {
+          "target": 50,
+          "importance": 0
+        },
+        "emotional_stability": {
+          "target": 50,
+          "importance": 0
+        },
+        "income": {
+          "target": 50,
+          "importance": 0
+        },
+        "security": {
+          "target": 50,
+          "importance": 0
+        },
+        "freedom": {
+          "target": 50,
+          "importance": 0
+        },
+        "impact": {
+          "target": 50,
+          "importance": 0
+        },
+        "growth": {
+          "target": 82,
+          "importance": 2
+        },
+        "lifestyle": {
+          "target": 50,
+          "importance": 0
+        },
+        "analytical": {
+          "target": 94,
+          "importance": 2
+        },
+        "numerical": {
+          "target": 92,
+          "importance": 2
+        },
+        "verbal": {
+          "target": 50,
+          "importance": 0
+        },
+        "spatial": {
+          "target": 50,
+          "importance": 0
+        },
+        "creativity": {
+          "target": 50,
+          "importance": 0
+        },
+        "learning": {
+          "target": 92,
+          "importance": 2
+        },
+        "focus": {
+          "target": 50,
+          "importance": 0
+        },
+        "persistence": {
+          "target": 84,
+          "importance": 2
+        },
+        "independence": {
+          "target": 50,
+          "importance": 0
+        }
+      },
+      "profileStatus": "editorial_draft"
+    }
+  ]
+}

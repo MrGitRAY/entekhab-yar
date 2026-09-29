@@ -1,0 +1,3101 @@
+{
+  "synthetic": true,
+  "displayName": "دانش‌آموز ساختگی ریاضی",
+  "answers": {
+    "Q-R-01": 5,
+    "Q-R-02": 5,
+    "Q-R-03": 4,
+    "Q-R-04": 4,
+    "Q-R-05": 4,
+    "Q-R-06": 4,
+    "Q-R-07": 2,
+    "Q-R-08": 2,
+    "Q-R-09": 2,
+    "Q-R-10": 2,
+    "Q-R-11": 2,
+    "Q-R-12": 3,
+    "Q-R-13": 3,
+    "Q-R-14": 3,
+    "Q-P-01": 3,
+    "Q-P-02": 3,
+    "Q-P-03": 3,
+    "Q-P-04": 3,
+    "Q-P-05": 3,
+    "Q-P-06": 3,
+    "Q-P-07": 3,
+    "Q-P-08": 3,
+    "Q-P-09": 3,
+    "Q-P-10": 3,
+    "Q-V-01": 3,
+    "Q-V-02": 3,
+    "Q-V-03": 3,
+    "Q-V-04": 3,
+    "Q-V-05": 3,
+    "Q-V-06": 3,
+    "Q-V-07": 3,
+    "Q-V-08": 3,
+    "Q-V-09": 3,
+    "Q-V-10": 3,
+    "Q-V-11": 3,
+    "Q-V-12": 3,
+    "Q-A-01": 3,
+    "Q-A-02": 3,
+    "Q-A-03": 3,
+    "Q-A-04": 3,
+    "Q-A-05": 3,
+    "Q-A-06": 3,
+    "Q-A-07": 3,
+    "Q-A-08": 3,
+    "Q-A-09": 3,
+    "Q-A-10": 3,
+    "Q-A-11": 3,
+    "Q-A-12": 3,
+    "Q-A-13": 3,
+    "Q-A-14": 3,
+    "Q-A-15": 3,
+    "Q-A-16": 3,
+    "Q-W-01": 3,
+    "Q-W-02": 3,
+    "Q-W-03": 3,
+    "Q-W-04": 3,
+    "Q-MAT-01": 5,
+    "Q-MAT-02": 4,
+    "Q-MAT-03": 4,
+    "Q-MAT-04": 2
+  },
+  "result": {
+    "schemaVersion": 2,
+    "engineVersion": "0.2.0",
+    "catalogVersion": "0.2.0-pilot",
+    "examGroup": "mathematics",
+    "status": "exploratory",
+    "profile": {
+      "realistic": {
+        "score": 100,
+        "itemCount": 3,
+        "totalWeight": 3,
+        "label": "عملی",
+        "section": "riasec"
+      },
+      "investigative": {
+        "score": 75,
+        "itemCount": 3,
+        "totalWeight": 3,
+        "label": "پژوهشی",
+        "section": "riasec"
+      },
+      "artistic": {
+        "score": 75,
+        "itemCount": 3,
+        "totalWeight": 3,
+        "label": "خلاق",
+        "section": "riasec"
+      },
+      "social": {
+        "score": 25,
+        "itemCount": 3,
+        "totalWeight": 3,
+        "label": "یاری‌گر",
+        "section": "riasec"
+      },
+      "enterprising": {
+        "score": 25,
+        "itemCount": 3,
+        "totalWeight": 3,
+        "label": "پیش‌برنده",
+        "section": "riasec"
+      },
+      "conventional": {
+        "score": 50,
+        "itemCount": 3,
+        "totalWeight": 3,
+        "label": "ساختارمند",
+        "section": "riasec"
+      },
+      "openness": {
+        "score": 50,
+        "itemCount": 2,
+        "totalWeight": 2,
+        "label": "گشودگی به تجربه",
+        "section": "personality"
+      },
+      "conscientiousness": {
+        "score": 50,
+        "itemCount": 2,
+        "totalWeight": 2,
+        "label": "نظم و مسئولیت‌پذیری",
+        "section": "personality"
+      },
+      "extraversion": {
+        "score": 50,
+        "itemCount": 2,
+        "totalWeight": 2,
+        "label": "برون‌گرایی",
+        "section": "personality"
+      },
+      "agreeableness": {
+        "score": 50,
+        "itemCount": 2,
+        "totalWeight": 2,
+        "label": "همکاری",
+        "section": "personality"
+      },
+      "emotional_stability": {
+        "score": 50,
+        "itemCount": 2,
+        "totalWeight": 2,
+        "label": "آرامش خودگزارشی در فشار",
+        "section": "personality"
+      },
+      "income": {
+        "score": 50,
+        "itemCount": 2,
+        "totalWeight": 2,
+        "label": "درآمد",
+        "section": "values"
+      },
+      "security": {
+        "score": 50,
+        "itemCount": 2,
+        "totalWeight": 2,
+        "label": "امنیت",
+        "section": "values"
+      },
+      "freedom": {
+        "score": 50,
+        "itemCount": 2,
+        "totalWeight": 2,
+        "label": "آزادی عمل",
+        "section": "values"
+      },
+      "impact": {
+        "score": 50,
+        "itemCount": 2,
+        "totalWeight": 2,
+        "label": "اثرگذاری",
+        "section": "values"
+      },
+      "growth": {
+        "score": 50,
+        "itemCount": 2,
+        "totalWeight": 2,
+        "label": "رشد",
+        "section": "values"
+      },
+      "lifestyle": {
+        "score": 50,
+        "itemCount": 2,
+        "totalWeight": 2,
+        "label": "سبک زندگی",
+        "section": "values"
+      },
+      "analytical": {
+        "score": 50,
+        "itemCount": 2,
+        "totalWeight": 2,
+        "label": "تحلیل",
+        "section": "abilities"
+      },
+      "numerical": {
+        "score": 50,
+        "itemCount": 2,
+        "totalWeight": 2,
+        "label": "کار با عدد",
+        "section": "abilities"
+      },
+      "verbal": {
+        "score": 50,
+        "itemCount": 2,
+        "totalWeight": 2,
+        "label": "بیان و متن",
+        "section": "abilities"
+      },
+      "spatial": {
+        "score": 50,
+        "itemCount": 2,
+        "totalWeight": 2,
+        "label": "درک فضایی",
+        "section": "abilities"
+      },
+      "creativity": {
+        "score": 50,
+        "itemCount": 2,
+        "totalWeight": 2,
+        "label": "خلاقیت",
+        "section": "abilities"
+      },
+      "learning": {
+        "score": 50,
+        "itemCount": 2,
+        "totalWeight": 2,
+        "label": "یادگیری",
+        "section": "abilities"
+      },
+      "focus": {
+        "score": 50,
+        "itemCount": 2,
+        "totalWeight": 2,
+        "label": "تمرکز",
+        "section": "abilities"
+      },
+      "persistence": {
+        "score": 50,
+        "itemCount": 2,
+        "totalWeight": 2,
+        "label": "پشتکار",
+        "section": "abilities"
+      },
+      "independence": {
+        "score": 50,
+        "itemCount": 4,
+        "totalWeight": 4,
+        "label": "استقلال در کار",
+        "section": "workstyle"
+      }
+    },
+    "familyRanking": [
+      {
+        "id": "math-engineering",
+        "title": "مهندسی",
+        "rank": 1,
+        "correlation": 0.750988788599462,
+        "score": 87.5494394299731,
+        "contributions": [
+          {
+            "dimension": "realistic",
+            "label": "عملی",
+            "userScore": 100,
+            "targetScore": 85.02777777777777,
+            "contribution": 0.339200416715011,
+            "relationship": "shared_higher"
+          },
+          {
+            "dimension": "investigative",
+            "label": "پژوهشی",
+            "userScore": 75,
+            "targetScore": 76.1111111111111,
+            "contribution": 0.10569852361151558,
+            "relationship": "shared_higher"
+          },
+          {
+            "dimension": "artistic",
+            "label": "خلاق",
+            "userScore": 75,
+            "targetScore": 20.194444444444446,
+            "contribution": -0.08231720071541891,
+            "relationship": "different"
+          },
+          {
+            "dimension": "social",
+            "label": "یاری‌گر",
+            "userScore": 25,
+            "targetScore": 7.916666666666665,
+            "contribution": 0.2472006708322339,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "enterprising",
+            "label": "پیش‌برنده",
+            "userScore": 25,
+            "targetScore": 20.194444444444446,
+            "contribution": 0.16463440143083785,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "conventional",
+            "label": "ساختارمند",
+            "userScore": 50,
+            "targetScore": 58.611111111111114,
+            "contribution": -0.023428023274717394,
+            "relationship": "different"
+          }
+        ],
+        "description": "طراحی و تحلیل سیستم‌های فنی"
+      },
+      {
+        "id": "math-design",
+        "title": "طراحی",
+        "rank": 2,
+        "correlation": 0.6928613692977713,
+        "score": 84.64306846488856,
+        "contributions": [
+          {
+            "dimension": "realistic",
+            "label": "عملی",
+            "userScore": 100,
+            "targetScore": 54.22222222222223,
+            "contribution": 0.14386585425344967,
+            "relationship": "shared_higher"
+          },
+          {
+            "dimension": "investigative",
+            "label": "پژوهشی",
+            "userScore": 75,
+            "targetScore": 56.944444444444436,
+            "contribution": 0.08264815840791635,
+            "relationship": "shared_higher"
+          },
+          {
+            "dimension": "artistic",
+            "label": "خلاق",
+            "userScore": 75,
+            "targetScore": 54.055555555555564,
+            "contribution": 0.05600949578057152,
+            "relationship": "shared_higher"
+          },
+          {
+            "dimension": "social",
+            "label": "یاری‌گر",
+            "userScore": 25,
+            "targetScore": 24.444444444444443,
+            "contribution": 0.4340735922994294,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "enterprising",
+            "label": "پیش‌برنده",
+            "userScore": 25,
+            "targetScore": 48.944444444444436,
+            "contribution": -0.01775910841822971,
+            "relationship": "different"
+          },
+          {
+            "dimension": "conventional",
+            "label": "ساختارمند",
+            "userScore": 50,
+            "targetScore": 49.27777777777779,
+            "contribution": -0.005976623025365903,
+            "relationship": "different"
+          }
+        ],
+        "description": "حل مسئله با ترکیب شکل و کارکرد"
+      },
+      {
+        "id": "math-science",
+        "title": "علوم پایه",
+        "rank": 3,
+        "correlation": 0.4056729720274991,
+        "score": 70.28364860137495,
+        "contributions": [
+          {
+            "dimension": "realistic",
+            "label": "عملی",
+            "userScore": 100,
+            "targetScore": 38.9,
+            "contribution": -0.05482599248297115,
+            "relationship": "different"
+          },
+          {
+            "dimension": "investigative",
+            "label": "پژوهشی",
+            "userScore": 75,
+            "targetScore": 98.6,
+            "contribution": 0.18961722068078177,
+            "relationship": "shared_higher"
+          },
+          {
+            "dimension": "artistic",
+            "label": "خلاق",
+            "userScore": 75,
+            "targetScore": 29.93333333333333,
+            "contribution": -0.05370388060809522,
+            "relationship": "different"
+          },
+          {
+            "dimension": "social",
+            "label": "یاری‌گر",
+            "userScore": 25,
+            "targetScore": 26.9,
+            "contribution": 0.1289050623980233,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "enterprising",
+            "label": "پیش‌برنده",
+            "userScore": 25,
+            "targetScore": 12.933333333333337,
+            "contribution": 0.22788714146602274,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "conventional",
+            "label": "ساختارمند",
+            "userScore": 50,
+            "targetScore": 63.266666666666666,
+            "contribution": -0.032206579426262365,
+            "relationship": "different"
+          }
+        ],
+        "description": "پژوهش در مفاهیم بنیادی و مدل‌ها"
+      },
+      {
+        "id": "math-tech",
+        "title": "فناوری و داده",
+        "rank": 4,
+        "correlation": 0.39002122594677846,
+        "score": 69.50106129733894,
+        "contributions": [
+          {
+            "dimension": "realistic",
+            "label": "عملی",
+            "userScore": 100,
+            "targetScore": 46.305555555555564,
+            "contribution": 0.025937205693973953,
+            "relationship": "shared_higher"
+          },
+          {
+            "dimension": "investigative",
+            "label": "پژوهشی",
+            "userScore": 75,
+            "targetScore": 83.38888888888889,
+            "contribution": 0.14572147355363557,
+            "relationship": "shared_higher"
+          },
+          {
+            "dimension": "artistic",
+            "label": "خلاق",
+            "userScore": 75,
+            "targetScore": 18.72222222222222,
+            "contribution": -0.09029864966032333,
+            "relationship": "different"
+          },
+          {
+            "dimension": "social",
+            "label": "یاری‌گر",
+            "userScore": 25,
+            "targetScore": 15.055555555555557,
+            "contribution": 0.20736246793253893,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "enterprising",
+            "label": "پیش‌برنده",
+            "userScore": 25,
+            "targetScore": 21.5,
+            "contribution": 0.16032065643284954,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "conventional",
+            "label": "ساختارمند",
+            "userScore": 50,
+            "targetScore": 75.80555555555556,
+            "contribution": -0.05902192800589626,
+            "relationship": "different"
+          }
+        ],
+        "description": "ساخت نرم‌افزار و تحلیل داده"
+      },
+      {
+        "id": "math-systems",
+        "title": "سیستم و مدیریت",
+        "rank": 5,
+        "correlation": -0.1703507919992841,
+        "score": 41.48246040003579,
+        "contributions": [
+          {
+            "dimension": "realistic",
+            "label": "عملی",
+            "userScore": 100,
+            "targetScore": 30.43333333333333,
+            "contribution": -0.11822271577225493,
+            "relationship": "different"
+          },
+          {
+            "dimension": "investigative",
+            "label": "پژوهشی",
+            "userScore": 75,
+            "targetScore": 59.9,
+            "contribution": 0.07435073608800204,
+            "relationship": "shared_higher"
+          },
+          {
+            "dimension": "artistic",
+            "label": "خلاق",
+            "userScore": 75,
+            "targetScore": 9.866666666666669,
+            "contribution": -0.13218927909045147,
+            "relationship": "different"
+          },
+          {
+            "dimension": "social",
+            "label": "یاری‌گر",
+            "userScore": 25,
+            "targetScore": 17,
+            "contribution": 0.20548506950909878,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "enterprising",
+            "label": "پیش‌برنده",
+            "userScore": 25,
+            "targetScore": 57.36666666666666,
+            "contribution": -0.1277860276009708,
+            "relationship": "different"
+          },
+          {
+            "dimension": "conventional",
+            "label": "ساختارمند",
+            "userScore": 50,
+            "targetScore": 76.76666666666667,
+            "contribution": -0.07198857513270775,
+            "relationship": "different"
+          }
+        ],
+        "description": "هماهنگی، تصمیم‌گیری و بهبود فرایندها"
+      }
+    ],
+    "majorRanking": [
+      {
+        "id": "materials-engineering",
+        "title": "مهندسی مواد",
+        "rank": 1,
+        "correlation": 0.8018918170188241,
+        "score": 90.0945908509412,
+        "contributions": [
+          {
+            "dimension": "realistic",
+            "label": "عملی",
+            "userScore": 100,
+            "targetScore": 81.33333333333333,
+            "contribution": 0.3191009029965763,
+            "relationship": "shared_higher"
+          },
+          {
+            "dimension": "investigative",
+            "label": "پژوهشی",
+            "userScore": 75,
+            "targetScore": 80.33333333333333,
+            "contribution": 0.12423409507324083,
+            "relationship": "shared_higher"
+          },
+          {
+            "dimension": "artistic",
+            "label": "خلاق",
+            "userScore": 75,
+            "targetScore": 25.666666666666668,
+            "contribution": -0.06197511978139582,
+            "relationship": "different"
+          },
+          {
+            "dimension": "social",
+            "label": "یاری‌گر",
+            "userScore": 25,
+            "targetScore": 6.333333333333331,
+            "contribution": 0.2556591964111933,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "enterprising",
+            "label": "پیش‌برنده",
+            "userScore": 25,
+            "targetScore": 17.666666666666668,
+            "contribution": 0.1784504975690268,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "conventional",
+            "label": "ساختارمند",
+            "userScore": 50,
+            "targetScore": 51.83333333333334,
+            "contribution": -0.013577755249817285,
+            "relationship": "different"
+          }
+        ],
+        "familyId": "math-engineering",
+        "kind": "major",
+        "mappingRationale": "نمونه مهندسی مواد.",
+        "occupations": [
+          {
+            "code": "17-2131.00",
+            "title": "Materials Engineers",
+            "rawInterests": {
+              "realistic": 5.88,
+              "investigative": 5.82,
+              "artistic": 2.54,
+              "social": 1.38,
+              "enterprising": 2.06,
+              "conventional": 4.11
+            },
+            "dateUpdated": "2026-02-01",
+            "domainSource": "Machine Learning/Expert"
+          }
+        ]
+      },
+      {
+        "id": "architecture",
+        "title": "معماری",
+        "rank": 2,
+        "correlation": 0.7740722194098044,
+        "score": 88.70361097049022,
+        "contributions": [
+          {
+            "dimension": "realistic",
+            "label": "عملی",
+            "userScore": 100,
+            "targetScore": 65.33333333333333,
+            "contribution": 0.33603920519753716,
+            "relationship": "shared_higher"
+          },
+          {
+            "dimension": "investigative",
+            "label": "پژوهشی",
+            "userScore": 75,
+            "targetScore": 48,
+            "contribution": -0.006079101199553438,
+            "relationship": "different"
+          },
+          {
+            "dimension": "artistic",
+            "label": "خلاق",
+            "userScore": 75,
+            "targetScore": 52.166666666666664,
+            "contribution": 0.02769368324241009,
+            "relationship": "shared_higher"
+          },
+          {
+            "dimension": "social",
+            "label": "یاری‌گر",
+            "userScore": 25,
+            "targetScore": 25.499999999999996,
+            "contribution": 0.37690427437231333,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "enterprising",
+            "label": "پیش‌برنده",
+            "userScore": 25,
+            "targetScore": 44.166666666666664,
+            "contribution": 0.07430012577231984,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "conventional",
+            "label": "ساختارمند",
+            "userScore": 50,
+            "targetScore": 57.33333333333334,
+            "contribution": -0.0347859679752225,
+            "relationship": "different"
+          }
+        ],
+        "familyId": "math-design",
+        "kind": "major",
+        "mappingRationale": "نمونه معماری ساختمان.",
+        "occupations": [
+          {
+            "code": "17-1011.00",
+            "title": "Architects, Except Landscape and Naval",
+            "rawInterests": {
+              "realistic": 4.92,
+              "investigative": 3.88,
+              "artistic": 4.13,
+              "social": 2.53,
+              "enterprising": 3.65,
+              "conventional": 4.44
+            },
+            "dateUpdated": "2026-02-01",
+            "domainSource": "Machine Learning/Expert"
+          }
+        ]
+      },
+      {
+        "id": "mechanical-engineering",
+        "title": "مهندسی مکانیک",
+        "rank": 3,
+        "correlation": 0.7444540319591981,
+        "score": 87.22270159795991,
+        "contributions": [
+          {
+            "dimension": "realistic",
+            "label": "عملی",
+            "userScore": 100,
+            "targetScore": 89.83333333333333,
+            "contribution": 0.36369248127894954,
+            "relationship": "shared_higher"
+          },
+          {
+            "dimension": "investigative",
+            "label": "پژوهشی",
+            "userScore": 75,
+            "targetScore": 68.66666666666667,
+            "contribution": 0.07945348548726547,
+            "relationship": "shared_higher"
+          },
+          {
+            "dimension": "artistic",
+            "label": "خلاق",
+            "userScore": 75,
+            "targetScore": 17,
+            "contribution": -0.08170625606814752,
+            "relationship": "different"
+          },
+          {
+            "dimension": "social",
+            "label": "یاری‌گر",
+            "userScore": 25,
+            "targetScore": 3.666666666666666,
+            "contribution": 0.24659173358425016,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "enterprising",
+            "label": "پیش‌برنده",
+            "userScore": 25,
+            "targetScore": 16.166666666666668,
+            "contribution": 0.16861121347679225,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "conventional",
+            "label": "ساختارمند",
+            "userScore": 50,
+            "targetScore": 63.833333333333336,
+            "contribution": -0.032188625799911816,
+            "relationship": "different"
+          }
+        ],
+        "familyId": "math-engineering",
+        "kind": "major",
+        "mappingRationale": "نمونه مهندسی مکانیک.",
+        "occupations": [
+          {
+            "code": "17-2141.00",
+            "title": "Mechanical Engineers",
+            "rawInterests": {
+              "realistic": 6.39,
+              "investigative": 5.12,
+              "artistic": 2.02,
+              "social": 1.22,
+              "enterprising": 1.97,
+              "conventional": 4.83
+            },
+            "dateUpdated": "2026-02-01",
+            "domainSource": "Machine Learning/Expert"
+          }
+        ]
+      },
+      {
+        "id": "industrial-design",
+        "title": "طراحی صنعتی",
+        "rank": 4,
+        "correlation": 0.7395965821994183,
+        "score": 86.97982910997091,
+        "contributions": [
+          {
+            "dimension": "realistic",
+            "label": "عملی",
+            "userScore": 100,
+            "targetScore": 60.333333333333336,
+            "contribution": 0.1660062314574779,
+            "relationship": "shared_higher"
+          },
+          {
+            "dimension": "investigative",
+            "label": "پژوهشی",
+            "userScore": 75,
+            "targetScore": 50.99999999999999,
+            "contribution": 0.016711540449616875,
+            "relationship": "shared_higher"
+          },
+          {
+            "dimension": "artistic",
+            "label": "خلاق",
+            "userScore": 75,
+            "targetScore": 75.66666666666667,
+            "contribution": 0.1480376282306774,
+            "relationship": "shared_higher"
+          },
+          {
+            "dimension": "social",
+            "label": "یاری‌گر",
+            "userScore": 25,
+            "targetScore": 14.000000000000002,
+            "contribution": 0.3605551824439477,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "enterprising",
+            "label": "پیش‌برنده",
+            "userScore": 25,
+            "targetScore": 45,
+            "contribution": 0.030465286129390194,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "conventional",
+            "label": "ساختارمند",
+            "userScore": 50,
+            "targetScore": 41.16666666666667,
+            "contribution": 0.01782071348830832,
+            "relationship": "shared_lower"
+          }
+        ],
+        "familyId": "math-design",
+        "kind": "major",
+        "mappingRationale": "نمونه طراحی محصول تجاری و صنعتی.",
+        "occupations": [
+          {
+            "code": "27-1021.00",
+            "title": "Commercial and Industrial Designers",
+            "rawInterests": {
+              "realistic": 4.62,
+              "investigative": 4.06,
+              "artistic": 5.54,
+              "social": 1.84,
+              "enterprising": 3.7,
+              "conventional": 3.47
+            },
+            "dateUpdated": "2026-02-01",
+            "domainSource": "Machine Learning/Expert"
+          }
+        ]
+      },
+      {
+        "id": "electrical-engineering",
+        "title": "مهندسی برق",
+        "rank": 5,
+        "correlation": 0.7372397436051016,
+        "score": 86.86198718025508,
+        "contributions": [
+          {
+            "dimension": "realistic",
+            "label": "عملی",
+            "userScore": 100,
+            "targetScore": 85.5,
+            "contribution": 0.33754002209704903,
+            "relationship": "shared_higher"
+          },
+          {
+            "dimension": "investigative",
+            "label": "پژوهشی",
+            "userScore": 75,
+            "targetScore": 77.16666666666666,
+            "contribution": 0.10747109034059049,
+            "relationship": "shared_higher"
+          },
+          {
+            "dimension": "artistic",
+            "label": "خلاق",
+            "userScore": 75,
+            "targetScore": 17.916666666666664,
+            "contribution": -0.08837328018181831,
+            "relationship": "different"
+          },
+          {
+            "dimension": "social",
+            "label": "یاری‌گر",
+            "userScore": 25,
+            "targetScore": 10.916666666666668,
+            "contribution": 0.2230220234406615,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "enterprising",
+            "label": "پیش‌برنده",
+            "userScore": 25,
+            "targetScore": 17.166666666666668,
+            "contribution": 0.18170464569331787,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "conventional",
+            "label": "ساختارمند",
+            "userScore": 50,
+            "targetScore": 59.25,
+            "contribution": -0.024124757784698997,
+            "relationship": "different"
+          }
+        ],
+        "familyId": "math-engineering",
+        "kind": "major",
+        "mappingRationale": "دو نمونه برق و الکترونیک.",
+        "occupations": [
+          {
+            "code": "17-2071.00",
+            "title": "Electrical Engineers",
+            "rawInterests": {
+              "realistic": 6.02,
+              "investigative": 5.45,
+              "artistic": 2.12,
+              "social": 1.72,
+              "enterprising": 2.44,
+              "conventional": 4.43
+            },
+            "dateUpdated": "2026-02-01",
+            "domainSource": "Machine Learning/Expert"
+          },
+          {
+            "code": "17-2072.00",
+            "title": "Electronics Engineers, Except Computer",
+            "rawInterests": {
+              "realistic": 6.24,
+              "investigative": 5.81,
+              "artistic": 2.03,
+              "social": 1.59,
+              "enterprising": 1.62,
+              "conventional": 4.68
+            },
+            "dateUpdated": "2026-02-01",
+            "domainSource": "Machine Learning/Expert"
+          }
+        ]
+      },
+      {
+        "id": "civil-engineering",
+        "title": "مهندسی عمران",
+        "rank": 6,
+        "correlation": 0.727865070647229,
+        "score": 86.39325353236144,
+        "contributions": [
+          {
+            "dimension": "realistic",
+            "label": "عملی",
+            "userScore": 100,
+            "targetScore": 90.5,
+            "contribution": 0.3862330406391002,
+            "relationship": "shared_higher"
+          },
+          {
+            "dimension": "investigative",
+            "label": "پژوهشی",
+            "userScore": 75,
+            "targetScore": 69.16666666666667,
+            "contribution": 0.0795400955453864,
+            "relationship": "shared_higher"
+          },
+          {
+            "dimension": "artistic",
+            "label": "خلاق",
+            "userScore": 75,
+            "targetScore": 20.166666666666668,
+            "contribution": -0.09261785358597752,
+            "relationship": "different"
+          },
+          {
+            "dimension": "social",
+            "label": "یاری‌گر",
+            "userScore": 25,
+            "targetScore": 11.5,
+            "contribution": 0.24613511774903618,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "enterprising",
+            "label": "پیش‌برنده",
+            "userScore": 25,
+            "targetScore": 27.666666666666668,
+            "contribution": 0.13253429417255794,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "conventional",
+            "label": "ساختارمند",
+            "userScore": 50,
+            "targetScore": 60.16666666666668,
+            "contribution": -0.02395962387287409,
+            "relationship": "different"
+          }
+        ],
+        "familyId": "math-engineering",
+        "kind": "major",
+        "mappingRationale": "نمونه مهندسی عمران.",
+        "occupations": [
+          {
+            "code": "17-2051.00",
+            "title": "Civil Engineers",
+            "rawInterests": {
+              "realistic": 6.43,
+              "investigative": 5.15,
+              "artistic": 2.21,
+              "social": 1.69,
+              "enterprising": 2.66,
+              "conventional": 4.61
+            },
+            "dateUpdated": "2026-02-01",
+            "domainSource": "Machine Learning/Expert"
+          }
+        ]
+      },
+      {
+        "id": "aerospace-engineering",
+        "title": "مهندسی هوافضا",
+        "rank": 7,
+        "correlation": 0.7192546990214983,
+        "score": 85.96273495107492,
+        "contributions": [
+          {
+            "dimension": "realistic",
+            "label": "عملی",
+            "userScore": 100,
+            "targetScore": 77.50000000000001,
+            "contribution": 0.2732773435373496,
+            "relationship": "shared_higher"
+          },
+          {
+            "dimension": "investigative",
+            "label": "پژوهشی",
+            "userScore": 75,
+            "targetScore": 84.16666666666667,
+            "contribution": 0.1318492750262676,
+            "relationship": "shared_higher"
+          },
+          {
+            "dimension": "artistic",
+            "label": "خلاق",
+            "userScore": 75,
+            "targetScore": 22.5,
+            "contribution": -0.07663034787851447,
+            "relationship": "different"
+          },
+          {
+            "dimension": "social",
+            "label": "یاری‌گر",
+            "userScore": 25,
+            "targetScore": 4.166666666666667,
+            "contribution": 0.27722155261933185,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "enterprising",
+            "label": "پیش‌برنده",
+            "userScore": 25,
+            "targetScore": 25.333333333333332,
+            "contribution": 0.13410310878740034,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "conventional",
+            "label": "ساختارمند",
+            "userScore": 50,
+            "targetScore": 57.33333333333334,
+            "contribution": -0.020566233070336636,
+            "relationship": "different"
+          }
+        ],
+        "familyId": "math-engineering",
+        "kind": "major",
+        "mappingRationale": "نمونه مهندسی هوافضا.",
+        "occupations": [
+          {
+            "code": "17-2011.00",
+            "title": "Aerospace Engineers",
+            "rawInterests": {
+              "realistic": 5.65,
+              "investigative": 6.05,
+              "artistic": 2.35,
+              "social": 1.25,
+              "enterprising": 2.52,
+              "conventional": 4.44
+            },
+            "dateUpdated": "2026-02-01",
+            "domainSource": "Machine Learning/Expert"
+          }
+        ]
+      },
+      {
+        "id": "physics",
+        "title": "فیزیک",
+        "rank": 8,
+        "correlation": 0.6476596787741398,
+        "score": 82.38298393870699,
+        "contributions": [
+          {
+            "dimension": "realistic",
+            "label": "عملی",
+            "userScore": 100,
+            "targetScore": 65.66666666666667,
+            "contribution": 0.1417208329532339,
+            "relationship": "shared_higher"
+          },
+          {
+            "dimension": "investigative",
+            "label": "پژوهشی",
+            "userScore": 75,
+            "targetScore": 100,
+            "contribution": 0.16861609645937473,
+            "relationship": "shared_higher"
+          },
+          {
+            "dimension": "artistic",
+            "label": "خلاق",
+            "userScore": 75,
+            "targetScore": 29.166666666666668,
+            "contribution": -0.06230283263375393,
+            "relationship": "different"
+          },
+          {
+            "dimension": "social",
+            "label": "یاری‌گر",
+            "userScore": 25,
+            "targetScore": 18.666666666666668,
+            "contribution": 0.1930663360104119,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "enterprising",
+            "label": "پیش‌برنده",
+            "userScore": 25,
+            "targetScore": 12.833333333333334,
+            "contribution": 0.2311000419786919,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "conventional",
+            "label": "ساختارمند",
+            "userScore": 50,
+            "targetScore": 63.333333333333336,
+            "contribution": -0.024540795993818785,
+            "relationship": "different"
+          }
+        ],
+        "familyId": "math-science",
+        "kind": "major",
+        "mappingRationale": "نمونه پژوهش فیزیک؛ همه مشاغل فارغ‌التحصیلان نیست.",
+        "occupations": [
+          {
+            "code": "19-2012.00",
+            "title": "Physicists",
+            "rawInterests": {
+              "realistic": 4.94,
+              "investigative": 7,
+              "artistic": 2.75,
+              "social": 2.12,
+              "enterprising": 1.77,
+              "conventional": 4.8
+            },
+            "dateUpdated": "2026-02-01",
+            "domainSource": "Machine Learning/Expert"
+          }
+        ]
+      },
+      {
+        "id": "computer-engineering",
+        "title": "مهندسی کامپیوتر",
+        "rank": 9,
+        "correlation": 0.5429412619725184,
+        "score": 77.1470630986259,
+        "contributions": [
+          {
+            "dimension": "realistic",
+            "label": "عملی",
+            "userScore": 100,
+            "targetScore": 60.833333333333336,
+            "contribution": 0.1485877949768023,
+            "relationship": "shared_higher"
+          },
+          {
+            "dimension": "investigative",
+            "label": "پژوهشی",
+            "userScore": 75,
+            "targetScore": 80.08333333333333,
+            "contribution": 0.12684679846137487,
+            "relationship": "shared_higher"
+          },
+          {
+            "dimension": "artistic",
+            "label": "خلاق",
+            "userScore": 75,
+            "targetScore": 18.333333333333332,
+            "contribution": -0.0893958648665671,
+            "relationship": "different"
+          },
+          {
+            "dimension": "social",
+            "label": "یاری‌گر",
+            "userScore": 25,
+            "targetScore": 13.583333333333332,
+            "contribution": 0.21205983178358684,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "enterprising",
+            "label": "پیش‌برنده",
+            "userScore": 25,
+            "targetScore": 15.416666666666668,
+            "contribution": 0.19921951169393845,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "conventional",
+            "label": "ساختارمند",
+            "userScore": 50,
+            "targetScore": 74.91666666666666,
+            "contribution": -0.054376810076616995,
+            "relationship": "different"
+          }
+        ],
+        "familyId": "math-tech",
+        "kind": "major",
+        "mappingRationale": "دو نمونه سخت‌افزار و توسعه نرم‌افزار.",
+        "occupations": [
+          {
+            "code": "17-2061.00",
+            "title": "Computer Hardware Engineers",
+            "rawInterests": {
+              "realistic": 5.69,
+              "investigative": 5.56,
+              "artistic": 1.83,
+              "social": 1.82,
+              "enterprising": 1.98,
+              "conventional": 5.37
+            },
+            "dateUpdated": "2026-02-01",
+            "domainSource": "Machine Learning/Expert"
+          },
+          {
+            "code": "15-1252.00",
+            "title": "Software Developers",
+            "rawInterests": {
+              "realistic": 3.61,
+              "investigative": 6.05,
+              "artistic": 2.37,
+              "social": 1.81,
+              "enterprising": 1.87,
+              "conventional": 5.62
+            },
+            "dateUpdated": "2026-02-01",
+            "domainSource": "Machine Learning/Expert"
+          }
+        ]
+      },
+      {
+        "id": "mathematics",
+        "title": "ریاضی",
+        "rank": 10,
+        "correlation": 0.4971812633897047,
+        "score": 74.85906316948522,
+        "contributions": [
+          {
+            "dimension": "realistic",
+            "label": "عملی",
+            "userScore": 100,
+            "targetScore": 37.00000000000001,
+            "contribution": -0.04768197704877928,
+            "relationship": "different"
+          },
+          {
+            "dimension": "investigative",
+            "label": "پژوهشی",
+            "userScore": 75,
+            "targetScore": 100,
+            "contribution": 0.17577896403928386,
+            "relationship": "shared_higher"
+          },
+          {
+            "dimension": "artistic",
+            "label": "خلاق",
+            "userScore": 75,
+            "targetScore": 37.166666666666664,
+            "contribution": -0.018557309986551963,
+            "relationship": "different"
+          },
+          {
+            "dimension": "social",
+            "label": "یاری‌گر",
+            "userScore": 25,
+            "targetScore": 15.833333333333334,
+            "contribution": 0.16907771321080675,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "enterprising",
+            "label": "پیش‌برنده",
+            "userScore": 25,
+            "targetScore": 1.833333333333335,
+            "contribution": 0.2556784931480493,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "conventional",
+            "label": "ساختارمند",
+            "userScore": 50,
+            "targetScore": 67.16666666666667,
+            "contribution": -0.037114619973103946,
+            "relationship": "different"
+          }
+        ],
+        "familyId": "math-science",
+        "kind": "major",
+        "mappingRationale": "نمونه پژوهش ریاضی؛ تدریس و مشاغل کاربردی متنوع‌ترند.",
+        "occupations": [
+          {
+            "code": "15-2021.00",
+            "title": "Mathematicians",
+            "rawInterests": {
+              "realistic": 3.22,
+              "investigative": 7,
+              "artistic": 3.23,
+              "social": 1.95,
+              "enterprising": 1.11,
+              "conventional": 5.03
+            },
+            "dateUpdated": "2026-02-01",
+            "domainSource": "Machine Learning/Expert"
+          }
+        ]
+      },
+      {
+        "id": "computer-science",
+        "title": "علوم کامپیوتر",
+        "rank": 11,
+        "correlation": 0.45530913455141875,
+        "score": 72.76545672757094,
+        "contributions": [
+          {
+            "dimension": "realistic",
+            "label": "عملی",
+            "userScore": 100,
+            "targetScore": 44.58333333333333,
+            "contribution": -0.002621885440819399,
+            "relationship": "different"
+          },
+          {
+            "dimension": "investigative",
+            "label": "پژوهشی",
+            "userScore": 75,
+            "targetScore": 92.08333333333334,
+            "contribution": 0.16974835453990045,
+            "relationship": "shared_higher"
+          },
+          {
+            "dimension": "artistic",
+            "label": "خلاق",
+            "userScore": 75,
+            "targetScore": 27.66666666666667,
+            "contribution": -0.0618764964033353,
+            "relationship": "different"
+          },
+          {
+            "dimension": "social",
+            "label": "یاری‌گر",
+            "userScore": 25,
+            "targetScore": 15.083333333333334,
+            "contribution": 0.21424549602123363,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "enterprising",
+            "label": "پیش‌برنده",
+            "userScore": 25,
+            "targetScore": 19.66666666666667,
+            "contribution": 0.1812846504795054,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "conventional",
+            "label": "ساختارمند",
+            "userScore": 50,
+            "targetScore": 70.16666666666667,
+            "contribution": -0.04547098464506602,
+            "relationship": "different"
+          }
+        ],
+        "familyId": "math-tech",
+        "kind": "major",
+        "mappingRationale": "دو نمونه پژوهش رایانه و توسعه نرم‌افزار.",
+        "occupations": [
+          {
+            "code": "15-1221.00",
+            "title": "Computer and Information Research Scientists",
+            "rawInterests": {
+              "realistic": 3.74,
+              "investigative": 7,
+              "artistic": 2.95,
+              "social": 2,
+              "enterprising": 2.49,
+              "conventional": 4.8
+            },
+            "dateUpdated": "2026-02-01",
+            "domainSource": "Machine Learning/Expert"
+          },
+          {
+            "code": "15-1252.00",
+            "title": "Software Developers",
+            "rawInterests": {
+              "realistic": 3.61,
+              "investigative": 6.05,
+              "artistic": 2.37,
+              "social": 1.81,
+              "enterprising": 1.87,
+              "conventional": 5.62
+            },
+            "dateUpdated": "2026-02-01",
+            "domainSource": "Machine Learning/Expert"
+          }
+        ]
+      },
+      {
+        "id": "industrial-engineering",
+        "title": "مهندسی صنایع",
+        "rank": 12,
+        "correlation": 0.42937551095883775,
+        "score": 71.46877554794189,
+        "contributions": [
+          {
+            "dimension": "realistic",
+            "label": "عملی",
+            "userScore": 100,
+            "targetScore": 66,
+            "contribution": 0.21084030466437556,
+            "relationship": "shared_higher"
+          },
+          {
+            "dimension": "investigative",
+            "label": "پژوهشی",
+            "userScore": 75,
+            "targetScore": 66.5,
+            "contribution": 0.08618289825697102,
+            "relationship": "shared_higher"
+          },
+          {
+            "dimension": "artistic",
+            "label": "خلاق",
+            "userScore": 75,
+            "targetScore": 9.666666666666668,
+            "contribution": -0.123734018211794,
+            "relationship": "different"
+          },
+          {
+            "dimension": "social",
+            "label": "یاری‌گر",
+            "userScore": 25,
+            "targetScore": 6.166666666666669,
+            "contribution": 0.27332290590067937,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "enterprising",
+            "label": "پیش‌برنده",
+            "userScore": 25,
+            "targetScore": 38.166666666666664,
+            "contribution": 0.03693552782441609,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "conventional",
+            "label": "ساختارمند",
+            "userScore": 50,
+            "targetScore": 72.49999999999999,
+            "contribution": -0.054172107475810354,
+            "relationship": "different"
+          }
+        ],
+        "familyId": "math-systems",
+        "kind": "major",
+        "mappingRationale": "نمونه مهندسی صنایع.",
+        "occupations": [
+          {
+            "code": "17-2112.00",
+            "title": "Industrial Engineers",
+            "rawInterests": {
+              "realistic": 4.96,
+              "investigative": 4.99,
+              "artistic": 1.58,
+              "social": 1.37,
+              "enterprising": 3.29,
+              "conventional": 5.35
+            },
+            "dateUpdated": "2026-02-01",
+            "domainSource": "Machine Learning/Expert"
+          }
+        ]
+      },
+      {
+        "id": "artificial-intelligence",
+        "title": "هوش مصنوعی",
+        "rank": 13,
+        "correlation": 0.3697797272280626,
+        "score": 68.48898636140312,
+        "contributions": [
+          {
+            "dimension": "realistic",
+            "label": "عملی",
+            "userScore": 100,
+            "targetScore": 32.58333333333333,
+            "contribution": -0.0917601545343712,
+            "relationship": "different"
+          },
+          {
+            "dimension": "investigative",
+            "label": "پژوهشی",
+            "userScore": 75,
+            "targetScore": 99.83333333333334,
+            "contribution": 0.18434204179591568,
+            "relationship": "shared_higher"
+          },
+          {
+            "dimension": "artistic",
+            "label": "خلاق",
+            "userScore": 75,
+            "targetScore": 29.66666666666667,
+            "contribution": -0.04629094363077229,
+            "relationship": "different"
+          },
+          {
+            "dimension": "social",
+            "label": "یاری‌گر",
+            "userScore": 25,
+            "targetScore": 13.833333333333332,
+            "contribution": 0.19666803270351782,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "enterprising",
+            "label": "پیش‌برنده",
+            "userScore": 25,
+            "targetScore": 18.333333333333336,
+            "contribution": 0.1670856545252728,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "conventional",
+            "label": "ساختارمند",
+            "userScore": 50,
+            "targetScore": 68.25,
+            "contribution": -0.040264903631500155,
+            "relationship": "different"
+          }
+        ],
+        "familyId": "math-tech",
+        "kind": "pathway",
+        "mappingRationale": "مسیر تخصصی پژوهش رایانه و داده؛ نگاشت رسمی رشته نیست.",
+        "occupations": [
+          {
+            "code": "15-1221.00",
+            "title": "Computer and Information Research Scientists",
+            "rawInterests": {
+              "realistic": 3.74,
+              "investigative": 7,
+              "artistic": 2.95,
+              "social": 2,
+              "enterprising": 2.49,
+              "conventional": 4.8
+            },
+            "dateUpdated": "2026-02-01",
+            "domainSource": "Machine Learning/Expert"
+          },
+          {
+            "code": "15-2051.00",
+            "title": "Data Scientists",
+            "rawInterests": {
+              "realistic": 2.17,
+              "investigative": 6.98,
+              "artistic": 2.61,
+              "social": 1.66,
+              "enterprising": 1.71,
+              "conventional": 5.39
+            },
+            "dateUpdated": "2026-02-01",
+            "domainSource": "Machine Learning/Expert"
+          }
+        ]
+      },
+      {
+        "id": "cognitive-science",
+        "title": "علوم شناختی",
+        "rank": 14,
+        "correlation": 0.3002281220078974,
+        "score": 65.01140610039486,
+        "contributions": [
+          {
+            "dimension": "realistic",
+            "label": "عملی",
+            "userScore": 100,
+            "targetScore": 36.416666666666664,
+            "contribution": -0.10890306446399708,
+            "relationship": "different"
+          },
+          {
+            "dimension": "investigative",
+            "label": "پژوهشی",
+            "userScore": 75,
+            "targetScore": 100,
+            "contribution": 0.20665620413469143,
+            "relationship": "shared_higher"
+          },
+          {
+            "dimension": "artistic",
+            "label": "خلاق",
+            "userScore": 75,
+            "targetScore": 35.25,
+            "contribution": -0.04815237128872341,
+            "relationship": "different"
+          },
+          {
+            "dimension": "social",
+            "label": "یاری‌گر",
+            "userScore": 25,
+            "targetScore": 44.083333333333336,
+            "contribution": 0.026781682101560133,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "enterprising",
+            "label": "پیش‌برنده",
+            "userScore": 25,
+            "targetScore": 18.16666666666667,
+            "contribution": 0.2307597180260956,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "conventional",
+            "label": "ساختارمند",
+            "userScore": 50,
+            "targetScore": 51,
+            "contribution": -0.006914046501729294,
+            "relationship": "different"
+          }
+        ],
+        "familyId": "math-science",
+        "kind": "pathway",
+        "mappingRationale": "جانشین تقریبی دو مسیر عصب‌روان‌شناسی و محاسبات؛ علوم شناختی بسیار گسترده‌تر است.",
+        "occupations": [
+          {
+            "code": "19-3039.02",
+            "title": "Neuropsychologists",
+            "rawInterests": {
+              "realistic": 2.63,
+              "investigative": 7,
+              "artistic": 3.28,
+              "social": 5.29,
+              "enterprising": 1.69,
+              "conventional": 3.32
+            },
+            "dateUpdated": "2026-02-01",
+            "domainSource": "Machine Learning/Expert"
+          },
+          {
+            "code": "15-1221.00",
+            "title": "Computer and Information Research Scientists",
+            "rawInterests": {
+              "realistic": 3.74,
+              "investigative": 7,
+              "artistic": 2.95,
+              "social": 2,
+              "enterprising": 2.49,
+              "conventional": 4.8
+            },
+            "dateUpdated": "2026-02-01",
+            "domainSource": "Machine Learning/Expert"
+          }
+        ]
+      },
+      {
+        "id": "data-science",
+        "title": "علوم داده",
+        "rank": 15,
+        "correlation": 0.2758747305977356,
+        "score": 63.79373652988678,
+        "contributions": [
+          {
+            "dimension": "realistic",
+            "label": "عملی",
+            "userScore": 100,
+            "targetScore": 19.5,
+            "contribution": -0.15449973711790746,
+            "relationship": "different"
+          },
+          {
+            "dimension": "investigative",
+            "label": "پژوهشی",
+            "userScore": 75,
+            "targetScore": 99.66666666666667,
+            "contribution": 0.17600610052472013,
+            "relationship": "shared_higher"
+          },
+          {
+            "dimension": "artistic",
+            "label": "خلاق",
+            "userScore": 75,
+            "targetScore": 26.833333333333332,
+            "contribution": -0.04004633186096161,
+            "relationship": "different"
+          },
+          {
+            "dimension": "social",
+            "label": "یاری‌گر",
+            "userScore": 25,
+            "targetScore": 10.999999999999998,
+            "contribution": 0.17402850388961097,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "enterprising",
+            "label": "پیش‌برنده",
+            "userScore": 25,
+            "targetScore": 11.833333333333334,
+            "contribution": 0.16908451230183794,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "conventional",
+            "label": "ساختارمند",
+            "userScore": 50,
+            "targetScore": 73.16666666666666,
+            "contribution": -0.04869831713956442,
+            "relationship": "different"
+          }
+        ],
+        "familyId": "math-tech",
+        "kind": "pathway",
+        "mappingRationale": "نمونه شغل دانشمند داده؛ مسیر تخصصی با چند ورودی تحصیلی.",
+        "occupations": [
+          {
+            "code": "15-2051.00",
+            "title": "Data Scientists",
+            "rawInterests": {
+              "realistic": 2.17,
+              "investigative": 6.98,
+              "artistic": 2.61,
+              "social": 1.66,
+              "enterprising": 1.71,
+              "conventional": 5.39
+            },
+            "dateUpdated": "2026-02-01",
+            "domainSource": "Machine Learning/Expert"
+          }
+        ]
+      },
+      {
+        "id": "information-technology",
+        "title": "فناوری اطلاعات",
+        "rank": 16,
+        "correlation": 0.19572361594771814,
+        "score": 59.78618079738591,
+        "contributions": [
+          {
+            "dimension": "realistic",
+            "label": "عملی",
+            "userScore": 100,
+            "targetScore": 45.50000000000001,
+            "contribution": 0.025112482800309522,
+            "relationship": "shared_higher"
+          },
+          {
+            "dimension": "investigative",
+            "label": "پژوهشی",
+            "userScore": 75,
+            "targetScore": 70.25,
+            "contribution": 0.10137243056941247,
+            "relationship": "shared_higher"
+          },
+          {
+            "dimension": "artistic",
+            "label": "خلاق",
+            "userScore": 75,
+            "targetScore": 8.166666666666666,
+            "contribution": -0.12771491252728814,
+            "relationship": "different"
+          },
+          {
+            "dimension": "social",
+            "label": "یاری‌گر",
+            "userScore": 25,
+            "targetScore": 17.75,
+            "contribution": 0.18470487349452108,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "enterprising",
+            "label": "پیش‌برنده",
+            "userScore": 25,
+            "targetScore": 30.75,
+            "contribution": 0.0887649392043592,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "conventional",
+            "label": "ساختارمند",
+            "userScore": 50,
+            "targetScore": 84.25,
+            "contribution": -0.07651619759359601,
+            "relationship": "different"
+          }
+        ],
+        "familyId": "math-tech",
+        "kind": "pathway",
+        "mappingRationale": "نمونه تحلیل سیستم و اداره شبکه.",
+        "occupations": [
+          {
+            "code": "15-1211.00",
+            "title": "Computer Systems Analysts",
+            "rawInterests": {
+              "realistic": 3.27,
+              "investigative": 6.39,
+              "artistic": 1.98,
+              "social": 1.91,
+              "enterprising": 2.23,
+              "conventional": 5.93
+            },
+            "dateUpdated": "2026-02-01",
+            "domainSource": "Machine Learning/Expert"
+          },
+          {
+            "code": "15-1244.00",
+            "title": "Network and Computer Systems Administrators",
+            "rawInterests": {
+              "realistic": 4.19,
+              "investigative": 4.04,
+              "artistic": 1,
+              "social": 2.22,
+              "enterprising": 3.46,
+              "conventional": 6.18
+            },
+            "dateUpdated": "2026-02-01",
+            "domainSource": "Machine Learning/Expert"
+          }
+        ]
+      },
+      {
+        "id": "statistics",
+        "title": "آمار",
+        "rank": 17,
+        "correlation": 0.17301238684545844,
+        "score": 58.650619342272925,
+        "contributions": [
+          {
+            "dimension": "realistic",
+            "label": "عملی",
+            "userScore": 100,
+            "targetScore": 19.000000000000004,
+            "contribution": -0.14338152978801774,
+            "relationship": "different"
+          },
+          {
+            "dimension": "investigative",
+            "label": "پژوهشی",
+            "userScore": 75,
+            "targetScore": 93,
+            "contribution": 0.1545577322486095,
+            "relationship": "shared_higher"
+          },
+          {
+            "dimension": "artistic",
+            "label": "خلاق",
+            "userScore": 75,
+            "targetScore": 12.833333333333334,
+            "contribution": -0.07501180726219181,
+            "relationship": "different"
+          },
+          {
+            "dimension": "social",
+            "label": "یاری‌گر",
+            "userScore": 25,
+            "targetScore": 11.833333333333334,
+            "contribution": 0.15575092112340572,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "enterprising",
+            "label": "پیش‌برنده",
+            "userScore": 25,
+            "targetScore": 13.666666666666666,
+            "contribution": 0.14525085902519863,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "conventional",
+            "label": "ساختارمند",
+            "userScore": 50,
+            "targetScore": 83.83333333333333,
+            "contribution": -0.06415378850154585,
+            "relationship": "different"
+          }
+        ],
+        "familyId": "math-science",
+        "kind": "major",
+        "mappingRationale": "نمونه آمار.",
+        "occupations": [
+          {
+            "code": "15-2041.00",
+            "title": "Statisticians",
+            "rawInterests": {
+              "realistic": 2.14,
+              "investigative": 6.58,
+              "artistic": 1.77,
+              "social": 1.71,
+              "enterprising": 1.82,
+              "conventional": 6.03
+            },
+            "dateUpdated": "2026-02-01",
+            "domainSource": "Machine Learning/Expert"
+          }
+        ]
+      },
+      {
+        "id": "urban-planning",
+        "title": "شهرسازی",
+        "rank": 18,
+        "correlation": -0.06480118716862326,
+        "score": 46.75994064156884,
+        "contributions": [
+          {
+            "dimension": "realistic",
+            "label": "عملی",
+            "userScore": 100,
+            "targetScore": 37.00000000000001,
+            "contribution": -0.18600340761364145,
+            "relationship": "different"
+          },
+          {
+            "dimension": "investigative",
+            "label": "پژوهشی",
+            "userScore": 75,
+            "targetScore": 71.83333333333333,
+            "contribution": 0.17640323173680836,
+            "relationship": "shared_higher"
+          },
+          {
+            "dimension": "artistic",
+            "label": "خلاق",
+            "userScore": 75,
+            "targetScore": 34.333333333333336,
+            "contribution": -0.09360171479912283,
+            "relationship": "different"
+          },
+          {
+            "dimension": "social",
+            "label": "یاری‌گر",
+            "userScore": 25,
+            "targetScore": 33.83333333333333,
+            "contribution": 0.19440356150587065,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "enterprising",
+            "label": "پیش‌برنده",
+            "userScore": 25,
+            "targetScore": 57.666666666666664,
+            "contribution": -0.14880272609091316,
+            "relationship": "different"
+          },
+          {
+            "dimension": "conventional",
+            "label": "ساختارمند",
+            "userScore": 50,
+            "targetScore": 49.333333333333336,
+            "contribution": -0.007200131907624837,
+            "relationship": "different"
+          }
+        ],
+        "familyId": "math-design",
+        "kind": "major",
+        "mappingRationale": "نمونه برنامه‌ریزی شهری و منطقه‌ای.",
+        "occupations": [
+          {
+            "code": "19-3051.00",
+            "title": "Urban and Regional Planners",
+            "rawInterests": {
+              "realistic": 3.22,
+              "investigative": 5.31,
+              "artistic": 3.06,
+              "social": 3.03,
+              "enterprising": 4.46,
+              "conventional": 3.96
+            },
+            "dateUpdated": "2026-02-01",
+            "domainSource": "Machine Learning/Expert"
+          }
+        ]
+      },
+      {
+        "id": "economics",
+        "title": "اقتصاد",
+        "rank": 19,
+        "correlation": -0.11553838661301481,
+        "score": 44.22308066934926,
+        "contributions": [
+          {
+            "dimension": "realistic",
+            "label": "عملی",
+            "userScore": 100,
+            "targetScore": 5.833333333333335,
+            "contribution": -0.30746653984674155,
+            "relationship": "different"
+          },
+          {
+            "dimension": "investigative",
+            "label": "پژوهشی",
+            "userScore": 75,
+            "targetScore": 100,
+            "contribution": 0.1849340842327816,
+            "relationship": "shared_higher"
+          },
+          {
+            "dimension": "artistic",
+            "label": "خلاق",
+            "userScore": 75,
+            "targetScore": 23.83333333333334,
+            "contribution": -0.06412743785282113,
+            "relationship": "different"
+          },
+          {
+            "dimension": "social",
+            "label": "یاری‌گر",
+            "userScore": 25,
+            "targetScore": 23.333333333333332,
+            "contribution": 0.13152483004374652,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "enterprising",
+            "label": "پیش‌برنده",
+            "userScore": 25,
+            "targetScore": 48.833333333333336,
+            "contribution": -0.03524284119956741,
+            "relationship": "different"
+          },
+          {
+            "dimension": "conventional",
+            "label": "ساختارمند",
+            "userScore": 50,
+            "targetScore": 58.833333333333336,
+            "contribution": -0.02516048199041283,
+            "relationship": "different"
+          }
+        ],
+        "familyId": "math-systems",
+        "kind": "major",
+        "mappingRationale": "نمونه پژوهش اقتصادی؛ همه مشاغل فارغ‌التحصیلان اقتصاد نیست.",
+        "occupations": [
+          {
+            "code": "19-3011.00",
+            "title": "Economists",
+            "rawInterests": {
+              "realistic": 1.35,
+              "investigative": 7,
+              "artistic": 2.43,
+              "social": 2.4,
+              "enterprising": 3.93,
+              "conventional": 4.53
+            },
+            "dateUpdated": "2026-02-01",
+            "domainSource": "Machine Learning/Expert"
+          }
+        ]
+      },
+      {
+        "id": "industrial-management",
+        "title": "مدیریت صنعتی",
+        "rank": 20,
+        "correlation": -0.24140669160049916,
+        "score": 37.929665419975045,
+        "contributions": [
+          {
+            "dimension": "realistic",
+            "label": "عملی",
+            "userScore": 100,
+            "targetScore": 50,
+            "contribution": 0.0644049578950651,
+            "relationship": "shared_higher"
+          },
+          {
+            "dimension": "investigative",
+            "label": "پژوهشی",
+            "userScore": 75,
+            "targetScore": 32,
+            "contribution": -0.03869270829525927,
+            "relationship": "different"
+          },
+          {
+            "dimension": "artistic",
+            "label": "خلاق",
+            "userScore": 75,
+            "targetScore": 6.666666666666665,
+            "contribution": -0.12940671848877192,
+            "relationship": "different"
+          },
+          {
+            "dimension": "social",
+            "label": "یاری‌گر",
+            "userScore": 25,
+            "targetScore": 14.16666666666667,
+            "contribution": 0.20510119409980607,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "enterprising",
+            "label": "پیش‌برنده",
+            "userScore": 25,
+            "targetScore": 83.83333333333333,
+            "contribution": -0.2938258619645135,
+            "relationship": "different"
+          },
+          {
+            "dimension": "conventional",
+            "label": "ساختارمند",
+            "userScore": 50,
+            "targetScore": 70.16666666666667,
+            "contribution": -0.04898755484682565,
+            "relationship": "different"
+          }
+        ],
+        "familyId": "math-systems",
+        "kind": "major",
+        "mappingRationale": "نمونه مدیریت تولید؛ معمولاً نیازمند تجربه پس از تحصیل.",
+        "occupations": [
+          {
+            "code": "11-3051.00",
+            "title": "Industrial Production Managers",
+            "rawInterests": {
+              "realistic": 4,
+              "investigative": 2.92,
+              "artistic": 1.4,
+              "social": 1.85,
+              "enterprising": 6.03,
+              "conventional": 5.21
+            },
+            "dateUpdated": "2026-02-01",
+            "domainSource": "Machine Learning/Expert"
+          }
+        ]
+      },
+      {
+        "id": "it-management",
+        "title": "مدیریت فناوری اطلاعات",
+        "rank": 21,
+        "correlation": -0.32554108860394076,
+        "score": 33.72294556980297,
+        "contributions": [
+          {
+            "dimension": "realistic",
+            "label": "عملی",
+            "userScore": 100,
+            "targetScore": 28.000000000000004,
+            "contribution": -0.15524358271575203,
+            "relationship": "different"
+          },
+          {
+            "dimension": "investigative",
+            "label": "پژوهشی",
+            "userScore": 75,
+            "targetScore": 58.166666666666664,
+            "contribution": 0.051434237505824924,
+            "relationship": "shared_higher"
+          },
+          {
+            "dimension": "artistic",
+            "label": "خلاق",
+            "userScore": 75,
+            "targetScore": 7.833333333333333,
+            "contribution": -0.13799429574733516,
+            "relationship": "different"
+          },
+          {
+            "dimension": "social",
+            "label": "یاری‌گر",
+            "userScore": 25,
+            "targetScore": 22.5,
+            "contribution": 0.16559315489680224,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "enterprising",
+            "label": "پیش‌برنده",
+            "userScore": 25,
+            "targetScore": 68.16666666666667,
+            "contribution": -0.17813809087383276,
+            "relationship": "different"
+          },
+          {
+            "dimension": "conventional",
+            "label": "ساختارمند",
+            "userScore": 50,
+            "targetScore": 82.33333333333334,
+            "contribution": -0.07119251166964796,
+            "relationship": "different"
+          }
+        ],
+        "familyId": "math-systems",
+        "kind": "pathway",
+        "mappingRationale": "مسیر مدیریت سیستم‌های اطلاعاتی؛ معمولاً نیازمند تجربه پس از تحصیل.",
+        "occupations": [
+          {
+            "code": "11-3021.00",
+            "title": "Computer and Information Systems Managers",
+            "rawInterests": {
+              "realistic": 2.68,
+              "investigative": 4.49,
+              "artistic": 1.47,
+              "social": 2.35,
+              "enterprising": 5.09,
+              "conventional": 5.94
+            },
+            "dateUpdated": "2026-02-01",
+            "domainSource": "Machine Learning/Expert"
+          }
+        ]
+      },
+      {
+        "id": "accounting",
+        "title": "حسابداری",
+        "rank": 22,
+        "correlation": -0.3948361086060559,
+        "score": 30.258194569697206,
+        "contributions": [
+          {
+            "dimension": "realistic",
+            "label": "عملی",
+            "userScore": 100,
+            "targetScore": 2.3333333333333317,
+            "contribution": -0.24574434884595667,
+            "relationship": "different"
+          },
+          {
+            "dimension": "investigative",
+            "label": "پژوهشی",
+            "userScore": 75,
+            "targetScore": 42.833333333333336,
+            "contribution": 0.021633728450706814,
+            "relationship": "shared_higher"
+          },
+          {
+            "dimension": "artistic",
+            "label": "خلاق",
+            "userScore": 75,
+            "targetScore": 1.3333333333333346,
+            "contribution": -0.10125901035292806,
+            "relationship": "different"
+          },
+          {
+            "dimension": "social",
+            "label": "یاری‌گر",
+            "userScore": 25,
+            "targetScore": 18.833333333333332,
+            "contribution": 0.09887354219676651,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "enterprising",
+            "label": "پیش‌برنده",
+            "userScore": 25,
+            "targetScore": 47.833333333333336,
+            "contribution": -0.07288016504686783,
+            "relationship": "different"
+          },
+          {
+            "dimension": "conventional",
+            "label": "ساختارمند",
+            "userScore": 50,
+            "targetScore": 100,
+            "contribution": -0.09545985500777666,
+            "relationship": "different"
+          }
+        ],
+        "familyId": "math-systems",
+        "kind": "major",
+        "mappingRationale": "نمونه حسابداری و حسابرسی.",
+        "occupations": [
+          {
+            "code": "13-2011.00",
+            "title": "Accountants and Auditors",
+            "rawInterests": {
+              "realistic": 1.14,
+              "investigative": 3.57,
+              "artistic": 1.08,
+              "social": 2.13,
+              "enterprising": 3.87,
+              "conventional": 7
+            },
+            "dateUpdated": "2026-02-01",
+            "domainSource": "Machine Learning/Expert"
+          }
+        ]
+      }
+    ],
+    "topFamilies": [
+      {
+        "id": "math-engineering",
+        "title": "مهندسی",
+        "rank": 1,
+        "correlation": 0.750988788599462,
+        "score": 87.5494394299731,
+        "contributions": [
+          {
+            "dimension": "realistic",
+            "label": "عملی",
+            "userScore": 100,
+            "targetScore": 85.02777777777777,
+            "contribution": 0.339200416715011,
+            "relationship": "shared_higher"
+          },
+          {
+            "dimension": "investigative",
+            "label": "پژوهشی",
+            "userScore": 75,
+            "targetScore": 76.1111111111111,
+            "contribution": 0.10569852361151558,
+            "relationship": "shared_higher"
+          },
+          {
+            "dimension": "artistic",
+            "label": "خلاق",
+            "userScore": 75,
+            "targetScore": 20.194444444444446,
+            "contribution": -0.08231720071541891,
+            "relationship": "different"
+          },
+          {
+            "dimension": "social",
+            "label": "یاری‌گر",
+            "userScore": 25,
+            "targetScore": 7.916666666666665,
+            "contribution": 0.2472006708322339,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "enterprising",
+            "label": "پیش‌برنده",
+            "userScore": 25,
+            "targetScore": 20.194444444444446,
+            "contribution": 0.16463440143083785,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "conventional",
+            "label": "ساختارمند",
+            "userScore": 50,
+            "targetScore": 58.611111111111114,
+            "contribution": -0.023428023274717394,
+            "relationship": "different"
+          }
+        ],
+        "description": "طراحی و تحلیل سیستم‌های فنی"
+      },
+      {
+        "id": "math-design",
+        "title": "طراحی",
+        "rank": 2,
+        "correlation": 0.6928613692977713,
+        "score": 84.64306846488856,
+        "contributions": [
+          {
+            "dimension": "realistic",
+            "label": "عملی",
+            "userScore": 100,
+            "targetScore": 54.22222222222223,
+            "contribution": 0.14386585425344967,
+            "relationship": "shared_higher"
+          },
+          {
+            "dimension": "investigative",
+            "label": "پژوهشی",
+            "userScore": 75,
+            "targetScore": 56.944444444444436,
+            "contribution": 0.08264815840791635,
+            "relationship": "shared_higher"
+          },
+          {
+            "dimension": "artistic",
+            "label": "خلاق",
+            "userScore": 75,
+            "targetScore": 54.055555555555564,
+            "contribution": 0.05600949578057152,
+            "relationship": "shared_higher"
+          },
+          {
+            "dimension": "social",
+            "label": "یاری‌گر",
+            "userScore": 25,
+            "targetScore": 24.444444444444443,
+            "contribution": 0.4340735922994294,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "enterprising",
+            "label": "پیش‌برنده",
+            "userScore": 25,
+            "targetScore": 48.944444444444436,
+            "contribution": -0.01775910841822971,
+            "relationship": "different"
+          },
+          {
+            "dimension": "conventional",
+            "label": "ساختارمند",
+            "userScore": 50,
+            "targetScore": 49.27777777777779,
+            "contribution": -0.005976623025365903,
+            "relationship": "different"
+          }
+        ],
+        "description": "حل مسئله با ترکیب شکل و کارکرد"
+      },
+      {
+        "id": "math-science",
+        "title": "علوم پایه",
+        "rank": 3,
+        "correlation": 0.4056729720274991,
+        "score": 70.28364860137495,
+        "contributions": [
+          {
+            "dimension": "realistic",
+            "label": "عملی",
+            "userScore": 100,
+            "targetScore": 38.9,
+            "contribution": -0.05482599248297115,
+            "relationship": "different"
+          },
+          {
+            "dimension": "investigative",
+            "label": "پژوهشی",
+            "userScore": 75,
+            "targetScore": 98.6,
+            "contribution": 0.18961722068078177,
+            "relationship": "shared_higher"
+          },
+          {
+            "dimension": "artistic",
+            "label": "خلاق",
+            "userScore": 75,
+            "targetScore": 29.93333333333333,
+            "contribution": -0.05370388060809522,
+            "relationship": "different"
+          },
+          {
+            "dimension": "social",
+            "label": "یاری‌گر",
+            "userScore": 25,
+            "targetScore": 26.9,
+            "contribution": 0.1289050623980233,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "enterprising",
+            "label": "پیش‌برنده",
+            "userScore": 25,
+            "targetScore": 12.933333333333337,
+            "contribution": 0.22788714146602274,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "conventional",
+            "label": "ساختارمند",
+            "userScore": 50,
+            "targetScore": 63.266666666666666,
+            "contribution": -0.032206579426262365,
+            "relationship": "different"
+          }
+        ],
+        "description": "پژوهش در مفاهیم بنیادی و مدل‌ها"
+      }
+    ],
+    "topMajors": [
+      {
+        "id": "materials-engineering",
+        "title": "مهندسی مواد",
+        "rank": 1,
+        "correlation": 0.8018918170188241,
+        "score": 90.0945908509412,
+        "contributions": [
+          {
+            "dimension": "realistic",
+            "label": "عملی",
+            "userScore": 100,
+            "targetScore": 81.33333333333333,
+            "contribution": 0.3191009029965763,
+            "relationship": "shared_higher"
+          },
+          {
+            "dimension": "investigative",
+            "label": "پژوهشی",
+            "userScore": 75,
+            "targetScore": 80.33333333333333,
+            "contribution": 0.12423409507324083,
+            "relationship": "shared_higher"
+          },
+          {
+            "dimension": "artistic",
+            "label": "خلاق",
+            "userScore": 75,
+            "targetScore": 25.666666666666668,
+            "contribution": -0.06197511978139582,
+            "relationship": "different"
+          },
+          {
+            "dimension": "social",
+            "label": "یاری‌گر",
+            "userScore": 25,
+            "targetScore": 6.333333333333331,
+            "contribution": 0.2556591964111933,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "enterprising",
+            "label": "پیش‌برنده",
+            "userScore": 25,
+            "targetScore": 17.666666666666668,
+            "contribution": 0.1784504975690268,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "conventional",
+            "label": "ساختارمند",
+            "userScore": 50,
+            "targetScore": 51.83333333333334,
+            "contribution": -0.013577755249817285,
+            "relationship": "different"
+          }
+        ],
+        "familyId": "math-engineering",
+        "kind": "major",
+        "mappingRationale": "نمونه مهندسی مواد.",
+        "occupations": [
+          {
+            "code": "17-2131.00",
+            "title": "Materials Engineers",
+            "rawInterests": {
+              "realistic": 5.88,
+              "investigative": 5.82,
+              "artistic": 2.54,
+              "social": 1.38,
+              "enterprising": 2.06,
+              "conventional": 4.11
+            },
+            "dateUpdated": "2026-02-01",
+            "domainSource": "Machine Learning/Expert"
+          }
+        ]
+      },
+      {
+        "id": "architecture",
+        "title": "معماری",
+        "rank": 2,
+        "correlation": 0.7740722194098044,
+        "score": 88.70361097049022,
+        "contributions": [
+          {
+            "dimension": "realistic",
+            "label": "عملی",
+            "userScore": 100,
+            "targetScore": 65.33333333333333,
+            "contribution": 0.33603920519753716,
+            "relationship": "shared_higher"
+          },
+          {
+            "dimension": "investigative",
+            "label": "پژوهشی",
+            "userScore": 75,
+            "targetScore": 48,
+            "contribution": -0.006079101199553438,
+            "relationship": "different"
+          },
+          {
+            "dimension": "artistic",
+            "label": "خلاق",
+            "userScore": 75,
+            "targetScore": 52.166666666666664,
+            "contribution": 0.02769368324241009,
+            "relationship": "shared_higher"
+          },
+          {
+            "dimension": "social",
+            "label": "یاری‌گر",
+            "userScore": 25,
+            "targetScore": 25.499999999999996,
+            "contribution": 0.37690427437231333,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "enterprising",
+            "label": "پیش‌برنده",
+            "userScore": 25,
+            "targetScore": 44.166666666666664,
+            "contribution": 0.07430012577231984,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "conventional",
+            "label": "ساختارمند",
+            "userScore": 50,
+            "targetScore": 57.33333333333334,
+            "contribution": -0.0347859679752225,
+            "relationship": "different"
+          }
+        ],
+        "familyId": "math-design",
+        "kind": "major",
+        "mappingRationale": "نمونه معماری ساختمان.",
+        "occupations": [
+          {
+            "code": "17-1011.00",
+            "title": "Architects, Except Landscape and Naval",
+            "rawInterests": {
+              "realistic": 4.92,
+              "investigative": 3.88,
+              "artistic": 4.13,
+              "social": 2.53,
+              "enterprising": 3.65,
+              "conventional": 4.44
+            },
+            "dateUpdated": "2026-02-01",
+            "domainSource": "Machine Learning/Expert"
+          }
+        ]
+      },
+      {
+        "id": "mechanical-engineering",
+        "title": "مهندسی مکانیک",
+        "rank": 3,
+        "correlation": 0.7444540319591981,
+        "score": 87.22270159795991,
+        "contributions": [
+          {
+            "dimension": "realistic",
+            "label": "عملی",
+            "userScore": 100,
+            "targetScore": 89.83333333333333,
+            "contribution": 0.36369248127894954,
+            "relationship": "shared_higher"
+          },
+          {
+            "dimension": "investigative",
+            "label": "پژوهشی",
+            "userScore": 75,
+            "targetScore": 68.66666666666667,
+            "contribution": 0.07945348548726547,
+            "relationship": "shared_higher"
+          },
+          {
+            "dimension": "artistic",
+            "label": "خلاق",
+            "userScore": 75,
+            "targetScore": 17,
+            "contribution": -0.08170625606814752,
+            "relationship": "different"
+          },
+          {
+            "dimension": "social",
+            "label": "یاری‌گر",
+            "userScore": 25,
+            "targetScore": 3.666666666666666,
+            "contribution": 0.24659173358425016,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "enterprising",
+            "label": "پیش‌برنده",
+            "userScore": 25,
+            "targetScore": 16.166666666666668,
+            "contribution": 0.16861121347679225,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "conventional",
+            "label": "ساختارمند",
+            "userScore": 50,
+            "targetScore": 63.833333333333336,
+            "contribution": -0.032188625799911816,
+            "relationship": "different"
+          }
+        ],
+        "familyId": "math-engineering",
+        "kind": "major",
+        "mappingRationale": "نمونه مهندسی مکانیک.",
+        "occupations": [
+          {
+            "code": "17-2141.00",
+            "title": "Mechanical Engineers",
+            "rawInterests": {
+              "realistic": 6.39,
+              "investigative": 5.12,
+              "artistic": 2.02,
+              "social": 1.22,
+              "enterprising": 1.97,
+              "conventional": 4.83
+            },
+            "dateUpdated": "2026-02-01",
+            "domainSource": "Machine Learning/Expert"
+          }
+        ]
+      },
+      {
+        "id": "industrial-design",
+        "title": "طراحی صنعتی",
+        "rank": 4,
+        "correlation": 0.7395965821994183,
+        "score": 86.97982910997091,
+        "contributions": [
+          {
+            "dimension": "realistic",
+            "label": "عملی",
+            "userScore": 100,
+            "targetScore": 60.333333333333336,
+            "contribution": 0.1660062314574779,
+            "relationship": "shared_higher"
+          },
+          {
+            "dimension": "investigative",
+            "label": "پژوهشی",
+            "userScore": 75,
+            "targetScore": 50.99999999999999,
+            "contribution": 0.016711540449616875,
+            "relationship": "shared_higher"
+          },
+          {
+            "dimension": "artistic",
+            "label": "خلاق",
+            "userScore": 75,
+            "targetScore": 75.66666666666667,
+            "contribution": 0.1480376282306774,
+            "relationship": "shared_higher"
+          },
+          {
+            "dimension": "social",
+            "label": "یاری‌گر",
+            "userScore": 25,
+            "targetScore": 14.000000000000002,
+            "contribution": 0.3605551824439477,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "enterprising",
+            "label": "پیش‌برنده",
+            "userScore": 25,
+            "targetScore": 45,
+            "contribution": 0.030465286129390194,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "conventional",
+            "label": "ساختارمند",
+            "userScore": 50,
+            "targetScore": 41.16666666666667,
+            "contribution": 0.01782071348830832,
+            "relationship": "shared_lower"
+          }
+        ],
+        "familyId": "math-design",
+        "kind": "major",
+        "mappingRationale": "نمونه طراحی محصول تجاری و صنعتی.",
+        "occupations": [
+          {
+            "code": "27-1021.00",
+            "title": "Commercial and Industrial Designers",
+            "rawInterests": {
+              "realistic": 4.62,
+              "investigative": 4.06,
+              "artistic": 5.54,
+              "social": 1.84,
+              "enterprising": 3.7,
+              "conventional": 3.47
+            },
+            "dateUpdated": "2026-02-01",
+            "domainSource": "Machine Learning/Expert"
+          }
+        ]
+      },
+      {
+        "id": "electrical-engineering",
+        "title": "مهندسی برق",
+        "rank": 5,
+        "correlation": 0.7372397436051016,
+        "score": 86.86198718025508,
+        "contributions": [
+          {
+            "dimension": "realistic",
+            "label": "عملی",
+            "userScore": 100,
+            "targetScore": 85.5,
+            "contribution": 0.33754002209704903,
+            "relationship": "shared_higher"
+          },
+          {
+            "dimension": "investigative",
+            "label": "پژوهشی",
+            "userScore": 75,
+            "targetScore": 77.16666666666666,
+            "contribution": 0.10747109034059049,
+            "relationship": "shared_higher"
+          },
+          {
+            "dimension": "artistic",
+            "label": "خلاق",
+            "userScore": 75,
+            "targetScore": 17.916666666666664,
+            "contribution": -0.08837328018181831,
+            "relationship": "different"
+          },
+          {
+            "dimension": "social",
+            "label": "یاری‌گر",
+            "userScore": 25,
+            "targetScore": 10.916666666666668,
+            "contribution": 0.2230220234406615,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "enterprising",
+            "label": "پیش‌برنده",
+            "userScore": 25,
+            "targetScore": 17.166666666666668,
+            "contribution": 0.18170464569331787,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "conventional",
+            "label": "ساختارمند",
+            "userScore": 50,
+            "targetScore": 59.25,
+            "contribution": -0.024124757784698997,
+            "relationship": "different"
+          }
+        ],
+        "familyId": "math-engineering",
+        "kind": "major",
+        "mappingRationale": "دو نمونه برق و الکترونیک.",
+        "occupations": [
+          {
+            "code": "17-2071.00",
+            "title": "Electrical Engineers",
+            "rawInterests": {
+              "realistic": 6.02,
+              "investigative": 5.45,
+              "artistic": 2.12,
+              "social": 1.72,
+              "enterprising": 2.44,
+              "conventional": 4.43
+            },
+            "dateUpdated": "2026-02-01",
+            "domainSource": "Machine Learning/Expert"
+          },
+          {
+            "code": "17-2072.00",
+            "title": "Electronics Engineers, Except Computer",
+            "rawInterests": {
+              "realistic": 6.24,
+              "investigative": 5.81,
+              "artistic": 2.03,
+              "social": 1.59,
+              "enterprising": 1.62,
+              "conventional": 4.68
+            },
+            "dateUpdated": "2026-02-01",
+            "domainSource": "Machine Learning/Expert"
+          }
+        ]
+      }
+    ],
+    "explanations": {
+      "title": "رغبت برجسته در پاسخ‌های تو: عملی",
+      "interpretation": "این نتیجه برای شناخت مسیرهای قابل بررسی است و جایگزین مشاوره تخصصی یا اطلاعات رسمی پذیرش نیست.",
+      "notices": [
+        "پرسش‌نامه فارسی هنوز روی دانش‌آموزان ایرانی اعتبارسنجی نشده است؛ نتیجه برای بررسی مسیرهاست.",
+        "داده‌های هدف از شغل‌های نمونه در آمریکا آمده‌اند. نگاشت آن‌ها به رشته‌های این فهرست نیازمند بازبینی متخصص است.",
+        "گروه و عنوان‌های رشته‌ها فهرست اکتشافی محصول‌اند؛ مجاز بودن پذیرش باید با دفترچه رسمی همان سال بررسی شود."
+      ]
+    },
+    "method": {
+      "id": "riasec_profile_correlation_v1",
+      "sectionWeights": {
+        "riasec": 1,
+        "personality": 0,
+        "values": 0,
+        "abilities": 0,
+        "workstyle": 0
+      },
+      "dimensionWeights": {
+        "realistic": 1,
+        "investigative": 1,
+        "artistic": 1,
+        "social": 1,
+        "enterprising": 1,
+        "conventional": 1
+      },
+      "scoreMeaning": "شاخص شباهت الگوی رغبت از ۰ تا ۱۰۰؛ احتمال قبولی، موفقیت یا درصد استعداد نیست."
+    },
+    "evidence": {
+      "status": "unvalidated_pilot",
+      "source": {
+        "dataset": "O*NET 31.0 Database",
+        "version": "31.0",
+        "retrievedAt": "2026-09-27",
+        "url": "https://www.onetcenter.org/dl_files/database/db_31_0_json/career_interest_types.json",
+        "sha256": "3b1100f1f22c5e7c4394decba92777ba597a40e9c6b6096822253c26c23451de",
+        "license": "https://creativecommons.org/licenses/by/4.0/",
+        "attribution": "O*NET® 31.0 Database, U.S. Department of Labor, Employment and Training Administration (USDOL/ETA), CC BY 4.0. انتخاب‌یار has selected occupations, normalized and averaged ratings, and mapped them to exploratory educational pathways. USDOL/ETA has not approved, endorsed, or tested these modifications."
+      },
+      "questionnaire": "authored_fa_unvalidated",
+      "crosswalk": "editorial_pending_expert_review",
+      "admission": "unverified"
+    },
+    "quality": {
+      "uniformResponses": false,
+      "interestRange": 75,
+      "tiedFamilyBoundary": false,
+      "tiedMajorBoundary": false
+    },
+    "sensitivity": {
+      "scenarioCount": 45,
+      "answerScenarioCount": 33,
+      "weightScenarioCount": 12,
+      "unrankableScenarios": 0,
+      "familyRanges": [
+        {
+          "id": "math-engineering",
+          "minRank": 1,
+          "maxRank": 2,
+          "selectedCount": 45
+        },
+        {
+          "id": "math-design",
+          "minRank": 1,
+          "maxRank": 2,
+          "selectedCount": 45
+        },
+        {
+          "id": "math-science",
+          "minRank": 3,
+          "maxRank": 4,
+          "selectedCount": 29
+        },
+        {
+          "id": "math-tech",
+          "minRank": 3,
+          "maxRank": 4,
+          "selectedCount": 16
+        },
+        {
+          "id": "math-systems",
+          "minRank": 5,
+          "maxRank": 5,
+          "selectedCount": 0
+        }
+      ],
+      "majorRanges": [
+        {
+          "id": "materials-engineering",
+          "minRank": 1,
+          "maxRank": 3,
+          "selectedCount": 45
+        },
+        {
+          "id": "architecture",
+          "minRank": 1,
+          "maxRank": 5,
+          "selectedCount": 45
+        },
+        {
+          "id": "mechanical-engineering",
+          "minRank": 2,
+          "maxRank": 5,
+          "selectedCount": 45
+        },
+        {
+          "id": "industrial-design",
+          "minRank": 1,
+          "maxRank": 8,
+          "selectedCount": 27
+        },
+        {
+          "id": "electrical-engineering",
+          "minRank": 2,
+          "maxRank": 6,
+          "selectedCount": 39
+        },
+        {
+          "id": "civil-engineering",
+          "minRank": 4,
+          "maxRank": 7,
+          "selectedCount": 21
+        },
+        {
+          "id": "aerospace-engineering",
+          "minRank": 3,
+          "maxRank": 7,
+          "selectedCount": 3
+        },
+        {
+          "id": "physics",
+          "minRank": 7,
+          "maxRank": 8,
+          "selectedCount": 0
+        },
+        {
+          "id": "computer-engineering",
+          "minRank": 9,
+          "maxRank": 9,
+          "selectedCount": 0
+        },
+        {
+          "id": "mathematics",
+          "minRank": 10,
+          "maxRank": 10,
+          "selectedCount": 0
+        },
+        {
+          "id": "computer-science",
+          "minRank": 11,
+          "maxRank": 12,
+          "selectedCount": 0
+        },
+        {
+          "id": "industrial-engineering",
+          "minRank": 11,
+          "maxRank": 13,
+          "selectedCount": 0
+        },
+        {
+          "id": "artificial-intelligence",
+          "minRank": 12,
+          "maxRank": 13,
+          "selectedCount": 0
+        },
+        {
+          "id": "cognitive-science",
+          "minRank": 14,
+          "maxRank": 15,
+          "selectedCount": 0
+        },
+        {
+          "id": "data-science",
+          "minRank": 14,
+          "maxRank": 15,
+          "selectedCount": 0
+        },
+        {
+          "id": "information-technology",
+          "minRank": 16,
+          "maxRank": 17,
+          "selectedCount": 0
+        },
+        {
+          "id": "statistics",
+          "minRank": 16,
+          "maxRank": 17,
+          "selectedCount": 0
+        },
+        {
+          "id": "urban-planning",
+          "minRank": 18,
+          "maxRank": 18,
+          "selectedCount": 0
+        },
+        {
+          "id": "economics",
+          "minRank": 19,
+          "maxRank": 19,
+          "selectedCount": 0
+        },
+        {
+          "id": "industrial-management",
+          "minRank": 20,
+          "maxRank": 20,
+          "selectedCount": 0
+        },
+        {
+          "id": "it-management",
+          "minRank": 21,
+          "maxRank": 21,
+          "selectedCount": 0
+        },
+        {
+          "id": "accounting",
+          "minRank": 22,
+          "maxRank": 22,
+          "selectedCount": 0
+        }
+      ],
+      "interpretation": "تغییر هر پاسخ رغبت به اندازه یک گزینه و تغییر وزن هر محور به اندازه ±۲۰٪، هر بار جداگانه؛ این دامنه‌ها فاصله اطمینان یا پایایی آزمون نیستند و خطای نگاشت رشته به شغل را نمی‌سنجند."
+    }
+  }
+}

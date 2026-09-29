@@ -1,0 +1,238 @@
+{
+  "schemaVersion": 2,
+  "catalogVersion": "0.2.0-pilot",
+  "status": "pilot",
+  "items": [
+    {
+      "id": "exp-health",
+      "group": "experimental",
+      "title": "سلامت و درمان",
+      "description": "شناخت بدن و ارائه خدمت درمانی",
+      "profileStatus": "occupation_proxy_unvalidated",
+      "occupationCodes": [
+        "29-1021.00",
+        "29-1051.00",
+        "29-1131.00",
+        "29-1215.00",
+        "29-1216.00"
+      ],
+      "interestProfile": {
+        "realistic": 57.366666666666674,
+        "investigative": 83.4,
+        "artistic": 5.133333333333333,
+        "social": 66.76666666666668,
+        "enterprising": 19.2,
+        "conventional": 47.733333333333334
+      },
+      "aggregation": "equal_mean_unique_occupations"
+    },
+    {
+      "id": "exp-rehab",
+      "group": "experimental",
+      "title": "توانبخشی",
+      "description": "کمک به بازیابی و تقویت توانایی‌های فرد",
+      "profileStatus": "occupation_proxy_unvalidated",
+      "occupationCodes": [
+        "29-1041.00",
+        "29-1122.00",
+        "29-1123.00",
+        "29-1127.00",
+        "29-1181.00"
+      ],
+      "interestProfile": {
+        "realistic": 47.66666666666667,
+        "investigative": 71.26666666666668,
+        "artistic": 23.4,
+        "social": 80.06666666666666,
+        "enterprising": 16.133333333333333,
+        "conventional": 43.7
+      },
+      "aggregation": "equal_mean_unique_occupations"
+    },
+    {
+      "id": "exp-clinical",
+      "group": "experimental",
+      "title": "علوم آزمایشگاهی و سلامت",
+      "description": "کار دقیق و فنی در خدمات سلامت",
+      "profileStatus": "occupation_proxy_unvalidated",
+      "occupationCodes": [
+        "29-1071.01",
+        "29-2011.00",
+        "29-2034.00",
+        "29-2055.00"
+      ],
+      "interestProfile": {
+        "realistic": 76.54166666666667,
+        "investigative": 61.95833333333333,
+        "artistic": 0.5416666666666662,
+        "social": 45.41666666666667,
+        "enterprising": 8.375,
+        "conventional": 66.75
+      },
+      "aggregation": "equal_mean_unique_occupations"
+    },
+    {
+      "id": "exp-bio",
+      "group": "experimental",
+      "title": "زیست و فناوری",
+      "description": "پژوهش و فناوری مرتبط با زیست",
+      "profileStatus": "occupation_proxy_unvalidated",
+      "occupationCodes": [
+        "15-1211.01",
+        "19-1021.00",
+        "19-1022.00",
+        "19-1029.01",
+        "19-1029.02",
+        "19-1029.04",
+        "29-9021.00"
+      ],
+      "interestProfile": {
+        "realistic": 51.83333333333333,
+        "investigative": 93.14285714285714,
+        "artistic": 17.999999999999996,
+        "social": 28.595238095238095,
+        "enterprising": 16.142857142857142,
+        "conventional": 61.285714285714285
+      },
+      "aggregation": "equal_mean_unique_occupations"
+    },
+    {
+      "id": "exp-people",
+      "group": "experimental",
+      "title": "انسان و رفتار",
+      "description": "شناخت رفتار و کمک آموزشی یا مشاوره‌ای",
+      "profileStatus": "occupation_proxy_unvalidated",
+      "occupationCodes": [
+        "19-3032.00",
+        "19-3033.00",
+        "21-1012.00",
+        "21-1014.00",
+        "25-9031.00"
+      ],
+      "interestProfile": {
+        "realistic": 3.4333333333333345,
+        "investigative": 58.93333333333334,
+        "artistic": 36.46666666666667,
+        "social": 85.03333333333333,
+        "enterprising": 45,
+        "conventional": 47.56666666666667
+      },
+      "aggregation": "equal_mean_unique_occupations"
+    },
+    {
+      "id": "math-tech",
+      "group": "mathematics",
+      "title": "فناوری و داده",
+      "description": "ساخت نرم‌افزار و تحلیل داده",
+      "profileStatus": "occupation_proxy_unvalidated",
+      "occupationCodes": [
+        "15-1211.00",
+        "15-1221.00",
+        "15-1244.00",
+        "15-1252.00",
+        "15-2051.00",
+        "17-2061.00"
+      ],
+      "interestProfile": {
+        "realistic": 46.305555555555564,
+        "investigative": 83.38888888888889,
+        "artistic": 18.72222222222222,
+        "social": 15.055555555555557,
+        "enterprising": 21.5,
+        "conventional": 75.80555555555556
+      },
+      "aggregation": "equal_mean_unique_occupations"
+    },
+    {
+      "id": "math-engineering",
+      "group": "mathematics",
+      "title": "مهندسی",
+      "description": "طراحی و تحلیل سیستم‌های فنی",
+      "profileStatus": "occupation_proxy_unvalidated",
+      "occupationCodes": [
+        "17-2011.00",
+        "17-2051.00",
+        "17-2071.00",
+        "17-2072.00",
+        "17-2131.00",
+        "17-2141.00"
+      ],
+      "interestProfile": {
+        "realistic": 85.02777777777777,
+        "investigative": 76.1111111111111,
+        "artistic": 20.194444444444446,
+        "social": 7.916666666666665,
+        "enterprising": 20.194444444444446,
+        "conventional": 58.611111111111114
+      },
+      "aggregation": "equal_mean_unique_occupations"
+    },
+    {
+      "id": "math-design",
+      "group": "mathematics",
+      "title": "طراحی",
+      "description": "حل مسئله با ترکیب شکل و کارکرد",
+      "profileStatus": "occupation_proxy_unvalidated",
+      "occupationCodes": [
+        "17-1011.00",
+        "19-3051.00",
+        "27-1021.00"
+      ],
+      "interestProfile": {
+        "realistic": 54.22222222222223,
+        "investigative": 56.944444444444436,
+        "artistic": 54.055555555555564,
+        "social": 24.444444444444443,
+        "enterprising": 48.944444444444436,
+        "conventional": 49.27777777777779
+      },
+      "aggregation": "equal_mean_unique_occupations"
+    },
+    {
+      "id": "math-systems",
+      "group": "mathematics",
+      "title": "سیستم و مدیریت",
+      "description": "هماهنگی، تصمیم‌گیری و بهبود فرایندها",
+      "profileStatus": "occupation_proxy_unvalidated",
+      "occupationCodes": [
+        "11-3021.00",
+        "11-3051.00",
+        "13-2011.00",
+        "17-2112.00",
+        "19-3011.00"
+      ],
+      "interestProfile": {
+        "realistic": 30.43333333333333,
+        "investigative": 59.9,
+        "artistic": 9.866666666666669,
+        "social": 17,
+        "enterprising": 57.36666666666666,
+        "conventional": 76.76666666666667
+      },
+      "aggregation": "equal_mean_unique_occupations"
+    },
+    {
+      "id": "math-science",
+      "group": "mathematics",
+      "title": "علوم پایه",
+      "description": "پژوهش در مفاهیم بنیادی و مدل‌ها",
+      "profileStatus": "occupation_proxy_unvalidated",
+      "occupationCodes": [
+        "15-1221.00",
+        "15-2021.00",
+        "15-2041.00",
+        "19-2012.00",
+        "19-3039.02"
+      ],
+      "interestProfile": {
+        "realistic": 38.9,
+        "investigative": 98.6,
+        "artistic": 29.93333333333333,
+        "social": 26.9,
+        "enterprising": 12.933333333333337,
+        "conventional": 63.266666666666666
+      },
+      "aggregation": "equal_mean_unique_occupations"
+    }
+  ]
+}

@@ -1,0 +1,1087 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": "0.1.0-pilot",
+  "status": "pilot",
+  "items": [
+    {
+      "id": "Q-R-01",
+      "text": "دوست دارم نتیجه کارم را به شکل یک چیز ساخته‌شده یا تعمیرشده ببینم.",
+      "section": "riasec",
+      "primaryDimension": "realistic",
+      "groups": [
+        "experimental",
+        "mathematics"
+      ],
+      "effects": [
+        {
+          "dimension": "realistic",
+          "weight": 1,
+          "direction": "positive"
+        }
+      ]
+    },
+    {
+      "id": "Q-R-02",
+      "text": "وقتی وسیله‌ای درست کار نمی‌کند، دوست دارم علتش را پیدا کنم.",
+      "section": "riasec",
+      "primaryDimension": "realistic",
+      "groups": [
+        "experimental",
+        "mathematics"
+      ],
+      "effects": [
+        {
+          "dimension": "realistic",
+          "weight": 1,
+          "direction": "positive"
+        }
+      ]
+    },
+    {
+      "id": "Q-R-03",
+      "text": "از پیدا کردن علت یک پدیده لذت می‌برم.",
+      "section": "riasec",
+      "primaryDimension": "investigative",
+      "groups": [
+        "experimental",
+        "mathematics"
+      ],
+      "effects": [
+        {
+          "dimension": "investigative",
+          "weight": 1,
+          "direction": "positive"
+        }
+      ]
+    },
+    {
+      "id": "Q-R-04",
+      "text": "وقتی پاسخ آماده‌ای می‌شنوم، دوست دارم شواهدش را بررسی کنم.",
+      "section": "riasec",
+      "primaryDimension": "investigative",
+      "groups": [
+        "experimental",
+        "mathematics"
+      ],
+      "effects": [
+        {
+          "dimension": "investigative",
+          "weight": 1,
+          "direction": "positive"
+        }
+      ]
+    },
+    {
+      "id": "Q-R-05",
+      "text": "از پیدا کردن راهی تازه برای نشان دادن یک ایده لذت می‌برم.",
+      "section": "riasec",
+      "primaryDimension": "artistic",
+      "groups": [
+        "experimental",
+        "mathematics"
+      ],
+      "effects": [
+        {
+          "dimension": "artistic",
+          "weight": 1,
+          "direction": "positive"
+        }
+      ]
+    },
+    {
+      "id": "Q-R-06",
+      "text": "در پروژه‌ها به شکل ارائه و تجربه مخاطب هم فکر می‌کنم.",
+      "section": "riasec",
+      "primaryDimension": "artistic",
+      "groups": [
+        "experimental",
+        "mathematics"
+      ],
+      "effects": [
+        {
+          "dimension": "artistic",
+          "weight": 1,
+          "direction": "positive"
+        }
+      ]
+    },
+    {
+      "id": "Q-R-07",
+      "text": "گوش دادن به مسئله دیگران برایم جالب است.",
+      "section": "riasec",
+      "primaryDimension": "social",
+      "groups": [
+        "experimental",
+        "mathematics"
+      ],
+      "effects": [
+        {
+          "dimension": "social",
+          "weight": 1,
+          "direction": "positive"
+        }
+      ]
+    },
+    {
+      "id": "Q-R-08",
+      "text": "وقتی کسی موضوعی را نمی‌فهمد، دوست دارم به او کمک کنم.",
+      "section": "riasec",
+      "primaryDimension": "social",
+      "groups": [
+        "experimental",
+        "mathematics"
+      ],
+      "effects": [
+        {
+          "dimension": "social",
+          "weight": 1,
+          "direction": "positive"
+        }
+      ]
+    },
+    {
+      "id": "Q-R-09",
+      "text": "از متقاعد کردن دیگران برای اجرای یک ایده لذت می‌برم.",
+      "section": "riasec",
+      "primaryDimension": "enterprising",
+      "groups": [
+        "experimental",
+        "mathematics"
+      ],
+      "effects": [
+        {
+          "dimension": "enterprising",
+          "weight": 1,
+          "direction": "positive"
+        }
+      ]
+    },
+    {
+      "id": "Q-R-10",
+      "text": "در کار گروهی، پیش بردن تصمیم‌ها را دوست دارم.",
+      "section": "riasec",
+      "primaryDimension": "enterprising",
+      "groups": [
+        "experimental",
+        "mathematics"
+      ],
+      "effects": [
+        {
+          "dimension": "enterprising",
+          "weight": 1,
+          "direction": "positive"
+        }
+      ]
+    },
+    {
+      "id": "Q-R-11",
+      "text": "برای شروع یک پروژه تازه، حاضر به پذیرفتن مسئولیت هستم.",
+      "section": "riasec",
+      "primaryDimension": "enterprising",
+      "groups": [
+        "experimental",
+        "mathematics"
+      ],
+      "effects": [
+        {
+          "dimension": "enterprising",
+          "weight": 1,
+          "direction": "positive"
+        }
+      ]
+    },
+    {
+      "id": "Q-R-12",
+      "text": "مرتب کردن اطلاعات و پیدا کردن خطاهای آن را دوست دارم.",
+      "section": "riasec",
+      "primaryDimension": "conventional",
+      "groups": [
+        "experimental",
+        "mathematics"
+      ],
+      "effects": [
+        {
+          "dimension": "conventional",
+          "weight": 1,
+          "direction": "positive"
+        }
+      ]
+    },
+    {
+      "id": "Q-R-13",
+      "text": "وقتی کارها مراحل مشخصی دارند، راحت‌تر پیش می‌روم.",
+      "section": "riasec",
+      "primaryDimension": "conventional",
+      "groups": [
+        "experimental",
+        "mathematics"
+      ],
+      "effects": [
+        {
+          "dimension": "conventional",
+          "weight": 1,
+          "direction": "positive"
+        }
+      ]
+    },
+    {
+      "id": "Q-R-14",
+      "text": "ثبت دقیق جزئیات یک کار برایم ارزشمند است.",
+      "section": "riasec",
+      "primaryDimension": "conventional",
+      "groups": [
+        "experimental",
+        "mathematics"
+      ],
+      "effects": [
+        {
+          "dimension": "conventional",
+          "weight": 1,
+          "direction": "positive"
+        }
+      ]
+    },
+    {
+      "id": "Q-P-01",
+      "text": "یاد گرفتن موضوعی که برایم تازه است به من انرژی می‌دهد.",
+      "section": "personality",
+      "primaryDimension": "openness",
+      "groups": [
+        "experimental",
+        "mathematics"
+      ],
+      "effects": [
+        {
+          "dimension": "openness",
+          "weight": 1,
+          "direction": "positive"
+        }
+      ]
+    },
+    {
+      "id": "Q-P-02",
+      "text": "معمولاً از تجربه روش‌های جدید دوری می‌کنم.",
+      "section": "personality",
+      "primaryDimension": "openness",
+      "groups": [
+        "experimental",
+        "mathematics"
+      ],
+      "effects": [
+        {
+          "dimension": "openness",
+          "weight": 1,
+          "direction": "negative"
+        }
+      ]
+    },
+    {
+      "id": "Q-P-03",
+      "text": "برای کارهای مهم، برنامه‌ام را پیگیری می‌کنم.",
+      "section": "personality",
+      "primaryDimension": "conscientiousness",
+      "groups": [
+        "experimental",
+        "mathematics"
+      ],
+      "effects": [
+        {
+          "dimension": "conscientiousness",
+          "weight": 1,
+          "direction": "positive"
+        }
+      ]
+    },
+    {
+      "id": "Q-P-04",
+      "text": "کارهایم را اغلب تا لحظه آخر عقب می‌اندازم.",
+      "section": "personality",
+      "primaryDimension": "conscientiousness",
+      "groups": [
+        "experimental",
+        "mathematics"
+      ],
+      "effects": [
+        {
+          "dimension": "conscientiousness",
+          "weight": 1,
+          "direction": "negative"
+        }
+      ]
+    },
+    {
+      "id": "Q-P-05",
+      "text": "در گفت‌وگوهای گروهی معمولاً راحت مشارکت می‌کنم.",
+      "section": "personality",
+      "primaryDimension": "extraversion",
+      "groups": [
+        "experimental",
+        "mathematics"
+      ],
+      "effects": [
+        {
+          "dimension": "extraversion",
+          "weight": 1,
+          "direction": "positive"
+        }
+      ]
+    },
+    {
+      "id": "Q-P-06",
+      "text": "بعد از معاشرت با افراد تازه معمولاً احساس انرژی می‌کنم.",
+      "section": "personality",
+      "primaryDimension": "extraversion",
+      "groups": [
+        "experimental",
+        "mathematics"
+      ],
+      "effects": [
+        {
+          "dimension": "extraversion",
+          "weight": 1,
+          "direction": "positive"
+        }
+      ]
+    },
+    {
+      "id": "Q-P-07",
+      "text": "پیش از قضاوت، سعی می‌کنم دیدگاه طرف مقابل را بفهمم.",
+      "section": "personality",
+      "primaryDimension": "agreeableness",
+      "groups": [
+        "experimental",
+        "mathematics"
+      ],
+      "effects": [
+        {
+          "dimension": "agreeableness",
+          "weight": 1,
+          "direction": "positive"
+        }
+      ]
+    },
+    {
+      "id": "Q-P-08",
+      "text": "در اختلاف نظر، پیدا کردن راه‌حل مشترک برایم مهم است.",
+      "section": "personality",
+      "primaryDimension": "agreeableness",
+      "groups": [
+        "experimental",
+        "mathematics"
+      ],
+      "effects": [
+        {
+          "dimension": "agreeableness",
+          "weight": 1,
+          "direction": "positive"
+        }
+      ]
+    },
+    {
+      "id": "Q-P-09",
+      "text": "وقتی برنامه‌ای طبق انتظار پیش نمی‌رود، می‌توانم دوباره تمرکز کنم.",
+      "section": "personality",
+      "primaryDimension": "emotional_stability",
+      "groups": [
+        "experimental",
+        "mathematics"
+      ],
+      "effects": [
+        {
+          "dimension": "emotional_stability",
+          "weight": 1,
+          "direction": "positive"
+        }
+      ]
+    },
+    {
+      "id": "Q-P-10",
+      "text": "فشار یک کار مهم معمولاً تمرکزم را برای مدت زیادی به هم می‌زند.",
+      "section": "personality",
+      "primaryDimension": "emotional_stability",
+      "groups": [
+        "experimental",
+        "mathematics"
+      ],
+      "effects": [
+        {
+          "dimension": "emotional_stability",
+          "weight": 1,
+          "direction": "negative"
+        }
+      ]
+    },
+    {
+      "id": "Q-V-01",
+      "text": "در انتخاب شغل آینده، درآمد بالا برایم اولویت مهمی است.",
+      "section": "values",
+      "primaryDimension": "income",
+      "groups": [
+        "experimental",
+        "mathematics"
+      ],
+      "effects": [
+        {
+          "dimension": "income",
+          "weight": 1,
+          "direction": "positive"
+        }
+      ]
+    },
+    {
+      "id": "Q-V-02",
+      "text": "حاضرم برای درآمد بیشتر، مسیر کاری رقابتی‌تری انتخاب کنم.",
+      "section": "values",
+      "primaryDimension": "income",
+      "groups": [
+        "experimental",
+        "mathematics"
+      ],
+      "effects": [
+        {
+          "dimension": "income",
+          "weight": 1,
+          "direction": "positive"
+        }
+      ]
+    },
+    {
+      "id": "Q-V-03",
+      "text": "ثبات شغلی برایم از تغییرهای زیاد جذاب‌تر است.",
+      "section": "values",
+      "primaryDimension": "security",
+      "groups": [
+        "experimental",
+        "mathematics"
+      ],
+      "effects": [
+        {
+          "dimension": "security",
+          "weight": 1,
+          "direction": "positive"
+        }
+      ]
+    },
+    {
+      "id": "Q-V-04",
+      "text": "دوست دارم مسیر شغلی آینده‌ام تا حدی قابل پیش‌بینی باشد.",
+      "section": "values",
+      "primaryDimension": "security",
+      "groups": [
+        "experimental",
+        "mathematics"
+      ],
+      "effects": [
+        {
+          "dimension": "security",
+          "weight": 1,
+          "direction": "positive"
+        }
+      ]
+    },
+    {
+      "id": "Q-V-05",
+      "text": "داشتن اختیار در شیوه انجام کار برایم مهم است.",
+      "section": "values",
+      "primaryDimension": "freedom",
+      "groups": [
+        "experimental",
+        "mathematics"
+      ],
+      "effects": [
+        {
+          "dimension": "freedom",
+          "weight": 1,
+          "direction": "positive"
+        }
+      ]
+    },
+    {
+      "id": "Q-V-06",
+      "text": "ترجیح می‌دهم در کارم برای انتخاب روش‌ها دست باز داشته باشم.",
+      "section": "values",
+      "primaryDimension": "freedom",
+      "groups": [
+        "experimental",
+        "mathematics"
+      ],
+      "effects": [
+        {
+          "dimension": "freedom",
+          "weight": 1,
+          "direction": "positive"
+        }
+      ]
+    },
+    {
+      "id": "Q-V-07",
+      "text": "می‌خواهم اثر کارم را در بهتر شدن زندگی دیگران ببینم.",
+      "section": "values",
+      "primaryDimension": "impact",
+      "groups": [
+        "experimental",
+        "mathematics"
+      ],
+      "effects": [
+        {
+          "dimension": "impact",
+          "weight": 1,
+          "direction": "positive"
+        }
+      ]
+    },
+    {
+      "id": "Q-V-08",
+      "text": "فایده اجتماعی یک شغل در انتخابم نقش مهمی دارد.",
+      "section": "values",
+      "primaryDimension": "impact",
+      "groups": [
+        "experimental",
+        "mathematics"
+      ],
+      "effects": [
+        {
+          "dimension": "impact",
+          "weight": 1,
+          "direction": "positive"
+        }
+      ]
+    },
+    {
+      "id": "Q-V-09",
+      "text": "فرصت یادگیری و پیشرفت برایم از تکرار یک کار ثابت مهم‌تر است.",
+      "section": "values",
+      "primaryDimension": "growth",
+      "groups": [
+        "experimental",
+        "mathematics"
+      ],
+      "effects": [
+        {
+          "dimension": "growth",
+          "weight": 1,
+          "direction": "positive"
+        }
+      ]
+    },
+    {
+      "id": "Q-V-10",
+      "text": "دوست دارم شغلم امکان پیدا کردن مهارت‌های تازه داشته باشد.",
+      "section": "values",
+      "primaryDimension": "growth",
+      "groups": [
+        "experimental",
+        "mathematics"
+      ],
+      "effects": [
+        {
+          "dimension": "growth",
+          "weight": 1,
+          "direction": "positive"
+        }
+      ]
+    },
+    {
+      "id": "Q-V-11",
+      "text": "داشتن زمان کافی برای زندگی بیرون از کار برایم مهم است.",
+      "section": "values",
+      "primaryDimension": "lifestyle",
+      "groups": [
+        "experimental",
+        "mathematics"
+      ],
+      "effects": [
+        {
+          "dimension": "lifestyle",
+          "weight": 1,
+          "direction": "positive"
+        }
+      ]
+    },
+    {
+      "id": "Q-V-12",
+      "text": "پیش از انتخاب یک مسیر، به ساعت‌ها و سبک زندگی آن فکر می‌کنم.",
+      "section": "values",
+      "primaryDimension": "lifestyle",
+      "groups": [
+        "experimental",
+        "mathematics"
+      ],
+      "effects": [
+        {
+          "dimension": "lifestyle",
+          "weight": 1,
+          "direction": "positive"
+        }
+      ]
+    },
+    {
+      "id": "Q-A-01",
+      "text": "وقتی با مسئله‌ای پیچیده روبه‌رو می‌شوم، آن را به بخش‌های کوچک‌تر تقسیم می‌کنم.",
+      "section": "abilities",
+      "primaryDimension": "analytical",
+      "groups": [
+        "experimental",
+        "mathematics"
+      ],
+      "effects": [
+        {
+          "dimension": "analytical",
+          "weight": 1,
+          "direction": "positive"
+        }
+      ]
+    },
+    {
+      "id": "Q-A-02",
+      "text": "مقایسه چند راه‌حل برای پیدا کردن بهترین گزینه را دوست دارم.",
+      "section": "abilities",
+      "primaryDimension": "analytical",
+      "groups": [
+        "experimental",
+        "mathematics"
+      ],
+      "effects": [
+        {
+          "dimension": "analytical",
+          "weight": 1,
+          "direction": "positive"
+        }
+      ]
+    },
+    {
+      "id": "Q-A-03",
+      "text": "کار با عدد و نمودار برای فهمیدن یک موضوع برایم راحت است.",
+      "section": "abilities",
+      "primaryDimension": "numerical",
+      "groups": [
+        "experimental",
+        "mathematics"
+      ],
+      "effects": [
+        {
+          "dimension": "numerical",
+          "weight": 1,
+          "direction": "positive"
+        }
+      ]
+    },
+    {
+      "id": "Q-A-04",
+      "text": "در بررسی یک ادعا، معمولاً به داده‌های عددی توجه می‌کنم.",
+      "section": "abilities",
+      "primaryDimension": "numerical",
+      "groups": [
+        "experimental",
+        "mathematics"
+      ],
+      "effects": [
+        {
+          "dimension": "numerical",
+          "weight": 1,
+          "direction": "positive"
+        }
+      ]
+    },
+    {
+      "id": "Q-A-05",
+      "text": "می‌توانم ایده‌ای پیچیده را با واژه‌های ساده توضیح بدهم.",
+      "section": "abilities",
+      "primaryDimension": "verbal",
+      "groups": [
+        "experimental",
+        "mathematics"
+      ],
+      "effects": [
+        {
+          "dimension": "verbal",
+          "weight": 1,
+          "direction": "positive"
+        }
+      ]
+    },
+    {
+      "id": "Q-A-06",
+      "text": "خواندن یک متن و پیدا کردن نکته اصلی آن برایم راحت است.",
+      "section": "abilities",
+      "primaryDimension": "verbal",
+      "groups": [
+        "experimental",
+        "mathematics"
+      ],
+      "effects": [
+        {
+          "dimension": "verbal",
+          "weight": 1,
+          "direction": "positive"
+        }
+      ]
+    },
+    {
+      "id": "Q-A-07",
+      "text": "می‌توانم شکل یک وسیله را از زاویه‌های مختلف در ذهنم تصور کنم.",
+      "section": "abilities",
+      "primaryDimension": "spatial",
+      "groups": [
+        "experimental",
+        "mathematics"
+      ],
+      "effects": [
+        {
+          "dimension": "spatial",
+          "weight": 1,
+          "direction": "positive"
+        }
+      ]
+    },
+    {
+      "id": "Q-A-08",
+      "text": "نقشه و نمودار فضایی به فهم مسئله کمکم می‌کند.",
+      "section": "abilities",
+      "primaryDimension": "spatial",
+      "groups": [
+        "experimental",
+        "mathematics"
+      ],
+      "effects": [
+        {
+          "dimension": "spatial",
+          "weight": 1,
+          "direction": "positive"
+        }
+      ]
+    },
+    {
+      "id": "Q-A-09",
+      "text": "برای یک مسئله معمولاً بیش از یک راه تازه به ذهنم می‌رسد.",
+      "section": "abilities",
+      "primaryDimension": "creativity",
+      "groups": [
+        "experimental",
+        "mathematics"
+      ],
+      "effects": [
+        {
+          "dimension": "creativity",
+          "weight": 1,
+          "direction": "positive"
+        }
+      ]
+    },
+    {
+      "id": "Q-A-10",
+      "text": "ترکیب ایده‌های متفاوت را دوست دارم.",
+      "section": "abilities",
+      "primaryDimension": "creativity",
+      "groups": [
+        "experimental",
+        "mathematics"
+      ],
+      "effects": [
+        {
+          "dimension": "creativity",
+          "weight": 1,
+          "direction": "positive"
+        }
+      ]
+    },
+    {
+      "id": "Q-A-11",
+      "text": "وقتی موضوعی را بلد نیستم، برای یاد گرفتنش راه پیدا می‌کنم.",
+      "section": "abilities",
+      "primaryDimension": "learning",
+      "groups": [
+        "experimental",
+        "mathematics"
+      ],
+      "effects": [
+        {
+          "dimension": "learning",
+          "weight": 1,
+          "direction": "positive"
+        }
+      ]
+    },
+    {
+      "id": "Q-A-12",
+      "text": "از پیگیری دانسته‌های تازه در موضوعات مورد علاقه‌ام لذت می‌برم.",
+      "section": "abilities",
+      "primaryDimension": "learning",
+      "groups": [
+        "experimental",
+        "mathematics"
+      ],
+      "effects": [
+        {
+          "dimension": "learning",
+          "weight": 1,
+          "direction": "positive"
+        }
+      ]
+    },
+    {
+      "id": "Q-A-13",
+      "text": "می‌توانم برای مدتی مشخص روی یک کار مهم تمرکز کنم.",
+      "section": "abilities",
+      "primaryDimension": "focus",
+      "groups": [
+        "experimental",
+        "mathematics"
+      ],
+      "effects": [
+        {
+          "dimension": "focus",
+          "weight": 1,
+          "direction": "positive"
+        }
+      ]
+    },
+    {
+      "id": "Q-A-14",
+      "text": "وقتی کاری نیاز به دقت دارد، معمولاً حواسم را جمع نگه می‌دارم.",
+      "section": "abilities",
+      "primaryDimension": "focus",
+      "groups": [
+        "experimental",
+        "mathematics"
+      ],
+      "effects": [
+        {
+          "dimension": "focus",
+          "weight": 1,
+          "direction": "positive"
+        }
+      ]
+    },
+    {
+      "id": "Q-A-15",
+      "text": "اگر بار اول به نتیجه نرسم، معمولاً راه دیگری را امتحان می‌کنم.",
+      "section": "abilities",
+      "primaryDimension": "persistence",
+      "groups": [
+        "experimental",
+        "mathematics"
+      ],
+      "effects": [
+        {
+          "dimension": "persistence",
+          "weight": 1,
+          "direction": "positive"
+        }
+      ]
+    },
+    {
+      "id": "Q-A-16",
+      "text": "برای تمام کردن یک کار طولانی، قدم‌های کوچک را ادامه می‌دهم.",
+      "section": "abilities",
+      "primaryDimension": "persistence",
+      "groups": [
+        "experimental",
+        "mathematics"
+      ],
+      "effects": [
+        {
+          "dimension": "persistence",
+          "weight": 1,
+          "direction": "positive"
+        }
+      ]
+    },
+    {
+      "id": "Q-W-01",
+      "text": "دوست دارم بخشی از تصمیم‌های کارم را خودم بگیرم.",
+      "section": "workstyle",
+      "primaryDimension": "independence",
+      "groups": [
+        "experimental",
+        "mathematics"
+      ],
+      "effects": [
+        {
+          "dimension": "independence",
+          "weight": 1,
+          "direction": "positive"
+        }
+      ]
+    },
+    {
+      "id": "Q-W-02",
+      "text": "وقتی آزادی انتخاب روش دارم، بهتر کار می‌کنم.",
+      "section": "workstyle",
+      "primaryDimension": "independence",
+      "groups": [
+        "experimental",
+        "mathematics"
+      ],
+      "effects": [
+        {
+          "dimension": "independence",
+          "weight": 1,
+          "direction": "positive"
+        }
+      ]
+    },
+    {
+      "id": "Q-W-03",
+      "text": "برای شروع کار، همیشه به دستور دقیق دیگران نیاز دارم.",
+      "section": "workstyle",
+      "primaryDimension": "independence",
+      "groups": [
+        "experimental",
+        "mathematics"
+      ],
+      "effects": [
+        {
+          "dimension": "independence",
+          "weight": 1,
+          "direction": "negative"
+        }
+      ]
+    },
+    {
+      "id": "Q-W-04",
+      "text": "پیش بردن یک وظیفه به شکل مستقل برایم خوشایند است.",
+      "section": "workstyle",
+      "primaryDimension": "independence",
+      "groups": [
+        "experimental",
+        "mathematics"
+      ],
+      "effects": [
+        {
+          "dimension": "independence",
+          "weight": 1,
+          "direction": "positive"
+        }
+      ]
+    },
+    {
+      "id": "Q-EXP-01",
+      "text": "کار عملی با ابزارهای آزمایشگاهی را دوست دارم.",
+      "section": "riasec",
+      "primaryDimension": "realistic",
+      "groups": [
+        "experimental"
+      ],
+      "effects": [
+        {
+          "dimension": "realistic",
+          "weight": 1,
+          "direction": "positive"
+        }
+      ]
+    },
+    {
+      "id": "Q-EXP-02",
+      "text": "بررسی علت یک تغییر در بدن یا طبیعت برایم جالب است.",
+      "section": "riasec",
+      "primaryDimension": "investigative",
+      "groups": [
+        "experimental"
+      ],
+      "effects": [
+        {
+          "dimension": "investigative",
+          "weight": 1,
+          "direction": "positive"
+        }
+      ]
+    },
+    {
+      "id": "Q-EXP-03",
+      "text": "برای توضیح یک موضوع زیستی، ساختن تصویر یا روایت تازه را دوست دارم.",
+      "section": "riasec",
+      "primaryDimension": "artistic",
+      "groups": [
+        "experimental"
+      ],
+      "effects": [
+        {
+          "dimension": "artistic",
+          "weight": 1,
+          "direction": "positive"
+        }
+      ]
+    },
+    {
+      "id": "Q-EXP-04",
+      "text": "کمک به فردی که درباره سلامت خود نگران است برایم معنادار است.",
+      "section": "riasec",
+      "primaryDimension": "social",
+      "groups": [
+        "experimental"
+      ],
+      "effects": [
+        {
+          "dimension": "social",
+          "weight": 1,
+          "direction": "positive"
+        }
+      ]
+    },
+    {
+      "id": "Q-MAT-01",
+      "text": "ساختن یا آزمایش یک قطعه یا برنامه برایم جذاب است.",
+      "section": "riasec",
+      "primaryDimension": "realistic",
+      "groups": [
+        "mathematics"
+      ],
+      "effects": [
+        {
+          "dimension": "realistic",
+          "weight": 1,
+          "direction": "positive"
+        }
+      ]
+    },
+    {
+      "id": "Q-MAT-02",
+      "text": "پیدا کردن الگوی پشت یک مسئله فنی برایم جالب است.",
+      "section": "riasec",
+      "primaryDimension": "investigative",
+      "groups": [
+        "mathematics"
+      ],
+      "effects": [
+        {
+          "dimension": "investigative",
+          "weight": 1,
+          "direction": "positive"
+        }
+      ]
+    },
+    {
+      "id": "Q-MAT-03",
+      "text": "در طراحی یک محصول، شکل و تجربه استفاده از آن برایم مهم است.",
+      "section": "riasec",
+      "primaryDimension": "artistic",
+      "groups": [
+        "mathematics"
+      ],
+      "effects": [
+        {
+          "dimension": "artistic",
+          "weight": 1,
+          "direction": "positive"
+        }
+      ]
+    },
+    {
+      "id": "Q-MAT-04",
+      "text": "توضیح یک موضوع فنی به کسی که تازه آن را یاد می‌گیرد را دوست دارم.",
+      "section": "riasec",
+      "primaryDimension": "social",
+      "groups": [
+        "mathematics"
+      ],
+      "effects": [
+        {
+          "dimension": "social",
+          "weight": 1,
+          "direction": "positive"
+        }
+      ]
+    }
+  ]
+}

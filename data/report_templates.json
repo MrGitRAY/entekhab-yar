@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 2,
+  "catalogVersion": "0.2.0-pilot",
+  "status": "pilot",
+  "audiences": {
+    "student": {
+      "title": "گزارش انتخاب‌یار",
+      "sections": [
+        "academic_profile",
+        "top_families",
+        "top_majors",
+        "interpretation"
+      ],
+      "disclaimer": "این نتیجه برای شناخت مسیرهای قابل بررسی است و جایگزین مشاوره تخصصی یا اطلاعات رسمی پذیرش نیست."
+    },
+    "counselor": {
+      "title": "گزارش تفصیلی انتخاب‌یار",
+      "sections": [
+        "academic_profile",
+        "all_dimensions",
+        "riasec",
+        "abilities",
+        "values",
+        "family_ranking",
+        "major_ranking",
+        "reasons",
+        "review_points",
+        "interpretation"
+      ],
+      "disclaimer": "پرسش‌نامه فارسی و نگاشت رشته به شغل هنوز اعتبارسنجی نشده‌اند. شاخص شباهت و تحلیل حساسیت، احتمال موفقیت یا ضریب اطمینان روان‌سنجی نیستند."
+    }
+  },
+  "labels": {
+    "matchScore": "شباهت الگوی رغبت",
+    "strengths": "رغبت‌های همسو",
+    "reviewPoints": "مواردی برای بررسی",
+    "why": "چرا پیشنهاد شده"
+  }
+}

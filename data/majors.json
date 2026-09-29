@@ -1,0 +1,2119 @@
+{
+  "schemaVersion": 2,
+  "catalogVersion": "0.2.0-pilot",
+  "status": "pilot",
+  "items": [
+    {
+      "id": "medicine",
+      "familyId": "exp-health",
+      "groups": [
+        "experimental"
+      ],
+      "title": "پزشکی",
+      "kind": "major",
+      "admissionStatus": "unverified",
+      "profileStatus": "occupation_proxy_unvalidated",
+      "source": {
+        "type": "user_brief",
+        "reference": "docs/product-brief.txt",
+        "verifiedAt": null
+      },
+      "occupations": [
+        {
+          "code": "29-1215.00",
+          "title": "Family Medicine Physicians",
+          "rawInterests": {
+            "realistic": 3.75,
+            "investigative": 6.08,
+            "artistic": 1.45,
+            "social": 6.21,
+            "enterprising": 2.34,
+            "conventional": 3.95
+          },
+          "dateUpdated": "2026-02-01",
+          "domainSource": "Machine Learning/Expert"
+        },
+        {
+          "code": "29-1216.00",
+          "title": "General Internal Medicine Physicians",
+          "rawInterests": {
+            "realistic": 4.43,
+            "investigative": 6.81,
+            "artistic": 1.44,
+            "social": 6.08,
+            "enterprising": 2.1,
+            "conventional": 3.63
+          },
+          "dateUpdated": "2026-02-01",
+          "domainSource": "Machine Learning/Expert"
+        }
+      ],
+      "interestProfile": {
+        "realistic": 51.5,
+        "investigative": 90.75,
+        "artistic": 7.416666666666666,
+        "social": 85.75,
+        "enterprising": 20.333333333333336,
+        "conventional": 46.5
+      },
+      "mapping": {
+        "status": "editorial_pending_expert_review",
+        "rationale": "دو نمونه پزشکی عمومی و داخلی؛ همه تخصص‌های پزشکی را نمایندگی نمی‌کند.",
+        "method": "equal_mean_selected_occupations"
+      }
+    },
+    {
+      "id": "dentistry",
+      "familyId": "exp-health",
+      "groups": [
+        "experimental"
+      ],
+      "title": "دندانپزشکی",
+      "kind": "major",
+      "admissionStatus": "unverified",
+      "profileStatus": "occupation_proxy_unvalidated",
+      "source": {
+        "type": "user_brief",
+        "reference": "docs/product-brief.txt",
+        "verifiedAt": null
+      },
+      "occupations": [
+        {
+          "code": "29-1021.00",
+          "title": "Dentists, General",
+          "rawInterests": {
+            "realistic": 5.23,
+            "investigative": 5.48,
+            "artistic": 1.17,
+            "social": 4.41,
+            "enterprising": 2,
+            "conventional": 3.71
+          },
+          "dateUpdated": "2026-02-01",
+          "domainSource": "Machine Learning/Expert"
+        }
+      ],
+      "interestProfile": {
+        "realistic": 70.50000000000001,
+        "investigative": 74.66666666666667,
+        "artistic": 2.833333333333332,
+        "social": 56.833333333333336,
+        "enterprising": 16.666666666666668,
+        "conventional": 45.166666666666664
+      },
+      "mapping": {
+        "status": "editorial_pending_expert_review",
+        "rationale": "نمونه دندانپزشکی عمومی.",
+        "method": "equal_mean_selected_occupations"
+      }
+    },
+    {
+      "id": "pharmacy",
+      "familyId": "exp-health",
+      "groups": [
+        "experimental"
+      ],
+      "title": "داروسازی",
+      "kind": "major",
+      "admissionStatus": "unverified",
+      "profileStatus": "occupation_proxy_unvalidated",
+      "source": {
+        "type": "user_brief",
+        "reference": "docs/product-brief.txt",
+        "verifiedAt": null
+      },
+      "occupations": [
+        {
+          "code": "29-1051.00",
+          "title": "Pharmacists",
+          "rawInterests": {
+            "realistic": 2.82,
+            "investigative": 5.67,
+            "artistic": 1.48,
+            "social": 4.88,
+            "enterprising": 2.62,
+            "conventional": 4.56
+          },
+          "dateUpdated": "2026-02-01",
+          "domainSource": "Machine Learning/Expert"
+        }
+      ],
+      "interestProfile": {
+        "realistic": 30.33333333333333,
+        "investigative": 77.83333333333333,
+        "artistic": 8,
+        "social": 64.66666666666667,
+        "enterprising": 27,
+        "conventional": 59.33333333333332
+      },
+      "mapping": {
+        "status": "editorial_pending_expert_review",
+        "rationale": "نمونه کار داروساز؛ پژوهش و صنعت دارو پوشش کامل ندارند.",
+        "method": "equal_mean_selected_occupations"
+      }
+    },
+    {
+      "id": "veterinary",
+      "familyId": "exp-health",
+      "groups": [
+        "experimental"
+      ],
+      "title": "دامپزشکی",
+      "kind": "major",
+      "admissionStatus": "unverified",
+      "profileStatus": "occupation_proxy_unvalidated",
+      "source": {
+        "type": "user_brief",
+        "reference": "docs/product-brief.txt",
+        "verifiedAt": null
+      },
+      "occupations": [
+        {
+          "code": "29-1131.00",
+          "title": "Veterinarians",
+          "rawInterests": {
+            "realistic": 5.98,
+            "investigative": 5.98,
+            "artistic": 1,
+            "social": 3.45,
+            "enterprising": 1.7,
+            "conventional": 3.47
+          },
+          "dateUpdated": "2026-02-01",
+          "domainSource": "Machine Learning/Expert"
+        }
+      ],
+      "interestProfile": {
+        "realistic": 83.00000000000001,
+        "investigative": 83.00000000000001,
+        "artistic": 0,
+        "social": 40.833333333333336,
+        "enterprising": 11.666666666666666,
+        "conventional": 41.16666666666667
+      },
+      "mapping": {
+        "status": "editorial_pending_expert_review",
+        "rationale": "نمونه دامپزشکی.",
+        "method": "equal_mean_selected_occupations"
+      }
+    },
+    {
+      "id": "physiotherapy",
+      "familyId": "exp-rehab",
+      "groups": [
+        "experimental"
+      ],
+      "title": "فیزیوتراپی",
+      "kind": "major",
+      "admissionStatus": "unverified",
+      "profileStatus": "occupation_proxy_unvalidated",
+      "source": {
+        "type": "user_brief",
+        "reference": "docs/product-brief.txt",
+        "verifiedAt": null
+      },
+      "occupations": [
+        {
+          "code": "29-1123.00",
+          "title": "Physical Therapists",
+          "rawInterests": {
+            "realistic": 4.33,
+            "investigative": 4.87,
+            "artistic": 2.17,
+            "social": 5.91,
+            "enterprising": 2.49,
+            "conventional": 3.07
+          },
+          "dateUpdated": "2026-02-01",
+          "domainSource": "Machine Learning/Expert"
+        }
+      ],
+      "interestProfile": {
+        "realistic": 55.5,
+        "investigative": 64.5,
+        "artistic": 19.5,
+        "social": 81.83333333333333,
+        "enterprising": 24.83333333333334,
+        "conventional": 34.49999999999999
+      },
+      "mapping": {
+        "status": "editorial_pending_expert_review",
+        "rationale": "نمونه فیزیوتراپی.",
+        "method": "equal_mean_selected_occupations"
+      }
+    },
+    {
+      "id": "occupational-therapy",
+      "familyId": "exp-rehab",
+      "groups": [
+        "experimental"
+      ],
+      "title": "کاردرمانی",
+      "kind": "major",
+      "admissionStatus": "unverified",
+      "profileStatus": "occupation_proxy_unvalidated",
+      "source": {
+        "type": "user_brief",
+        "reference": "docs/product-brief.txt",
+        "verifiedAt": null
+      },
+      "occupations": [
+        {
+          "code": "29-1122.00",
+          "title": "Occupational Therapists",
+          "rawInterests": {
+            "realistic": 3.57,
+            "investigative": 4.23,
+            "artistic": 3.07,
+            "social": 6.08,
+            "enterprising": 1.83,
+            "conventional": 3.12
+          },
+          "dateUpdated": "2026-02-01",
+          "domainSource": "Machine Learning/Expert"
+        }
+      ],
+      "interestProfile": {
+        "realistic": 42.833333333333336,
+        "investigative": 53.83333333333334,
+        "artistic": 34.49999999999999,
+        "social": 84.66666666666667,
+        "enterprising": 13.833333333333334,
+        "conventional": 35.333333333333336
+      },
+      "mapping": {
+        "status": "editorial_pending_expert_review",
+        "rationale": "نمونه کاردرمانی.",
+        "method": "equal_mean_selected_occupations"
+      }
+    },
+    {
+      "id": "speech-therapy",
+      "familyId": "exp-rehab",
+      "groups": [
+        "experimental"
+      ],
+      "title": "گفتاردرمانی",
+      "kind": "major",
+      "admissionStatus": "unverified",
+      "profileStatus": "occupation_proxy_unvalidated",
+      "source": {
+        "type": "user_brief",
+        "reference": "docs/product-brief.txt",
+        "verifiedAt": null
+      },
+      "occupations": [
+        {
+          "code": "29-1127.00",
+          "title": "Speech-Language Pathologists",
+          "rawInterests": {
+            "realistic": 2.62,
+            "investigative": 5.57,
+            "artistic": 3,
+            "social": 6.09,
+            "enterprising": 1.44,
+            "conventional": 4.03
+          },
+          "dateUpdated": "2026-02-01",
+          "domainSource": "Machine Learning/Expert"
+        }
+      ],
+      "interestProfile": {
+        "realistic": 27,
+        "investigative": 76.16666666666667,
+        "artistic": 33.333333333333336,
+        "social": 84.83333333333333,
+        "enterprising": 7.333333333333332,
+        "conventional": 50.5
+      },
+      "mapping": {
+        "status": "editorial_pending_expert_review",
+        "rationale": "نمونه آسیب‌شناسی گفتار و زبان.",
+        "method": "equal_mean_selected_occupations"
+      }
+    },
+    {
+      "id": "audiology",
+      "familyId": "exp-rehab",
+      "groups": [
+        "experimental"
+      ],
+      "title": "شنوایی‌شناسی",
+      "kind": "major",
+      "admissionStatus": "unverified",
+      "profileStatus": "occupation_proxy_unvalidated",
+      "source": {
+        "type": "user_brief",
+        "reference": "docs/product-brief.txt",
+        "verifiedAt": null
+      },
+      "occupations": [
+        {
+          "code": "29-1181.00",
+          "title": "Audiologists",
+          "rawInterests": {
+            "realistic": 3.98,
+            "investigative": 5.93,
+            "artistic": 2.18,
+            "social": 5.92,
+            "enterprising": 1.81,
+            "conventional": 3.97
+          },
+          "dateUpdated": "2026-02-01",
+          "domainSource": "Machine Learning/Expert"
+        }
+      ],
+      "interestProfile": {
+        "realistic": 49.666666666666664,
+        "investigative": 82.16666666666667,
+        "artistic": 19.666666666666668,
+        "social": 82,
+        "enterprising": 13.5,
+        "conventional": 49.5
+      },
+      "mapping": {
+        "status": "editorial_pending_expert_review",
+        "rationale": "نمونه شنوایی‌شناسی.",
+        "method": "equal_mean_selected_occupations"
+      }
+    },
+    {
+      "id": "optometry",
+      "familyId": "exp-rehab",
+      "groups": [
+        "experimental"
+      ],
+      "title": "بینایی‌سنجی",
+      "kind": "major",
+      "admissionStatus": "unverified",
+      "profileStatus": "occupation_proxy_unvalidated",
+      "source": {
+        "type": "user_brief",
+        "reference": "docs/product-brief.txt",
+        "verifiedAt": null
+      },
+      "occupations": [
+        {
+          "code": "29-1041.00",
+          "title": "Optometrists",
+          "rawInterests": {
+            "realistic": 4.8,
+            "investigative": 5.78,
+            "artistic": 1.6,
+            "social": 5.02,
+            "enterprising": 2.27,
+            "conventional": 3.92
+          },
+          "dateUpdated": "2026-02-01",
+          "domainSource": "Machine Learning/Expert"
+        }
+      ],
+      "interestProfile": {
+        "realistic": 63.333333333333336,
+        "investigative": 79.66666666666667,
+        "artistic": 10.000000000000002,
+        "social": 66.99999999999999,
+        "enterprising": 21.166666666666668,
+        "conventional": 48.666666666666664
+      },
+      "mapping": {
+        "status": "editorial_pending_expert_review",
+        "rationale": "نمونه بینایی‌سنجی؛ دامنه مجوز کار در کشورها متفاوت است.",
+        "method": "equal_mean_selected_occupations"
+      }
+    },
+    {
+      "id": "laboratory-sciences",
+      "familyId": "exp-clinical",
+      "groups": [
+        "experimental"
+      ],
+      "title": "علوم آزمایشگاهی",
+      "kind": "major",
+      "admissionStatus": "unverified",
+      "profileStatus": "occupation_proxy_unvalidated",
+      "source": {
+        "type": "user_brief",
+        "reference": "docs/product-brief.txt",
+        "verifiedAt": null
+      },
+      "occupations": [
+        {
+          "code": "29-2011.00",
+          "title": "Medical and Clinical Laboratory Technologists",
+          "rawInterests": {
+            "realistic": 5.81,
+            "investigative": 6.15,
+            "artistic": 1.13,
+            "social": 2.77,
+            "enterprising": 1.51,
+            "conventional": 4.99
+          },
+          "dateUpdated": "2026-02-01",
+          "domainSource": "Machine Learning/Expert"
+        }
+      ],
+      "interestProfile": {
+        "realistic": 80.16666666666666,
+        "investigative": 85.83333333333333,
+        "artistic": 2.1666666666666647,
+        "social": 29.5,
+        "enterprising": 8.5,
+        "conventional": 66.5
+      },
+      "mapping": {
+        "status": "editorial_pending_expert_review",
+        "rationale": "نمونه فناوری آزمایشگاه پزشکی؛ هم‌ارزی مدرک ادعا نمی‌شود.",
+        "method": "equal_mean_selected_occupations"
+      }
+    },
+    {
+      "id": "radiology",
+      "familyId": "exp-clinical",
+      "groups": [
+        "experimental"
+      ],
+      "title": "تکنولوژی پرتوشناسی (تصویربرداری)",
+      "kind": "major",
+      "admissionStatus": "unverified",
+      "profileStatus": "occupation_proxy_unvalidated",
+      "source": {
+        "type": "user_brief",
+        "reference": "docs/product-brief.txt",
+        "verifiedAt": null
+      },
+      "occupations": [
+        {
+          "code": "29-2034.00",
+          "title": "Radiologic Technologists and Technicians",
+          "rawInterests": {
+            "realistic": 5.9,
+            "investigative": 4.88,
+            "artistic": 1,
+            "social": 3.41,
+            "enterprising": 1,
+            "conventional": 5.08
+          },
+          "dateUpdated": "2026-02-01",
+          "domainSource": "Machine Learning/Expert"
+        }
+      ],
+      "interestProfile": {
+        "realistic": 81.66666666666667,
+        "investigative": 64.66666666666667,
+        "artistic": 0,
+        "social": 40.166666666666664,
+        "enterprising": 0,
+        "conventional": 68
+      },
+      "mapping": {
+        "status": "editorial_pending_expert_review",
+        "rationale": "نمونه فناوری تصویربرداری؛ این مدخل تخصص پزشکی رادیولوژی نیست.",
+        "method": "equal_mean_selected_occupations"
+      }
+    },
+    {
+      "id": "operating-room",
+      "familyId": "exp-clinical",
+      "groups": [
+        "experimental"
+      ],
+      "title": "اتاق عمل",
+      "kind": "major",
+      "admissionStatus": "unverified",
+      "profileStatus": "occupation_proxy_unvalidated",
+      "source": {
+        "type": "user_brief",
+        "reference": "docs/product-brief.txt",
+        "verifiedAt": null
+      },
+      "occupations": [
+        {
+          "code": "29-2055.00",
+          "title": "Surgical Technologists",
+          "rawInterests": {
+            "realistic": 6.26,
+            "investigative": 3.22,
+            "artistic": 1,
+            "social": 3.82,
+            "enterprising": 1.61,
+            "conventional": 4.85
+          },
+          "dateUpdated": "2026-02-01",
+          "domainSource": "Machine Learning/Expert"
+        }
+      ],
+      "interestProfile": {
+        "realistic": 87.66666666666667,
+        "investigative": 37.00000000000001,
+        "artistic": 0,
+        "social": 47,
+        "enterprising": 10.166666666666668,
+        "conventional": 64.16666666666666
+      },
+      "mapping": {
+        "status": "editorial_pending_expert_review",
+        "rationale": "نمونه فناوری جراحی؛ شرح وظایف ایران باید جداگانه بررسی شود.",
+        "method": "equal_mean_selected_occupations"
+      }
+    },
+    {
+      "id": "anesthesia",
+      "familyId": "exp-clinical",
+      "groups": [
+        "experimental"
+      ],
+      "title": "هوشبری",
+      "kind": "major",
+      "admissionStatus": "unverified",
+      "profileStatus": "occupation_proxy_unvalidated",
+      "source": {
+        "type": "user_brief",
+        "reference": "docs/product-brief.txt",
+        "verifiedAt": null
+      },
+      "occupations": [
+        {
+          "code": "29-1071.01",
+          "title": "Anesthesiologist Assistants",
+          "rawInterests": {
+            "realistic": 4.4,
+            "investigative": 4.62,
+            "artistic": 1,
+            "social": 4.9,
+            "enterprising": 1.89,
+            "conventional": 5.1
+          },
+          "dateUpdated": "2026-02-01",
+          "domainSource": "Machine Learning/Expert"
+        }
+      ],
+      "interestProfile": {
+        "realistic": 56.66666666666668,
+        "investigative": 60.333333333333336,
+        "artistic": 0,
+        "social": 65.00000000000001,
+        "enterprising": 14.83333333333333,
+        "conventional": 68.33333333333333
+      },
+      "mapping": {
+        "status": "editorial_pending_expert_review",
+        "rationale": "جانشین تقریبی فعالیت‌های کمک به بیهوشی؛ معادل مدرک هوشبری ایران نیست.",
+        "method": "equal_mean_selected_occupations"
+      }
+    },
+    {
+      "id": "biology",
+      "familyId": "exp-bio",
+      "groups": [
+        "experimental"
+      ],
+      "title": "زیست‌شناسی",
+      "kind": "major",
+      "admissionStatus": "unverified",
+      "profileStatus": "occupation_proxy_unvalidated",
+      "source": {
+        "type": "user_brief",
+        "reference": "docs/product-brief.txt",
+        "verifiedAt": null
+      },
+      "occupations": [
+        {
+          "code": "19-1029.04",
+          "title": "Biologists",
+          "rawInterests": {
+            "realistic": 4.11,
+            "investigative": 7,
+            "artistic": 2.4,
+            "social": 2.62,
+            "enterprising": 2.76,
+            "conventional": 4.45
+          },
+          "dateUpdated": "2026-02-01",
+          "domainSource": "Machine Learning/Expert"
+        },
+        {
+          "code": "19-1029.02",
+          "title": "Molecular and Cellular Biologists",
+          "rawInterests": {
+            "realistic": 5.03,
+            "investigative": 6.66,
+            "artistic": 1.95,
+            "social": 2.27,
+            "enterprising": 2.58,
+            "conventional": 5.1
+          },
+          "dateUpdated": "2026-02-01",
+          "domainSource": "Machine Learning/Expert"
+        }
+      ],
+      "interestProfile": {
+        "realistic": 59.50000000000001,
+        "investigative": 97.16666666666666,
+        "artistic": 19.583333333333332,
+        "social": 24.083333333333336,
+        "enterprising": 27.83333333333333,
+        "conventional": 62.916666666666664
+      },
+      "mapping": {
+        "status": "editorial_pending_expert_review",
+        "rationale": "نمونه زیست‌شناسی عمومی و سلولی؛ همه گرایش‌ها را پوشش نمی‌دهد.",
+        "method": "equal_mean_selected_occupations"
+      }
+    },
+    {
+      "id": "biotechnology",
+      "familyId": "exp-bio",
+      "groups": [
+        "experimental"
+      ],
+      "title": "زیست‌فناوری",
+      "kind": "major",
+      "admissionStatus": "unverified",
+      "profileStatus": "occupation_proxy_unvalidated",
+      "source": {
+        "type": "user_brief",
+        "reference": "docs/product-brief.txt",
+        "verifiedAt": null
+      },
+      "occupations": [
+        {
+          "code": "19-1021.00",
+          "title": "Biochemists and Biophysicists",
+          "rawInterests": {
+            "realistic": 5.11,
+            "investigative": 7,
+            "artistic": 2.61,
+            "social": 2.15,
+            "enterprising": 1.83,
+            "conventional": 3.64
+          },
+          "dateUpdated": "2026-02-01",
+          "domainSource": "Machine Learning/Expert"
+        },
+        {
+          "code": "19-1029.02",
+          "title": "Molecular and Cellular Biologists",
+          "rawInterests": {
+            "realistic": 5.03,
+            "investigative": 6.66,
+            "artistic": 1.95,
+            "social": 2.27,
+            "enterprising": 2.58,
+            "conventional": 5.1
+          },
+          "dateUpdated": "2026-02-01",
+          "domainSource": "Machine Learning/Expert"
+        }
+      ],
+      "interestProfile": {
+        "realistic": 67.83333333333334,
+        "investigative": 97.16666666666666,
+        "artistic": 21.333333333333332,
+        "social": 20.166666666666664,
+        "enterprising": 20.083333333333332,
+        "conventional": 56.166666666666664
+      },
+      "mapping": {
+        "status": "editorial_pending_expert_review",
+        "rationale": "نمونه فعالیت پژوهشی زیستی؛ زیست‌فناوری صنعتی و کشاورزی کامل پوشش ندارند.",
+        "method": "equal_mean_selected_occupations"
+      }
+    },
+    {
+      "id": "microbiology",
+      "familyId": "exp-bio",
+      "groups": [
+        "experimental"
+      ],
+      "title": "میکروبیولوژی",
+      "kind": "major",
+      "admissionStatus": "unverified",
+      "profileStatus": "occupation_proxy_unvalidated",
+      "source": {
+        "type": "user_brief",
+        "reference": "docs/product-brief.txt",
+        "verifiedAt": null
+      },
+      "occupations": [
+        {
+          "code": "19-1022.00",
+          "title": "Microbiologists",
+          "rawInterests": {
+            "realistic": 5.29,
+            "investigative": 7,
+            "artistic": 1.92,
+            "social": 1.98,
+            "enterprising": 1.07,
+            "conventional": 3.85
+          },
+          "dateUpdated": "2026-02-01",
+          "domainSource": "Machine Learning/Expert"
+        }
+      ],
+      "interestProfile": {
+        "realistic": 71.5,
+        "investigative": 100,
+        "artistic": 15.333333333333334,
+        "social": 16.333333333333332,
+        "enterprising": 1.1666666666666676,
+        "conventional": 47.5
+      },
+      "mapping": {
+        "status": "editorial_pending_expert_review",
+        "rationale": "نمونه میکروبیولوژی.",
+        "method": "equal_mean_selected_occupations"
+      }
+    },
+    {
+      "id": "bioinformatics",
+      "familyId": "exp-bio",
+      "groups": [
+        "experimental"
+      ],
+      "title": "بیوانفورماتیک",
+      "kind": "pathway",
+      "admissionStatus": "unverified",
+      "profileStatus": "occupation_proxy_unvalidated",
+      "source": {
+        "type": "user_brief",
+        "reference": "docs/product-brief.txt",
+        "verifiedAt": null
+      },
+      "occupations": [
+        {
+          "code": "19-1029.01",
+          "title": "Bioinformatics Scientists",
+          "rawInterests": {
+            "realistic": 3.81,
+            "investigative": 7,
+            "artistic": 2.51,
+            "social": 1.64,
+            "enterprising": 1.26,
+            "conventional": 5.04
+          },
+          "dateUpdated": "2026-02-01",
+          "domainSource": "Machine Learning/Expert"
+        }
+      ],
+      "interestProfile": {
+        "realistic": 46.833333333333336,
+        "investigative": 100,
+        "artistic": 25.16666666666666,
+        "social": 10.666666666666666,
+        "enterprising": 4.333333333333333,
+        "conventional": 67.33333333333333
+      },
+      "mapping": {
+        "status": "editorial_pending_expert_review",
+        "rationale": "مسیر تخصصی پژوهش بیوانفورماتیک؛ پذیرش کارشناسی مستقلی تأیید نشده است.",
+        "method": "equal_mean_selected_occupations"
+      }
+    },
+    {
+      "id": "health-information-technology",
+      "familyId": "exp-bio",
+      "groups": [
+        "experimental"
+      ],
+      "title": "فناوری اطلاعات سلامت",
+      "kind": "pathway",
+      "admissionStatus": "unverified",
+      "profileStatus": "occupation_proxy_unvalidated",
+      "source": {
+        "type": "user_brief",
+        "reference": "docs/product-brief.txt",
+        "verifiedAt": null
+      },
+      "occupations": [
+        {
+          "code": "29-9021.00",
+          "title": "Health Information Technologists and Medical Registrars",
+          "rawInterests": {
+            "realistic": 2.58,
+            "investigative": 5.17,
+            "artistic": 1.18,
+            "social": 3.83,
+            "enterprising": 2.2,
+            "conventional": 5.95
+          },
+          "dateUpdated": "2026-02-01",
+          "domainSource": "Machine Learning/Expert"
+        },
+        {
+          "code": "15-1211.01",
+          "title": "Health Informatics Specialists",
+          "rawInterests": {
+            "realistic": 2.84,
+            "investigative": 6.29,
+            "artistic": 1.99,
+            "social": 4.52,
+            "enterprising": 2.08,
+            "conventional": 4.71
+          },
+          "dateUpdated": "2026-02-01",
+          "domainSource": "Machine Learning/Expert"
+        }
+      ],
+      "interestProfile": {
+        "realistic": 28.5,
+        "investigative": 78.83333333333334,
+        "artistic": 9.75,
+        "social": 52.91666666666666,
+        "enterprising": 19,
+        "conventional": 72.16666666666667
+      },
+      "mapping": {
+        "status": "editorial_pending_expert_review",
+        "rationale": "نمونه فناوری و انفورماتیک سلامت با نقش‌های تحصیلی متفاوت.",
+        "method": "equal_mean_selected_occupations"
+      }
+    },
+    {
+      "id": "psychology",
+      "familyId": "exp-people",
+      "groups": [
+        "experimental"
+      ],
+      "title": "روانشناسی",
+      "kind": "major",
+      "admissionStatus": "unverified",
+      "profileStatus": "occupation_proxy_unvalidated",
+      "source": {
+        "type": "user_brief",
+        "reference": "docs/product-brief.txt",
+        "verifiedAt": null
+      },
+      "occupations": [
+        {
+          "code": "19-3033.00",
+          "title": "Clinical and Counseling Psychologists",
+          "rawInterests": {
+            "realistic": 1.05,
+            "investigative": 5.58,
+            "artistic": 3.06,
+            "social": 6.57,
+            "enterprising": 2.65,
+            "conventional": 3.49
+          },
+          "dateUpdated": "2026-02-01",
+          "domainSource": "Machine Learning/Expert"
+        },
+        {
+          "code": "19-3032.00",
+          "title": "Industrial-Organizational Psychologists",
+          "rawInterests": {
+            "realistic": 1.05,
+            "investigative": 5.34,
+            "artistic": 3.13,
+            "social": 3.99,
+            "enterprising": 4.71,
+            "conventional": 4.28
+          },
+          "dateUpdated": "2026-02-01",
+          "domainSource": "Machine Learning/Expert"
+        }
+      ],
+      "interestProfile": {
+        "realistic": 0.833333333333334,
+        "investigative": 74.33333333333333,
+        "artistic": 34.91666666666667,
+        "social": 71.33333333333333,
+        "enterprising": 44.66666666666667,
+        "conventional": 48.083333333333336
+      },
+      "mapping": {
+        "status": "editorial_pending_expert_review",
+        "rationale": "دو نمونه بالینی و سازمانی؛ اشتغال تخصصی ممکن است تحصیلات و مجوز بیشتری بخواهد.",
+        "method": "equal_mean_selected_occupations"
+      }
+    },
+    {
+      "id": "counseling",
+      "familyId": "exp-people",
+      "groups": [
+        "experimental"
+      ],
+      "title": "مشاوره",
+      "kind": "major",
+      "admissionStatus": "unverified",
+      "profileStatus": "occupation_proxy_unvalidated",
+      "source": {
+        "type": "user_brief",
+        "reference": "docs/product-brief.txt",
+        "verifiedAt": null
+      },
+      "occupations": [
+        {
+          "code": "21-1012.00",
+          "title": "Educational, Guidance, and Career Counselors and Advisors",
+          "rawInterests": {
+            "realistic": 1,
+            "investigative": 3.3,
+            "artistic": 3.13,
+            "social": 7,
+            "enterprising": 3.92,
+            "conventional": 4.09
+          },
+          "dateUpdated": "2026-02-01",
+          "domainSource": "Machine Learning/Expert"
+        },
+        {
+          "code": "21-1014.00",
+          "title": "Mental Health Counselors",
+          "rawInterests": {
+            "realistic": 1.31,
+            "investigative": 4.42,
+            "artistic": 3.06,
+            "social": 6.79,
+            "enterprising": 2.96,
+            "conventional": 3.43
+          },
+          "dateUpdated": "2026-02-01",
+          "domainSource": "Machine Learning/Expert"
+        }
+      ],
+      "interestProfile": {
+        "realistic": 2.583333333333334,
+        "investigative": 47.666666666666664,
+        "artistic": 34.91666666666667,
+        "social": 98.25,
+        "enterprising": 40.666666666666664,
+        "conventional": 46
+      },
+      "mapping": {
+        "status": "editorial_pending_expert_review",
+        "rationale": "نمونه مشاوره تحصیلی و سلامت روان؛ مجوز و شرایط محلی مستقل‌اند.",
+        "method": "equal_mean_selected_occupations"
+      }
+    },
+    {
+      "id": "educational-sciences",
+      "familyId": "exp-people",
+      "groups": [
+        "experimental"
+      ],
+      "title": "علوم تربیتی",
+      "kind": "major",
+      "admissionStatus": "unverified",
+      "profileStatus": "occupation_proxy_unvalidated",
+      "source": {
+        "type": "user_brief",
+        "reference": "docs/product-brief.txt",
+        "verifiedAt": null
+      },
+      "occupations": [
+        {
+          "code": "25-9031.00",
+          "title": "Instructional Coordinators",
+          "rawInterests": {
+            "realistic": 1.62,
+            "investigative": 4.04,
+            "artistic": 3.56,
+            "social": 6.16,
+            "enterprising": 4.26,
+            "conventional": 3.98
+          },
+          "dateUpdated": "2026-02-01",
+          "domainSource": "Machine Learning/Expert"
+        }
+      ],
+      "interestProfile": {
+        "realistic": 10.333333333333336,
+        "investigative": 50.666666666666664,
+        "artistic": 42.666666666666664,
+        "social": 86,
+        "enterprising": 54.333333333333336,
+        "conventional": 49.666666666666664
+      },
+      "mapping": {
+        "status": "editorial_pending_expert_review",
+        "rationale": "نمونه طراحی و هماهنگی آموزش؛ نماینده همه مشاغل علوم تربیتی نیست.",
+        "method": "equal_mean_selected_occupations"
+      }
+    },
+    {
+      "id": "computer-engineering",
+      "familyId": "math-tech",
+      "groups": [
+        "mathematics"
+      ],
+      "title": "مهندسی کامپیوتر",
+      "kind": "major",
+      "admissionStatus": "unverified",
+      "profileStatus": "occupation_proxy_unvalidated",
+      "source": {
+        "type": "user_brief",
+        "reference": "docs/product-brief.txt",
+        "verifiedAt": null
+      },
+      "occupations": [
+        {
+          "code": "17-2061.00",
+          "title": "Computer Hardware Engineers",
+          "rawInterests": {
+            "realistic": 5.69,
+            "investigative": 5.56,
+            "artistic": 1.83,
+            "social": 1.82,
+            "enterprising": 1.98,
+            "conventional": 5.37
+          },
+          "dateUpdated": "2026-02-01",
+          "domainSource": "Machine Learning/Expert"
+        },
+        {
+          "code": "15-1252.00",
+          "title": "Software Developers",
+          "rawInterests": {
+            "realistic": 3.61,
+            "investigative": 6.05,
+            "artistic": 2.37,
+            "social": 1.81,
+            "enterprising": 1.87,
+            "conventional": 5.62
+          },
+          "dateUpdated": "2026-02-01",
+          "domainSource": "Machine Learning/Expert"
+        }
+      ],
+      "interestProfile": {
+        "realistic": 60.833333333333336,
+        "investigative": 80.08333333333333,
+        "artistic": 18.333333333333332,
+        "social": 13.583333333333332,
+        "enterprising": 15.416666666666668,
+        "conventional": 74.91666666666666
+      },
+      "mapping": {
+        "status": "editorial_pending_expert_review",
+        "rationale": "دو نمونه سخت‌افزار و توسعه نرم‌افزار.",
+        "method": "equal_mean_selected_occupations"
+      }
+    },
+    {
+      "id": "computer-science",
+      "familyId": "math-tech",
+      "groups": [
+        "mathematics"
+      ],
+      "title": "علوم کامپیوتر",
+      "kind": "major",
+      "admissionStatus": "unverified",
+      "profileStatus": "occupation_proxy_unvalidated",
+      "source": {
+        "type": "user_brief",
+        "reference": "docs/product-brief.txt",
+        "verifiedAt": null
+      },
+      "occupations": [
+        {
+          "code": "15-1221.00",
+          "title": "Computer and Information Research Scientists",
+          "rawInterests": {
+            "realistic": 3.74,
+            "investigative": 7,
+            "artistic": 2.95,
+            "social": 2,
+            "enterprising": 2.49,
+            "conventional": 4.8
+          },
+          "dateUpdated": "2026-02-01",
+          "domainSource": "Machine Learning/Expert"
+        },
+        {
+          "code": "15-1252.00",
+          "title": "Software Developers",
+          "rawInterests": {
+            "realistic": 3.61,
+            "investigative": 6.05,
+            "artistic": 2.37,
+            "social": 1.81,
+            "enterprising": 1.87,
+            "conventional": 5.62
+          },
+          "dateUpdated": "2026-02-01",
+          "domainSource": "Machine Learning/Expert"
+        }
+      ],
+      "interestProfile": {
+        "realistic": 44.58333333333333,
+        "investigative": 92.08333333333334,
+        "artistic": 27.66666666666667,
+        "social": 15.083333333333334,
+        "enterprising": 19.66666666666667,
+        "conventional": 70.16666666666667
+      },
+      "mapping": {
+        "status": "editorial_pending_expert_review",
+        "rationale": "دو نمونه پژوهش رایانه و توسعه نرم‌افزار.",
+        "method": "equal_mean_selected_occupations"
+      }
+    },
+    {
+      "id": "artificial-intelligence",
+      "familyId": "math-tech",
+      "groups": [
+        "mathematics"
+      ],
+      "title": "هوش مصنوعی",
+      "kind": "pathway",
+      "admissionStatus": "unverified",
+      "profileStatus": "occupation_proxy_unvalidated",
+      "source": {
+        "type": "user_brief",
+        "reference": "docs/product-brief.txt",
+        "verifiedAt": null
+      },
+      "occupations": [
+        {
+          "code": "15-1221.00",
+          "title": "Computer and Information Research Scientists",
+          "rawInterests": {
+            "realistic": 3.74,
+            "investigative": 7,
+            "artistic": 2.95,
+            "social": 2,
+            "enterprising": 2.49,
+            "conventional": 4.8
+          },
+          "dateUpdated": "2026-02-01",
+          "domainSource": "Machine Learning/Expert"
+        },
+        {
+          "code": "15-2051.00",
+          "title": "Data Scientists",
+          "rawInterests": {
+            "realistic": 2.17,
+            "investigative": 6.98,
+            "artistic": 2.61,
+            "social": 1.66,
+            "enterprising": 1.71,
+            "conventional": 5.39
+          },
+          "dateUpdated": "2026-02-01",
+          "domainSource": "Machine Learning/Expert"
+        }
+      ],
+      "interestProfile": {
+        "realistic": 32.58333333333333,
+        "investigative": 99.83333333333334,
+        "artistic": 29.66666666666667,
+        "social": 13.833333333333332,
+        "enterprising": 18.333333333333336,
+        "conventional": 68.25
+      },
+      "mapping": {
+        "status": "editorial_pending_expert_review",
+        "rationale": "مسیر تخصصی پژوهش رایانه و داده؛ نگاشت رسمی رشته نیست.",
+        "method": "equal_mean_selected_occupations"
+      }
+    },
+    {
+      "id": "data-science",
+      "familyId": "math-tech",
+      "groups": [
+        "mathematics"
+      ],
+      "title": "علوم داده",
+      "kind": "pathway",
+      "admissionStatus": "unverified",
+      "profileStatus": "occupation_proxy_unvalidated",
+      "source": {
+        "type": "user_brief",
+        "reference": "docs/product-brief.txt",
+        "verifiedAt": null
+      },
+      "occupations": [
+        {
+          "code": "15-2051.00",
+          "title": "Data Scientists",
+          "rawInterests": {
+            "realistic": 2.17,
+            "investigative": 6.98,
+            "artistic": 2.61,
+            "social": 1.66,
+            "enterprising": 1.71,
+            "conventional": 5.39
+          },
+          "dateUpdated": "2026-02-01",
+          "domainSource": "Machine Learning/Expert"
+        }
+      ],
+      "interestProfile": {
+        "realistic": 19.5,
+        "investigative": 99.66666666666667,
+        "artistic": 26.833333333333332,
+        "social": 10.999999999999998,
+        "enterprising": 11.833333333333334,
+        "conventional": 73.16666666666666
+      },
+      "mapping": {
+        "status": "editorial_pending_expert_review",
+        "rationale": "نمونه شغل دانشمند داده؛ مسیر تخصصی با چند ورودی تحصیلی.",
+        "method": "equal_mean_selected_occupations"
+      }
+    },
+    {
+      "id": "information-technology",
+      "familyId": "math-tech",
+      "groups": [
+        "mathematics"
+      ],
+      "title": "فناوری اطلاعات",
+      "kind": "pathway",
+      "admissionStatus": "unverified",
+      "profileStatus": "occupation_proxy_unvalidated",
+      "source": {
+        "type": "user_brief",
+        "reference": "docs/product-brief.txt",
+        "verifiedAt": null
+      },
+      "occupations": [
+        {
+          "code": "15-1211.00",
+          "title": "Computer Systems Analysts",
+          "rawInterests": {
+            "realistic": 3.27,
+            "investigative": 6.39,
+            "artistic": 1.98,
+            "social": 1.91,
+            "enterprising": 2.23,
+            "conventional": 5.93
+          },
+          "dateUpdated": "2026-02-01",
+          "domainSource": "Machine Learning/Expert"
+        },
+        {
+          "code": "15-1244.00",
+          "title": "Network and Computer Systems Administrators",
+          "rawInterests": {
+            "realistic": 4.19,
+            "investigative": 4.04,
+            "artistic": 1,
+            "social": 2.22,
+            "enterprising": 3.46,
+            "conventional": 6.18
+          },
+          "dateUpdated": "2026-02-01",
+          "domainSource": "Machine Learning/Expert"
+        }
+      ],
+      "interestProfile": {
+        "realistic": 45.50000000000001,
+        "investigative": 70.25,
+        "artistic": 8.166666666666666,
+        "social": 17.75,
+        "enterprising": 30.75,
+        "conventional": 84.25
+      },
+      "mapping": {
+        "status": "editorial_pending_expert_review",
+        "rationale": "نمونه تحلیل سیستم و اداره شبکه.",
+        "method": "equal_mean_selected_occupations"
+      }
+    },
+    {
+      "id": "electrical-engineering",
+      "familyId": "math-engineering",
+      "groups": [
+        "mathematics"
+      ],
+      "title": "مهندسی برق",
+      "kind": "major",
+      "admissionStatus": "unverified",
+      "profileStatus": "occupation_proxy_unvalidated",
+      "source": {
+        "type": "user_brief",
+        "reference": "docs/product-brief.txt",
+        "verifiedAt": null
+      },
+      "occupations": [
+        {
+          "code": "17-2071.00",
+          "title": "Electrical Engineers",
+          "rawInterests": {
+            "realistic": 6.02,
+            "investigative": 5.45,
+            "artistic": 2.12,
+            "social": 1.72,
+            "enterprising": 2.44,
+            "conventional": 4.43
+          },
+          "dateUpdated": "2026-02-01",
+          "domainSource": "Machine Learning/Expert"
+        },
+        {
+          "code": "17-2072.00",
+          "title": "Electronics Engineers, Except Computer",
+          "rawInterests": {
+            "realistic": 6.24,
+            "investigative": 5.81,
+            "artistic": 2.03,
+            "social": 1.59,
+            "enterprising": 1.62,
+            "conventional": 4.68
+          },
+          "dateUpdated": "2026-02-01",
+          "domainSource": "Machine Learning/Expert"
+        }
+      ],
+      "interestProfile": {
+        "realistic": 85.5,
+        "investigative": 77.16666666666666,
+        "artistic": 17.916666666666664,
+        "social": 10.916666666666668,
+        "enterprising": 17.166666666666668,
+        "conventional": 59.25
+      },
+      "mapping": {
+        "status": "editorial_pending_expert_review",
+        "rationale": "دو نمونه برق و الکترونیک.",
+        "method": "equal_mean_selected_occupations"
+      }
+    },
+    {
+      "id": "mechanical-engineering",
+      "familyId": "math-engineering",
+      "groups": [
+        "mathematics"
+      ],
+      "title": "مهندسی مکانیک",
+      "kind": "major",
+      "admissionStatus": "unverified",
+      "profileStatus": "occupation_proxy_unvalidated",
+      "source": {
+        "type": "user_brief",
+        "reference": "docs/product-brief.txt",
+        "verifiedAt": null
+      },
+      "occupations": [
+        {
+          "code": "17-2141.00",
+          "title": "Mechanical Engineers",
+          "rawInterests": {
+            "realistic": 6.39,
+            "investigative": 5.12,
+            "artistic": 2.02,
+            "social": 1.22,
+            "enterprising": 1.97,
+            "conventional": 4.83
+          },
+          "dateUpdated": "2026-02-01",
+          "domainSource": "Machine Learning/Expert"
+        }
+      ],
+      "interestProfile": {
+        "realistic": 89.83333333333333,
+        "investigative": 68.66666666666667,
+        "artistic": 17,
+        "social": 3.666666666666666,
+        "enterprising": 16.166666666666668,
+        "conventional": 63.833333333333336
+      },
+      "mapping": {
+        "status": "editorial_pending_expert_review",
+        "rationale": "نمونه مهندسی مکانیک.",
+        "method": "equal_mean_selected_occupations"
+      }
+    },
+    {
+      "id": "civil-engineering",
+      "familyId": "math-engineering",
+      "groups": [
+        "mathematics"
+      ],
+      "title": "مهندسی عمران",
+      "kind": "major",
+      "admissionStatus": "unverified",
+      "profileStatus": "occupation_proxy_unvalidated",
+      "source": {
+        "type": "user_brief",
+        "reference": "docs/product-brief.txt",
+        "verifiedAt": null
+      },
+      "occupations": [
+        {
+          "code": "17-2051.00",
+          "title": "Civil Engineers",
+          "rawInterests": {
+            "realistic": 6.43,
+            "investigative": 5.15,
+            "artistic": 2.21,
+            "social": 1.69,
+            "enterprising": 2.66,
+            "conventional": 4.61
+          },
+          "dateUpdated": "2026-02-01",
+          "domainSource": "Machine Learning/Expert"
+        }
+      ],
+      "interestProfile": {
+        "realistic": 90.5,
+        "investigative": 69.16666666666667,
+        "artistic": 20.166666666666668,
+        "social": 11.5,
+        "enterprising": 27.666666666666668,
+        "conventional": 60.16666666666668
+      },
+      "mapping": {
+        "status": "editorial_pending_expert_review",
+        "rationale": "نمونه مهندسی عمران.",
+        "method": "equal_mean_selected_occupations"
+      }
+    },
+    {
+      "id": "aerospace-engineering",
+      "familyId": "math-engineering",
+      "groups": [
+        "mathematics"
+      ],
+      "title": "مهندسی هوافضا",
+      "kind": "major",
+      "admissionStatus": "unverified",
+      "profileStatus": "occupation_proxy_unvalidated",
+      "source": {
+        "type": "user_brief",
+        "reference": "docs/product-brief.txt",
+        "verifiedAt": null
+      },
+      "occupations": [
+        {
+          "code": "17-2011.00",
+          "title": "Aerospace Engineers",
+          "rawInterests": {
+            "realistic": 5.65,
+            "investigative": 6.05,
+            "artistic": 2.35,
+            "social": 1.25,
+            "enterprising": 2.52,
+            "conventional": 4.44
+          },
+          "dateUpdated": "2026-02-01",
+          "domainSource": "Machine Learning/Expert"
+        }
+      ],
+      "interestProfile": {
+        "realistic": 77.50000000000001,
+        "investigative": 84.16666666666667,
+        "artistic": 22.5,
+        "social": 4.166666666666667,
+        "enterprising": 25.333333333333332,
+        "conventional": 57.33333333333334
+      },
+      "mapping": {
+        "status": "editorial_pending_expert_review",
+        "rationale": "نمونه مهندسی هوافضا.",
+        "method": "equal_mean_selected_occupations"
+      }
+    },
+    {
+      "id": "materials-engineering",
+      "familyId": "math-engineering",
+      "groups": [
+        "mathematics"
+      ],
+      "title": "مهندسی مواد",
+      "kind": "major",
+      "admissionStatus": "unverified",
+      "profileStatus": "occupation_proxy_unvalidated",
+      "source": {
+        "type": "user_brief",
+        "reference": "docs/product-brief.txt",
+        "verifiedAt": null
+      },
+      "occupations": [
+        {
+          "code": "17-2131.00",
+          "title": "Materials Engineers",
+          "rawInterests": {
+            "realistic": 5.88,
+            "investigative": 5.82,
+            "artistic": 2.54,
+            "social": 1.38,
+            "enterprising": 2.06,
+            "conventional": 4.11
+          },
+          "dateUpdated": "2026-02-01",
+          "domainSource": "Machine Learning/Expert"
+        }
+      ],
+      "interestProfile": {
+        "realistic": 81.33333333333333,
+        "investigative": 80.33333333333333,
+        "artistic": 25.666666666666668,
+        "social": 6.333333333333331,
+        "enterprising": 17.666666666666668,
+        "conventional": 51.83333333333334
+      },
+      "mapping": {
+        "status": "editorial_pending_expert_review",
+        "rationale": "نمونه مهندسی مواد.",
+        "method": "equal_mean_selected_occupations"
+      }
+    },
+    {
+      "id": "architecture",
+      "familyId": "math-design",
+      "groups": [
+        "mathematics"
+      ],
+      "title": "معماری",
+      "kind": "major",
+      "admissionStatus": "unverified",
+      "profileStatus": "occupation_proxy_unvalidated",
+      "source": {
+        "type": "user_brief",
+        "reference": "docs/product-brief.txt",
+        "verifiedAt": null
+      },
+      "occupations": [
+        {
+          "code": "17-1011.00",
+          "title": "Architects, Except Landscape and Naval",
+          "rawInterests": {
+            "realistic": 4.92,
+            "investigative": 3.88,
+            "artistic": 4.13,
+            "social": 2.53,
+            "enterprising": 3.65,
+            "conventional": 4.44
+          },
+          "dateUpdated": "2026-02-01",
+          "domainSource": "Machine Learning/Expert"
+        }
+      ],
+      "interestProfile": {
+        "realistic": 65.33333333333333,
+        "investigative": 48,
+        "artistic": 52.166666666666664,
+        "social": 25.499999999999996,
+        "enterprising": 44.166666666666664,
+        "conventional": 57.33333333333334
+      },
+      "mapping": {
+        "status": "editorial_pending_expert_review",
+        "rationale": "نمونه معماری ساختمان.",
+        "method": "equal_mean_selected_occupations"
+      }
+    },
+    {
+      "id": "industrial-design",
+      "familyId": "math-design",
+      "groups": [
+        "mathematics"
+      ],
+      "title": "طراحی صنعتی",
+      "kind": "major",
+      "admissionStatus": "unverified",
+      "profileStatus": "occupation_proxy_unvalidated",
+      "source": {
+        "type": "user_brief",
+        "reference": "docs/product-brief.txt",
+        "verifiedAt": null
+      },
+      "occupations": [
+        {
+          "code": "27-1021.00",
+          "title": "Commercial and Industrial Designers",
+          "rawInterests": {
+            "realistic": 4.62,
+            "investigative": 4.06,
+            "artistic": 5.54,
+            "social": 1.84,
+            "enterprising": 3.7,
+            "conventional": 3.47
+          },
+          "dateUpdated": "2026-02-01",
+          "domainSource": "Machine Learning/Expert"
+        }
+      ],
+      "interestProfile": {
+        "realistic": 60.333333333333336,
+        "investigative": 50.99999999999999,
+        "artistic": 75.66666666666667,
+        "social": 14.000000000000002,
+        "enterprising": 45,
+        "conventional": 41.16666666666667
+      },
+      "mapping": {
+        "status": "editorial_pending_expert_review",
+        "rationale": "نمونه طراحی محصول تجاری و صنعتی.",
+        "method": "equal_mean_selected_occupations"
+      }
+    },
+    {
+      "id": "urban-planning",
+      "familyId": "math-design",
+      "groups": [
+        "mathematics"
+      ],
+      "title": "شهرسازی",
+      "kind": "major",
+      "admissionStatus": "unverified",
+      "profileStatus": "occupation_proxy_unvalidated",
+      "source": {
+        "type": "user_brief",
+        "reference": "docs/product-brief.txt",
+        "verifiedAt": null
+      },
+      "occupations": [
+        {
+          "code": "19-3051.00",
+          "title": "Urban and Regional Planners",
+          "rawInterests": {
+            "realistic": 3.22,
+            "investigative": 5.31,
+            "artistic": 3.06,
+            "social": 3.03,
+            "enterprising": 4.46,
+            "conventional": 3.96
+          },
+          "dateUpdated": "2026-02-01",
+          "domainSource": "Machine Learning/Expert"
+        }
+      ],
+      "interestProfile": {
+        "realistic": 37.00000000000001,
+        "investigative": 71.83333333333333,
+        "artistic": 34.333333333333336,
+        "social": 33.83333333333333,
+        "enterprising": 57.666666666666664,
+        "conventional": 49.333333333333336
+      },
+      "mapping": {
+        "status": "editorial_pending_expert_review",
+        "rationale": "نمونه برنامه‌ریزی شهری و منطقه‌ای.",
+        "method": "equal_mean_selected_occupations"
+      }
+    },
+    {
+      "id": "industrial-engineering",
+      "familyId": "math-systems",
+      "groups": [
+        "mathematics"
+      ],
+      "title": "مهندسی صنایع",
+      "kind": "major",
+      "admissionStatus": "unverified",
+      "profileStatus": "occupation_proxy_unvalidated",
+      "source": {
+        "type": "user_brief",
+        "reference": "docs/product-brief.txt",
+        "verifiedAt": null
+      },
+      "occupations": [
+        {
+          "code": "17-2112.00",
+          "title": "Industrial Engineers",
+          "rawInterests": {
+            "realistic": 4.96,
+            "investigative": 4.99,
+            "artistic": 1.58,
+            "social": 1.37,
+            "enterprising": 3.29,
+            "conventional": 5.35
+          },
+          "dateUpdated": "2026-02-01",
+          "domainSource": "Machine Learning/Expert"
+        }
+      ],
+      "interestProfile": {
+        "realistic": 66,
+        "investigative": 66.5,
+        "artistic": 9.666666666666668,
+        "social": 6.166666666666669,
+        "enterprising": 38.166666666666664,
+        "conventional": 72.49999999999999
+      },
+      "mapping": {
+        "status": "editorial_pending_expert_review",
+        "rationale": "نمونه مهندسی صنایع.",
+        "method": "equal_mean_selected_occupations"
+      }
+    },
+    {
+      "id": "economics",
+      "familyId": "math-systems",
+      "groups": [
+        "mathematics"
+      ],
+      "title": "اقتصاد",
+      "kind": "major",
+      "admissionStatus": "unverified",
+      "profileStatus": "occupation_proxy_unvalidated",
+      "source": {
+        "type": "user_brief",
+        "reference": "docs/product-brief.txt",
+        "verifiedAt": null
+      },
+      "occupations": [
+        {
+          "code": "19-3011.00",
+          "title": "Economists",
+          "rawInterests": {
+            "realistic": 1.35,
+            "investigative": 7,
+            "artistic": 2.43,
+            "social": 2.4,
+            "enterprising": 3.93,
+            "conventional": 4.53
+          },
+          "dateUpdated": "2026-02-01",
+          "domainSource": "Machine Learning/Expert"
+        }
+      ],
+      "interestProfile": {
+        "realistic": 5.833333333333335,
+        "investigative": 100,
+        "artistic": 23.83333333333334,
+        "social": 23.333333333333332,
+        "enterprising": 48.833333333333336,
+        "conventional": 58.833333333333336
+      },
+      "mapping": {
+        "status": "editorial_pending_expert_review",
+        "rationale": "نمونه پژوهش اقتصادی؛ همه مشاغل فارغ‌التحصیلان اقتصاد نیست.",
+        "method": "equal_mean_selected_occupations"
+      }
+    },
+    {
+      "id": "it-management",
+      "familyId": "math-systems",
+      "groups": [
+        "mathematics"
+      ],
+      "title": "مدیریت فناوری اطلاعات",
+      "kind": "pathway",
+      "admissionStatus": "unverified",
+      "profileStatus": "occupation_proxy_unvalidated",
+      "source": {
+        "type": "user_brief",
+        "reference": "docs/product-brief.txt",
+        "verifiedAt": null
+      },
+      "occupations": [
+        {
+          "code": "11-3021.00",
+          "title": "Computer and Information Systems Managers",
+          "rawInterests": {
+            "realistic": 2.68,
+            "investigative": 4.49,
+            "artistic": 1.47,
+            "social": 2.35,
+            "enterprising": 5.09,
+            "conventional": 5.94
+          },
+          "dateUpdated": "2026-02-01",
+          "domainSource": "Machine Learning/Expert"
+        }
+      ],
+      "interestProfile": {
+        "realistic": 28.000000000000004,
+        "investigative": 58.166666666666664,
+        "artistic": 7.833333333333333,
+        "social": 22.5,
+        "enterprising": 68.16666666666667,
+        "conventional": 82.33333333333334
+      },
+      "mapping": {
+        "status": "editorial_pending_expert_review",
+        "rationale": "مسیر مدیریت سیستم‌های اطلاعاتی؛ معمولاً نیازمند تجربه پس از تحصیل.",
+        "method": "equal_mean_selected_occupations"
+      }
+    },
+    {
+      "id": "industrial-management",
+      "familyId": "math-systems",
+      "groups": [
+        "mathematics"
+      ],
+      "title": "مدیریت صنعتی",
+      "kind": "major",
+      "admissionStatus": "unverified",
+      "profileStatus": "occupation_proxy_unvalidated",
+      "source": {
+        "type": "user_brief",
+        "reference": "docs/product-brief.txt",
+        "verifiedAt": null
+      },
+      "occupations": [
+        {
+          "code": "11-3051.00",
+          "title": "Industrial Production Managers",
+          "rawInterests": {
+            "realistic": 4,
+            "investigative": 2.92,
+            "artistic": 1.4,
+            "social": 1.85,
+            "enterprising": 6.03,
+            "conventional": 5.21
+          },
+          "dateUpdated": "2026-02-01",
+          "domainSource": "Machine Learning/Expert"
+        }
+      ],
+      "interestProfile": {
+        "realistic": 50,
+        "investigative": 32,
+        "artistic": 6.666666666666665,
+        "social": 14.16666666666667,
+        "enterprising": 83.83333333333333,
+        "conventional": 70.16666666666667
+      },
+      "mapping": {
+        "status": "editorial_pending_expert_review",
+        "rationale": "نمونه مدیریت تولید؛ معمولاً نیازمند تجربه پس از تحصیل.",
+        "method": "equal_mean_selected_occupations"
+      }
+    },
+    {
+      "id": "accounting",
+      "familyId": "math-systems",
+      "groups": [
+        "mathematics"
+      ],
+      "title": "حسابداری",
+      "kind": "major",
+      "admissionStatus": "unverified",
+      "profileStatus": "occupation_proxy_unvalidated",
+      "source": {
+        "type": "user_brief",
+        "reference": "docs/product-brief.txt",
+        "verifiedAt": null
+      },
+      "occupations": [
+        {
+          "code": "13-2011.00",
+          "title": "Accountants and Auditors",
+          "rawInterests": {
+            "realistic": 1.14,
+            "investigative": 3.57,
+            "artistic": 1.08,
+            "social": 2.13,
+            "enterprising": 3.87,
+            "conventional": 7
+          },
+          "dateUpdated": "2026-02-01",
+          "domainSource": "Machine Learning/Expert"
+        }
+      ],
+      "interestProfile": {
+        "realistic": 2.3333333333333317,
+        "investigative": 42.833333333333336,
+        "artistic": 1.3333333333333346,
+        "social": 18.833333333333332,
+        "enterprising": 47.833333333333336,
+        "conventional": 100
+      },
+      "mapping": {
+        "status": "editorial_pending_expert_review",
+        "rationale": "نمونه حسابداری و حسابرسی.",
+        "method": "equal_mean_selected_occupations"
+      }
+    },
+    {
+      "id": "mathematics",
+      "familyId": "math-science",
+      "groups": [
+        "mathematics"
+      ],
+      "title": "ریاضی",
+      "kind": "major",
+      "admissionStatus": "unverified",
+      "profileStatus": "occupation_proxy_unvalidated",
+      "source": {
+        "type": "user_brief",
+        "reference": "docs/product-brief.txt",
+        "verifiedAt": null
+      },
+      "occupations": [
+        {
+          "code": "15-2021.00",
+          "title": "Mathematicians",
+          "rawInterests": {
+            "realistic": 3.22,
+            "investigative": 7,
+            "artistic": 3.23,
+            "social": 1.95,
+            "enterprising": 1.11,
+            "conventional": 5.03
+          },
+          "dateUpdated": "2026-02-01",
+          "domainSource": "Machine Learning/Expert"
+        }
+      ],
+      "interestProfile": {
+        "realistic": 37.00000000000001,
+        "investigative": 100,
+        "artistic": 37.166666666666664,
+        "social": 15.833333333333334,
+        "enterprising": 1.833333333333335,
+        "conventional": 67.16666666666667
+      },
+      "mapping": {
+        "status": "editorial_pending_expert_review",
+        "rationale": "نمونه پژوهش ریاضی؛ تدریس و مشاغل کاربردی متنوع‌ترند.",
+        "method": "equal_mean_selected_occupations"
+      }
+    },
+    {
+      "id": "statistics",
+      "familyId": "math-science",
+      "groups": [
+        "mathematics"
+      ],
+      "title": "آمار",
+      "kind": "major",
+      "admissionStatus": "unverified",
+      "profileStatus": "occupation_proxy_unvalidated",
+      "source": {
+        "type": "user_brief",
+        "reference": "docs/product-brief.txt",
+        "verifiedAt": null
+      },
+      "occupations": [
+        {
+          "code": "15-2041.00",
+          "title": "Statisticians",
+          "rawInterests": {
+            "realistic": 2.14,
+            "investigative": 6.58,
+            "artistic": 1.77,
+            "social": 1.71,
+            "enterprising": 1.82,
+            "conventional": 6.03
+          },
+          "dateUpdated": "2026-02-01",
+          "domainSource": "Machine Learning/Expert"
+        }
+      ],
+      "interestProfile": {
+        "realistic": 19.000000000000004,
+        "investigative": 93,
+        "artistic": 12.833333333333334,
+        "social": 11.833333333333334,
+        "enterprising": 13.666666666666666,
+        "conventional": 83.83333333333333
+      },
+      "mapping": {
+        "status": "editorial_pending_expert_review",
+        "rationale": "نمونه آمار.",
+        "method": "equal_mean_selected_occupations"
+      }
+    },
+    {
+      "id": "physics",
+      "familyId": "math-science",
+      "groups": [
+        "mathematics"
+      ],
+      "title": "فیزیک",
+      "kind": "major",
+      "admissionStatus": "unverified",
+      "profileStatus": "occupation_proxy_unvalidated",
+      "source": {
+        "type": "user_brief",
+        "reference": "docs/product-brief.txt",
+        "verifiedAt": null
+      },
+      "occupations": [
+        {
+          "code": "19-2012.00",
+          "title": "Physicists",
+          "rawInterests": {
+            "realistic": 4.94,
+            "investigative": 7,
+            "artistic": 2.75,
+            "social": 2.12,
+            "enterprising": 1.77,
+            "conventional": 4.8
+          },
+          "dateUpdated": "2026-02-01",
+          "domainSource": "Machine Learning/Expert"
+        }
+      ],
+      "interestProfile": {
+        "realistic": 65.66666666666667,
+        "investigative": 100,
+        "artistic": 29.166666666666668,
+        "social": 18.666666666666668,
+        "enterprising": 12.833333333333334,
+        "conventional": 63.333333333333336
+      },
+      "mapping": {
+        "status": "editorial_pending_expert_review",
+        "rationale": "نمونه پژوهش فیزیک؛ همه مشاغل فارغ‌التحصیلان نیست.",
+        "method": "equal_mean_selected_occupations"
+      }
+    },
+    {
+      "id": "cognitive-science",
+      "familyId": "math-science",
+      "groups": [
+        "mathematics"
+      ],
+      "title": "علوم شناختی",
+      "kind": "pathway",
+      "admissionStatus": "unverified",
+      "profileStatus": "occupation_proxy_unvalidated",
+      "source": {
+        "type": "user_brief",
+        "reference": "docs/product-brief.txt",
+        "verifiedAt": null
+      },
+      "occupations": [
+        {
+          "code": "19-3039.02",
+          "title": "Neuropsychologists",
+          "rawInterests": {
+            "realistic": 2.63,
+            "investigative": 7,
+            "artistic": 3.28,
+            "social": 5.29,
+            "enterprising": 1.69,
+            "conventional": 3.32
+          },
+          "dateUpdated": "2026-02-01",
+          "domainSource": "Machine Learning/Expert"
+        },
+        {
+          "code": "15-1221.00",
+          "title": "Computer and Information Research Scientists",
+          "rawInterests": {
+            "realistic": 3.74,
+            "investigative": 7,
+            "artistic": 2.95,
+            "social": 2,
+            "enterprising": 2.49,
+            "conventional": 4.8
+          },
+          "dateUpdated": "2026-02-01",
+          "domainSource": "Machine Learning/Expert"
+        }
+      ],
+      "interestProfile": {
+        "realistic": 36.416666666666664,
+        "investigative": 100,
+        "artistic": 35.25,
+        "social": 44.083333333333336,
+        "enterprising": 18.16666666666667,
+        "conventional": 51
+      },
+      "mapping": {
+        "status": "editorial_pending_expert_review",
+        "rationale": "جانشین تقریبی دو مسیر عصب‌روان‌شناسی و محاسبات؛ علوم شناختی بسیار گسترده‌تر است.",
+        "method": "equal_mean_selected_occupations"
+      }
+    }
+  ],
+  "profileSource": {
+    "dataset": "O*NET 31.0 Database",
+    "version": "31.0",
+    "retrievedAt": "2026-09-27",
+    "url": "https://www.onetcenter.org/dl_files/database/db_31_0_json/career_interest_types.json",
+    "sha256": "3b1100f1f22c5e7c4394decba92777ba597a40e9c6b6096822253c26c23451de",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution": "O*NET® 31.0 Database, U.S. Department of Labor, Employment and Training Administration (USDOL/ETA), CC BY 4.0. انتخاب‌یار has selected occupations, normalized and averaged ratings, and mapped them to exploratory educational pathways. USDOL/ETA has not approved, endorsed, or tested these modifications."
+  }
+}

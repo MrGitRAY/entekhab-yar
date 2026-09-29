@@ -1,0 +1,9 @@
+{
+  "dataset": "O*NET 31.0 Database",
+  "version": "31.0",
+  "retrievedAt": "2026-09-27",
+  "url": "https://www.onetcenter.org/dl_files/database/db_31_0_json/career_interest_types.json",
+  "sha256": "3b1100f1f22c5e7c4394decba92777ba597a40e9c6b6096822253c26c23451de",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "attribution": "O*NET® 31.0 Database, U.S. Department of Labor, Employment and Training Administration (USDOL/ETA), CC BY 4.0. انتخاب‌یار has selected occupations, normalized and averaged ratings, and mapped them to exploratory educational pathways. USDOL/ETA has not approved, endorsed, or tested these modifications."
+}

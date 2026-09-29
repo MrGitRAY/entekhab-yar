@@ -1,0 +1,3019 @@
+{
+  "synthetic": true,
+  "displayName": "دانش‌آموز ساختگی تجربی",
+  "answers": {
+    "Q-R-01": 3,
+    "Q-R-02": 3,
+    "Q-R-03": 5,
+    "Q-R-04": 5,
+    "Q-R-05": 2,
+    "Q-R-06": 2,
+    "Q-R-07": 5,
+    "Q-R-08": 5,
+    "Q-R-09": 2,
+    "Q-R-10": 2,
+    "Q-R-11": 2,
+    "Q-R-12": 3,
+    "Q-R-13": 3,
+    "Q-R-14": 3,
+    "Q-P-01": 3,
+    "Q-P-02": 3,
+    "Q-P-03": 3,
+    "Q-P-04": 3,
+    "Q-P-05": 3,
+    "Q-P-06": 3,
+    "Q-P-07": 3,
+    "Q-P-08": 3,
+    "Q-P-09": 3,
+    "Q-P-10": 3,
+    "Q-V-01": 3,
+    "Q-V-02": 3,
+    "Q-V-03": 3,
+    "Q-V-04": 3,
+    "Q-V-05": 3,
+    "Q-V-06": 3,
+    "Q-V-07": 3,
+    "Q-V-08": 3,
+    "Q-V-09": 3,
+    "Q-V-10": 3,
+    "Q-V-11": 3,
+    "Q-V-12": 3,
+    "Q-A-01": 3,
+    "Q-A-02": 3,
+    "Q-A-03": 3,
+    "Q-A-04": 3,
+    "Q-A-05": 3,
+    "Q-A-06": 3,
+    "Q-A-07": 3,
+    "Q-A-08": 3,
+    "Q-A-09": 3,
+    "Q-A-10": 3,
+    "Q-A-11": 3,
+    "Q-A-12": 3,
+    "Q-A-13": 3,
+    "Q-A-14": 3,
+    "Q-A-15": 3,
+    "Q-A-16": 3,
+    "Q-W-01": 3,
+    "Q-W-02": 3,
+    "Q-W-03": 3,
+    "Q-W-04": 3,
+    "Q-EXP-01": 3,
+    "Q-EXP-02": 5,
+    "Q-EXP-03": 2,
+    "Q-EXP-04": 5
+  },
+  "result": {
+    "schemaVersion": 2,
+    "engineVersion": "0.2.0",
+    "catalogVersion": "0.2.0-pilot",
+    "examGroup": "experimental",
+    "status": "exploratory",
+    "profile": {
+      "realistic": {
+        "score": 50,
+        "itemCount": 3,
+        "totalWeight": 3,
+        "label": "عملی",
+        "section": "riasec"
+      },
+      "investigative": {
+        "score": 100,
+        "itemCount": 3,
+        "totalWeight": 3,
+        "label": "پژوهشی",
+        "section": "riasec"
+      },
+      "artistic": {
+        "score": 25,
+        "itemCount": 3,
+        "totalWeight": 3,
+        "label": "خلاق",
+        "section": "riasec"
+      },
+      "social": {
+        "score": 100,
+        "itemCount": 3,
+        "totalWeight": 3,
+        "label": "یاری‌گر",
+        "section": "riasec"
+      },
+      "enterprising": {
+        "score": 25,
+        "itemCount": 3,
+        "totalWeight": 3,
+        "label": "پیش‌برنده",
+        "section": "riasec"
+      },
+      "conventional": {
+        "score": 50,
+        "itemCount": 3,
+        "totalWeight": 3,
+        "label": "ساختارمند",
+        "section": "riasec"
+      },
+      "openness": {
+        "score": 50,
+        "itemCount": 2,
+        "totalWeight": 2,
+        "label": "گشودگی به تجربه",
+        "section": "personality"
+      },
+      "conscientiousness": {
+        "score": 50,
+        "itemCount": 2,
+        "totalWeight": 2,
+        "label": "نظم و مسئولیت‌پذیری",
+        "section": "personality"
+      },
+      "extraversion": {
+        "score": 50,
+        "itemCount": 2,
+        "totalWeight": 2,
+        "label": "برون‌گرایی",
+        "section": "personality"
+      },
+      "agreeableness": {
+        "score": 50,
+        "itemCount": 2,
+        "totalWeight": 2,
+        "label": "همکاری",
+        "section": "personality"
+      },
+      "emotional_stability": {
+        "score": 50,
+        "itemCount": 2,
+        "totalWeight": 2,
+        "label": "آرامش خودگزارشی در فشار",
+        "section": "personality"
+      },
+      "income": {
+        "score": 50,
+        "itemCount": 2,
+        "totalWeight": 2,
+        "label": "درآمد",
+        "section": "values"
+      },
+      "security": {
+        "score": 50,
+        "itemCount": 2,
+        "totalWeight": 2,
+        "label": "امنیت",
+        "section": "values"
+      },
+      "freedom": {
+        "score": 50,
+        "itemCount": 2,
+        "totalWeight": 2,
+        "label": "آزادی عمل",
+        "section": "values"
+      },
+      "impact": {
+        "score": 50,
+        "itemCount": 2,
+        "totalWeight": 2,
+        "label": "اثرگذاری",
+        "section": "values"
+      },
+      "growth": {
+        "score": 50,
+        "itemCount": 2,
+        "totalWeight": 2,
+        "label": "رشد",
+        "section": "values"
+      },
+      "lifestyle": {
+        "score": 50,
+        "itemCount": 2,
+        "totalWeight": 2,
+        "label": "سبک زندگی",
+        "section": "values"
+      },
+      "analytical": {
+        "score": 50,
+        "itemCount": 2,
+        "totalWeight": 2,
+        "label": "تحلیل",
+        "section": "abilities"
+      },
+      "numerical": {
+        "score": 50,
+        "itemCount": 2,
+        "totalWeight": 2,
+        "label": "کار با عدد",
+        "section": "abilities"
+      },
+      "verbal": {
+        "score": 50,
+        "itemCount": 2,
+        "totalWeight": 2,
+        "label": "بیان و متن",
+        "section": "abilities"
+      },
+      "spatial": {
+        "score": 50,
+        "itemCount": 2,
+        "totalWeight": 2,
+        "label": "درک فضایی",
+        "section": "abilities"
+      },
+      "creativity": {
+        "score": 50,
+        "itemCount": 2,
+        "totalWeight": 2,
+        "label": "خلاقیت",
+        "section": "abilities"
+      },
+      "learning": {
+        "score": 50,
+        "itemCount": 2,
+        "totalWeight": 2,
+        "label": "یادگیری",
+        "section": "abilities"
+      },
+      "focus": {
+        "score": 50,
+        "itemCount": 2,
+        "totalWeight": 2,
+        "label": "تمرکز",
+        "section": "abilities"
+      },
+      "persistence": {
+        "score": 50,
+        "itemCount": 2,
+        "totalWeight": 2,
+        "label": "پشتکار",
+        "section": "abilities"
+      },
+      "independence": {
+        "score": 50,
+        "itemCount": 4,
+        "totalWeight": 4,
+        "label": "استقلال در کار",
+        "section": "workstyle"
+      }
+    },
+    "familyRanking": [
+      {
+        "id": "exp-rehab",
+        "title": "توانبخشی",
+        "rank": 1,
+        "correlation": 0.9777131043616687,
+        "score": 98.88565521808343,
+        "contributions": [
+          {
+            "dimension": "realistic",
+            "label": "عملی",
+            "userScore": 50,
+            "targetScore": 47.66666666666667,
+            "contribution": -0.0012102265395209657,
+            "relationship": "different"
+          },
+          {
+            "dimension": "investigative",
+            "label": "پژوهشی",
+            "userScore": 100,
+            "targetScore": 71.26666666666668,
+            "contribution": 0.23353088225004043,
+            "relationship": "shared_higher"
+          },
+          {
+            "dimension": "artistic",
+            "label": "خلاق",
+            "userScore": 25,
+            "targetScore": 23.4,
+            "contribution": 0.18228367878448465,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "social",
+            "label": "یاری‌گر",
+            "userScore": 100,
+            "targetScore": 80.06666666666666,
+            "contribution": 0.3183538397102705,
+            "relationship": "shared_higher"
+          },
+          {
+            "dimension": "enterprising",
+            "label": "پیش‌برنده",
+            "userScore": 25,
+            "targetScore": 16.133333333333333,
+            "contribution": 0.2383182385612428,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "conventional",
+            "label": "ساختارمند",
+            "userScore": 50,
+            "targetScore": 43.7,
+            "contribution": 0.006436691595151308,
+            "relationship": "shared_lower"
+          }
+        ],
+        "description": "کمک به بازیابی و تقویت توانایی‌های فرد"
+      },
+      {
+        "id": "exp-health",
+        "title": "سلامت و درمان",
+        "rank": 2,
+        "correlation": 0.9073896815684964,
+        "score": 95.36948407842483,
+        "contributions": [
+          {
+            "dimension": "realistic",
+            "label": "عملی",
+            "userScore": 50,
+            "targetScore": 57.366666666666674,
+            "contribution": -0.017814664912875307,
+            "relationship": "different"
+          },
+          {
+            "dimension": "investigative",
+            "label": "پژوهشی",
+            "userScore": 100,
+            "targetScore": 83.4,
+            "contribution": 0.30444876259774495,
+            "relationship": "shared_higher"
+          },
+          {
+            "dimension": "artistic",
+            "label": "خلاق",
+            "userScore": 25,
+            "targetScore": 5.133333333333333,
+            "contribution": 0.27444511642869185,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "social",
+            "label": "یاری‌گر",
+            "userScore": 100,
+            "targetScore": 66.76666666666668,
+            "contribution": 0.1668401280540179,
+            "relationship": "shared_higher"
+          },
+          {
+            "dimension": "enterprising",
+            "label": "پیش‌برنده",
+            "userScore": 25,
+            "targetScore": 19.2,
+            "contribution": 0.18134556728648288,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "conventional",
+            "label": "ساختارمند",
+            "userScore": 50,
+            "targetScore": 47.733333333333334,
+            "contribution": -0.0018752278855658198,
+            "relationship": "different"
+          }
+        ],
+        "description": "شناخت بدن و ارائه خدمت درمانی"
+      },
+      {
+        "id": "exp-people",
+        "title": "انسان و رفتار",
+        "rank": 3,
+        "correlation": 0.6239301290616701,
+        "score": 81.1965064530835,
+        "contributions": [
+          {
+            "dimension": "realistic",
+            "label": "عملی",
+            "userScore": 50,
+            "targetScore": 3.4333333333333345,
+            "contribution": 0.077569309303598,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "investigative",
+            "label": "پژوهشی",
+            "userScore": 100,
+            "targetScore": 58.93333333333334,
+            "contribution": 0.11698563585526342,
+            "relationship": "shared_higher"
+          },
+          {
+            "dimension": "artistic",
+            "label": "خلاق",
+            "userScore": 25,
+            "targetScore": 36.46666666666667,
+            "contribution": 0.06989828575162002,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "social",
+            "label": "یاری‌گر",
+            "userScore": 100,
+            "targetScore": 85.03333333333333,
+            "contribution": 0.35439320270106356,
+            "relationship": "shared_higher"
+          },
+          {
+            "dimension": "enterprising",
+            "label": "پیش‌برنده",
+            "userScore": 25,
+            "targetScore": 45,
+            "contribution": 0.007802411307150186,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "conventional",
+            "label": "ساختارمند",
+            "userScore": 50,
+            "targetScore": 47.56666666666667,
+            "contribution": -0.0027187158570251336,
+            "relationship": "different"
+          }
+        ],
+        "description": "شناخت رفتار و کمک آموزشی یا مشاوره‌ای"
+      },
+      {
+        "id": "exp-bio",
+        "title": "زیست و فناوری",
+        "rank": 4,
+        "correlation": 0.5865039302965569,
+        "score": 79.32519651482785,
+        "contributions": [
+          {
+            "dimension": "realistic",
+            "label": "عملی",
+            "userScore": 50,
+            "targetScore": 51.83333333333333,
+            "contribution": -0.011436009782941214,
+            "relationship": "different"
+          },
+          {
+            "dimension": "investigative",
+            "label": "پژوهشی",
+            "userScore": 100,
+            "targetScore": 93.14285714285714,
+            "contribution": 0.39462013349639,
+            "relationship": "shared_higher"
+          },
+          {
+            "dimension": "artistic",
+            "label": "خلاق",
+            "userScore": 25,
+            "targetScore": 17.999999999999996,
+            "contribution": 0.17535215000509877,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "social",
+            "label": "یاری‌گر",
+            "userScore": 100,
+            "targetScore": 28.595238095238095,
+            "contribution": -0.1326421542851346,
+            "relationship": "different"
+          },
+          {
+            "dimension": "enterprising",
+            "label": "پیش‌برنده",
+            "userScore": 25,
+            "targetScore": 16.142857142857142,
+            "contribution": 0.1874883236523017,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "conventional",
+            "label": "ساختارمند",
+            "userScore": 50,
+            "targetScore": 61.285714285714285,
+            "contribution": -0.02687851278915777,
+            "relationship": "different"
+          }
+        ],
+        "description": "پژوهش و فناوری مرتبط با زیست"
+      },
+      {
+        "id": "exp-clinical",
+        "title": "علوم آزمایشگاهی و سلامت",
+        "rank": 5,
+        "correlation": 0.5492349729493314,
+        "score": 77.46174864746658,
+        "contributions": [
+          {
+            "dimension": "realistic",
+            "label": "عملی",
+            "userScore": 50,
+            "targetScore": 76.54166666666667,
+            "contribution": -0.05106585157883581,
+            "relationship": "different"
+          },
+          {
+            "dimension": "investigative",
+            "label": "پژوهشی",
+            "userScore": 100,
+            "targetScore": 61.95833333333333,
+            "contribution": 0.143436219167598,
+            "relationship": "shared_higher"
+          },
+          {
+            "dimension": "artistic",
+            "label": "خلاق",
+            "userScore": 25,
+            "targetScore": 0.5416666666666662,
+            "contribution": 0.2622346568555908,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "social",
+            "label": "یاری‌گر",
+            "userScore": 100,
+            "targetScore": 45.41666666666667,
+            "contribution": 0.016517543812019145,
+            "relationship": "shared_higher"
+          },
+          {
+            "dimension": "enterprising",
+            "label": "پیش‌برنده",
+            "userScore": 25,
+            "targetScore": 8.375,
+            "contribution": 0.21415261964279714,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "conventional",
+            "label": "ساختارمند",
+            "userScore": 50,
+            "targetScore": 66.75,
+            "contribution": -0.036040214949837786,
+            "relationship": "different"
+          }
+        ],
+        "description": "کار دقیق و فنی در خدمات سلامت"
+      }
+    ],
+    "majorRanking": [
+      {
+        "id": "audiology",
+        "title": "شنوایی‌شناسی",
+        "rank": 1,
+        "correlation": 0.9789680265688441,
+        "score": 98.9484013284422,
+        "contributions": [
+          {
+            "dimension": "realistic",
+            "label": "عملی",
+            "userScore": 50,
+            "targetScore": 49.666666666666664,
+            "contribution": -0.0004155212336879645,
+            "relationship": "different"
+          },
+          {
+            "dimension": "investigative",
+            "label": "پژوهشی",
+            "userScore": 100,
+            "targetScore": 82.16666666666667,
+            "contribution": 0.2721664080656167,
+            "relationship": "shared_higher"
+          },
+          {
+            "dimension": "artistic",
+            "label": "خلاق",
+            "userScore": 25,
+            "targetScore": 19.666666666666668,
+            "contribution": 0.19778810723547102,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "social",
+            "label": "یاری‌گر",
+            "userScore": 100,
+            "targetScore": 82,
+            "contribution": 0.27078133728665676,
+            "relationship": "shared_higher"
+          },
+          {
+            "dimension": "enterprising",
+            "label": "پیش‌برنده",
+            "userScore": 25,
+            "targetScore": 13.5,
+            "contribution": 0.23878620229268352,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "conventional",
+            "label": "ساختارمند",
+            "userScore": 50,
+            "targetScore": 49.5,
+            "contribution": -0.0001385070778959921,
+            "relationship": "different"
+          }
+        ],
+        "familyId": "exp-rehab",
+        "kind": "major",
+        "mappingRationale": "نمونه شنوایی‌شناسی.",
+        "occupations": [
+          {
+            "code": "29-1181.00",
+            "title": "Audiologists",
+            "rawInterests": {
+              "realistic": 3.98,
+              "investigative": 5.93,
+              "artistic": 2.18,
+              "social": 5.92,
+              "enterprising": 1.81,
+              "conventional": 3.97
+            },
+            "dateUpdated": "2026-02-01",
+            "domainSource": "Machine Learning/Expert"
+          }
+        ]
+      },
+      {
+        "id": "medicine",
+        "title": "پزشکی",
+        "rank": 2,
+        "correlation": 0.9779976318421837,
+        "score": 98.89988159210918,
+        "contributions": [
+          {
+            "dimension": "realistic",
+            "label": "عملی",
+            "userScore": 50,
+            "targetScore": 51.5,
+            "contribution": -0.0016336263338121114,
+            "relationship": "different"
+          },
+          {
+            "dimension": "investigative",
+            "label": "پژوهشی",
+            "userScore": 100,
+            "targetScore": 90.75,
+            "contribution": 0.29314516990072875,
+            "relationship": "shared_higher"
+          },
+          {
+            "dimension": "artistic",
+            "label": "خلاق",
+            "userScore": 25,
+            "targetScore": 7.416666666666666,
+            "contribution": 0.24952129632004244,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "social",
+            "label": "یاری‌گر",
+            "userScore": 100,
+            "targetScore": 85.75,
+            "contribution": 0.2568423624826819,
+            "relationship": "shared_higher"
+          },
+          {
+            "dimension": "enterprising",
+            "label": "پیش‌برنده",
+            "userScore": 25,
+            "targetScore": 20.333333333333336,
+            "contribution": 0.17449549432274547,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "conventional",
+            "label": "ساختارمند",
+            "userScore": 50,
+            "targetScore": 46.5,
+            "contribution": 0.005626935149797273,
+            "relationship": "shared_lower"
+          }
+        ],
+        "familyId": "exp-health",
+        "kind": "major",
+        "mappingRationale": "دو نمونه پزشکی عمومی و داخلی؛ همه تخصص‌های پزشکی را نمایندگی نمی‌کند.",
+        "occupations": [
+          {
+            "code": "29-1215.00",
+            "title": "Family Medicine Physicians",
+            "rawInterests": {
+              "realistic": 3.75,
+              "investigative": 6.08,
+              "artistic": 1.45,
+              "social": 6.21,
+              "enterprising": 2.34,
+              "conventional": 3.95
+            },
+            "dateUpdated": "2026-02-01",
+            "domainSource": "Machine Learning/Expert"
+          },
+          {
+            "code": "29-1216.00",
+            "title": "General Internal Medicine Physicians",
+            "rawInterests": {
+              "realistic": 4.43,
+              "investigative": 6.81,
+              "artistic": 1.44,
+              "social": 6.08,
+              "enterprising": 2.1,
+              "conventional": 3.63
+            },
+            "dateUpdated": "2026-02-01",
+            "domainSource": "Machine Learning/Expert"
+          }
+        ]
+      },
+      {
+        "id": "physiotherapy",
+        "title": "فیزیوتراپی",
+        "rank": 3,
+        "correlation": 0.9256800978632015,
+        "score": 96.28400489316007,
+        "contributions": [
+          {
+            "dimension": "realistic",
+            "label": "عملی",
+            "userScore": 50,
+            "targetScore": 55.5,
+            "contribution": -0.017388343546844078,
+            "relationship": "different"
+          },
+          {
+            "dimension": "investigative",
+            "label": "پژوهشی",
+            "userScore": 100,
+            "targetScore": 64.5,
+            "contribution": 0.17665227998226932,
+            "relationship": "shared_higher"
+          },
+          {
+            "dimension": "artistic",
+            "label": "خلاق",
+            "userScore": 25,
+            "targetScore": 19.5,
+            "contribution": 0.21752042500638044,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "social",
+            "label": "یاری‌گر",
+            "userScore": 100,
+            "targetScore": 81.83333333333333,
+            "contribution": 0.34942817764517836,
+            "relationship": "shared_higher"
+          },
+          {
+            "dimension": "enterprising",
+            "label": "پیش‌برنده",
+            "userScore": 25,
+            "targetScore": 24.83333333333334,
+            "contribution": 0.17499097327397198,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "conventional",
+            "label": "ساختارمند",
+            "userScore": 50,
+            "targetScore": 34.49999999999999,
+            "contribution": 0.02447658550224547,
+            "relationship": "shared_lower"
+          }
+        ],
+        "familyId": "exp-rehab",
+        "kind": "major",
+        "mappingRationale": "نمونه فیزیوتراپی.",
+        "occupations": [
+          {
+            "code": "29-1123.00",
+            "title": "Physical Therapists",
+            "rawInterests": {
+              "realistic": 4.33,
+              "investigative": 4.87,
+              "artistic": 2.17,
+              "social": 5.91,
+              "enterprising": 2.49,
+              "conventional": 3.07
+            },
+            "dateUpdated": "2026-02-01",
+            "domainSource": "Machine Learning/Expert"
+          }
+        ]
+      },
+      {
+        "id": "speech-therapy",
+        "title": "گفتاردرمانی",
+        "rank": 4,
+        "correlation": 0.9235173776211558,
+        "score": 96.1758688810578,
+        "contributions": [
+          {
+            "dimension": "realistic",
+            "label": "عملی",
+            "userScore": 50,
+            "targetScore": 27,
+            "contribution": 0.03192843102526175,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "investigative",
+            "label": "پژوهشی",
+            "userScore": 100,
+            "targetScore": 76.16666666666667,
+            "contribution": 0.24230182008502352,
+            "relationship": "shared_higher"
+          },
+          {
+            "dimension": "artistic",
+            "label": "خلاق",
+            "userScore": 25,
+            "targetScore": 33.333333333333336,
+            "contribution": 0.08629305682503172,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "social",
+            "label": "یاری‌گر",
+            "userScore": 100,
+            "targetScore": 84.83333333333333,
+            "contribution": 0.31315296147820737,
+            "relationship": "shared_higher"
+          },
+          {
+            "dimension": "enterprising",
+            "label": "پیش‌برنده",
+            "userScore": 25,
+            "targetScore": 7.333333333333332,
+            "contribution": 0.25633579616867336,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "conventional",
+            "label": "ساختارمند",
+            "userScore": 50,
+            "targetScore": 50.5,
+            "contribution": -0.006494687961041877,
+            "relationship": "different"
+          }
+        ],
+        "familyId": "exp-rehab",
+        "kind": "major",
+        "mappingRationale": "نمونه آسیب‌شناسی گفتار و زبان.",
+        "occupations": [
+          {
+            "code": "29-1127.00",
+            "title": "Speech-Language Pathologists",
+            "rawInterests": {
+              "realistic": 2.62,
+              "investigative": 5.57,
+              "artistic": 3,
+              "social": 6.09,
+              "enterprising": 1.44,
+              "conventional": 4.03
+            },
+            "dateUpdated": "2026-02-01",
+            "domainSource": "Machine Learning/Expert"
+          }
+        ]
+      },
+      {
+        "id": "optometry",
+        "title": "بینایی‌سنجی",
+        "rank": 5,
+        "correlation": 0.8834251309529333,
+        "score": 94.17125654764666,
+        "contributions": [
+          {
+            "dimension": "realistic",
+            "label": "عملی",
+            "userScore": 50,
+            "targetScore": 63.333333333333336,
+            "contribution": -0.026730033324694483,
+            "relationship": "different"
+          },
+          {
+            "dimension": "investigative",
+            "label": "پژوهشی",
+            "userScore": 100,
+            "targetScore": 79.66666666666667,
+            "contribution": 0.2789113458741225,
+            "relationship": "shared_higher"
+          },
+          {
+            "dimension": "artistic",
+            "label": "خلاق",
+            "userScore": 25,
+            "targetScore": 10.000000000000002,
+            "contribution": 0.27253764107026734,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "social",
+            "label": "یاری‌گر",
+            "userScore": 100,
+            "targetScore": 66.99999999999999,
+            "contribution": 0.16625981910831203,
+            "relationship": "shared_higher"
+          },
+          {
+            "dimension": "enterprising",
+            "label": "پیش‌برنده",
+            "userScore": 25,
+            "targetScore": 21.166666666666668,
+            "contribution": 0.1930886695617485,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "conventional",
+            "label": "ساختارمند",
+            "userScore": 50,
+            "targetScore": 48.666666666666664,
+            "contribution": -0.0006423113368226084,
+            "relationship": "different"
+          }
+        ],
+        "familyId": "exp-rehab",
+        "kind": "major",
+        "mappingRationale": "نمونه بینایی‌سنجی؛ دامنه مجوز کار در کشورها متفاوت است.",
+        "occupations": [
+          {
+            "code": "29-1041.00",
+            "title": "Optometrists",
+            "rawInterests": {
+              "realistic": 4.8,
+              "investigative": 5.78,
+              "artistic": 1.6,
+              "social": 5.02,
+              "enterprising": 2.27,
+              "conventional": 3.92
+            },
+            "dateUpdated": "2026-02-01",
+            "domainSource": "Machine Learning/Expert"
+          }
+        ]
+      },
+      {
+        "id": "pharmacy",
+        "title": "داروسازی",
+        "rank": 6,
+        "correlation": 0.8808393879500233,
+        "score": 94.04196939750116,
+        "contributions": [
+          {
+            "dimension": "realistic",
+            "label": "عملی",
+            "userScore": 50,
+            "targetScore": 30.33333333333333,
+            "contribution": 0.02589511720414578,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "investigative",
+            "label": "پژوهشی",
+            "userScore": 100,
+            "targetScore": 77.83333333333333,
+            "contribution": 0.30379887991947935,
+            "relationship": "shared_higher"
+          },
+          {
+            "dimension": "artistic",
+            "label": "خلاق",
+            "userScore": 25,
+            "targetScore": 8,
+            "contribution": 0.26655247846146135,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "social",
+            "label": "یاری‌گر",
+            "userScore": 100,
+            "targetScore": 64.66666666666667,
+            "contribution": 0.1836982384834217,
+            "relationship": "shared_higher"
+          },
+          {
+            "dimension": "enterprising",
+            "label": "پیش‌برنده",
+            "userScore": 25,
+            "targetScore": 27,
+            "contribution": 0.12790464936059476,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "conventional",
+            "label": "ساختارمند",
+            "userScore": 50,
+            "targetScore": 59.33333333333332,
+            "contribution": -0.027009975479079643,
+            "relationship": "different"
+          }
+        ],
+        "familyId": "exp-health",
+        "kind": "major",
+        "mappingRationale": "نمونه کار داروساز؛ پژوهش و صنعت دارو پوشش کامل ندارند.",
+        "occupations": [
+          {
+            "code": "29-1051.00",
+            "title": "Pharmacists",
+            "rawInterests": {
+              "realistic": 2.82,
+              "investigative": 5.67,
+              "artistic": 1.48,
+              "social": 4.88,
+              "enterprising": 2.62,
+              "conventional": 4.56
+            },
+            "dateUpdated": "2026-02-01",
+            "domainSource": "Machine Learning/Expert"
+          }
+        ]
+      },
+      {
+        "id": "occupational-therapy",
+        "title": "کاردرمانی",
+        "rank": 7,
+        "correlation": 0.8639234873780407,
+        "score": 93.19617436890204,
+        "contributions": [
+          {
+            "dimension": "realistic",
+            "label": "عملی",
+            "userScore": 50,
+            "targetScore": 42.833333333333336,
+            "contribution": 0.0027360997224957933,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "investigative",
+            "label": "پژوهشی",
+            "userScore": 100,
+            "targetScore": 53.83333333333334,
+            "contribution": 0.09918361494047176,
+            "relationship": "shared_higher"
+          },
+          {
+            "dimension": "artistic",
+            "label": "خلاق",
+            "userScore": 25,
+            "targetScore": 34.49999999999999,
+            "contribution": 0.07934689195237758,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "social",
+            "label": "یاری‌گر",
+            "userScore": 100,
+            "targetScore": 84.66666666666667,
+            "contribution": 0.41554514535404546,
+            "relationship": "shared_higher"
+          },
+          {
+            "dimension": "enterprising",
+            "label": "پیش‌برنده",
+            "userScore": 25,
+            "targetScore": 13.833333333333334,
+            "contribution": 0.24898507474711548,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "conventional",
+            "label": "ساختارمند",
+            "userScore": 50,
+            "targetScore": 35.333333333333336,
+            "contribution": 0.018126660661534524,
+            "relationship": "shared_lower"
+          }
+        ],
+        "familyId": "exp-rehab",
+        "kind": "major",
+        "mappingRationale": "نمونه کاردرمانی.",
+        "occupations": [
+          {
+            "code": "29-1122.00",
+            "title": "Occupational Therapists",
+            "rawInterests": {
+              "realistic": 3.57,
+              "investigative": 4.23,
+              "artistic": 3.07,
+              "social": 6.08,
+              "enterprising": 1.83,
+              "conventional": 3.12
+            },
+            "dateUpdated": "2026-02-01",
+            "domainSource": "Machine Learning/Expert"
+          }
+        ]
+      },
+      {
+        "id": "dentistry",
+        "title": "دندانپزشکی",
+        "rank": 8,
+        "correlation": 0.7763544027193343,
+        "score": 88.81772013596671,
+        "contributions": [
+          {
+            "dimension": "realistic",
+            "label": "عملی",
+            "userScore": 50,
+            "targetScore": 70.50000000000001,
+            "contribution": -0.04361123666012313,
+            "relationship": "different"
+          },
+          {
+            "dimension": "investigative",
+            "label": "پژوهشی",
+            "userScore": 100,
+            "targetScore": 74.66666666666667,
+            "contribution": 0.2529265750864282,
+            "relationship": "shared_higher"
+          },
+          {
+            "dimension": "artistic",
+            "label": "خلاق",
+            "userScore": 25,
+            "targetScore": 2.833333333333332,
+            "contribution": 0.27859118344078637,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "social",
+            "label": "یاری‌گر",
+            "userScore": 100,
+            "targetScore": 56.833333333333336,
+            "contribution": 0.10368129824314977,
+            "relationship": "shared_higher"
+          },
+          {
+            "dimension": "enterprising",
+            "label": "پیش‌برنده",
+            "userScore": 25,
+            "targetScore": 16.666666666666668,
+            "contribution": 0.18597542285766783,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "conventional",
+            "label": "ساختارمند",
+            "userScore": 50,
+            "targetScore": 45.166666666666664,
+            "contribution": -0.0012088402485748277,
+            "relationship": "different"
+          }
+        ],
+        "familyId": "exp-health",
+        "kind": "major",
+        "mappingRationale": "نمونه دندانپزشکی عمومی.",
+        "occupations": [
+          {
+            "code": "29-1021.00",
+            "title": "Dentists, General",
+            "rawInterests": {
+              "realistic": 5.23,
+              "investigative": 5.48,
+              "artistic": 1.17,
+              "social": 4.41,
+              "enterprising": 2,
+              "conventional": 3.71
+            },
+            "dateUpdated": "2026-02-01",
+            "domainSource": "Machine Learning/Expert"
+          }
+        ]
+      },
+      {
+        "id": "health-information-technology",
+        "title": "فناوری اطلاعات سلامت",
+        "rank": 9,
+        "correlation": 0.7528845335917485,
+        "score": 87.64422667958742,
+        "contributions": [
+          {
+            "dimension": "realistic",
+            "label": "عملی",
+            "userScore": 50,
+            "targetScore": 28.5,
+            "contribution": 0.025535109565114168,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "investigative",
+            "label": "پژوهشی",
+            "userScore": 100,
+            "targetScore": 78.83333333333334,
+            "contribution": 0.2999549376826257,
+            "relationship": "shared_higher"
+          },
+          {
+            "dimension": "artistic",
+            "label": "خلاق",
+            "userScore": 25,
+            "targetScore": 9.75,
+            "contribution": 0.22957998692183973,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "social",
+            "label": "یاری‌گر",
+            "userScore": 100,
+            "targetScore": 52.91666666666666,
+            "contribution": 0.07976771749545819,
+            "relationship": "shared_higher"
+          },
+          {
+            "dimension": "enterprising",
+            "label": "پیش‌برنده",
+            "userScore": 25,
+            "targetScore": 19,
+            "contribution": 0.1667098095822241,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "conventional",
+            "label": "ساختارمند",
+            "userScore": 50,
+            "targetScore": 72.16666666666667,
+            "contribution": -0.04866302765551333,
+            "relationship": "different"
+          }
+        ],
+        "familyId": "exp-bio",
+        "kind": "pathway",
+        "mappingRationale": "نمونه فناوری و انفورماتیک سلامت با نقش‌های تحصیلی متفاوت.",
+        "occupations": [
+          {
+            "code": "29-9021.00",
+            "title": "Health Information Technologists and Medical Registrars",
+            "rawInterests": {
+              "realistic": 2.58,
+              "investigative": 5.17,
+              "artistic": 1.18,
+              "social": 3.83,
+              "enterprising": 2.2,
+              "conventional": 5.95
+            },
+            "dateUpdated": "2026-02-01",
+            "domainSource": "Machine Learning/Expert"
+          },
+          {
+            "code": "15-1211.01",
+            "title": "Health Informatics Specialists",
+            "rawInterests": {
+              "realistic": 2.84,
+              "investigative": 6.29,
+              "artistic": 1.99,
+              "social": 4.52,
+              "enterprising": 2.08,
+              "conventional": 4.71
+            },
+            "dateUpdated": "2026-02-01",
+            "domainSource": "Machine Learning/Expert"
+          }
+        ]
+      },
+      {
+        "id": "anesthesia",
+        "title": "هوشبری",
+        "rank": 10,
+        "correlation": 0.740592097218672,
+        "score": 87.0296048609336,
+        "contributions": [
+          {
+            "dimension": "realistic",
+            "label": "عملی",
+            "userScore": 50,
+            "targetScore": 56.66666666666668,
+            "contribution": -0.02088205549178497,
+            "relationship": "different"
+          },
+          {
+            "dimension": "investigative",
+            "label": "پژوهشی",
+            "userScore": 100,
+            "targetScore": 60.333333333333336,
+            "contribution": 0.13510550379428793,
+            "relationship": "shared_higher"
+          },
+          {
+            "dimension": "artistic",
+            "label": "خلاق",
+            "userScore": 25,
+            "targetScore": 0,
+            "contribution": 0.2959763945428051,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "social",
+            "label": "یاری‌گر",
+            "userScore": 100,
+            "targetScore": 65.00000000000001,
+            "contribution": 0.17417215549384119,
+            "relationship": "shared_higher"
+          },
+          {
+            "dimension": "enterprising",
+            "label": "پیش‌برنده",
+            "userScore": 25,
+            "targetScore": 14.83333333333333,
+            "contribution": 0.19663548022108426,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "conventional",
+            "label": "ساختارمند",
+            "userScore": 50,
+            "targetScore": 68.33333333333333,
+            "contribution": -0.04041538134156152,
+            "relationship": "different"
+          }
+        ],
+        "familyId": "exp-clinical",
+        "kind": "major",
+        "mappingRationale": "جانشین تقریبی فعالیت‌های کمک به بیهوشی؛ معادل مدرک هوشبری ایران نیست.",
+        "occupations": [
+          {
+            "code": "29-1071.01",
+            "title": "Anesthesiologist Assistants",
+            "rawInterests": {
+              "realistic": 4.4,
+              "investigative": 4.62,
+              "artistic": 1,
+              "social": 4.9,
+              "enterprising": 1.89,
+              "conventional": 5.1
+            },
+            "dateUpdated": "2026-02-01",
+            "domainSource": "Machine Learning/Expert"
+          }
+        ]
+      },
+      {
+        "id": "psychology",
+        "title": "روانشناسی",
+        "rank": 11,
+        "correlation": 0.6554430038055685,
+        "score": 82.77215019027842,
+        "contributions": [
+          {
+            "dimension": "realistic",
+            "label": "عملی",
+            "userScore": 50,
+            "targetScore": 0.833333333333334,
+            "contribution": 0.081432452584506,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "investigative",
+            "label": "پژوهشی",
+            "userScore": 100,
+            "targetScore": 74.33333333333333,
+            "contribution": 0.25992835484404236,
+            "relationship": "shared_higher"
+          },
+          {
+            "dimension": "artistic",
+            "label": "خلاق",
+            "userScore": 25,
+            "targetScore": 34.91666666666667,
+            "contribution": 0.07825583059514127,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "social",
+            "label": "یاری‌گر",
+            "userScore": 100,
+            "targetScore": 71.33333333333333,
+            "contribution": 0.23270016636377414,
+            "relationship": "shared_higher"
+          },
+          {
+            "dimension": "enterprising",
+            "label": "پیش‌برنده",
+            "userScore": 25,
+            "targetScore": 44.66666666666667,
+            "contribution": 0.007462540546443796,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "conventional",
+            "label": "ساختارمند",
+            "userScore": 50,
+            "targetScore": 48.083333333333336,
+            "contribution": -0.00433634112833904,
+            "relationship": "different"
+          }
+        ],
+        "familyId": "exp-people",
+        "kind": "major",
+        "mappingRationale": "دو نمونه بالینی و سازمانی؛ اشتغال تخصصی ممکن است تحصیلات و مجوز بیشتری بخواهد.",
+        "occupations": [
+          {
+            "code": "19-3033.00",
+            "title": "Clinical and Counseling Psychologists",
+            "rawInterests": {
+              "realistic": 1.05,
+              "investigative": 5.58,
+              "artistic": 3.06,
+              "social": 6.57,
+              "enterprising": 2.65,
+              "conventional": 3.49
+            },
+            "dateUpdated": "2026-02-01",
+            "domainSource": "Machine Learning/Expert"
+          },
+          {
+            "code": "19-3032.00",
+            "title": "Industrial-Organizational Psychologists",
+            "rawInterests": {
+              "realistic": 1.05,
+              "investigative": 5.34,
+              "artistic": 3.13,
+              "social": 3.99,
+              "enterprising": 4.71,
+              "conventional": 4.28
+            },
+            "dateUpdated": "2026-02-01",
+            "domainSource": "Machine Learning/Expert"
+          }
+        ]
+      },
+      {
+        "id": "veterinary",
+        "title": "دامپزشکی",
+        "rank": 12,
+        "correlation": 0.6295083757399543,
+        "score": 81.47541878699771,
+        "contributions": [
+          {
+            "dimension": "realistic",
+            "label": "عملی",
+            "userScore": 50,
+            "targetScore": 83.00000000000001,
+            "contribution": -0.05577428607857095,
+            "relationship": "different"
+          },
+          {
+            "dimension": "investigative",
+            "label": "پژوهشی",
+            "userScore": 100,
+            "targetScore": 83.00000000000001,
+            "contribution": 0.27887143039285467,
+            "relationship": "shared_higher"
+          },
+          {
+            "dimension": "artistic",
+            "label": "خلاق",
+            "userScore": 25,
+            "targetScore": 0,
+            "contribution": 0.24306667891024752,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "social",
+            "label": "یاری‌گر",
+            "userScore": 100,
+            "targetScore": 40.833333333333336,
+            "contribution": -0.017161318793406422,
+            "relationship": "different"
+          },
+          {
+            "dimension": "enterprising",
+            "label": "پیش‌برنده",
+            "userScore": 25,
+            "targetScore": 11.666666666666666,
+            "contribution": 0.17754164351724117,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "conventional",
+            "label": "ساختارمند",
+            "userScore": 50,
+            "targetScore": 41.16666666666667,
+            "contribution": 0.0029642277915883793,
+            "relationship": "shared_lower"
+          }
+        ],
+        "familyId": "exp-health",
+        "kind": "major",
+        "mappingRationale": "نمونه دامپزشکی.",
+        "occupations": [
+          {
+            "code": "29-1131.00",
+            "title": "Veterinarians",
+            "rawInterests": {
+              "realistic": 5.98,
+              "investigative": 5.98,
+              "artistic": 1,
+              "social": 3.45,
+              "enterprising": 1.7,
+              "conventional": 3.47
+            },
+            "dateUpdated": "2026-02-01",
+            "domainSource": "Machine Learning/Expert"
+          }
+        ]
+      },
+      {
+        "id": "counseling",
+        "title": "مشاوره",
+        "rank": 13,
+        "correlation": 0.5986370364513232,
+        "score": 79.93185182256616,
+        "contributions": [
+          {
+            "dimension": "realistic",
+            "label": "عملی",
+            "userScore": 50,
+            "targetScore": 2.583333333333334,
+            "contribution": 0.0670787905794745,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "investigative",
+            "label": "پژوهشی",
+            "userScore": 100,
+            "targetScore": 47.666666666666664,
+            "contribution": 0.02096898363450015,
+            "relationship": "shared_higher"
+          },
+          {
+            "dimension": "artistic",
+            "label": "خلاق",
+            "userScore": 25,
+            "targetScore": 34.91666666666667,
+            "contribution": 0.06385110409332627,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "social",
+            "label": "یاری‌گر",
+            "userScore": 100,
+            "targetScore": 98.25,
+            "contribution": 0.42080688100020563,
+            "relationship": "shared_higher"
+          },
+          {
+            "dimension": "enterprising",
+            "label": "پیش‌برنده",
+            "userScore": 25,
+            "targetScore": 40.666666666666664,
+            "contribution": 0.027490227759575176,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "conventional",
+            "label": "ساختارمند",
+            "userScore": 50,
+            "targetScore": 46,
+            "contribution": -0.001558950615758648,
+            "relationship": "different"
+          }
+        ],
+        "familyId": "exp-people",
+        "kind": "major",
+        "mappingRationale": "نمونه مشاوره تحصیلی و سلامت روان؛ مجوز و شرایط محلی مستقل‌اند.",
+        "occupations": [
+          {
+            "code": "21-1012.00",
+            "title": "Educational, Guidance, and Career Counselors and Advisors",
+            "rawInterests": {
+              "realistic": 1,
+              "investigative": 3.3,
+              "artistic": 3.13,
+              "social": 7,
+              "enterprising": 3.92,
+              "conventional": 4.09
+            },
+            "dateUpdated": "2026-02-01",
+            "domainSource": "Machine Learning/Expert"
+          },
+          {
+            "code": "21-1014.00",
+            "title": "Mental Health Counselors",
+            "rawInterests": {
+              "realistic": 1.31,
+              "investigative": 4.42,
+              "artistic": 3.06,
+              "social": 6.79,
+              "enterprising": 2.96,
+              "conventional": 3.43
+            },
+            "dateUpdated": "2026-02-01",
+            "domainSource": "Machine Learning/Expert"
+          }
+        ]
+      },
+      {
+        "id": "radiology",
+        "title": "تکنولوژی پرتوشناسی (تصویربرداری)",
+        "rank": 14,
+        "correlation": 0.5150680641707374,
+        "score": 75.75340320853687,
+        "contributions": [
+          {
+            "dimension": "realistic",
+            "label": "عملی",
+            "userScore": 50,
+            "targetScore": 81.66666666666667,
+            "contribution": -0.05398243396181963,
+            "relationship": "different"
+          },
+          {
+            "dimension": "investigative",
+            "label": "پژوهشی",
+            "userScore": 100,
+            "targetScore": 64.66666666666667,
+            "contribution": 0.15300753575165432,
+            "relationship": "shared_higher"
+          },
+          {
+            "dimension": "artistic",
+            "label": "خلاق",
+            "userScore": 25,
+            "targetScore": 0,
+            "contribution": 0.23335081856956416,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "social",
+            "label": "یاری‌گر",
+            "userScore": 100,
+            "targetScore": 40.166666666666664,
+            "contribution": -0.01547267215466167,
+            "relationship": "different"
+          },
+          {
+            "dimension": "enterprising",
+            "label": "پیش‌برنده",
+            "userScore": 25,
+            "targetScore": 0,
+            "contribution": 0.23335081856956416,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "conventional",
+            "label": "ساختارمند",
+            "userScore": 50,
+            "targetScore": 68,
+            "contribution": -0.03518600260356396,
+            "relationship": "different"
+          }
+        ],
+        "familyId": "exp-clinical",
+        "kind": "major",
+        "mappingRationale": "نمونه فناوری تصویربرداری؛ این مدخل تخصص پزشکی رادیولوژی نیست.",
+        "occupations": [
+          {
+            "code": "29-2034.00",
+            "title": "Radiologic Technologists and Technicians",
+            "rawInterests": {
+              "realistic": 5.9,
+              "investigative": 4.88,
+              "artistic": 1,
+              "social": 3.41,
+              "enterprising": 1,
+              "conventional": 5.08
+            },
+            "dateUpdated": "2026-02-01",
+            "domainSource": "Machine Learning/Expert"
+          }
+        ]
+      },
+      {
+        "id": "laboratory-sciences",
+        "title": "علوم آزمایشگاهی",
+        "rank": 15,
+        "correlation": 0.51354281946469,
+        "score": 75.6771409732345,
+        "contributions": [
+          {
+            "dimension": "realistic",
+            "label": "عملی",
+            "userScore": 50,
+            "targetScore": 80.16666666666666,
+            "contribution": -0.04603618218092819,
+            "relationship": "different"
+          },
+          {
+            "dimension": "investigative",
+            "label": "پژوهشی",
+            "userScore": 100,
+            "targetScore": 85.83333333333333,
+            "contribution": 0.26774643556427835,
+            "relationship": "shared_higher"
+          },
+          {
+            "dimension": "artistic",
+            "label": "خلاق",
+            "userScore": 25,
+            "targetScore": 2.1666666666666647,
+            "contribution": 0.22951798988123553,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "social",
+            "label": "یاری‌گر",
+            "userScore": 100,
+            "targetScore": 29.5,
+            "contribution": -0.10569907428741106,
+            "relationship": "different"
+          },
+          {
+            "dimension": "enterprising",
+            "label": "پیش‌برنده",
+            "userScore": 25,
+            "targetScore": 8.5,
+            "contribution": 0.19592999136203032,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "conventional",
+            "label": "ساختارمند",
+            "userScore": 50,
+            "targetScore": 66.5,
+            "contribution": -0.027916340874514868,
+            "relationship": "different"
+          }
+        ],
+        "familyId": "exp-clinical",
+        "kind": "major",
+        "mappingRationale": "نمونه فناوری آزمایشگاه پزشکی؛ هم‌ارزی مدرک ادعا نمی‌شود.",
+        "occupations": [
+          {
+            "code": "29-2011.00",
+            "title": "Medical and Clinical Laboratory Technologists",
+            "rawInterests": {
+              "realistic": 5.81,
+              "investigative": 6.15,
+              "artistic": 1.13,
+              "social": 2.77,
+              "enterprising": 1.51,
+              "conventional": 4.99
+            },
+            "dateUpdated": "2026-02-01",
+            "domainSource": "Machine Learning/Expert"
+          }
+        ]
+      },
+      {
+        "id": "microbiology",
+        "title": "میکروبیولوژی",
+        "rank": 16,
+        "correlation": 0.5064921534205892,
+        "score": 75.32460767102947,
+        "contributions": [
+          {
+            "dimension": "realistic",
+            "label": "عملی",
+            "userScore": 50,
+            "targetScore": 71.5,
+            "contribution": -0.037703162400986444,
+            "relationship": "different"
+          },
+          {
+            "dimension": "investigative",
+            "label": "پژوهشی",
+            "userScore": 100,
+            "targetScore": 100,
+            "contribution": 0.37046992594384126,
+            "relationship": "shared_higher"
+          },
+          {
+            "dimension": "artistic",
+            "label": "خلاق",
+            "userScore": 25,
+            "targetScore": 15.333333333333334,
+            "contribution": 0.13605769611494256,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "social",
+            "label": "یاری‌گر",
+            "userScore": 100,
+            "targetScore": 16.333333333333332,
+            "contribution": -0.16368776526862877,
+            "relationship": "different"
+          },
+          {
+            "dimension": "enterprising",
+            "label": "پیش‌برنده",
+            "userScore": 25,
+            "targetScore": 1.1666666666666676,
+            "contribution": 0.20841371803216963,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "conventional",
+            "label": "ساختارمند",
+            "userScore": 50,
+            "targetScore": 47.5,
+            "contribution": -0.00705825900074911,
+            "relationship": "different"
+          }
+        ],
+        "familyId": "exp-bio",
+        "kind": "major",
+        "mappingRationale": "نمونه میکروبیولوژی.",
+        "occupations": [
+          {
+            "code": "19-1022.00",
+            "title": "Microbiologists",
+            "rawInterests": {
+              "realistic": 5.29,
+              "investigative": 7,
+              "artistic": 1.92,
+              "social": 1.98,
+              "enterprising": 1.07,
+              "conventional": 3.85
+            },
+            "dateUpdated": "2026-02-01",
+            "domainSource": "Machine Learning/Expert"
+          }
+        ]
+      },
+      {
+        "id": "biology",
+        "title": "زیست‌شناسی",
+        "rank": 17,
+        "correlation": 0.47547381120696564,
+        "score": 73.77369056034829,
+        "contributions": [
+          {
+            "dimension": "realistic",
+            "label": "عملی",
+            "userScore": 50,
+            "targetScore": 59.50000000000001,
+            "contribution": -0.017757308057823894,
+            "relationship": "different"
+          },
+          {
+            "dimension": "investigative",
+            "label": "پژوهشی",
+            "userScore": 100,
+            "targetScore": 97.16666666666666,
+            "contribution": 0.39319753556610015,
+            "relationship": "shared_higher"
+          },
+          {
+            "dimension": "artistic",
+            "label": "خلاق",
+            "userScore": 25,
+            "targetScore": 19.583333333333332,
+            "contribution": 0.1870466381008706,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "social",
+            "label": "یاری‌گر",
+            "userScore": 100,
+            "targetScore": 24.083333333333336,
+            "contribution": -0.1974406123496347,
+            "relationship": "different"
+          },
+          {
+            "dimension": "enterprising",
+            "label": "پیش‌برنده",
+            "userScore": 25,
+            "targetScore": 27.83333333333333,
+            "contribution": 0.1337073663620722,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "conventional",
+            "label": "ساختارمند",
+            "userScore": 50,
+            "targetScore": 62.916666666666664,
+            "contribution": -0.023279808414618665,
+            "relationship": "different"
+          }
+        ],
+        "familyId": "exp-bio",
+        "kind": "major",
+        "mappingRationale": "نمونه زیست‌شناسی عمومی و سلولی؛ همه گرایش‌ها را پوشش نمی‌دهد.",
+        "occupations": [
+          {
+            "code": "19-1029.04",
+            "title": "Biologists",
+            "rawInterests": {
+              "realistic": 4.11,
+              "investigative": 7,
+              "artistic": 2.4,
+              "social": 2.62,
+              "enterprising": 2.76,
+              "conventional": 4.45
+            },
+            "dateUpdated": "2026-02-01",
+            "domainSource": "Machine Learning/Expert"
+          },
+          {
+            "code": "19-1029.02",
+            "title": "Molecular and Cellular Biologists",
+            "rawInterests": {
+              "realistic": 5.03,
+              "investigative": 6.66,
+              "artistic": 1.95,
+              "social": 2.27,
+              "enterprising": 2.58,
+              "conventional": 5.1
+            },
+            "dateUpdated": "2026-02-01",
+            "domainSource": "Machine Learning/Expert"
+          }
+        ]
+      },
+      {
+        "id": "educational-sciences",
+        "title": "علوم تربیتی",
+        "rank": 18,
+        "correlation": 0.4738876223309769,
+        "score": 73.69438111654884,
+        "contributions": [
+          {
+            "dimension": "realistic",
+            "label": "عملی",
+            "userScore": 50,
+            "targetScore": 10.333333333333336,
+            "contribution": 0.07775068402266974,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "investigative",
+            "label": "پژوهشی",
+            "userScore": 100,
+            "targetScore": 50.666666666666664,
+            "contribution": 0.017340080609372303,
+            "relationship": "shared_higher"
+          },
+          {
+            "dimension": "artistic",
+            "label": "خلاق",
+            "userScore": 25,
+            "targetScore": 42.666666666666664,
+            "contribution": 0.05056591248668599,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "social",
+            "label": "یاری‌گر",
+            "userScore": 100,
+            "targetScore": 86,
+            "contribution": 0.3730914118210122,
+            "relationship": "shared_higher"
+          },
+          {
+            "dimension": "enterprising",
+            "label": "پیش‌برنده",
+            "userScore": 25,
+            "targetScore": 54.333333333333336,
+            "contribution": -0.04340613726733214,
+            "relationship": "different"
+          },
+          {
+            "dimension": "conventional",
+            "label": "ساختارمند",
+            "userScore": 50,
+            "targetScore": 49.666666666666664,
+            "contribution": -0.0014543293414312167,
+            "relationship": "different"
+          }
+        ],
+        "familyId": "exp-people",
+        "kind": "major",
+        "mappingRationale": "نمونه طراحی و هماهنگی آموزش؛ نماینده همه مشاغل علوم تربیتی نیست.",
+        "occupations": [
+          {
+            "code": "25-9031.00",
+            "title": "Instructional Coordinators",
+            "rawInterests": {
+              "realistic": 1.62,
+              "investigative": 4.04,
+              "artistic": 3.56,
+              "social": 6.16,
+              "enterprising": 4.26,
+              "conventional": 3.98
+            },
+            "dateUpdated": "2026-02-01",
+            "domainSource": "Machine Learning/Expert"
+          }
+        ]
+      },
+      {
+        "id": "biotechnology",
+        "title": "زیست‌فناوری",
+        "rank": 19,
+        "correlation": 0.45208601961298367,
+        "score": 72.60430098064919,
+        "contributions": [
+          {
+            "dimension": "realistic",
+            "label": "عملی",
+            "userScore": 50,
+            "targetScore": 67.83333333333334,
+            "contribution": -0.03152171040230823,
+            "relationship": "different"
+          },
+          {
+            "dimension": "investigative",
+            "label": "پژوهشی",
+            "userScore": 100,
+            "targetScore": 97.16666666666666,
+            "contribution": 0.3808609073759774,
+            "relationship": "shared_higher"
+          },
+          {
+            "dimension": "artistic",
+            "label": "خلاق",
+            "userScore": 25,
+            "targetScore": 21.333333333333332,
+            "contribution": 0.15703773633021154,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "social",
+            "label": "یاری‌گر",
+            "userScore": 100,
+            "targetScore": 20.166666666666664,
+            "contribution": -0.20517652545566814,
+            "relationship": "different"
+          },
+          {
+            "dimension": "enterprising",
+            "label": "پیش‌برنده",
+            "userScore": 25,
+            "targetScore": 20.083333333333332,
+            "contribution": 0.16464861208127188,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "conventional",
+            "label": "ساختارمند",
+            "userScore": 50,
+            "targetScore": 56.166666666666664,
+            "contribution": -0.01376300031650077,
+            "relationship": "different"
+          }
+        ],
+        "familyId": "exp-bio",
+        "kind": "major",
+        "mappingRationale": "نمونه فعالیت پژوهشی زیستی؛ زیست‌فناوری صنعتی و کشاورزی کامل پوشش ندارند.",
+        "occupations": [
+          {
+            "code": "19-1021.00",
+            "title": "Biochemists and Biophysicists",
+            "rawInterests": {
+              "realistic": 5.11,
+              "investigative": 7,
+              "artistic": 2.61,
+              "social": 2.15,
+              "enterprising": 1.83,
+              "conventional": 3.64
+            },
+            "dateUpdated": "2026-02-01",
+            "domainSource": "Machine Learning/Expert"
+          },
+          {
+            "code": "19-1029.02",
+            "title": "Molecular and Cellular Biologists",
+            "rawInterests": {
+              "realistic": 5.03,
+              "investigative": 6.66,
+              "artistic": 1.95,
+              "social": 2.27,
+              "enterprising": 2.58,
+              "conventional": 5.1
+            },
+            "dateUpdated": "2026-02-01",
+            "domainSource": "Machine Learning/Expert"
+          }
+        ]
+      },
+      {
+        "id": "bioinformatics",
+        "title": "بیوانفورماتیک",
+        "rank": 20,
+        "correlation": 0.42772048881612257,
+        "score": 71.38602444080612,
+        "contributions": [
+          {
+            "dimension": "realistic",
+            "label": "عملی",
+            "userScore": 50,
+            "targetScore": 46.833333333333336,
+            "contribution": -0.005918982720167766,
+            "relationship": "different"
+          },
+          {
+            "dimension": "investigative",
+            "label": "پژوهشی",
+            "userScore": 100,
+            "targetScore": 100,
+            "contribution": 0.38362406755087275,
+            "relationship": "shared_higher"
+          },
+          {
+            "dimension": "artistic",
+            "label": "خلاق",
+            "userScore": 25,
+            "targetScore": 25.16666666666666,
+            "contribution": 0.09174423216260026,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "social",
+            "label": "یاری‌گر",
+            "userScore": 100,
+            "targetScore": 10.666666666666666,
+            "contribution": -0.2112336958259868,
+            "relationship": "different"
+          },
+          {
+            "dimension": "enterprising",
+            "label": "پیش‌برنده",
+            "userScore": 25,
+            "targetScore": 4.333333333333333,
+            "contribution": 0.20272515816574568,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "conventional",
+            "label": "ساختارمند",
+            "userScore": 50,
+            "targetScore": 67.33333333333333,
+            "contribution": -0.033220290516941545,
+            "relationship": "different"
+          }
+        ],
+        "familyId": "exp-bio",
+        "kind": "pathway",
+        "mappingRationale": "مسیر تخصصی پژوهش بیوانفورماتیک؛ پذیرش کارشناسی مستقلی تأیید نشده است.",
+        "occupations": [
+          {
+            "code": "19-1029.01",
+            "title": "Bioinformatics Scientists",
+            "rawInterests": {
+              "realistic": 3.81,
+              "investigative": 7,
+              "artistic": 2.51,
+              "social": 1.64,
+              "enterprising": 1.26,
+              "conventional": 5.04
+            },
+            "dateUpdated": "2026-02-01",
+            "domainSource": "Machine Learning/Expert"
+          }
+        ]
+      },
+      {
+        "id": "operating-room",
+        "title": "اتاق عمل",
+        "rank": 21,
+        "correlation": 0.33784586933134025,
+        "score": 66.89229346656701,
+        "contributions": [
+          {
+            "dimension": "realistic",
+            "label": "عملی",
+            "userScore": 50,
+            "targetScore": 87.66666666666667,
+            "contribution": -0.06930171678591596,
+            "relationship": "different"
+          },
+          {
+            "dimension": "investigative",
+            "label": "پژوهشی",
+            "userScore": 100,
+            "targetScore": 37.00000000000001,
+            "contribution": -0.02970073576539249,
+            "relationship": "different"
+          },
+          {
+            "dimension": "artistic",
+            "label": "خلاق",
+            "userScore": 25,
+            "targetScore": 0,
+            "contribution": 0.24354603327621885,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "social",
+            "label": "یاری‌گر",
+            "userScore": 100,
+            "targetScore": 47,
+            "contribution": 0.04455110364808881,
+            "relationship": "shared_higher"
+          },
+          {
+            "dimension": "enterprising",
+            "label": "پیش‌برنده",
+            "userScore": 25,
+            "targetScore": 10.166666666666668,
+            "contribution": 0.1831545372199207,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "conventional",
+            "label": "ساختارمند",
+            "userScore": 50,
+            "targetScore": 64.16666666666666,
+            "contribution": -0.034403352261579694,
+            "relationship": "different"
+          }
+        ],
+        "familyId": "exp-clinical",
+        "kind": "major",
+        "mappingRationale": "نمونه فناوری جراحی؛ شرح وظایف ایران باید جداگانه بررسی شود.",
+        "occupations": [
+          {
+            "code": "29-2055.00",
+            "title": "Surgical Technologists",
+            "rawInterests": {
+              "realistic": 6.26,
+              "investigative": 3.22,
+              "artistic": 1,
+              "social": 3.82,
+              "enterprising": 1.61,
+              "conventional": 4.85
+            },
+            "dateUpdated": "2026-02-01",
+            "domainSource": "Machine Learning/Expert"
+          }
+        ]
+      }
+    ],
+    "topFamilies": [
+      {
+        "id": "exp-rehab",
+        "title": "توانبخشی",
+        "rank": 1,
+        "correlation": 0.9777131043616687,
+        "score": 98.88565521808343,
+        "contributions": [
+          {
+            "dimension": "realistic",
+            "label": "عملی",
+            "userScore": 50,
+            "targetScore": 47.66666666666667,
+            "contribution": -0.0012102265395209657,
+            "relationship": "different"
+          },
+          {
+            "dimension": "investigative",
+            "label": "پژوهشی",
+            "userScore": 100,
+            "targetScore": 71.26666666666668,
+            "contribution": 0.23353088225004043,
+            "relationship": "shared_higher"
+          },
+          {
+            "dimension": "artistic",
+            "label": "خلاق",
+            "userScore": 25,
+            "targetScore": 23.4,
+            "contribution": 0.18228367878448465,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "social",
+            "label": "یاری‌گر",
+            "userScore": 100,
+            "targetScore": 80.06666666666666,
+            "contribution": 0.3183538397102705,
+            "relationship": "shared_higher"
+          },
+          {
+            "dimension": "enterprising",
+            "label": "پیش‌برنده",
+            "userScore": 25,
+            "targetScore": 16.133333333333333,
+            "contribution": 0.2383182385612428,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "conventional",
+            "label": "ساختارمند",
+            "userScore": 50,
+            "targetScore": 43.7,
+            "contribution": 0.006436691595151308,
+            "relationship": "shared_lower"
+          }
+        ],
+        "description": "کمک به بازیابی و تقویت توانایی‌های فرد"
+      },
+      {
+        "id": "exp-health",
+        "title": "سلامت و درمان",
+        "rank": 2,
+        "correlation": 0.9073896815684964,
+        "score": 95.36948407842483,
+        "contributions": [
+          {
+            "dimension": "realistic",
+            "label": "عملی",
+            "userScore": 50,
+            "targetScore": 57.366666666666674,
+            "contribution": -0.017814664912875307,
+            "relationship": "different"
+          },
+          {
+            "dimension": "investigative",
+            "label": "پژوهشی",
+            "userScore": 100,
+            "targetScore": 83.4,
+            "contribution": 0.30444876259774495,
+            "relationship": "shared_higher"
+          },
+          {
+            "dimension": "artistic",
+            "label": "خلاق",
+            "userScore": 25,
+            "targetScore": 5.133333333333333,
+            "contribution": 0.27444511642869185,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "social",
+            "label": "یاری‌گر",
+            "userScore": 100,
+            "targetScore": 66.76666666666668,
+            "contribution": 0.1668401280540179,
+            "relationship": "shared_higher"
+          },
+          {
+            "dimension": "enterprising",
+            "label": "پیش‌برنده",
+            "userScore": 25,
+            "targetScore": 19.2,
+            "contribution": 0.18134556728648288,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "conventional",
+            "label": "ساختارمند",
+            "userScore": 50,
+            "targetScore": 47.733333333333334,
+            "contribution": -0.0018752278855658198,
+            "relationship": "different"
+          }
+        ],
+        "description": "شناخت بدن و ارائه خدمت درمانی"
+      },
+      {
+        "id": "exp-people",
+        "title": "انسان و رفتار",
+        "rank": 3,
+        "correlation": 0.6239301290616701,
+        "score": 81.1965064530835,
+        "contributions": [
+          {
+            "dimension": "realistic",
+            "label": "عملی",
+            "userScore": 50,
+            "targetScore": 3.4333333333333345,
+            "contribution": 0.077569309303598,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "investigative",
+            "label": "پژوهشی",
+            "userScore": 100,
+            "targetScore": 58.93333333333334,
+            "contribution": 0.11698563585526342,
+            "relationship": "shared_higher"
+          },
+          {
+            "dimension": "artistic",
+            "label": "خلاق",
+            "userScore": 25,
+            "targetScore": 36.46666666666667,
+            "contribution": 0.06989828575162002,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "social",
+            "label": "یاری‌گر",
+            "userScore": 100,
+            "targetScore": 85.03333333333333,
+            "contribution": 0.35439320270106356,
+            "relationship": "shared_higher"
+          },
+          {
+            "dimension": "enterprising",
+            "label": "پیش‌برنده",
+            "userScore": 25,
+            "targetScore": 45,
+            "contribution": 0.007802411307150186,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "conventional",
+            "label": "ساختارمند",
+            "userScore": 50,
+            "targetScore": 47.56666666666667,
+            "contribution": -0.0027187158570251336,
+            "relationship": "different"
+          }
+        ],
+        "description": "شناخت رفتار و کمک آموزشی یا مشاوره‌ای"
+      }
+    ],
+    "topMajors": [
+      {
+        "id": "audiology",
+        "title": "شنوایی‌شناسی",
+        "rank": 1,
+        "correlation": 0.9789680265688441,
+        "score": 98.9484013284422,
+        "contributions": [
+          {
+            "dimension": "realistic",
+            "label": "عملی",
+            "userScore": 50,
+            "targetScore": 49.666666666666664,
+            "contribution": -0.0004155212336879645,
+            "relationship": "different"
+          },
+          {
+            "dimension": "investigative",
+            "label": "پژوهشی",
+            "userScore": 100,
+            "targetScore": 82.16666666666667,
+            "contribution": 0.2721664080656167,
+            "relationship": "shared_higher"
+          },
+          {
+            "dimension": "artistic",
+            "label": "خلاق",
+            "userScore": 25,
+            "targetScore": 19.666666666666668,
+            "contribution": 0.19778810723547102,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "social",
+            "label": "یاری‌گر",
+            "userScore": 100,
+            "targetScore": 82,
+            "contribution": 0.27078133728665676,
+            "relationship": "shared_higher"
+          },
+          {
+            "dimension": "enterprising",
+            "label": "پیش‌برنده",
+            "userScore": 25,
+            "targetScore": 13.5,
+            "contribution": 0.23878620229268352,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "conventional",
+            "label": "ساختارمند",
+            "userScore": 50,
+            "targetScore": 49.5,
+            "contribution": -0.0001385070778959921,
+            "relationship": "different"
+          }
+        ],
+        "familyId": "exp-rehab",
+        "kind": "major",
+        "mappingRationale": "نمونه شنوایی‌شناسی.",
+        "occupations": [
+          {
+            "code": "29-1181.00",
+            "title": "Audiologists",
+            "rawInterests": {
+              "realistic": 3.98,
+              "investigative": 5.93,
+              "artistic": 2.18,
+              "social": 5.92,
+              "enterprising": 1.81,
+              "conventional": 3.97
+            },
+            "dateUpdated": "2026-02-01",
+            "domainSource": "Machine Learning/Expert"
+          }
+        ]
+      },
+      {
+        "id": "medicine",
+        "title": "پزشکی",
+        "rank": 2,
+        "correlation": 0.9779976318421837,
+        "score": 98.89988159210918,
+        "contributions": [
+          {
+            "dimension": "realistic",
+            "label": "عملی",
+            "userScore": 50,
+            "targetScore": 51.5,
+            "contribution": -0.0016336263338121114,
+            "relationship": "different"
+          },
+          {
+            "dimension": "investigative",
+            "label": "پژوهشی",
+            "userScore": 100,
+            "targetScore": 90.75,
+            "contribution": 0.29314516990072875,
+            "relationship": "shared_higher"
+          },
+          {
+            "dimension": "artistic",
+            "label": "خلاق",
+            "userScore": 25,
+            "targetScore": 7.416666666666666,
+            "contribution": 0.24952129632004244,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "social",
+            "label": "یاری‌گر",
+            "userScore": 100,
+            "targetScore": 85.75,
+            "contribution": 0.2568423624826819,
+            "relationship": "shared_higher"
+          },
+          {
+            "dimension": "enterprising",
+            "label": "پیش‌برنده",
+            "userScore": 25,
+            "targetScore": 20.333333333333336,
+            "contribution": 0.17449549432274547,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "conventional",
+            "label": "ساختارمند",
+            "userScore": 50,
+            "targetScore": 46.5,
+            "contribution": 0.005626935149797273,
+            "relationship": "shared_lower"
+          }
+        ],
+        "familyId": "exp-health",
+        "kind": "major",
+        "mappingRationale": "دو نمونه پزشکی عمومی و داخلی؛ همه تخصص‌های پزشکی را نمایندگی نمی‌کند.",
+        "occupations": [
+          {
+            "code": "29-1215.00",
+            "title": "Family Medicine Physicians",
+            "rawInterests": {
+              "realistic": 3.75,
+              "investigative": 6.08,
+              "artistic": 1.45,
+              "social": 6.21,
+              "enterprising": 2.34,
+              "conventional": 3.95
+            },
+            "dateUpdated": "2026-02-01",
+            "domainSource": "Machine Learning/Expert"
+          },
+          {
+            "code": "29-1216.00",
+            "title": "General Internal Medicine Physicians",
+            "rawInterests": {
+              "realistic": 4.43,
+              "investigative": 6.81,
+              "artistic": 1.44,
+              "social": 6.08,
+              "enterprising": 2.1,
+              "conventional": 3.63
+            },
+            "dateUpdated": "2026-02-01",
+            "domainSource": "Machine Learning/Expert"
+          }
+        ]
+      },
+      {
+        "id": "physiotherapy",
+        "title": "فیزیوتراپی",
+        "rank": 3,
+        "correlation": 0.9256800978632015,
+        "score": 96.28400489316007,
+        "contributions": [
+          {
+            "dimension": "realistic",
+            "label": "عملی",
+            "userScore": 50,
+            "targetScore": 55.5,
+            "contribution": -0.017388343546844078,
+            "relationship": "different"
+          },
+          {
+            "dimension": "investigative",
+            "label": "پژوهشی",
+            "userScore": 100,
+            "targetScore": 64.5,
+            "contribution": 0.17665227998226932,
+            "relationship": "shared_higher"
+          },
+          {
+            "dimension": "artistic",
+            "label": "خلاق",
+            "userScore": 25,
+            "targetScore": 19.5,
+            "contribution": 0.21752042500638044,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "social",
+            "label": "یاری‌گر",
+            "userScore": 100,
+            "targetScore": 81.83333333333333,
+            "contribution": 0.34942817764517836,
+            "relationship": "shared_higher"
+          },
+          {
+            "dimension": "enterprising",
+            "label": "پیش‌برنده",
+            "userScore": 25,
+            "targetScore": 24.83333333333334,
+            "contribution": 0.17499097327397198,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "conventional",
+            "label": "ساختارمند",
+            "userScore": 50,
+            "targetScore": 34.49999999999999,
+            "contribution": 0.02447658550224547,
+            "relationship": "shared_lower"
+          }
+        ],
+        "familyId": "exp-rehab",
+        "kind": "major",
+        "mappingRationale": "نمونه فیزیوتراپی.",
+        "occupations": [
+          {
+            "code": "29-1123.00",
+            "title": "Physical Therapists",
+            "rawInterests": {
+              "realistic": 4.33,
+              "investigative": 4.87,
+              "artistic": 2.17,
+              "social": 5.91,
+              "enterprising": 2.49,
+              "conventional": 3.07
+            },
+            "dateUpdated": "2026-02-01",
+            "domainSource": "Machine Learning/Expert"
+          }
+        ]
+      },
+      {
+        "id": "speech-therapy",
+        "title": "گفتاردرمانی",
+        "rank": 4,
+        "correlation": 0.9235173776211558,
+        "score": 96.1758688810578,
+        "contributions": [
+          {
+            "dimension": "realistic",
+            "label": "عملی",
+            "userScore": 50,
+            "targetScore": 27,
+            "contribution": 0.03192843102526175,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "investigative",
+            "label": "پژوهشی",
+            "userScore": 100,
+            "targetScore": 76.16666666666667,
+            "contribution": 0.24230182008502352,
+            "relationship": "shared_higher"
+          },
+          {
+            "dimension": "artistic",
+            "label": "خلاق",
+            "userScore": 25,
+            "targetScore": 33.333333333333336,
+            "contribution": 0.08629305682503172,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "social",
+            "label": "یاری‌گر",
+            "userScore": 100,
+            "targetScore": 84.83333333333333,
+            "contribution": 0.31315296147820737,
+            "relationship": "shared_higher"
+          },
+          {
+            "dimension": "enterprising",
+            "label": "پیش‌برنده",
+            "userScore": 25,
+            "targetScore": 7.333333333333332,
+            "contribution": 0.25633579616867336,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "conventional",
+            "label": "ساختارمند",
+            "userScore": 50,
+            "targetScore": 50.5,
+            "contribution": -0.006494687961041877,
+            "relationship": "different"
+          }
+        ],
+        "familyId": "exp-rehab",
+        "kind": "major",
+        "mappingRationale": "نمونه آسیب‌شناسی گفتار و زبان.",
+        "occupations": [
+          {
+            "code": "29-1127.00",
+            "title": "Speech-Language Pathologists",
+            "rawInterests": {
+              "realistic": 2.62,
+              "investigative": 5.57,
+              "artistic": 3,
+              "social": 6.09,
+              "enterprising": 1.44,
+              "conventional": 4.03
+            },
+            "dateUpdated": "2026-02-01",
+            "domainSource": "Machine Learning/Expert"
+          }
+        ]
+      },
+      {
+        "id": "optometry",
+        "title": "بینایی‌سنجی",
+        "rank": 5,
+        "correlation": 0.8834251309529333,
+        "score": 94.17125654764666,
+        "contributions": [
+          {
+            "dimension": "realistic",
+            "label": "عملی",
+            "userScore": 50,
+            "targetScore": 63.333333333333336,
+            "contribution": -0.026730033324694483,
+            "relationship": "different"
+          },
+          {
+            "dimension": "investigative",
+            "label": "پژوهشی",
+            "userScore": 100,
+            "targetScore": 79.66666666666667,
+            "contribution": 0.2789113458741225,
+            "relationship": "shared_higher"
+          },
+          {
+            "dimension": "artistic",
+            "label": "خلاق",
+            "userScore": 25,
+            "targetScore": 10.000000000000002,
+            "contribution": 0.27253764107026734,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "social",
+            "label": "یاری‌گر",
+            "userScore": 100,
+            "targetScore": 66.99999999999999,
+            "contribution": 0.16625981910831203,
+            "relationship": "shared_higher"
+          },
+          {
+            "dimension": "enterprising",
+            "label": "پیش‌برنده",
+            "userScore": 25,
+            "targetScore": 21.166666666666668,
+            "contribution": 0.1930886695617485,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "conventional",
+            "label": "ساختارمند",
+            "userScore": 50,
+            "targetScore": 48.666666666666664,
+            "contribution": -0.0006423113368226084,
+            "relationship": "different"
+          }
+        ],
+        "familyId": "exp-rehab",
+        "kind": "major",
+        "mappingRationale": "نمونه بینایی‌سنجی؛ دامنه مجوز کار در کشورها متفاوت است.",
+        "occupations": [
+          {
+            "code": "29-1041.00",
+            "title": "Optometrists",
+            "rawInterests": {
+              "realistic": 4.8,
+              "investigative": 5.78,
+              "artistic": 1.6,
+              "social": 5.02,
+              "enterprising": 2.27,
+              "conventional": 3.92
+            },
+            "dateUpdated": "2026-02-01",
+            "domainSource": "Machine Learning/Expert"
+          }
+        ]
+      }
+    ],
+    "explanations": {
+      "title": "رغبت برجسته در پاسخ‌های تو: پژوهشی، یاری‌گر",
+      "interpretation": "این نتیجه برای شناخت مسیرهای قابل بررسی است و جایگزین مشاوره تخصصی یا اطلاعات رسمی پذیرش نیست.",
+      "notices": [
+        "پرسش‌نامه فارسی هنوز روی دانش‌آموزان ایرانی اعتبارسنجی نشده است؛ نتیجه برای بررسی مسیرهاست.",
+        "داده‌های هدف از شغل‌های نمونه در آمریکا آمده‌اند. نگاشت آن‌ها به رشته‌های این فهرست نیازمند بازبینی متخصص است.",
+        "گروه و عنوان‌های رشته‌ها فهرست اکتشافی محصول‌اند؛ مجاز بودن پذیرش باید با دفترچه رسمی همان سال بررسی شود."
+      ]
+    },
+    "method": {
+      "id": "riasec_profile_correlation_v1",
+      "sectionWeights": {
+        "riasec": 1,
+        "personality": 0,
+        "values": 0,
+        "abilities": 0,
+        "workstyle": 0
+      },
+      "dimensionWeights": {
+        "realistic": 1,
+        "investigative": 1,
+        "artistic": 1,
+        "social": 1,
+        "enterprising": 1,
+        "conventional": 1
+      },
+      "scoreMeaning": "شاخص شباهت الگوی رغبت از ۰ تا ۱۰۰؛ احتمال قبولی، موفقیت یا درصد استعداد نیست."
+    },
+    "evidence": {
+      "status": "unvalidated_pilot",
+      "source": {
+        "dataset": "O*NET 31.0 Database",
+        "version": "31.0",
+        "retrievedAt": "2026-09-27",
+        "url": "https://www.onetcenter.org/dl_files/database/db_31_0_json/career_interest_types.json",
+        "sha256": "3b1100f1f22c5e7c4394decba92777ba597a40e9c6b6096822253c26c23451de",
+        "license": "https://creativecommons.org/licenses/by/4.0/",
+        "attribution": "O*NET® 31.0 Database, U.S. Department of Labor, Employment and Training Administration (USDOL/ETA), CC BY 4.0. انتخاب‌یار has selected occupations, normalized and averaged ratings, and mapped them to exploratory educational pathways. USDOL/ETA has not approved, endorsed, or tested these modifications."
+      },
+      "questionnaire": "authored_fa_unvalidated",
+      "crosswalk": "editorial_pending_expert_review",
+      "admission": "unverified"
+    },
+    "quality": {
+      "uniformResponses": false,
+      "interestRange": 75,
+      "tiedFamilyBoundary": false,
+      "tiedMajorBoundary": false
+    },
+    "sensitivity": {
+      "scenarioCount": 42,
+      "answerScenarioCount": 30,
+      "weightScenarioCount": 12,
+      "unrankableScenarios": 0,
+      "familyRanges": [
+        {
+          "id": "exp-rehab",
+          "minRank": 1,
+          "maxRank": 1,
+          "selectedCount": 42
+        },
+        {
+          "id": "exp-health",
+          "minRank": 2,
+          "maxRank": 2,
+          "selectedCount": 42
+        },
+        {
+          "id": "exp-people",
+          "minRank": 3,
+          "maxRank": 5,
+          "selectedCount": 32
+        },
+        {
+          "id": "exp-bio",
+          "minRank": 3,
+          "maxRank": 5,
+          "selectedCount": 7
+        },
+        {
+          "id": "exp-clinical",
+          "minRank": 3,
+          "maxRank": 5,
+          "selectedCount": 3
+        }
+      ],
+      "majorRanges": [
+        {
+          "id": "audiology",
+          "minRank": 1,
+          "maxRank": 2,
+          "selectedCount": 42
+        },
+        {
+          "id": "medicine",
+          "minRank": 1,
+          "maxRank": 2,
+          "selectedCount": 42
+        },
+        {
+          "id": "physiotherapy",
+          "minRank": 3,
+          "maxRank": 5,
+          "selectedCount": 42
+        },
+        {
+          "id": "speech-therapy",
+          "minRank": 3,
+          "maxRank": 6,
+          "selectedCount": 39
+        },
+        {
+          "id": "optometry",
+          "minRank": 4,
+          "maxRank": 7,
+          "selectedCount": 24
+        },
+        {
+          "id": "pharmacy",
+          "minRank": 4,
+          "maxRank": 7,
+          "selectedCount": 15
+        },
+        {
+          "id": "occupational-therapy",
+          "minRank": 5,
+          "maxRank": 7,
+          "selectedCount": 6
+        },
+        {
+          "id": "dentistry",
+          "minRank": 8,
+          "maxRank": 10,
+          "selectedCount": 0
+        },
+        {
+          "id": "health-information-technology",
+          "minRank": 8,
+          "maxRank": 10,
+          "selectedCount": 0
+        },
+        {
+          "id": "anesthesia",
+          "minRank": 9,
+          "maxRank": 11,
+          "selectedCount": 0
+        },
+        {
+          "id": "psychology",
+          "minRank": 9,
+          "maxRank": 12,
+          "selectedCount": 0
+        },
+        {
+          "id": "veterinary",
+          "minRank": 11,
+          "maxRank": 13,
+          "selectedCount": 0
+        },
+        {
+          "id": "counseling",
+          "minRank": 12,
+          "maxRank": 17,
+          "selectedCount": 0
+        },
+        {
+          "id": "radiology",
+          "minRank": 13,
+          "maxRank": 17,
+          "selectedCount": 0
+        },
+        {
+          "id": "laboratory-sciences",
+          "minRank": 14,
+          "maxRank": 17,
+          "selectedCount": 0
+        },
+        {
+          "id": "microbiology",
+          "minRank": 13,
+          "maxRank": 17,
+          "selectedCount": 0
+        },
+        {
+          "id": "biology",
+          "minRank": 16,
+          "maxRank": 18,
+          "selectedCount": 0
+        },
+        {
+          "id": "educational-sciences",
+          "minRank": 14,
+          "maxRank": 21,
+          "selectedCount": 0
+        },
+        {
+          "id": "biotechnology",
+          "minRank": 18,
+          "maxRank": 20,
+          "selectedCount": 0
+        },
+        {
+          "id": "bioinformatics",
+          "minRank": 19,
+          "maxRank": 20,
+          "selectedCount": 0
+        },
+        {
+          "id": "operating-room",
+          "minRank": 20,
+          "maxRank": 21,
+          "selectedCount": 0
+        }
+      ],
+      "interpretation": "تغییر هر پاسخ رغبت به اندازه یک گزینه و تغییر وزن هر محور به اندازه ±۲۰٪، هر بار جداگانه؛ این دامنه‌ها فاصله اطمینان یا پایایی آزمون نیستند و خطای نگاشت رشته به شغل را نمی‌سنجند."
+    }
+  }
+}

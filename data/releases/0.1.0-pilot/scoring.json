@@ -1,0 +1,193 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": "0.1.0-pilot",
+  "status": "pilot",
+  "scale": {
+    "min": 1,
+    "max": 5,
+    "labels": [
+      "کاملاً مخالفم",
+      "مخالفم",
+      "نه موافقم، نه مخالفم",
+      "موافقم",
+      "کاملاً موافقم"
+    ]
+  },
+  "dimensions": [
+    {
+      "id": "realistic",
+      "section": "riasec",
+      "label": "عملی",
+      "kind": "self_report"
+    },
+    {
+      "id": "investigative",
+      "section": "riasec",
+      "label": "پژوهشی",
+      "kind": "self_report"
+    },
+    {
+      "id": "artistic",
+      "section": "riasec",
+      "label": "خلاق",
+      "kind": "self_report"
+    },
+    {
+      "id": "social",
+      "section": "riasec",
+      "label": "یاری‌گر",
+      "kind": "self_report"
+    },
+    {
+      "id": "enterprising",
+      "section": "riasec",
+      "label": "پیش‌برنده",
+      "kind": "self_report"
+    },
+    {
+      "id": "conventional",
+      "section": "riasec",
+      "label": "ساختارمند",
+      "kind": "self_report"
+    },
+    {
+      "id": "openness",
+      "section": "personality",
+      "label": "گشودگی به تجربه",
+      "kind": "self_report"
+    },
+    {
+      "id": "conscientiousness",
+      "section": "personality",
+      "label": "نظم و مسئولیت‌پذیری",
+      "kind": "self_report"
+    },
+    {
+      "id": "extraversion",
+      "section": "personality",
+      "label": "برون‌گرایی",
+      "kind": "self_report"
+    },
+    {
+      "id": "agreeableness",
+      "section": "personality",
+      "label": "همکاری",
+      "kind": "self_report"
+    },
+    {
+      "id": "emotional_stability",
+      "section": "personality",
+      "label": "تاب‌آوری در فشار",
+      "kind": "self_report"
+    },
+    {
+      "id": "income",
+      "section": "values",
+      "label": "درآمد",
+      "kind": "self_report"
+    },
+    {
+      "id": "security",
+      "section": "values",
+      "label": "امنیت",
+      "kind": "self_report"
+    },
+    {
+      "id": "freedom",
+      "section": "values",
+      "label": "آزادی عمل",
+      "kind": "self_report"
+    },
+    {
+      "id": "impact",
+      "section": "values",
+      "label": "اثرگذاری",
+      "kind": "self_report"
+    },
+    {
+      "id": "growth",
+      "section": "values",
+      "label": "رشد",
+      "kind": "self_report"
+    },
+    {
+      "id": "lifestyle",
+      "section": "values",
+      "label": "سبک زندگی",
+      "kind": "self_report"
+    },
+    {
+      "id": "analytical",
+      "section": "abilities",
+      "label": "تحلیل",
+      "kind": "self_report"
+    },
+    {
+      "id": "numerical",
+      "section": "abilities",
+      "label": "کار با عدد",
+      "kind": "self_report"
+    },
+    {
+      "id": "verbal",
+      "section": "abilities",
+      "label": "بیان و متن",
+      "kind": "self_report"
+    },
+    {
+      "id": "spatial",
+      "section": "abilities",
+      "label": "درک فضایی",
+      "kind": "self_report"
+    },
+    {
+      "id": "creativity",
+      "section": "abilities",
+      "label": "خلاقیت",
+      "kind": "self_report"
+    },
+    {
+      "id": "learning",
+      "section": "abilities",
+      "label": "یادگیری",
+      "kind": "self_report"
+    },
+    {
+      "id": "focus",
+      "section": "abilities",
+      "label": "تمرکز",
+      "kind": "self_report"
+    },
+    {
+      "id": "persistence",
+      "section": "abilities",
+      "label": "پشتکار",
+      "kind": "self_report"
+    },
+    {
+      "id": "independence",
+      "section": "workstyle",
+      "label": "استقلال در کار",
+      "kind": "self_report"
+    }
+  ],
+  "sectionWeights": {
+    "riasec": 0.35,
+    "personality": 0.15,
+    "values": 0.2,
+    "abilities": 0.25,
+    "workstyle": 0.05
+  },
+  "responseTransform": {
+    "positive": "(answer - 1) * 25",
+    "negative": "(5 - answer) * 25"
+  },
+  "missingAnswerPolicy": "reject_submission",
+  "ranking": {
+    "familyCount": 3,
+    "recommendationCount": 5,
+    "displayRoundDigits": 0,
+    "tieBreaker": "id_ascending"
+  },
+  "scoreMeaning": "امتیاز تناسب داخلی و اکتشافی؛ احتمال قبولی یا موفقیت نیست."
+}
