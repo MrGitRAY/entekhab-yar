@@ -2,12 +2,12 @@
   color-scheme: light;
   --ink: #14213d;
   --muted: #61708d;
-  --blue: #2759e6;
-  --blue-dark: #1747d2;
-  --line: #dce4f3;
-  --canvas: #f4f7fc;
-  --pale-blue: #eef3ff;
-  --mint: #8fe0d4;
+  --blue: #64732b;
+  --blue-dark: #4d5a20;
+  --line: #dfe3cf;
+  --canvas: #f4f5ed;
+  --pale-blue: #eef1df;
+  --mint: #c7d58a;
 }
 
 * { box-sizing: border-box; }
@@ -24,7 +24,7 @@ a { color: inherit; }
 .result-shell { width: min(1120px, calc(100% - 40px)); margin: auto; padding-bottom: 40px; }
 .result-nav { display: flex; align-items: center; justify-content: space-between; gap: 20px; padding: 26px 0; color: var(--muted); font-size: .85rem; }
 .result-nav .brand { text-decoration: none; color: var(--ink); }
-.result-hero { padding: clamp(26px, 5vw, 55px); background: #182d5c; color: white; border-radius: 24px; }
+.result-hero { padding: clamp(26px, 5vw, 55px); background: #3f4b1b; color: white; border-radius: 24px; }
 .result-hero h1 { font-size: clamp(1.65rem, 3vw, 2.8rem); line-height: 1.6; margin-block: 20px 14px; }
 .result-subtitle { color: #cfdbf1; max-width: 700px; }
 .result-hero .secondary-button { margin-top: 14px; }
@@ -55,7 +55,9 @@ a { color: inherit; }
 .candidate-number { display: grid; place-items: center; border-radius: 12px; background: #e5f5f1; color: #167a6c; width: 40px; height: 40px; flex-shrink: 0; font-weight: 800; }
 .sensitivity-line { padding: 12px 15px; background: #f1f5fc; border-radius: 10px; font-size: .82rem; color: #445a80; }
 .result-shell details { font-size: .82rem; overflow-wrap: anywhere; }
-.result-shell summary { cursor: pointer; color: #2859cc; padding-block: 6px; }
+.result-shell summary { cursor: pointer; color: #5d6d26; padding-block: 6px; }
+.card-details { margin-top: 12px; padding-top: 8px; border-top: 1px solid #e5e8d7; }
+.card-details summary { color: var(--blue); font-weight: 800; }
 .table-scroll { overflow-x: auto; }
 .result-shell table { width: 100%; border-collapse: collapse; font-size: .83rem; }
 .result-shell td, .result-shell th { padding: 12px; text-align: right; border-bottom: 1px solid var(--line); vertical-align: top; }
@@ -75,7 +77,7 @@ a { color: inherit; }
 
 .landing-shell { min-height: 100svh; padding: clamp(16px, 3vw, 48px); display: grid; place-items: center; }
 .landing-layout { width: min(1160px, 100%); min-height: min(740px, calc(100svh - 96px)); display: grid; grid-template-columns: 1.03fr 1fr; border-radius: 30px; overflow: hidden; background: white; box-shadow: 0 28px 80px rgba(28, 49, 91, .09); }
-.intro-panel { position: relative; display: flex; flex-direction: column; justify-content: space-between; min-height: 100%; padding: clamp(30px, 5vw, 64px); color: white; background: radial-gradient(circle at 15% 5%, rgba(142, 226, 214, .18), transparent 26%), linear-gradient(145deg, #14244d, #172c60 58%, #253f7b); isolation: isolate; }
+.intro-panel { position: relative; display: flex; flex-direction: column; justify-content: space-between; min-height: 100%; padding: clamp(30px, 5vw, 64px); color: white; background: radial-gradient(circle at 15% 5%, rgba(199, 213, 138, .2), transparent 26%), linear-gradient(145deg, #303a15, #465321 58%, #64732b); isolation: isolate; }
 .intro-panel::after { content: ""; position: absolute; width: 430px; height: 430px; border: 1px solid rgba(255,255,255,.11); border-radius: 50%; left: -180px; bottom: 65px; z-index: -1; box-shadow: 0 0 0 65px rgba(255,255,255,.025), 0 0 0 130px rgba(255,255,255,.018); }
 .brand { display: inline-flex; align-items: center; gap: 10px; font-weight: 800; font-size: 1.13rem; letter-spacing: -.02em; }
 .brand-mark { width: 36px; height: 36px; display: grid; place-items: center; border-radius: 12px; background: var(--mint); color: #12315b; font-weight: 900; line-height: 1; }
@@ -213,6 +215,8 @@ a { color: inherit; }
 }
 
 .button-row { display: flex; flex-wrap: wrap; gap: 10px; }
+.keyboard-help { position: fixed; z-index: 5; inset-inline-start: 18px; bottom: 18px; display: flex; gap: 9px; align-items: center; flex-wrap: wrap; max-width: min(440px, calc(100% - 36px)); padding: 10px 14px; border: 1px solid #cbd3a8; border-radius: 14px; background: rgba(251,252,245,.95); color: #536027; box-shadow: 0 10px 30px rgba(56,65,26,.12); font-size: .76rem; }
+.keyboard-help span { padding-inline-start: 9px; border-inline-start: 1px solid #d7ddbd; }
 
 @media print {
   .result-nav, .secondary-button, .button-row, details summary { display: none !important; }

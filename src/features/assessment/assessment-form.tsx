@@ -63,6 +63,22 @@ export function AssessmentForm({ attemptId, displayName, group, questions, label
     return () => window.removeEventListener("beforeunload", beforeUnload);
   }, []);
 
+  useEffect(() => {
+    function onKeyDown(event: KeyboardEvent) {
+      if (event.target instanceof HTMLInputElement || event.target instanceof HTMLTextAreaElement || event.target instanceof HTMLSelectElement) return;
+      if (/^[1-5]$/.test(event.key)) {
+        event.preventDefault();
+        choose(Number(event.key));
+      } else if (event.key === "Enter") {
+        event.preventDefault();
+        if (currentIndex < questions.length - 1) setCurrentIndex((index) => index + 1);
+        else void submit();
+      }
+    }
+    window.addEventListener("keydown", onKeyDown);
+    return () => window.removeEventListener("keydown", onKeyDown);
+  }, [currentIndex, questions.length, submitted, submitting]);
+
   function persist(): Promise<boolean> {
     if (pendingRef.current) return pendingRef.current;
     const job = (async () => {
@@ -175,6 +191,7 @@ export function AssessmentForm({ attemptId, displayName, group, questions, label
         <div className="brand"><span className="brand-mark" aria-hidden="true">ا</span><span>انتخاب‌یار</span></div>
         <div className="header-meta"><span>{displayName}</span><span className="meta-separator" aria-hidden="true" /><span>گروه {groupLabel}</span>{preview && <span className="preview-pill">پیش‌نمایش</span>}</div>
       </header>
+      <div className="keyboard-help" role="note"><strong>راهنمای سریع</strong><span>کلیدهای ۱ تا ۵ برای پاسخ</span><span>Enter برای پرسش بعدی</span></div>
       <div className="assessment-layout">
         <section className="assessment-main" aria-labelledby="question-title">
           <div className="assessment-topline">
