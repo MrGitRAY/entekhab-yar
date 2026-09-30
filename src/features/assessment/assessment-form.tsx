@@ -175,7 +175,7 @@ export function AssessmentForm({ attemptId, displayName, group, questions, label
   if (submitted) {
     return (
       <main className="simple-page success-page">
-        <div className="brand"><span className="brand-mark" aria-hidden="true">ا</span><span>انتخاب‌یار</span></div>
+        <div className="brand"><img className="brand-logo" src="/logo-rahyar.png" alt=""/><span>انتخاب‌یار</span><small>مرکز مشاوره تحصیلی رهیار</small></div>
         <div className="success-icon" aria-hidden="true">✓</div>
         <h1>{preview ? "پیش‌نمایش را کامل کردی" : "پاسخ‌هایت ثبت شد"}، {displayName}.</h1>
         <p>{preview ? "این پاسخ‌ها فقط در همین مرورگر نگهداری شده‌اند. نتیجهٔ اکتشافی را می‌توانی همین حالا ببینی." : "پاسخ‌ها برای محاسبهٔ نتیجهٔ اکتشافی آماده‌اند."}</p>
@@ -188,10 +188,9 @@ export function AssessmentForm({ attemptId, displayName, group, questions, label
   return (
     <main className="assessment-shell">
       <header className="assessment-header">
-        <div className="brand"><span className="brand-mark" aria-hidden="true">ا</span><span>انتخاب‌یار</span></div>
+        <div className="brand"><img className="brand-logo" src="/logo-rahyar.png" alt=""/><span>انتخاب‌یار</span><small>مرکز مشاوره تحصیلی رهیار</small></div>
         <div className="header-meta"><span>{displayName}</span><span className="meta-separator" aria-hidden="true" /><span>گروه {groupLabel}</span>{preview && <span className="preview-pill">پیش‌نمایش</span>}</div>
       </header>
-      <div className="keyboard-help" role="note"><strong>راهنمای سریع</strong><span>کلیدهای ۱ تا ۵ برای پاسخ</span><span>Enter برای پرسش بعدی</span></div>
       <div className="assessment-layout">
         <section className="assessment-main" aria-labelledby="question-title">
           <div className="assessment-topline">
@@ -238,6 +237,7 @@ export function AssessmentForm({ attemptId, displayName, group, questions, label
                   {submitting ? "در حال ثبت…" : "ثبت نهایی پاسخ‌ها"}<span aria-hidden="true">✓</span>
                 </button>}
           </div>
+          <div className="keyboard-help" role="note"><strong>راهنمای سریع</strong><span>کلیدهای ۱ تا ۵ برای پاسخ</span><span>Enter برای پرسش بعدی</span></div>
           {complete && currentIndex < questions.length - 1 &&
             <button className="finish-link" type="button" onClick={() => void submit()} disabled={submitting}>همه پرسش‌ها پاسخ داده شده‌اند؛ ثبت نهایی</button>}
         </section>

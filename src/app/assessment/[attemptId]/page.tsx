@@ -28,7 +28,7 @@ export default async function AssessmentPage({ params }: Props) {
   if (attempt.status !== "draft") {
     return (
       <main className="simple-page">
-        <div className="brand"><span className="brand-mark" aria-hidden="true">ا</span><span>انتخاب‌یار</span></div>
+        <div className="brand"><img className="brand-logo" src="/logo-rahyar.png" alt=""/><span>انتخاب‌یار</span><small>مرکز مشاوره تحصیلی رهیار</small></div>
         <span className="step-tag">آزمون ثبت شد</span>
         <h1>پاسخ‌های شما ثبت شده‌اند.</h1>
         <p>نتیجهٔ اکتشافی از همین پاسخ‌های ثبت‌شده محاسبه می‌شود.</p>

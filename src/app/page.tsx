@@ -7,7 +7,7 @@ export default function HomePage() {
     <main className="landing-shell">
       <div className="landing-layout">
         <section className="intro-panel" aria-labelledby="intro-title">
-          <div className="brand"><span className="brand-mark" aria-hidden="true">ا</span><span>انتخاب‌یار</span></div>
+          <div className="brand"><img className="brand-logo" src="/logo-rahyar.png" alt=""/><span>انتخاب‌یار</span><small>مرکز مشاوره تحصیلی رهیار</small></div>
           <div className="intro-content">
             <p className="eyebrow">برای تجربی و ریاضی</p>
             <h1 id="intro-title">از شناخت خودت شروع کن.</h1>
