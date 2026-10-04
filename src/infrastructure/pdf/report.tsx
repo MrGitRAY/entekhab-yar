@@ -19,9 +19,9 @@ const styles = StyleSheet.create({
   brandBlock: { textAlign: "right" },
   brand: { fontSize: 18, fontWeight: 700, color: "#526522", textAlign: "right", lineHeight: 1.35, marginBottom: 9 },
   center: { fontSize: 8.5, color: "#68745a", textAlign: "right", lineHeight: 1.5 },
-  headerMeta: { width: "48%", textAlign: "left" },
-  reportName: { fontSize: 10.5, fontWeight: 700, color: "#26301c", textAlign: "left", marginBottom: 4 },
-  student: { fontSize: 9, color: "#68745a", textAlign: "left" },
+  headerMeta: { width: "48%", textAlign: "right" },
+  reportName: { fontSize: 10.5, fontWeight: 700, color: "#26301c", textAlign: "right", marginBottom: 4 },
+  student: { fontSize: 9, color: "#68745a", textAlign: "right" },
   card: { marginBottom: 8, padding: 9, borderRadius: 10, border: "1 solid #dfe6c9", backgroundColor: "#f5f7ed" },
   cardTitle: { marginBottom: 6, fontSize: 11, fontWeight: 700, color: "#526522", textAlign: "right" },
   lead: { marginBottom: 11, padding: 10, borderRadius: 8, backgroundColor: "#e9efcf", color: "#465527", textAlign: "right", lineHeight: 1.7 },
@@ -53,12 +53,13 @@ const styles = StyleSheet.create({
   majorName: { flexShrink: 1, textAlign: "right", fontSize: 7.5 },
   majorScore: { marginRight: 5, fontSize: 7.5, fontWeight: 700, color: "#697d2b", textAlign: "right" },
   allMajorRow: { flexDirection: "row-reverse", justifyContent: "space-between", alignItems: "center", borderBottom: "1 solid #e6eadb", paddingVertical: 3 },
-  allMajorLabelGroup: { width: "82%", flexDirection: "row-reverse", alignItems: "center" },
+  allMajorLabelGroup: { flexDirection: "row-reverse", justifyContent: "flex-start", alignItems: "center" },
   rank: { width: 34, fontWeight: 700, color: "#657a2c", textAlign: "right" },
-  allMajorName: { flexGrow: 1, textAlign: "right", marginRight: 8 },
+  allMajorName: { textAlign: "right", marginRight: 12 },
   allMajorScore: { width: 52, fontWeight: 700, color: "#657a2c", textAlign: "left" },
-  notes: { minHeight: 660, backgroundColor: "#ffffff", border: "1 solid #bdc99b", borderRadius: 9 },
-  notesLine: { borderBottom: "1 solid #e5e9d9", height: 31, marginHorizontal: 12 },
+  notes: { minHeight: 304, backgroundColor: "#ffffff", border: "1 solid #bdc99b", borderRadius: 9 },
+  notesSecondTitle: { marginTop: 13 },
+  notesLine: { borderBottom: "1 solid #e5e9d9", height: 30, marginHorizontal: 12 },
   footer: { position: "absolute", bottom: 20, left: 38, right: 38, textAlign: "center", color: "#879078", fontSize: 7.5 },
 });
 
@@ -101,7 +102,7 @@ export function AssessmentReport({ result, displayName }: { result: ResultSnapsh
       <Text style={styles.footer} fixed>گزارش انتخاب‌یار · نتیجهٔ اکتشافی · صفحه ۲</Text>
     </Page>
     <Page size="A4" style={styles.page} wrap>
-      <View style={styles.card}><Text style={styles.cardTitle}>یادداشت‌های مشاور یا دانش‌آموز</Text><View style={styles.notes}>{Array.from({ length: 20 }, (_, index) => <View key={index} style={styles.notesLine}/>)}</View></View>
+      <View style={styles.card}><Text style={styles.cardTitle}>یادداشت‌های دانش‌آموز</Text><View style={styles.notes}>{Array.from({ length: 9 }, (_, index) => <View key={index} style={styles.notesLine}/>)}</View><Text style={[styles.cardTitle, styles.notesSecondTitle]}>یادداشت‌های مشاور</Text><View style={styles.notes}>{Array.from({ length: 9 }, (_, index) => <View key={index} style={styles.notesLine}/>)}</View></View>
       <Text style={styles.footer} fixed>گزارش انتخاب‌یار · نتیجهٔ اکتشافی · صفحه ۳</Text>
     </Page>
   </Document>;
