@@ -5,7 +5,7 @@ import { ACCESS_COOKIE, accessGateConfigured, isValidAccessToken } from "@/infra
 
 export async function proxy(request: NextRequest) {
   const sessionResponse = await updateSession(request);
-  if (request.nextUrl.pathname === "/api/access") return sessionResponse;
+  if (request.nextUrl.pathname.startsWith("/api/access")) return sessionResponse;
   if (!accessGateConfigured() || await isValidAccessToken(request.cookies.get(ACCESS_COOKIE)?.value)) return sessionResponse;
   if (request.nextUrl.pathname.startsWith("/api/")) return NextResponse.json({ error: "ابتدا رمز ورود آزمون را وارد کنید." }, { status: 401 });
   const url = request.nextUrl.clone();
@@ -15,5 +15,5 @@ export async function proxy(request: NextRequest) {
 }
 
 export const config = {
-  matcher: ["/", "/assessment/:path*", "/results/:path*", "/preview/:path*", "/api/:path*"],
+  matcher: ["/assessment/:path*", "/results/:path*", "/preview/:path*", "/api/:path*"],
 };

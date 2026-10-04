@@ -6,7 +6,7 @@ import { parseStartInput, type ExamGroup } from "@/domain/assessment/input";
 import { getBrowserClient } from "@/infrastructure/supabase/browser";
 import type { Session } from "@supabase/supabase-js";
 
-export function StartForm({ configured }: { configured: boolean }) {
+export function StartForm({ configured, accessRequired }: { configured: boolean; accessRequired: boolean }) {
   const router = useRouter();
   const [name, setName] = useState("");
   const [year, setYear] = useState("");
@@ -16,27 +16,9 @@ export function StartForm({ configured }: { configured: boolean }) {
   const [lastAttempt, setLastAttempt] = useState("");
   const [hasPreview, setHasPreview] = useState(false);
 
-  useEffect(() => {
-    if (configured) {
-      const savedId = localStorage.getItem("ey-last-attempt") ?? "";
-      if (/^[0-9a-f]{8}-[0-9a-f-]{27,}$/i.test(savedId)) setLastAttempt(savedId);
-    } else {
-      setHasPreview(Boolean(sessionStorage.getItem("ey-preview-start")));
-    }
-  }, [configured]);
-
-  async function start(event: FormEvent<HTMLFormElement>) {
-    event.preventDefault();
-    if (busy) return;
-    setError("");
-    let input;
-    try {
-      input = parseStartInput({ displayName: name, examYear: year, examGroup: group });
-    } catch (cause) {
-      setError(cause instanceof Error ? cause.message : "اطلاعات اولیه معتبر نیست.");
-      return;
-    }
+  async function begin(input: { displayName: string; examYear: number; examGroup: ExamGroup }) {
     setBusy(true);
+    setError("");
     try {
       if (!configured) {
         sessionStorage.setItem("ey-preview-start", JSON.stringify(input));
@@ -81,18 +63,59 @@ export function StartForm({ configured }: { configured: boolean }) {
         body: JSON.stringify(input),
       });
       const result = await response.json();
-      if (!response.ok || typeof result.id !== "string") {
-        throw new Error(result.error || "آزمون شروع نشد. دوباره تلاش کنید.");
-      }
+      if (!response.ok || typeof result.id !== "string") throw new Error(result.error || "آزمون شروع نشد. دوباره تلاش کنید.");
       localStorage.setItem("ey-last-attempt", result.id);
       router.push(`/assessment/${result.id}`);
     } catch (cause) {
       const message = cause instanceof Error ? cause.message : "";
       setError(message && (message.startsWith("آزمون") || message.startsWith("ذخیره") || message.startsWith("اطلاعات") || message.startsWith("به این") || message.startsWith("نشست"))
-        ? message
-        : "شروع آزمون انجام نشد. اتصال خود را بررسی و دوباره تلاش کنید.");
+        ? message : "شروع آزمون انجام نشد. اتصال خود را بررسی و دوباره تلاش کنید.");
       setBusy(false);
     }
+  }
+
+  useEffect(() => {
+    if (configured) {
+      const savedId = localStorage.getItem("ey-last-attempt") ?? "";
+      if (/^[0-9a-f]{8}-[0-9a-f-]{27,}$/i.test(savedId)) setLastAttempt(savedId);
+    } else {
+      setHasPreview(Boolean(sessionStorage.getItem("ey-preview-start")));
+    }
+  }, [configured]);
+
+  useEffect(() => {
+    if (!accessRequired || !configured || new URLSearchParams(window.location.search).get("start") !== "1") return;
+    const raw = sessionStorage.getItem("ey-pending-start");
+    sessionStorage.removeItem("ey-pending-start");
+    if (!raw) return;
+    try {
+      const input = JSON.parse(raw);
+      if (input && typeof input.displayName === "string" && Number.isInteger(input.examYear) && ["experimental", "mathematics"].includes(input.examGroup)) {
+        setName(input.displayName);
+        setYear(String(input.examYear));
+        setGroup(input.examGroup);
+        void begin(input);
+      }
+    } catch { /* stale browser data is ignored */ }
+  }, [accessRequired, configured]);
+
+  async function start(event: FormEvent<HTMLFormElement>) {
+    event.preventDefault();
+    if (busy) return;
+    setError("");
+    let input;
+    try {
+      input = parseStartInput({ displayName: name, examYear: year, examGroup: group });
+    } catch (cause) {
+      setError(cause instanceof Error ? cause.message : "اطلاعات اولیه معتبر نیست.");
+      return;
+    }
+    if (accessRequired && configured) {
+      sessionStorage.setItem("ey-pending-start", JSON.stringify(input));
+      router.push("/access?next=/%3Fstart%3D1");
+      return;
+    }
+    await begin(input);
   }
 
   return (

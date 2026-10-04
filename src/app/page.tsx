@@ -1,5 +1,6 @@
 import { StartForm } from "@/features/assessment/start-form";
 import { publicSupabaseConfig } from "@/infrastructure/supabase/config";
+import { accessGateConfigured } from "@/infrastructure/access/gate";
 
 export default function HomePage() {
   const configured = Boolean(publicSupabaseConfig());
@@ -24,7 +25,7 @@ export default function HomePage() {
             <h2 id="start-title">اول، چند چیز درباره خودت</h2>
             <p>این اطلاعات فقط برای مسیر همین آزمون استفاده می‌شود.</p>
           </div>
-          <StartForm configured={configured} />
+          <StartForm configured={configured} accessRequired={accessGateConfigured()} />
         </section>
       </div>
     </main>

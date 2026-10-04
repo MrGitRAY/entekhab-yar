@@ -18,7 +18,7 @@ function secret() {
 }
 
 export function accessGateConfigured() {
-  return Boolean(process.env.SITE_ACCESS_PASSWORD?.trim());
+  return process.env.SITE_ACCESS_ENABLED !== "false" && Boolean(process.env.SITE_ACCESS_PASSWORD?.trim());
 }
 
 async function signature(payload: string) {
