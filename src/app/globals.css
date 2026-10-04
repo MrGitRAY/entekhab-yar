@@ -214,6 +214,12 @@ a { color: inherit; }
 .access-form input:focus { border-color: var(--blue); box-shadow: 0 0 0 4px rgba(100,115,43,.12); }
 .access-form .form-error { margin: 4px 0 0; }
 .access-form .primary-button { width: 100%; margin-top: 8px; }
+.access-overlay { position: fixed; inset: 0; z-index: 50; display: grid; place-items: center; padding: 22px; background: rgba(42,52,22,.18); backdrop-filter: blur(10px) saturate(115%); -webkit-backdrop-filter: blur(10px) saturate(115%); }
+.access-dialog { position: relative; width: min(500px, 100%); padding: clamp(28px, 6vw, 50px); border: 1px solid rgba(255,255,255,.78); border-radius: 28px; background: linear-gradient(145deg, rgba(255,255,255,.78), rgba(239,245,215,.58)); box-shadow: 0 25px 80px rgba(46,59,21,.26), inset 0 1px rgba(255,255,255,.7); backdrop-filter: blur(25px) saturate(135%); -webkit-backdrop-filter: blur(25px) saturate(135%); text-align: center; }
+.access-dialog h2 { margin: 16px 0 8px; font-size: clamp(1.3rem, 4vw, 1.8rem); line-height: 1.6; }
+.access-dialog > p { max-width: 410px; margin: 0 auto 24px; color: var(--muted); line-height: 2; }
+.access-dialog .access-form { max-width: 380px; }
+.access-close { position: absolute; top: 12px; left: 14px; width: 36px; height: 36px; border: 0; border-radius: 50%; background: rgba(255,255,255,.5); color: var(--ink); font-size: 1.5rem; line-height: 1; cursor: pointer; }
 
 @media (max-width: 850px) {
   .landing-layout { grid-template-columns: 1fr; min-height: 0; }

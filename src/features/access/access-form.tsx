@@ -3,7 +3,7 @@
 import { useRouter } from "next/navigation";
 import { useState, type FormEvent } from "react";
 
-export function AccessForm({ next }: { next: string }) {
+export function AccessForm({ next = "/", onSuccess }: { next?: string; onSuccess?: () => void }) {
   const router = useRouter();
   const [password, setPassword] = useState("");
   const [error, setError] = useState("");
@@ -23,8 +23,11 @@ export function AccessForm({ next }: { next: string }) {
       });
       const result = await response.json().catch(() => ({}));
       if (!response.ok) throw new Error(result.error || "رمز ورود درست نیست.");
-      router.replace(next);
-      router.refresh();
+      if (onSuccess) onSuccess();
+      else {
+        router.replace(next);
+        router.refresh();
+      }
     } catch (cause) {
       setError(cause instanceof Error ? cause.message : "رمز ورود درست نیست.");
       setBusy(false);

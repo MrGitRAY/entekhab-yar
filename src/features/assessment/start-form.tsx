@@ -5,6 +5,7 @@ import { useEffect, useState, type FormEvent } from "react";
 import { parseStartInput, type ExamGroup } from "@/domain/assessment/input";
 import { getBrowserClient } from "@/infrastructure/supabase/browser";
 import type { Session } from "@supabase/supabase-js";
+import { AccessForm } from "@/features/access/access-form";
 
 export function StartForm({ configured, accessRequired }: { configured: boolean; accessRequired: boolean }) {
   const router = useRouter();
@@ -15,6 +16,8 @@ export function StartForm({ configured, accessRequired }: { configured: boolean;
   const [error, setError] = useState("");
   const [lastAttempt, setLastAttempt] = useState("");
   const [hasPreview, setHasPreview] = useState(false);
+  const [accessOpen, setAccessOpen] = useState(false);
+  const [pendingInput, setPendingInput] = useState<{ displayName: string; examYear: number; examGroup: ExamGroup } | null>(null);
 
   async function begin(input: { displayName: string; examYear: number; examGroup: ExamGroup }) {
     setBusy(true);
@@ -111,14 +114,15 @@ export function StartForm({ configured, accessRequired }: { configured: boolean;
       return;
     }
     if (accessRequired && configured) {
-      sessionStorage.setItem("ey-pending-start", JSON.stringify(input));
-      router.push("/access?next=/%3Fstart%3D1");
+      setPendingInput(input);
+      setAccessOpen(true);
       return;
     }
     await begin(input);
   }
 
   return (
+    <>
     <form onSubmit={start} className="start-form" noValidate>
       <div className="field">
         <label htmlFor="display-name">نام</label>
@@ -158,5 +162,16 @@ export function StartForm({ configured, accessRequired }: { configured: boolean;
       {configured && lastAttempt && <a className="resume-link" href={`/assessment/${lastAttempt}`}>ادامه آزمون قبلی</a>}
       {!configured && hasPreview && <a className="resume-link" href="/preview/assessment">ادامه پیش‌نمایش قبلی</a>}
     </form>
+    {accessOpen && <div className="access-overlay" role="presentation" onMouseDown={(event) => { if (event.target === event.currentTarget) setAccessOpen(false); }}>
+      <section className="access-dialog" role="dialog" aria-modal="true" aria-labelledby="start-access-title">
+        <button className="access-close" type="button" aria-label="بستن" onClick={() => setAccessOpen(false)}>×</button>
+        <div className="access-message-icon" aria-hidden="true">🔐</div>
+        <span className="step-tag">پیام مرکز مشاوره</span>
+        <h2 id="start-access-title">برای ورود به آزمون، رمز مرکز را وارد کن</h2>
+        <p>این آزمون برای دانش‌آموزانی است که رمز ورود را از مرکز مشاوره تحصیلی رهیار دریافت کرده‌اند.</p>
+        <AccessForm onSuccess={() => { const input = pendingInput; setAccessOpen(false); setPendingInput(null); if (input) void begin(input); }} />
+      </section>
+    </div>}
+    </>
   );
 }
