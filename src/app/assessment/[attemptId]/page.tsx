@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { notFound, redirect } from "next/navigation";
-import { EvaluateButton } from "@/features/results/evaluate-button";
 import { AssessmentForm, type AssessmentQuestion } from "@/features/assessment/assessment-form";
+import { SubmissionComplete } from "@/features/assessment/submission-complete";
 import { publicSupabaseConfig } from "@/infrastructure/supabase/config";
 import { getServerClient } from "@/infrastructure/supabase/server";
 
@@ -26,18 +26,7 @@ export default async function AssessmentPage({ params }: Props) {
   if (attemptError || !attempt) notFound();
   if (attempt.status === "completed") redirect(`/results/${attemptId}`);
   if (attempt.status !== "draft") {
-    return (
-      <main className="simple-page submission-page">
-        <div className="brand"><img className="brand-logo" src="/logo-rahyar.png" alt=""/><span className="brand-copy"><strong>انتخاب‌یار</strong><small>مرکز مشاوره تحصیلی رهیار</small></span></div>
-        <div className="submission-content">
-          <div className="success-icon" aria-hidden="true">✓</div>
-          <span className="step-tag">آزمون ثبت شد</span>
-          <h1>پاسخ‌هایت ثبت شد، {attempt.display_name}.</h1>
-          <p>همهٔ پاسخ‌ها آمادهٔ محاسبهٔ نتیجهٔ اکتشافی هستند.</p>
-          <div className="submission-actions"><EvaluateButton attemptId={attemptId}/><Link className="text-link" href="/">بازگشت به شروع</Link></div>
-        </div>
-      </main>
-    );
+    return <SubmissionComplete attemptId={attemptId} displayName={attempt.display_name}/>;
   }
   const [questionResult, answerResult, catalogResult] = await Promise.all([
     client.from("catalog_questions").select("id,position,question_text,section,primary_dimension,groups").eq("catalog_version", attempt.catalog_version).order("position"),

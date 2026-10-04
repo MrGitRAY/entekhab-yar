@@ -1,8 +1,7 @@
 "use client";
 
-import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
-import { EvaluateButton } from "@/features/results/evaluate-button";
+import { SubmissionComplete } from "./submission-complete";
 
 export type AssessmentQuestion = {
   id: string;
@@ -174,14 +173,7 @@ export function AssessmentForm({ attemptId, displayName, group, questions, label
 
   if (submitted) {
     return (
-      <main className="simple-page success-page">
-        <div className="brand"><img className="brand-logo" src="/logo-rahyar.png" alt=""/><span className="brand-copy"><strong>انتخاب‌یار</strong><small>مرکز مشاوره تحصیلی رهیار</small></span></div>
-        <div className="success-icon" aria-hidden="true">✓</div>
-        <h1>{preview ? "پیش‌نمایش را کامل کردی" : "پاسخ‌هایت ثبت شد"}، {displayName}.</h1>
-        <p>{preview ? "این پاسخ‌ها فقط در همین مرورگر نگهداری شده‌اند. نتیجهٔ اکتشافی را می‌توانی همین حالا ببینی." : "پاسخ‌ها برای محاسبهٔ نتیجهٔ اکتشافی آماده‌اند."}</p>
-        <EvaluateButton attemptId={attemptId} preview={preview}/>
-        <Link className="text-link" href="/">بازگشت به شروع</Link>
-      </main>
+      <SubmissionComplete attemptId={attemptId} displayName={displayName} preview={preview}/>
     );
   }
 
