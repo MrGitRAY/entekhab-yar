@@ -6,6 +6,7 @@ import type { DimensionScore, Ranking, ResultSnapshot } from "@/domain/matching/
 const publicRoot = path.join(process.cwd(), "public");
 const fontRoot = path.join(publicRoot, "fonts");
 const logoPath = path.join(publicRoot, "logo-rahyar.png");
+const logoData = fs.readFileSync(logoPath);
 if (!fs.existsSync(path.join(fontRoot, "Vazirmatn-FD-Regular.ttf")) || !fs.existsSync(path.join(fontRoot, "Vazirmatn-FD-Bold.ttf"))) console.error(`PDF font files are missing from ${fontRoot}`);
 Font.register({ family: "Vazirmatn", fonts: [{ src: path.join(fontRoot, "Vazirmatn-FD-Regular.ttf"), fontWeight: 400 }, { src: path.join(fontRoot, "Vazirmatn-FD-Bold.ttf"), fontWeight: 700 }] });
 
@@ -16,11 +17,11 @@ const styles = StyleSheet.create({
   identity: { flexDirection: "row-reverse", alignItems: "center", width: "48%", textAlign: "right" },
   logo: { width: 50, height: 50, objectFit: "contain", marginLeft: 8 },
   brandBlock: { textAlign: "right" },
-  brand: { fontSize: 18, fontWeight: 700, color: "#526522", textAlign: "right", marginBottom: 3 },
-  center: { fontSize: 8.5, color: "#68745a", textAlign: "right" },
-  headerMeta: { width: "48%", textAlign: "right" },
-  reportName: { fontSize: 10.5, fontWeight: 700, color: "#26301c", textAlign: "right", marginBottom: 4 },
-  student: { fontSize: 9, color: "#68745a", textAlign: "right" },
+  brand: { fontSize: 18, fontWeight: 700, color: "#526522", textAlign: "right", lineHeight: 1.35, marginBottom: 9 },
+  center: { fontSize: 8.5, color: "#68745a", textAlign: "right", lineHeight: 1.5 },
+  headerMeta: { width: "48%", textAlign: "left" },
+  reportName: { fontSize: 10.5, fontWeight: 700, color: "#26301c", textAlign: "left", marginBottom: 4 },
+  student: { fontSize: 9, color: "#68745a", textAlign: "left" },
   card: { marginBottom: 8, padding: 9, borderRadius: 10, border: "1 solid #dfe6c9", backgroundColor: "#f5f7ed" },
   cardTitle: { marginBottom: 6, fontSize: 11, fontWeight: 700, color: "#526522", textAlign: "right" },
   lead: { marginBottom: 11, padding: 10, borderRadius: 8, backgroundColor: "#e9efcf", color: "#465527", textAlign: "right", lineHeight: 1.7 },
@@ -37,26 +38,27 @@ const styles = StyleSheet.create({
   categoryWide: { width: "100%" },
   categoryTitle: { marginBottom: 3, fontSize: 8.5, fontWeight: 700, color: "#526522", textAlign: "right" },
   axisEntry: { marginBottom: 2 },
-  axisRow: { flexDirection: "row-reverse", justifyContent: "flex-start", alignItems: "center" },
+  axisRow: { flexDirection: "row-reverse", justifyContent: "space-between", alignItems: "center" },
   axisLabel: { flexGrow: 0, textAlign: "right", fontSize: 7.4 },
-  axisValue: { width: 34, marginRight: 8, fontSize: 7.4, fontWeight: 700, color: "#61742a", textAlign: "right" },
+  axisValue: { width: 34, fontSize: 7.4, fontWeight: 700, color: "#61742a", textAlign: "left" },
   axisBar: { height: 3, marginTop: 1, borderRadius: 3, backgroundColor: "#e6eadb", overflow: "hidden", flexDirection: "row-reverse" },
   axisBarFill: { height: 3, borderRadius: 3 },
-  familyCard: { marginBottom: 8, padding: 9, borderRadius: 8, backgroundColor: "#ffffff", border: "1 solid #dfe6c9" },
+  familyGrid: { flexDirection: "row-reverse", justifyContent: "space-between", alignItems: "stretch" },
+  familyCard: { width: "32.5%", padding: 7, borderRadius: 8, backgroundColor: "#ffffff", border: "1 solid #dfe6c9" },
   familyHeader: { flexDirection: "row-reverse", justifyContent: "space-between", alignItems: "center", marginBottom: 5 },
-  familyTitle: { fontSize: 10.5, fontWeight: 700, color: "#26301c" },
-  familyScore: { fontSize: 10, fontWeight: 700, color: "#697d2b", textAlign: "right" },
-  familyDescription: { marginBottom: 4, fontSize: 8, color: "#69745f", textAlign: "right" },
+  familyTitle: { fontSize: 8.5, fontWeight: 700, color: "#26301c", textAlign: "right" },
+  familyScore: { fontSize: 8.5, fontWeight: 700, color: "#697d2b", textAlign: "left" },
+  familyDescription: { marginBottom: 4, fontSize: 7.2, color: "#69745f", textAlign: "right" },
   majorRow: { flexDirection: "row-reverse", justifyContent: "flex-start", alignItems: "center", paddingVertical: 2, borderTop: "1 solid #eef1e5" },
-  majorName: { textAlign: "right" },
-  majorScore: { marginRight: 12, fontSize: 8.5, fontWeight: 700, color: "#697d2b", textAlign: "right" },
+  majorName: { flexShrink: 1, textAlign: "right", fontSize: 7.5 },
+  majorScore: { marginRight: 5, fontSize: 7.5, fontWeight: 700, color: "#697d2b", textAlign: "right" },
   allMajorRow: { flexDirection: "row-reverse", justifyContent: "space-between", alignItems: "center", borderBottom: "1 solid #e6eadb", paddingVertical: 3 },
   allMajorLabelGroup: { width: "82%", flexDirection: "row-reverse", alignItems: "center" },
   rank: { width: 34, fontWeight: 700, color: "#657a2c", textAlign: "right" },
   allMajorName: { flexGrow: 1, textAlign: "right", marginRight: 8 },
   allMajorScore: { width: 52, fontWeight: 700, color: "#657a2c", textAlign: "left" },
-  notes: { minHeight: 150, backgroundColor: "#ffffff", border: "1 solid #bdc99b", borderRadius: 9 },
-  notesLine: { borderBottom: "1 solid #e5e9d9", height: 27, marginHorizontal: 12 },
+  notes: { minHeight: 660, backgroundColor: "#ffffff", border: "1 solid #bdc99b", borderRadius: 9 },
+  notesLine: { borderBottom: "1 solid #e5e9d9", height: 31, marginHorizontal: 12 },
   footer: { position: "absolute", bottom: 20, left: 38, right: 38, textAlign: "center", color: "#879078", fontSize: 7.5 },
 });
 
@@ -88,18 +90,18 @@ export function AssessmentReport({ result, displayName }: { result: ResultSnapsh
   const interests = Object.values(result.profile).filter((item) => item.section === "riasec");
   return <Document title={`گزارش انتخاب‌یار - ${displayName}`} author="انتخاب‌یار">
     <Page size="A4" style={styles.page} wrap>
-      <View style={styles.header}><View style={styles.headerRow}><View style={styles.identity}><Image style={styles.logo} src={logoPath} /><View style={styles.brandBlock}><Text style={styles.brand}>انتخاب‌یار</Text><Text style={styles.center}>مرکز مشاوره تحصیلی رهیار</Text></View></View><View style={styles.headerMeta}><Text style={styles.reportName}>گزارش شناخت مسیر تحصیلی</Text><Text style={styles.student}>دانش‌آموز: {displayName} · گروه {group(result.examGroup)}</Text></View></View></View>
+      <View style={styles.header}><View style={styles.headerRow}><View style={styles.identity}><Image style={styles.logo} src={logoData} /><View style={styles.brandBlock}><Text style={styles.brand}>انتخاب‌یار</Text><Text style={styles.center}>مرکز مشاوره تحصیلی رهیار</Text></View></View><View style={styles.headerMeta}><Text style={styles.reportName}>گزارش شناخت مسیر تحصیلی</Text><Text style={styles.student}>دانش‌آموز: {displayName} · گروه {group(result.examGroup)}</Text></View></View></View>
       <View style={styles.card}><Text style={styles.cardTitle}>نقشهٔ رغبت‌های تو</Text><InterestMap items={interests}/></View>
       <View style={styles.card}><Text style={styles.cardTitle}>همهٔ محورهای خودگزارشی بر اساس کاربرد</Text><AxisGroups profile={result.profile}/></View>
       <Text style={styles.footer} fixed>گزارش انتخاب‌یار · صفحه ۱</Text>
     </Page>
     <Page size="A4" style={styles.page} wrap>
-      <View style={styles.card}><Text style={styles.cardTitle}>خانواده‌های برتر و رشته‌های آن‌ها</Text>{result.topFamilies.length ? result.topFamilies.map((family) => <FamilyCard key={family.id} family={family} majors={result.majorRanking.filter((major) => major.familyId === family.id)}/>) : <Text>{rtlSentence("رغبت‌ها از هم متمایز نیستند؛ پیشنهاد رتبه‌دار ارائه نشده است.")}</Text>}</View>
-      <View style={styles.card}><Text style={styles.cardTitle}>یادداشت‌های مشاور یا دانش‌آموز</Text><View style={styles.notes}>{[1, 2, 3, 4, 5].map((line) => <View key={line} style={styles.notesLine}/>)}</View></View>
+      <View style={styles.card}><Text style={styles.cardTitle}>خانواده‌های برتر و رشته‌های آن‌ها</Text>{result.topFamilies.length ? <View style={styles.familyGrid}>{result.topFamilies.slice(0, 3).map((family) => <FamilyCard key={family.id} family={family} majors={result.majorRanking.filter((major) => major.familyId === family.id)}/>)}</View> : <Text>{rtlSentence("رغبت‌ها از هم متمایز نیستند؛ پیشنهاد رتبه‌دار ارائه نشده است.")}</Text>}</View>
+      <View style={styles.card}><Text style={styles.cardTitle}>رتبه‌بندی مستقل همهٔ رشته‌ها</Text>{result.majorRanking.map((major) => <View style={styles.allMajorRow} key={major.id}><View style={styles.allMajorLabelGroup}><Text style={styles.rank}>رتبه {fa(major.rank)}</Text><Text style={styles.allMajorName}>{major.title}</Text></View><Text style={styles.allMajorScore}>{percent(major.score)}</Text></View>)}</View>
       <Text style={styles.footer} fixed>گزارش انتخاب‌یار · نتیجهٔ اکتشافی · صفحه ۲</Text>
     </Page>
     <Page size="A4" style={styles.page} wrap>
-      <View style={styles.card}><Text style={styles.cardTitle}>رتبه‌بندی مستقل همهٔ رشته‌ها</Text>{result.majorRanking.map((major) => <View style={styles.allMajorRow} key={major.id}><View style={styles.allMajorLabelGroup}><Text style={styles.rank}>رتبه {fa(major.rank)}</Text><Text style={styles.allMajorName}>{major.title}</Text></View><Text style={styles.allMajorScore}>{percent(major.score)}</Text></View>)}</View>
+      <View style={styles.card}><Text style={styles.cardTitle}>یادداشت‌های مشاور یا دانش‌آموز</Text><View style={styles.notes}>{Array.from({ length: 20 }, (_, index) => <View key={index} style={styles.notesLine}/>)}</View></View>
       <Text style={styles.footer} fixed>گزارش انتخاب‌یار · نتیجهٔ اکتشافی · صفحه ۳</Text>
     </Page>
   </Document>;
