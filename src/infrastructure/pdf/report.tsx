@@ -11,16 +11,16 @@ Font.register({ family: "Vazirmatn", fonts: [{ src: path.join(fontRoot, "Vazirma
 
 const styles = StyleSheet.create({
   page: { padding: 38, fontFamily: "Vazirmatn", fontSize: 9.5, color: "#26301c", direction: "rtl", textAlign: "right", lineHeight: 1.55, backgroundColor: "#fbfcf7" },
-  header: { paddingBottom: 12, borderBottom: "1.5 solid #687c2b", marginBottom: 14, textAlign: "right" },
-  headerTop: { flexDirection: "row-reverse", alignItems: "center", width: "100%" },
-  logo: { width: 52, height: 52, objectFit: "contain", marginLeft: 12 },
-  identity: { flexDirection: "row-reverse", alignItems: "center", width: "100%", textAlign: "right" },
-  brandBlock: { flexGrow: 1, textAlign: "right" },
-  brand: { fontSize: 21, fontWeight: 700, color: "#526522", textAlign: "right", marginBottom: 2 },
-  center: { fontSize: 9, color: "#68745a", textAlign: "right" },
-  headerMeta: { width: "100%", marginTop: 5, textAlign: "right" },
-  reportName: { fontSize: 11, fontWeight: 700, color: "#26301c", textAlign: "right", marginBottom: 3 },
-  student: { fontSize: 10, color: "#68745a", textAlign: "right" },
+  header: { paddingBottom: 10, borderBottom: "1.5 solid #687c2b", marginBottom: 12, textAlign: "right" },
+  headerRow: { flexDirection: "row-reverse", alignItems: "center", justifyContent: "space-between", width: "100%" },
+  identity: { flexDirection: "row-reverse", alignItems: "center", width: "48%", textAlign: "right" },
+  logo: { width: 50, height: 50, objectFit: "contain", marginLeft: 8 },
+  brandBlock: { textAlign: "right" },
+  brand: { fontSize: 18, fontWeight: 700, color: "#526522", textAlign: "right", marginBottom: 3 },
+  center: { fontSize: 8.5, color: "#68745a", textAlign: "right" },
+  headerMeta: { width: "48%", textAlign: "right" },
+  reportName: { fontSize: 10.5, fontWeight: 700, color: "#26301c", textAlign: "right", marginBottom: 4 },
+  student: { fontSize: 9, color: "#68745a", textAlign: "right" },
   card: { marginBottom: 11, padding: 12, borderRadius: 10, border: "1 solid #dfe6c9", backgroundColor: "#f5f7ed" },
   cardTitle: { marginBottom: 8, fontSize: 12, fontWeight: 700, color: "#526522", textAlign: "right" },
   lead: { marginBottom: 11, padding: 10, borderRadius: 8, backgroundColor: "#e9efcf", color: "#465527", textAlign: "right", lineHeight: 1.7 },
@@ -29,7 +29,7 @@ const styles = StyleSheet.create({
   itemTop: { flexDirection: "row-reverse", justifyContent: "space-between", alignItems: "center", marginBottom: 4 },
   itemLabel: { fontSize: 9, fontWeight: 700, color: "#354321" },
   itemScore: { fontSize: 9, fontWeight: 700, color: "#697d2b" },
-  bar: { height: 5, borderRadius: 4, backgroundColor: "#e3e8d6", overflow: "hidden" },
+  bar: { height: 5, borderRadius: 4, backgroundColor: "#e3e8d6", overflow: "hidden", flexDirection: "row-reverse" },
   barFill: { height: 5, borderRadius: 4, backgroundColor: "#71852f" },
   tiny: { marginTop: 3, fontSize: 7.5, color: "#7b846f", textAlign: "right" },
   axisGrid: { flexDirection: "row-reverse", flexWrap: "wrap", justifyContent: "space-between" },
@@ -40,16 +40,20 @@ const styles = StyleSheet.create({
   axisRow: { flexDirection: "row-reverse", justifyContent: "space-between", alignItems: "center" },
   axisLabel: { flexGrow: 1, textAlign: "right", fontSize: 8.2 },
   axisValue: { width: 55, fontSize: 8, fontWeight: 700, color: "#61742a", textAlign: "left" },
-  axisBar: { height: 4, marginTop: 2, borderRadius: 3, backgroundColor: "#e6eadb", overflow: "hidden" },
+  axisBar: { height: 4, marginTop: 2, borderRadius: 3, backgroundColor: "#e6eadb", overflow: "hidden", flexDirection: "row-reverse" },
   axisBarFill: { height: 4, borderRadius: 3 },
   familyCard: { marginBottom: 8, padding: 9, borderRadius: 8, backgroundColor: "#ffffff", border: "1 solid #dfe6c9" },
   familyHeader: { flexDirection: "row-reverse", justifyContent: "space-between", alignItems: "center", marginBottom: 5 },
   familyTitle: { fontSize: 10.5, fontWeight: 700, color: "#26301c" },
   familyScore: { fontSize: 10, fontWeight: 700, color: "#697d2b", textAlign: "right" },
   familyDescription: { marginBottom: 4, fontSize: 8, color: "#69745f", textAlign: "right" },
-  majorRow: { flexDirection: "row-reverse", justifyContent: "space-between", paddingVertical: 2, borderTop: "1 solid #eef1e5" },
+  majorRow: { flexDirection: "row-reverse", justifyContent: "space-between", alignItems: "center", paddingVertical: 2, borderTop: "1 solid #eef1e5" },
   majorName: { flexGrow: 1, textAlign: "right" },
   majorScore: { width: 74, fontSize: 8.5, fontWeight: 700, color: "#697d2b", textAlign: "right" },
+  allMajorRow: { flexDirection: "row-reverse", alignItems: "center", borderBottom: "1 solid #e6eadb", paddingVertical: 3 },
+  rank: { width: 34, fontWeight: 700, color: "#657a2c", textAlign: "right" },
+  allMajorName: { flexGrow: 1, textAlign: "right" },
+  allMajorScore: { width: 52, fontWeight: 700, color: "#657a2c", textAlign: "left" },
   notes: { minHeight: 150, backgroundColor: "#ffffff", border: "1 solid #bdc99b", borderRadius: 9 },
   notesLine: { borderBottom: "1 solid #e5e9d9", height: 27, marginHorizontal: 12 },
   footer: { position: "absolute", bottom: 20, left: 38, right: 38, textAlign: "center", color: "#879078", fontSize: 7.5 },
@@ -57,26 +61,25 @@ const styles = StyleSheet.create({
 
 const fa = (n: number | null, digits = 0) => n == null ? "محاسبه نشد" : n.toLocaleString("fa-IR", { maximumFractionDigits: digits });
 const group = (value: ResultSnapshot["examGroup"]) => value === "experimental" ? "تجربی" : "ریاضی";
-const score = (n: number | null) => n == null ? "محاسبه نشد" : `${fa(Math.round(n))} از ۱۰۰`;
+const percent = (n: number | null) => n == null ? "محاسبه نشد" : `${fa(Math.round(n))}٪`;
 const rtlSentence = (value: string) => `\u200f${value.replace(/(?<!\d)\.(?!\d)/g, "۔")}\u200f`;
 
 function InterestMap({ items }: { items: DimensionScore[] }) {
   return <View style={styles.interestGrid}>{items.map((item) => <View style={styles.interestItem} key={item.label}>
-    <View style={styles.itemTop}><Text style={styles.itemLabel}>{item.label}</Text><Text style={styles.itemScore}>{fa(item.score)}</Text></View>
+    <View style={styles.itemTop}><Text style={styles.itemLabel}>{item.label}</Text><Text style={styles.itemScore}>{percent(item.score)}</Text></View>
     <View style={styles.bar}><View style={[styles.barFill, { width: `${Math.max(0, Math.min(100, item.score))}%` }]} /></View>
-    <Text style={styles.tiny}>{fa(item.itemCount)} سؤال · دامنه ۰ تا ۱۰۰</Text>
   </View>)}</View>;
 }
 
 function AxisGroups({ profile }: { profile: Record<string, DimensionScore> }) {
   const groups: [string, string, string][] = [["رغبت‌ها", "riasec", "#71852f"], ["ویژگی‌های فردی خودگزارشی", "personality", "#7a5c9e"], ["ارزش‌ها", "values", "#c07b2c"], ["توانایی‌های خودگزارشی", "abilities", "#2f7890"], ["سبک کار", "workstyle", "#b65359"]];
-  return <View style={styles.axisGrid}>{groups.map(([title, section, color]) => { const items = Object.values(profile).filter((item) => item.section === section); if (!items.length) return null; return <View style={[styles.category, section === "workstyle" ? styles.categoryWide : {}]} key={section} wrap={false}><Text style={[styles.categoryTitle, { color }]}>{title}</Text>{items.map((item) => <View style={styles.axisEntry} key={item.label}><View style={styles.axisRow}><Text style={styles.axisLabel}>{item.label}</Text><Text style={[styles.axisValue, { color }]}>{fa(item.score)} از ۱۰۰</Text></View><View style={styles.axisBar}><View style={[styles.axisBarFill, { width: `${Math.max(0, Math.min(100, item.score))}%`, backgroundColor: color }]} /></View></View>)}</View>; })}</View>;
+  return <View style={styles.axisGrid}>{groups.map(([title, section, color]) => { const items = Object.values(profile).filter((item) => item.section === section); if (!items.length) return null; return <View style={[styles.category, section === "workstyle" ? styles.categoryWide : {}]} key={section} wrap={false}><Text style={[styles.categoryTitle, { color }]}>{title}</Text>{items.map((item) => <View style={styles.axisEntry} key={item.label}><View style={styles.axisRow}><Text style={styles.axisLabel}>{item.label}</Text><Text style={[styles.axisValue, { color }]}>{percent(item.score)}</Text></View><View style={styles.axisBar}><View style={[styles.axisBarFill, { width: `${Math.max(0, Math.min(100, item.score))}%`, backgroundColor: color }]} /></View></View>)}</View>; })}</View>;
 }
 
 function FamilyCard({ family, majors }: { family: Ranking; majors: Ranking[] }) {
-  return <View style={styles.familyCard} wrap={false}><View style={styles.familyHeader}><Text style={styles.familyTitle}>رتبه {fa(family.rank)} · {family.title}</Text><Text style={styles.familyScore}>{score(family.score)}</Text></View>
+  return <View style={styles.familyCard} wrap={false}><View style={styles.familyHeader}><Text style={styles.familyTitle}>رتبه {fa(family.rank)} · {family.title}</Text><Text style={styles.familyScore}>{percent(family.score)}</Text></View>
     {family.description && <Text style={styles.familyDescription}>{rtlSentence(family.description)}</Text>}
-    {majors.slice(0, 5).map((major) => <View style={styles.majorRow} key={major.id}><Text style={styles.majorName}>{major.title}</Text><Text style={styles.majorScore}>{score(major.score)}</Text></View>)}
+    {majors.slice(0, 5).map((major) => <View style={styles.majorRow} key={major.id}><Text style={styles.majorName}>{major.title}</Text><Text style={styles.majorScore}>{percent(major.score)}</Text></View>)}
   </View>;
 }
 
@@ -84,7 +87,7 @@ export function AssessmentReport({ result, displayName }: { result: ResultSnapsh
   const interests = Object.values(result.profile).filter((item) => item.section === "riasec");
   return <Document title={`گزارش انتخاب‌یار - ${displayName}`} author="انتخاب‌یار">
     <Page size="A4" style={styles.page} wrap>
-      <View style={styles.header}><View style={styles.headerTop}><View style={styles.identity}><Image style={styles.logo} src={logoPath} /><View style={styles.brandBlock}><Text style={styles.brand}>انتخاب‌یار</Text><Text style={styles.center}>مرکز مشاوره تحصیلی رهیار</Text></View></View></View><View style={styles.headerMeta}><Text style={styles.reportName}>گزارش شناخت مسیر تحصیلی</Text><Text style={styles.student}>دانش‌آموز: {displayName} · گروه {group(result.examGroup)}</Text></View></View>
+      <View style={styles.header}><View style={styles.headerRow}><View style={styles.identity}><Image style={styles.logo} src={logoPath} /><View style={styles.brandBlock}><Text style={styles.brand}>انتخاب‌یار</Text><Text style={styles.center}>مرکز مشاوره تحصیلی رهیار</Text></View></View><View style={styles.headerMeta}><Text style={styles.reportName}>گزارش شناخت مسیر تحصیلی</Text><Text style={styles.student}>دانش‌آموز: {displayName} · گروه {group(result.examGroup)}</Text></View></View></View>
       <View style={styles.card}><Text style={styles.cardTitle}>نقشهٔ رغبت‌های تو</Text><InterestMap items={interests}/></View>
       <View style={styles.card}><Text style={styles.cardTitle}>همهٔ محورهای خودگزارشی بر اساس کاربرد</Text><AxisGroups profile={result.profile}/></View>
       <Text style={styles.footer} fixed>گزارش انتخاب‌یار · صفحه ۱</Text>
@@ -93,6 +96,10 @@ export function AssessmentReport({ result, displayName }: { result: ResultSnapsh
       <View style={styles.card}><Text style={styles.cardTitle}>خانواده‌های برتر و رشته‌های آن‌ها</Text>{result.topFamilies.length ? result.topFamilies.map((family) => <FamilyCard key={family.id} family={family} majors={result.majorRanking.filter((major) => major.familyId === family.id)}/>) : <Text>{rtlSentence("رغبت‌ها از هم متمایز نیستند؛ پیشنهاد رتبه‌دار ارائه نشده است.")}</Text>}</View>
       <View style={styles.card}><Text style={styles.cardTitle}>یادداشت‌های مشاور یا دانش‌آموز</Text><View style={styles.notes}>{[1, 2, 3, 4, 5].map((line) => <View key={line} style={styles.notesLine}/>)}</View></View>
       <Text style={styles.footer} fixed>گزارش انتخاب‌یار · نتیجهٔ اکتشافی · صفحه ۲</Text>
+    </Page>
+    <Page size="A4" style={styles.page} wrap>
+      <View style={styles.card}><Text style={styles.cardTitle}>رتبه‌بندی مستقل همهٔ رشته‌ها</Text>{result.majorRanking.map((major) => <View style={styles.allMajorRow} key={major.id}><Text style={styles.rank}>رتبه {fa(major.rank)}</Text><Text style={styles.allMajorName}>{major.title}</Text><Text style={styles.allMajorScore}>{percent(major.score)}</Text></View>)}</View>
+      <Text style={styles.footer} fixed>گزارش انتخاب‌یار · نتیجهٔ اکتشافی · صفحه ۳</Text>
     </Page>
   </Document>;
 }
