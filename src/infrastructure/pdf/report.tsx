@@ -11,13 +11,14 @@ Font.register({ family: "Vazirmatn", fonts: [{ src: path.join(fontRoot, "Vazirma
 
 const styles = StyleSheet.create({
   page: { padding: 38, fontFamily: "Vazirmatn", fontSize: 9.5, color: "#26301c", direction: "rtl", textAlign: "right", lineHeight: 1.55, backgroundColor: "#fbfcf7" },
-  header: { flexDirection: "row-reverse", alignItems: "center", paddingBottom: 12, borderBottom: "1.5 solid #687c2b", marginBottom: 14 },
+  header: { paddingBottom: 12, borderBottom: "1.5 solid #687c2b", marginBottom: 14, textAlign: "right" },
+  headerTop: { flexDirection: "row-reverse", alignItems: "center", width: "100%" },
   logo: { width: 52, height: 52, objectFit: "contain", marginLeft: 12 },
-  identity: { width: "55%", flexDirection: "row-reverse", alignItems: "center", textAlign: "right" },
+  identity: { flexDirection: "row-reverse", alignItems: "center", width: "100%", textAlign: "right" },
   brandBlock: { flexGrow: 1, textAlign: "right" },
   brand: { fontSize: 21, fontWeight: 700, color: "#526522", textAlign: "right", marginBottom: 2 },
   center: { fontSize: 9, color: "#68745a", textAlign: "right" },
-  headerMeta: { width: "45%", textAlign: "right" },
+  headerMeta: { width: "100%", marginTop: 5, textAlign: "right" },
   reportName: { fontSize: 11, fontWeight: 700, color: "#26301c", textAlign: "right", marginBottom: 3 },
   student: { fontSize: 10, color: "#68745a", textAlign: "right" },
   card: { marginBottom: 11, padding: 12, borderRadius: 10, border: "1 solid #dfe6c9", backgroundColor: "#f5f7ed" },
@@ -35,9 +36,12 @@ const styles = StyleSheet.create({
   category: { width: "49%", marginBottom: 7, padding: 7, borderRadius: 7, backgroundColor: "#ffffff", border: "1 solid #e3e8d6" },
   categoryWide: { width: "100%" },
   categoryTitle: { marginBottom: 4, fontSize: 9.5, fontWeight: 700, color: "#526522" },
-  axisRow: { flexDirection: "row-reverse", justifyContent: "space-between", alignItems: "center", paddingVertical: 2.5 },
-  axisLabel: { flexGrow: 1, textAlign: "right" },
-  axisValue: { width: 72, fontWeight: 700, color: "#61742a", textAlign: "left" },
+  axisEntry: { marginBottom: 4 },
+  axisRow: { flexDirection: "row-reverse", justifyContent: "space-between", alignItems: "center" },
+  axisLabel: { flexGrow: 1, textAlign: "right", fontSize: 8.2 },
+  axisValue: { width: 55, fontSize: 8, fontWeight: 700, color: "#61742a", textAlign: "left" },
+  axisBar: { height: 4, marginTop: 2, borderRadius: 3, backgroundColor: "#e6eadb", overflow: "hidden" },
+  axisBarFill: { height: 4, borderRadius: 3 },
   familyCard: { marginBottom: 8, padding: 9, borderRadius: 8, backgroundColor: "#ffffff", border: "1 solid #dfe6c9" },
   familyHeader: { flexDirection: "row-reverse", justifyContent: "space-between", alignItems: "center", marginBottom: 5 },
   familyTitle: { fontSize: 10.5, fontWeight: 700, color: "#26301c" },
@@ -65,8 +69,8 @@ function InterestMap({ items }: { items: DimensionScore[] }) {
 }
 
 function AxisGroups({ profile }: { profile: Record<string, DimensionScore> }) {
-  const groups: [string, string][] = [["رغبت‌ها", "riasec"], ["ویژگی‌های فردی خودگزارشی", "personality"], ["ارزش‌ها", "values"], ["توانایی‌های خودگزارشی", "abilities"], ["سبک کار", "workstyle"]];
-  return <View style={styles.axisGrid}>{groups.map(([title, section]) => { const items = Object.values(profile).filter((item) => item.section === section); if (!items.length) return null; return <View style={[styles.category, section === "workstyle" ? styles.categoryWide : {}]} key={section} wrap={false}><Text style={styles.categoryTitle}>{title}</Text>{items.map((item) => <View style={styles.axisRow} key={item.label}><Text style={styles.axisLabel}>{item.label}</Text><Text style={styles.axisValue}>{fa(item.score)} از ۱۰۰</Text></View>)}</View>; })}</View>;
+  const groups: [string, string, string][] = [["رغبت‌ها", "riasec", "#71852f"], ["ویژگی‌های فردی خودگزارشی", "personality", "#7a5c9e"], ["ارزش‌ها", "values", "#c07b2c"], ["توانایی‌های خودگزارشی", "abilities", "#2f7890"], ["سبک کار", "workstyle", "#b65359"]];
+  return <View style={styles.axisGrid}>{groups.map(([title, section, color]) => { const items = Object.values(profile).filter((item) => item.section === section); if (!items.length) return null; return <View style={[styles.category, section === "workstyle" ? styles.categoryWide : {}]} key={section} wrap={false}><Text style={[styles.categoryTitle, { color }]}>{title}</Text>{items.map((item) => <View style={styles.axisEntry} key={item.label}><View style={styles.axisRow}><Text style={styles.axisLabel}>{item.label}</Text><Text style={[styles.axisValue, { color }]}>{fa(item.score)} از ۱۰۰</Text></View><View style={styles.axisBar}><View style={[styles.axisBarFill, { width: `${Math.max(0, Math.min(100, item.score))}%`, backgroundColor: color }]} /></View></View>)}</View>; })}</View>;
 }
 
 function FamilyCard({ family, majors }: { family: Ranking; majors: Ranking[] }) {
@@ -76,17 +80,11 @@ function FamilyCard({ family, majors }: { family: Ranking; majors: Ranking[] }) 
   </View>;
 }
 
-function highlightSentence(result: ResultSnapshot) {
-  const interests = Object.values(result.profile).filter((x) => x.section === "riasec").sort((a, b) => b.score - a.score).slice(0, 2).map((x) => x.label);
-  return `رغبت‌های برجسته‌تر در پاسخ‌های تو: ${interests.join(" و ")}.`;
-}
-
 export function AssessmentReport({ result, displayName }: { result: ResultSnapshot; displayName: string }) {
   const interests = Object.values(result.profile).filter((item) => item.section === "riasec");
   return <Document title={`گزارش انتخاب‌یار - ${displayName}`} author="انتخاب‌یار">
     <Page size="A4" style={styles.page} wrap>
-      <View style={styles.header}><View style={styles.identity}><Image style={styles.logo} src={logoPath} /><View style={styles.brandBlock}><Text style={styles.brand}>انتخاب‌یار</Text><Text style={styles.center}>مرکز مشاوره تحصیلی رهیار</Text></View></View><View style={styles.headerMeta}><Text style={styles.reportName}>گزارش شناخت مسیر تحصیلی</Text><Text style={styles.student}>دانش‌آموز: {displayName} · گروه {group(result.examGroup)}</Text></View></View>
-      <Text style={styles.lead}>{rtlSentence(highlightSentence(result))}</Text>
+      <View style={styles.header}><View style={styles.headerTop}><View style={styles.identity}><Image style={styles.logo} src={logoPath} /><View style={styles.brandBlock}><Text style={styles.brand}>انتخاب‌یار</Text><Text style={styles.center}>مرکز مشاوره تحصیلی رهیار</Text></View></View></View><View style={styles.headerMeta}><Text style={styles.reportName}>گزارش شناخت مسیر تحصیلی</Text><Text style={styles.student}>دانش‌آموز: {displayName} · گروه {group(result.examGroup)}</Text></View></View>
       <View style={styles.card}><Text style={styles.cardTitle}>نقشهٔ رغبت‌های تو</Text><InterestMap items={interests}/></View>
       <View style={styles.card}><Text style={styles.cardTitle}>همهٔ محورهای خودگزارشی بر اساس کاربرد</Text><AxisGroups profile={result.profile}/></View>
       <Text style={styles.footer} fixed>گزارش انتخاب‌یار · صفحه ۱</Text>
