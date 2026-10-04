@@ -27,13 +27,15 @@ export default async function AssessmentPage({ params }: Props) {
   if (attempt.status === "completed") redirect(`/results/${attemptId}`);
   if (attempt.status !== "draft") {
     return (
-      <main className="simple-page">
+      <main className="simple-page submission-page">
         <div className="brand"><img className="brand-logo" src="/logo-rahyar.png" alt=""/><span className="brand-copy"><strong>انتخاب‌یار</strong><small>مرکز مشاوره تحصیلی رهیار</small></span></div>
-        <span className="step-tag">آزمون ثبت شد</span>
-        <h1>پاسخ‌های شما ثبت شده‌اند.</h1>
-        <p>نتیجهٔ اکتشافی از همین پاسخ‌های ثبت‌شده محاسبه می‌شود.</p>
-        <EvaluateButton attemptId={attemptId}/>
-        <Link className="text-link" href="/">بازگشت به شروع</Link>
+        <div className="submission-content">
+          <div className="success-icon" aria-hidden="true">✓</div>
+          <span className="step-tag">آزمون ثبت شد</span>
+          <h1>پاسخ‌هایت ثبت شد، {attempt.display_name}.</h1>
+          <p>همهٔ پاسخ‌ها آمادهٔ محاسبهٔ نتیجهٔ اکتشافی هستند.</p>
+          <div className="submission-actions"><EvaluateButton attemptId={attemptId}/><Link className="text-link" href="/">بازگشت به شروع</Link></div>
+        </div>
       </main>
     );
   }

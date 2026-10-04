@@ -198,6 +198,16 @@ a { color: inherit; }
 .simple-page p { color: var(--muted); }
 .text-link { display: inline-flex; margin-top: 22px; color: var(--blue); font-weight: 800; }
 .success-icon { width: 58px; height: 58px; display: grid; place-items: center; border-radius: 18px; color: #596929; background: #e3eac8; font-size: 2rem; font-weight: 900; }
+.submission-page { max-width: 780px; padding: clamp(28px, 6vw, 64px); }
+.submission-page .brand { margin-bottom: clamp(36px, 7vw, 75px); }
+.submission-content { max-width: 590px; margin-inline: auto; text-align: right; }
+.submission-content .success-icon { margin-bottom: 22px; }
+.submission-content h1 { margin: 17px 0 10px; font-size: clamp(1.65rem, 4vw, 2.65rem); line-height: 1.5; }
+.submission-content > p { margin: 0 0 28px; color: var(--muted); font-size: 1.05rem; line-height: 2; }
+.submission-actions { display: flex; align-items: center; gap: 20px; flex-wrap: wrap; }
+.submission-actions .text-link { margin-top: 0; }
+.submission-actions .form-error { margin-top: 14px; flex-basis: 100%; }
+@media (max-width: 520px) { .submission-content { text-align: center; } .submission-content .success-icon { margin-inline: auto; } .submission-actions { justify-content: center; } }
 .access-shell { min-height: 100svh; display: grid; place-items: center; padding: 24px; background: radial-gradient(circle at 15% 10%, rgba(215,224,166,.9), transparent 34%), radial-gradient(circle at 90% 90%, rgba(164,180,103,.35), transparent 38%), var(--canvas); }
 .access-card { position: relative; width: min(540px, 100%); padding: clamp(28px, 6vw, 58px); overflow: hidden; border: 1px solid rgba(255,255,255,.72); border-radius: 30px; background: linear-gradient(145deg, rgba(255,255,255,.72), rgba(244,247,226,.45)); box-shadow: 0 25px 70px rgba(54, 63, 29, .16); backdrop-filter: blur(24px) saturate(125%); -webkit-backdrop-filter: blur(24px) saturate(125%); text-align: center; }
 .access-card::before { content: ""; position: absolute; width: 190px; height: 190px; top: -90px; left: -65px; border-radius: 50%; background: rgba(209,222,147,.34); pointer-events: none; }

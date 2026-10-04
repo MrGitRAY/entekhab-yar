@@ -22,7 +22,7 @@ npm run start
 ## فعال کردن آزمون اصلی
 
 1. یک پروژه جدید Supabase ایجاد کنید. در تنظیمات Auth، [Anonymous Sign-Ins](https://supabase.com/docs/guides/auth/auth-anonymous) را فعال کنید. کاربر ناشناس Auth در پایگاه داده نقش `authenticated` می‌گیرد و دسترسی او به پاسخ‌ها با RLS محدود شده است.
-2. در SQL Editor همان پروژه، migrationهای قبلی را فقط در صورتی اجرا کنید که قبلاً اعمال نشده‌اند؛ سپس `supabase/migrations/202610040001_catalog_030_question_count.sql` و در پایان `supabase/seed.sql` را اجرا کنید. seed نسخه جدید `0.3.0-pilot` را فعال می‌کند و نسخه‌های قبلی را تغییر نمی‌دهد.
+2. در SQL Editor همان پروژه، migrationهای قبلی را فقط در صورتی اجرا کنید که قبلاً اعمال نشده‌اند؛ سپس به‌ترتیب `supabase/migrations/202610040001_catalog_030_question_count.sql`، `supabase/migrations/202610040002_matching_v2_snapshot.sql` و در پایان `supabase/seed.sql` را اجرا کنید. seed نسخه جدید `0.3.0-pilot` را فعال می‌کند و نسخه‌های قبلی را تغییر نمی‌دهد. migration دوم تابع ثبت نتیجه را با روش وزن‌دار شخصیت و ارزش‌ها هماهنگ می‌کند.
 3. سه متغیر زیر را در محیط استقرار تنظیم کنید. مقادیر نمونه در `.env.example` واقعی نیستند:
 
 | نام | مقدار | محل استفاده |
