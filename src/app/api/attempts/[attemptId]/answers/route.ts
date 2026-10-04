@@ -25,7 +25,7 @@ export async function PATCH(request: NextRequest, context: Context) {
     return json({ error: "ساختار پاسخ معتبر نیست." }, 400);
   }
   const entries = Object.entries(answers);
-  if (entries.length < 1 || entries.length > 60 || entries.some(([id, value]) =>
+  if (entries.length < 1 || entries.length > 74 || entries.some(([id, value]) =>
       !/^Q-[A-Z]+-\d{2}$/.test(id) || !Number.isInteger(value) || (value as number) < 1 || (value as number) > 5)) {
     return json({ error: "گزینه‌های پاسخ معتبر نیستند." }, 400);
   }

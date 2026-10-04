@@ -7,9 +7,9 @@ export default function HomePage() {
     <main className="landing-shell">
       <div className="landing-layout">
         <section className="intro-panel" aria-labelledby="intro-title">
-          <div className="brand"><img className="brand-logo" src="/logo-rahyar.png" alt=""/><span>انتخاب‌یار</span><small>مرکز مشاوره تحصیلی رهیار</small></div>
+          <div className="brand"><img className="brand-logo" src="/logo-rahyar.png" alt=""/><span className="brand-copy"><strong>انتخاب‌یار</strong><small>مرکز مشاوره تحصیلی رهیار</small></span></div>
           <div className="intro-content">
-            <p className="eyebrow">برای تجربی و ریاضی</p>
+            <p className="eyebrow">تجربی و ریاضی</p>
             <h1 id="intro-title">از شناخت خودت شروع کن.</h1>
             <p className="intro-text">به چند پرسش کوتاه درباره علاقه‌ها، شیوه یادگیری و چیزهایی که در آینده برایت مهم‌اند پاسخ بده. بعد از آزمون، مسیرهایی برای بررسی بیشتر می‌بینی.</p>
           </div>

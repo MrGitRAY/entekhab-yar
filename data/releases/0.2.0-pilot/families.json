@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "catalogVersion": "0.3.0-pilot",
+  "catalogVersion": "0.2.0-pilot",
   "status": "pilot",
   "items": [
     {
@@ -24,21 +24,7 @@
         "enterprising": 19.2,
         "conventional": 47.733333333333334
       },
-      "aggregation": "equal_mean_unique_occupations",
-      "selfReportProfile": {
-        "openness": 55,
-        "conscientiousness": 80,
-        "extraversion": 50,
-        "agreeableness": 70,
-        "emotional_stability": 60,
-        "income": 70,
-        "security": 75,
-        "freedom": 40,
-        "impact": 85,
-        "growth": 70,
-        "lifestyle": 45
-      },
-      "selfReportProfileStatus": "editorial_family_archetype_unvalidated"
+      "aggregation": "equal_mean_unique_occupations"
     },
     {
       "id": "exp-rehab",
@@ -61,21 +47,7 @@
         "enterprising": 16.133333333333333,
         "conventional": 43.7
       },
-      "aggregation": "equal_mean_unique_occupations",
-      "selfReportProfile": {
-        "openness": 70,
-        "conscientiousness": 60,
-        "extraversion": 45,
-        "agreeableness": 82,
-        "emotional_stability": 65,
-        "income": 55,
-        "security": 60,
-        "freedom": 50,
-        "impact": 90,
-        "growth": 80,
-        "lifestyle": 55
-      },
-      "selfReportProfileStatus": "editorial_family_archetype_unvalidated"
+      "aggregation": "equal_mean_unique_occupations"
     },
     {
       "id": "exp-clinical",
@@ -97,21 +69,7 @@
         "enterprising": 8.375,
         "conventional": 66.75
       },
-      "aggregation": "equal_mean_unique_occupations",
-      "selfReportProfile": {
-        "openness": 45,
-        "conscientiousness": 85,
-        "extraversion": 35,
-        "agreeableness": 55,
-        "emotional_stability": 65,
-        "income": 60,
-        "security": 80,
-        "freedom": 35,
-        "impact": 60,
-        "growth": 60,
-        "lifestyle": 50
-      },
-      "selfReportProfileStatus": "editorial_family_archetype_unvalidated"
+      "aggregation": "equal_mean_unique_occupations"
     },
     {
       "id": "exp-bio",
@@ -136,21 +94,7 @@
         "enterprising": 16.142857142857142,
         "conventional": 61.285714285714285
       },
-      "aggregation": "equal_mean_unique_occupations",
-      "selfReportProfile": {
-        "openness": 85,
-        "conscientiousness": 70,
-        "extraversion": 35,
-        "agreeableness": 45,
-        "emotional_stability": 60,
-        "income": 45,
-        "security": 50,
-        "freedom": 65,
-        "impact": 60,
-        "growth": 90,
-        "lifestyle": 55
-      },
-      "selfReportProfileStatus": "editorial_family_archetype_unvalidated"
+      "aggregation": "equal_mean_unique_occupations"
     },
     {
       "id": "exp-people",
@@ -173,21 +117,7 @@
         "enterprising": 45,
         "conventional": 47.56666666666667
       },
-      "aggregation": "equal_mean_unique_occupations",
-      "selfReportProfile": {
-        "openness": 65,
-        "conscientiousness": 55,
-        "extraversion": 60,
-        "agreeableness": 88,
-        "emotional_stability": 60,
-        "income": 45,
-        "security": 50,
-        "freedom": 55,
-        "impact": 88,
-        "growth": 78,
-        "lifestyle": 60
-      },
-      "selfReportProfileStatus": "editorial_family_archetype_unvalidated"
+      "aggregation": "equal_mean_unique_occupations"
     },
     {
       "id": "math-tech",
@@ -211,21 +141,7 @@
         "enterprising": 21.5,
         "conventional": 75.80555555555556
       },
-      "aggregation": "equal_mean_unique_occupations",
-      "selfReportProfile": {
-        "openness": 78,
-        "conscientiousness": 82,
-        "extraversion": 42,
-        "agreeableness": 42,
-        "emotional_stability": 62,
-        "income": 78,
-        "security": 65,
-        "freedom": 65,
-        "impact": 45,
-        "growth": 88,
-        "lifestyle": 60
-      },
-      "selfReportProfileStatus": "editorial_family_archetype_unvalidated"
+      "aggregation": "equal_mean_unique_occupations"
     },
     {
       "id": "math-engineering",
@@ -249,21 +165,7 @@
         "enterprising": 20.194444444444446,
         "conventional": 58.611111111111114
       },
-      "aggregation": "equal_mean_unique_occupations",
-      "selfReportProfile": {
-        "openness": 62,
-        "conscientiousness": 85,
-        "extraversion": 42,
-        "agreeableness": 42,
-        "emotional_stability": 68,
-        "income": 72,
-        "security": 78,
-        "freedom": 45,
-        "impact": 45,
-        "growth": 68,
-        "lifestyle": 50
-      },
-      "selfReportProfileStatus": "editorial_family_archetype_unvalidated"
+      "aggregation": "equal_mean_unique_occupations"
     },
     {
       "id": "math-design",
@@ -284,21 +186,7 @@
         "enterprising": 48.944444444444436,
         "conventional": 49.27777777777779
       },
-      "aggregation": "equal_mean_unique_occupations",
-      "selfReportProfile": {
-        "openness": 90,
-        "conscientiousness": 58,
-        "extraversion": 58,
-        "agreeableness": 50,
-        "emotional_stability": 62,
-        "income": 55,
-        "security": 45,
-        "freedom": 78,
-        "impact": 48,
-        "growth": 85,
-        "lifestyle": 62
-      },
-      "selfReportProfileStatus": "editorial_family_archetype_unvalidated"
+      "aggregation": "equal_mean_unique_occupations"
     },
     {
       "id": "math-systems",
@@ -321,21 +209,7 @@
         "enterprising": 57.36666666666666,
         "conventional": 76.76666666666667
       },
-      "aggregation": "equal_mean_unique_occupations",
-      "selfReportProfile": {
-        "openness": 58,
-        "conscientiousness": 80,
-        "extraversion": 68,
-        "agreeableness": 48,
-        "emotional_stability": 68,
-        "income": 72,
-        "security": 78,
-        "freedom": 52,
-        "impact": 55,
-        "growth": 62,
-        "lifestyle": 50
-      },
-      "selfReportProfileStatus": "editorial_family_archetype_unvalidated"
+      "aggregation": "equal_mean_unique_occupations"
     },
     {
       "id": "math-science",
@@ -358,21 +232,7 @@
         "enterprising": 12.933333333333337,
         "conventional": 63.266666666666666
       },
-      "aggregation": "equal_mean_unique_occupations",
-      "selfReportProfile": {
-        "openness": 84,
-        "conscientiousness": 82,
-        "extraversion": 35,
-        "agreeableness": 42,
-        "emotional_stability": 58,
-        "income": 48,
-        "security": 52,
-        "freedom": 62,
-        "impact": 55,
-        "growth": 92,
-        "lifestyle": 55
-      },
-      "selfReportProfileStatus": "editorial_family_archetype_unvalidated"
+      "aggregation": "equal_mean_unique_occupations"
     }
   ]
 }

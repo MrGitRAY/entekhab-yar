@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "catalogVersion": "0.3.0-pilot",
+  "catalogVersion": "0.2.0-pilot",
   "status": "pilot",
   "items": [
     {
@@ -1146,191 +1146,11 @@
         }
       ],
       "evidenceStatus": "authored_pilot_not_validated"
-    },
-    {
-      "id": "Q-P-11",
-      "text": "از آشنا شدن با ایده‌هایی که با باورهای قبلی‌ام فرق دارند استقبال می‌کنم.",
-      "section": "personality",
-      "primaryDimension": "openness",
-      "groups": [
-        "experimental",
-        "mathematics"
-      ],
-      "effects": [
-        {
-          "dimension": "openness",
-          "weight": 1,
-          "direction": "positive"
-        }
-      ],
-      "evidenceStatus": "authored_pilot_not_validated"
-    },
-    {
-      "id": "Q-P-12",
-      "text": "ترجیح می‌دهم همیشه با روش‌های آشنا کار کنم و چیز تازه‌ای را امتحان نکنم.",
-      "section": "personality",
-      "primaryDimension": "openness",
-      "groups": [
-        "experimental",
-        "mathematics"
-      ],
-      "effects": [
-        {
-          "dimension": "openness",
-          "weight": 1,
-          "direction": "negative"
-        }
-      ],
-      "evidenceStatus": "authored_pilot_not_validated"
-    },
-    {
-      "id": "Q-P-13",
-      "text": "کارهایم را طوری برنامه‌ریزی می‌کنم که به‌موقع تمام شوند.",
-      "section": "personality",
-      "primaryDimension": "conscientiousness",
-      "groups": [
-        "experimental",
-        "mathematics"
-      ],
-      "effects": [
-        {
-          "dimension": "conscientiousness",
-          "weight": 1,
-          "direction": "positive"
-        }
-      ],
-      "evidenceStatus": "authored_pilot_not_validated"
-    },
-    {
-      "id": "Q-P-14",
-      "text": "گاهی کارها را تا آخرین لحظه عقب می‌اندازم.",
-      "section": "personality",
-      "primaryDimension": "conscientiousness",
-      "groups": [
-        "experimental",
-        "mathematics"
-      ],
-      "effects": [
-        {
-          "dimension": "conscientiousness",
-          "weight": 1,
-          "direction": "negative"
-        }
-      ],
-      "evidenceStatus": "authored_pilot_not_validated"
-    },
-    {
-      "id": "Q-P-15",
-      "text": "در جمع‌های تازه معمولاً خودم سر صحبت را باز می‌کنم.",
-      "section": "personality",
-      "primaryDimension": "extraversion",
-      "groups": [
-        "experimental",
-        "mathematics"
-      ],
-      "effects": [
-        {
-          "dimension": "extraversion",
-          "weight": 1,
-          "direction": "positive"
-        }
-      ],
-      "evidenceStatus": "authored_pilot_not_validated"
-    },
-    {
-      "id": "Q-P-16",
-      "text": "پس از معاشرت طولانی، معمولاً به زمانی خلوت برای بازیابی نیاز دارم.",
-      "section": "personality",
-      "primaryDimension": "extraversion",
-      "groups": [
-        "experimental",
-        "mathematics"
-      ],
-      "effects": [
-        {
-          "dimension": "extraversion",
-          "weight": 1,
-          "direction": "negative"
-        }
-      ],
-      "evidenceStatus": "authored_pilot_not_validated"
-    },
-    {
-      "id": "Q-P-17",
-      "text": "وقتی دیگران به کمک نیاز دارند، برای کمک عملی وقت می‌گذارم.",
-      "section": "personality",
-      "primaryDimension": "agreeableness",
-      "groups": [
-        "experimental",
-        "mathematics"
-      ],
-      "effects": [
-        {
-          "dimension": "agreeableness",
-          "weight": 1,
-          "direction": "positive"
-        }
-      ],
-      "evidenceStatus": "authored_pilot_not_validated"
-    },
-    {
-      "id": "Q-P-18",
-      "text": "در گفت‌وگو، حتی وقتی مخالفم، با احترام رفتار می‌کنم.",
-      "section": "personality",
-      "primaryDimension": "agreeableness",
-      "groups": [
-        "experimental",
-        "mathematics"
-      ],
-      "effects": [
-        {
-          "dimension": "agreeableness",
-          "weight": 1,
-          "direction": "positive"
-        }
-      ],
-      "evidenceStatus": "authored_pilot_not_validated"
-    },
-    {
-      "id": "Q-P-19",
-      "text": "در موقعیت پراسترس می‌توانم آرام بمانم و قدم بعدی را پیدا کنم.",
-      "section": "personality",
-      "primaryDimension": "emotional_stability",
-      "groups": [
-        "experimental",
-        "mathematics"
-      ],
-      "effects": [
-        {
-          "dimension": "emotional_stability",
-          "weight": 1,
-          "direction": "positive"
-        }
-      ],
-      "evidenceStatus": "authored_pilot_not_validated"
-    },
-    {
-      "id": "Q-P-20",
-      "text": "نگرانی درباره آینده معمولاً مدت زیادی ذهنم را درگیر می‌کند.",
-      "section": "personality",
-      "primaryDimension": "emotional_stability",
-      "groups": [
-        "experimental",
-        "mathematics"
-      ],
-      "effects": [
-        {
-          "dimension": "emotional_stability",
-          "weight": 1,
-          "direction": "negative"
-        }
-      ],
-      "evidenceStatus": "authored_pilot_not_validated"
     }
   ],
   "measurementStatus": "unvalidated_fa_student_pilot",
   "review": {
-    "date": "2026-10-04",
+    "date": "2026-09-27",
     "scope": "desk_content_review_only",
     "humanExpertReview": "pending",
     "cognitiveInterviews": "pending",
@@ -1344,17 +1164,7 @@
       "Q-R-13",
       "Q-R-14",
       "Q-MAT-01",
-      "Q-MAT-03",
-      "Q-P-11",
-      "Q-P-12",
-      "Q-P-13",
-      "Q-P-14",
-      "Q-P-15",
-      "Q-P-16",
-      "Q-P-17",
-      "Q-P-18",
-      "Q-P-19",
-      "Q-P-20"
+      "Q-MAT-03"
     ]
   }
 }

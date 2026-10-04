@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "catalogVersion": "0.3.0-pilot",
+  "catalogVersion": "0.2.0-pilot",
   "status": "pilot",
   "items": [
     {
@@ -60,21 +60,7 @@
         "status": "editorial_pending_expert_review",
         "rationale": "دو نمونه پزشکی عمومی و داخلی؛ همه تخصص‌های پزشکی را نمایندگی نمی‌کند.",
         "method": "equal_mean_selected_occupations"
-      },
-      "selfReportProfile": {
-        "openness": 55,
-        "conscientiousness": 80,
-        "extraversion": 50,
-        "agreeableness": 70,
-        "emotional_stability": 60,
-        "income": 70,
-        "security": 75,
-        "freedom": 40,
-        "impact": 85,
-        "growth": 70,
-        "lifestyle": 45
-      },
-      "selfReportProfileStatus": "inherited_family_archetype_unvalidated"
+      }
     },
     {
       "id": "dentistry",
@@ -119,21 +105,7 @@
         "status": "editorial_pending_expert_review",
         "rationale": "نمونه دندانپزشکی عمومی.",
         "method": "equal_mean_selected_occupations"
-      },
-      "selfReportProfile": {
-        "openness": 55,
-        "conscientiousness": 80,
-        "extraversion": 50,
-        "agreeableness": 70,
-        "emotional_stability": 60,
-        "income": 70,
-        "security": 75,
-        "freedom": 40,
-        "impact": 85,
-        "growth": 70,
-        "lifestyle": 45
-      },
-      "selfReportProfileStatus": "inherited_family_archetype_unvalidated"
+      }
     },
     {
       "id": "pharmacy",
@@ -178,21 +150,7 @@
         "status": "editorial_pending_expert_review",
         "rationale": "نمونه کار داروساز؛ پژوهش و صنعت دارو پوشش کامل ندارند.",
         "method": "equal_mean_selected_occupations"
-      },
-      "selfReportProfile": {
-        "openness": 55,
-        "conscientiousness": 80,
-        "extraversion": 50,
-        "agreeableness": 70,
-        "emotional_stability": 60,
-        "income": 70,
-        "security": 75,
-        "freedom": 40,
-        "impact": 85,
-        "growth": 70,
-        "lifestyle": 45
-      },
-      "selfReportProfileStatus": "inherited_family_archetype_unvalidated"
+      }
     },
     {
       "id": "veterinary",
@@ -237,21 +195,7 @@
         "status": "editorial_pending_expert_review",
         "rationale": "نمونه دامپزشکی.",
         "method": "equal_mean_selected_occupations"
-      },
-      "selfReportProfile": {
-        "openness": 55,
-        "conscientiousness": 80,
-        "extraversion": 50,
-        "agreeableness": 70,
-        "emotional_stability": 60,
-        "income": 70,
-        "security": 75,
-        "freedom": 40,
-        "impact": 85,
-        "growth": 70,
-        "lifestyle": 45
-      },
-      "selfReportProfileStatus": "inherited_family_archetype_unvalidated"
+      }
     },
     {
       "id": "physiotherapy",
@@ -296,21 +240,7 @@
         "status": "editorial_pending_expert_review",
         "rationale": "نمونه فیزیوتراپی.",
         "method": "equal_mean_selected_occupations"
-      },
-      "selfReportProfile": {
-        "openness": 70,
-        "conscientiousness": 60,
-        "extraversion": 45,
-        "agreeableness": 82,
-        "emotional_stability": 65,
-        "income": 55,
-        "security": 60,
-        "freedom": 50,
-        "impact": 90,
-        "growth": 80,
-        "lifestyle": 55
-      },
-      "selfReportProfileStatus": "inherited_family_archetype_unvalidated"
+      }
     },
     {
       "id": "occupational-therapy",
@@ -355,21 +285,7 @@
         "status": "editorial_pending_expert_review",
         "rationale": "نمونه کاردرمانی.",
         "method": "equal_mean_selected_occupations"
-      },
-      "selfReportProfile": {
-        "openness": 70,
-        "conscientiousness": 60,
-        "extraversion": 45,
-        "agreeableness": 82,
-        "emotional_stability": 65,
-        "income": 55,
-        "security": 60,
-        "freedom": 50,
-        "impact": 90,
-        "growth": 80,
-        "lifestyle": 55
-      },
-      "selfReportProfileStatus": "inherited_family_archetype_unvalidated"
+      }
     },
     {
       "id": "speech-therapy",
@@ -414,21 +330,7 @@
         "status": "editorial_pending_expert_review",
         "rationale": "نمونه آسیب‌شناسی گفتار و زبان.",
         "method": "equal_mean_selected_occupations"
-      },
-      "selfReportProfile": {
-        "openness": 70,
-        "conscientiousness": 60,
-        "extraversion": 45,
-        "agreeableness": 82,
-        "emotional_stability": 65,
-        "income": 55,
-        "security": 60,
-        "freedom": 50,
-        "impact": 90,
-        "growth": 80,
-        "lifestyle": 55
-      },
-      "selfReportProfileStatus": "inherited_family_archetype_unvalidated"
+      }
     },
     {
       "id": "audiology",
@@ -473,21 +375,7 @@
         "status": "editorial_pending_expert_review",
         "rationale": "نمونه شنوایی‌شناسی.",
         "method": "equal_mean_selected_occupations"
-      },
-      "selfReportProfile": {
-        "openness": 70,
-        "conscientiousness": 60,
-        "extraversion": 45,
-        "agreeableness": 82,
-        "emotional_stability": 65,
-        "income": 55,
-        "security": 60,
-        "freedom": 50,
-        "impact": 90,
-        "growth": 80,
-        "lifestyle": 55
-      },
-      "selfReportProfileStatus": "inherited_family_archetype_unvalidated"
+      }
     },
     {
       "id": "optometry",
@@ -532,21 +420,7 @@
         "status": "editorial_pending_expert_review",
         "rationale": "نمونه بینایی‌سنجی؛ دامنه مجوز کار در کشورها متفاوت است.",
         "method": "equal_mean_selected_occupations"
-      },
-      "selfReportProfile": {
-        "openness": 70,
-        "conscientiousness": 60,
-        "extraversion": 45,
-        "agreeableness": 82,
-        "emotional_stability": 65,
-        "income": 55,
-        "security": 60,
-        "freedom": 50,
-        "impact": 90,
-        "growth": 80,
-        "lifestyle": 55
-      },
-      "selfReportProfileStatus": "inherited_family_archetype_unvalidated"
+      }
     },
     {
       "id": "laboratory-sciences",
@@ -591,21 +465,7 @@
         "status": "editorial_pending_expert_review",
         "rationale": "نمونه فناوری آزمایشگاه پزشکی؛ هم‌ارزی مدرک ادعا نمی‌شود.",
         "method": "equal_mean_selected_occupations"
-      },
-      "selfReportProfile": {
-        "openness": 45,
-        "conscientiousness": 85,
-        "extraversion": 35,
-        "agreeableness": 55,
-        "emotional_stability": 65,
-        "income": 60,
-        "security": 80,
-        "freedom": 35,
-        "impact": 60,
-        "growth": 60,
-        "lifestyle": 50
-      },
-      "selfReportProfileStatus": "inherited_family_archetype_unvalidated"
+      }
     },
     {
       "id": "radiology",
@@ -650,21 +510,7 @@
         "status": "editorial_pending_expert_review",
         "rationale": "نمونه فناوری تصویربرداری؛ این مدخل تخصص پزشکی رادیولوژی نیست.",
         "method": "equal_mean_selected_occupations"
-      },
-      "selfReportProfile": {
-        "openness": 45,
-        "conscientiousness": 85,
-        "extraversion": 35,
-        "agreeableness": 55,
-        "emotional_stability": 65,
-        "income": 60,
-        "security": 80,
-        "freedom": 35,
-        "impact": 60,
-        "growth": 60,
-        "lifestyle": 50
-      },
-      "selfReportProfileStatus": "inherited_family_archetype_unvalidated"
+      }
     },
     {
       "id": "operating-room",
@@ -709,21 +555,7 @@
         "status": "editorial_pending_expert_review",
         "rationale": "نمونه فناوری جراحی؛ شرح وظایف ایران باید جداگانه بررسی شود.",
         "method": "equal_mean_selected_occupations"
-      },
-      "selfReportProfile": {
-        "openness": 45,
-        "conscientiousness": 85,
-        "extraversion": 35,
-        "agreeableness": 55,
-        "emotional_stability": 65,
-        "income": 60,
-        "security": 80,
-        "freedom": 35,
-        "impact": 60,
-        "growth": 60,
-        "lifestyle": 50
-      },
-      "selfReportProfileStatus": "inherited_family_archetype_unvalidated"
+      }
     },
     {
       "id": "anesthesia",
@@ -768,21 +600,7 @@
         "status": "editorial_pending_expert_review",
         "rationale": "جانشین تقریبی فعالیت‌های کمک به بیهوشی؛ معادل مدرک هوشبری ایران نیست.",
         "method": "equal_mean_selected_occupations"
-      },
-      "selfReportProfile": {
-        "openness": 45,
-        "conscientiousness": 85,
-        "extraversion": 35,
-        "agreeableness": 55,
-        "emotional_stability": 65,
-        "income": 60,
-        "security": 80,
-        "freedom": 35,
-        "impact": 60,
-        "growth": 60,
-        "lifestyle": 50
-      },
-      "selfReportProfileStatus": "inherited_family_archetype_unvalidated"
+      }
     },
     {
       "id": "biology",
@@ -841,21 +659,7 @@
         "status": "editorial_pending_expert_review",
         "rationale": "نمونه زیست‌شناسی عمومی و سلولی؛ همه گرایش‌ها را پوشش نمی‌دهد.",
         "method": "equal_mean_selected_occupations"
-      },
-      "selfReportProfile": {
-        "openness": 85,
-        "conscientiousness": 70,
-        "extraversion": 35,
-        "agreeableness": 45,
-        "emotional_stability": 60,
-        "income": 45,
-        "security": 50,
-        "freedom": 65,
-        "impact": 60,
-        "growth": 90,
-        "lifestyle": 55
-      },
-      "selfReportProfileStatus": "inherited_family_archetype_unvalidated"
+      }
     },
     {
       "id": "biotechnology",
@@ -914,21 +718,7 @@
         "status": "editorial_pending_expert_review",
         "rationale": "نمونه فعالیت پژوهشی زیستی؛ زیست‌فناوری صنعتی و کشاورزی کامل پوشش ندارند.",
         "method": "equal_mean_selected_occupations"
-      },
-      "selfReportProfile": {
-        "openness": 85,
-        "conscientiousness": 70,
-        "extraversion": 35,
-        "agreeableness": 45,
-        "emotional_stability": 60,
-        "income": 45,
-        "security": 50,
-        "freedom": 65,
-        "impact": 60,
-        "growth": 90,
-        "lifestyle": 55
-      },
-      "selfReportProfileStatus": "inherited_family_archetype_unvalidated"
+      }
     },
     {
       "id": "microbiology",
@@ -973,21 +763,7 @@
         "status": "editorial_pending_expert_review",
         "rationale": "نمونه میکروبیولوژی.",
         "method": "equal_mean_selected_occupations"
-      },
-      "selfReportProfile": {
-        "openness": 85,
-        "conscientiousness": 70,
-        "extraversion": 35,
-        "agreeableness": 45,
-        "emotional_stability": 60,
-        "income": 45,
-        "security": 50,
-        "freedom": 65,
-        "impact": 60,
-        "growth": 90,
-        "lifestyle": 55
-      },
-      "selfReportProfileStatus": "inherited_family_archetype_unvalidated"
+      }
     },
     {
       "id": "bioinformatics",
@@ -1032,21 +808,7 @@
         "status": "editorial_pending_expert_review",
         "rationale": "مسیر تخصصی پژوهش بیوانفورماتیک؛ پذیرش کارشناسی مستقلی تأیید نشده است.",
         "method": "equal_mean_selected_occupations"
-      },
-      "selfReportProfile": {
-        "openness": 85,
-        "conscientiousness": 70,
-        "extraversion": 35,
-        "agreeableness": 45,
-        "emotional_stability": 60,
-        "income": 45,
-        "security": 50,
-        "freedom": 65,
-        "impact": 60,
-        "growth": 90,
-        "lifestyle": 55
-      },
-      "selfReportProfileStatus": "inherited_family_archetype_unvalidated"
+      }
     },
     {
       "id": "health-information-technology",
@@ -1105,21 +867,7 @@
         "status": "editorial_pending_expert_review",
         "rationale": "نمونه فناوری و انفورماتیک سلامت با نقش‌های تحصیلی متفاوت.",
         "method": "equal_mean_selected_occupations"
-      },
-      "selfReportProfile": {
-        "openness": 85,
-        "conscientiousness": 70,
-        "extraversion": 35,
-        "agreeableness": 45,
-        "emotional_stability": 60,
-        "income": 45,
-        "security": 50,
-        "freedom": 65,
-        "impact": 60,
-        "growth": 90,
-        "lifestyle": 55
-      },
-      "selfReportProfileStatus": "inherited_family_archetype_unvalidated"
+      }
     },
     {
       "id": "psychology",
@@ -1178,21 +926,7 @@
         "status": "editorial_pending_expert_review",
         "rationale": "دو نمونه بالینی و سازمانی؛ اشتغال تخصصی ممکن است تحصیلات و مجوز بیشتری بخواهد.",
         "method": "equal_mean_selected_occupations"
-      },
-      "selfReportProfile": {
-        "openness": 65,
-        "conscientiousness": 55,
-        "extraversion": 60,
-        "agreeableness": 88,
-        "emotional_stability": 60,
-        "income": 45,
-        "security": 50,
-        "freedom": 55,
-        "impact": 88,
-        "growth": 78,
-        "lifestyle": 60
-      },
-      "selfReportProfileStatus": "inherited_family_archetype_unvalidated"
+      }
     },
     {
       "id": "counseling",
@@ -1251,21 +985,7 @@
         "status": "editorial_pending_expert_review",
         "rationale": "نمونه مشاوره تحصیلی و سلامت روان؛ مجوز و شرایط محلی مستقل‌اند.",
         "method": "equal_mean_selected_occupations"
-      },
-      "selfReportProfile": {
-        "openness": 65,
-        "conscientiousness": 55,
-        "extraversion": 60,
-        "agreeableness": 88,
-        "emotional_stability": 60,
-        "income": 45,
-        "security": 50,
-        "freedom": 55,
-        "impact": 88,
-        "growth": 78,
-        "lifestyle": 60
-      },
-      "selfReportProfileStatus": "inherited_family_archetype_unvalidated"
+      }
     },
     {
       "id": "educational-sciences",
@@ -1310,21 +1030,7 @@
         "status": "editorial_pending_expert_review",
         "rationale": "نمونه طراحی و هماهنگی آموزش؛ نماینده همه مشاغل علوم تربیتی نیست.",
         "method": "equal_mean_selected_occupations"
-      },
-      "selfReportProfile": {
-        "openness": 65,
-        "conscientiousness": 55,
-        "extraversion": 60,
-        "agreeableness": 88,
-        "emotional_stability": 60,
-        "income": 45,
-        "security": 50,
-        "freedom": 55,
-        "impact": 88,
-        "growth": 78,
-        "lifestyle": 60
-      },
-      "selfReportProfileStatus": "inherited_family_archetype_unvalidated"
+      }
     },
     {
       "id": "computer-engineering",
@@ -1383,21 +1089,7 @@
         "status": "editorial_pending_expert_review",
         "rationale": "دو نمونه سخت‌افزار و توسعه نرم‌افزار.",
         "method": "equal_mean_selected_occupations"
-      },
-      "selfReportProfile": {
-        "openness": 78,
-        "conscientiousness": 82,
-        "extraversion": 42,
-        "agreeableness": 42,
-        "emotional_stability": 62,
-        "income": 78,
-        "security": 65,
-        "freedom": 65,
-        "impact": 45,
-        "growth": 88,
-        "lifestyle": 60
-      },
-      "selfReportProfileStatus": "inherited_family_archetype_unvalidated"
+      }
     },
     {
       "id": "computer-science",
@@ -1456,21 +1148,7 @@
         "status": "editorial_pending_expert_review",
         "rationale": "دو نمونه پژوهش رایانه و توسعه نرم‌افزار.",
         "method": "equal_mean_selected_occupations"
-      },
-      "selfReportProfile": {
-        "openness": 78,
-        "conscientiousness": 82,
-        "extraversion": 42,
-        "agreeableness": 42,
-        "emotional_stability": 62,
-        "income": 78,
-        "security": 65,
-        "freedom": 65,
-        "impact": 45,
-        "growth": 88,
-        "lifestyle": 60
-      },
-      "selfReportProfileStatus": "inherited_family_archetype_unvalidated"
+      }
     },
     {
       "id": "artificial-intelligence",
@@ -1529,21 +1207,7 @@
         "status": "editorial_pending_expert_review",
         "rationale": "مسیر تخصصی پژوهش رایانه و داده؛ نگاشت رسمی رشته نیست.",
         "method": "equal_mean_selected_occupations"
-      },
-      "selfReportProfile": {
-        "openness": 78,
-        "conscientiousness": 82,
-        "extraversion": 42,
-        "agreeableness": 42,
-        "emotional_stability": 62,
-        "income": 78,
-        "security": 65,
-        "freedom": 65,
-        "impact": 45,
-        "growth": 88,
-        "lifestyle": 60
-      },
-      "selfReportProfileStatus": "inherited_family_archetype_unvalidated"
+      }
     },
     {
       "id": "data-science",
@@ -1588,21 +1252,7 @@
         "status": "editorial_pending_expert_review",
         "rationale": "نمونه شغل دانشمند داده؛ مسیر تخصصی با چند ورودی تحصیلی.",
         "method": "equal_mean_selected_occupations"
-      },
-      "selfReportProfile": {
-        "openness": 78,
-        "conscientiousness": 82,
-        "extraversion": 42,
-        "agreeableness": 42,
-        "emotional_stability": 62,
-        "income": 78,
-        "security": 65,
-        "freedom": 65,
-        "impact": 45,
-        "growth": 88,
-        "lifestyle": 60
-      },
-      "selfReportProfileStatus": "inherited_family_archetype_unvalidated"
+      }
     },
     {
       "id": "information-technology",
@@ -1661,21 +1311,7 @@
         "status": "editorial_pending_expert_review",
         "rationale": "نمونه تحلیل سیستم و اداره شبکه.",
         "method": "equal_mean_selected_occupations"
-      },
-      "selfReportProfile": {
-        "openness": 78,
-        "conscientiousness": 82,
-        "extraversion": 42,
-        "agreeableness": 42,
-        "emotional_stability": 62,
-        "income": 78,
-        "security": 65,
-        "freedom": 65,
-        "impact": 45,
-        "growth": 88,
-        "lifestyle": 60
-      },
-      "selfReportProfileStatus": "inherited_family_archetype_unvalidated"
+      }
     },
     {
       "id": "electrical-engineering",
@@ -1734,21 +1370,7 @@
         "status": "editorial_pending_expert_review",
         "rationale": "دو نمونه برق و الکترونیک.",
         "method": "equal_mean_selected_occupations"
-      },
-      "selfReportProfile": {
-        "openness": 62,
-        "conscientiousness": 85,
-        "extraversion": 42,
-        "agreeableness": 42,
-        "emotional_stability": 68,
-        "income": 72,
-        "security": 78,
-        "freedom": 45,
-        "impact": 45,
-        "growth": 68,
-        "lifestyle": 50
-      },
-      "selfReportProfileStatus": "inherited_family_archetype_unvalidated"
+      }
     },
     {
       "id": "mechanical-engineering",
@@ -1793,21 +1415,7 @@
         "status": "editorial_pending_expert_review",
         "rationale": "نمونه مهندسی مکانیک.",
         "method": "equal_mean_selected_occupations"
-      },
-      "selfReportProfile": {
-        "openness": 62,
-        "conscientiousness": 85,
-        "extraversion": 42,
-        "agreeableness": 42,
-        "emotional_stability": 68,
-        "income": 72,
-        "security": 78,
-        "freedom": 45,
-        "impact": 45,
-        "growth": 68,
-        "lifestyle": 50
-      },
-      "selfReportProfileStatus": "inherited_family_archetype_unvalidated"
+      }
     },
     {
       "id": "civil-engineering",
@@ -1852,21 +1460,7 @@
         "status": "editorial_pending_expert_review",
         "rationale": "نمونه مهندسی عمران.",
         "method": "equal_mean_selected_occupations"
-      },
-      "selfReportProfile": {
-        "openness": 62,
-        "conscientiousness": 85,
-        "extraversion": 42,
-        "agreeableness": 42,
-        "emotional_stability": 68,
-        "income": 72,
-        "security": 78,
-        "freedom": 45,
-        "impact": 45,
-        "growth": 68,
-        "lifestyle": 50
-      },
-      "selfReportProfileStatus": "inherited_family_archetype_unvalidated"
+      }
     },
     {
       "id": "aerospace-engineering",
@@ -1911,21 +1505,7 @@
         "status": "editorial_pending_expert_review",
         "rationale": "نمونه مهندسی هوافضا.",
         "method": "equal_mean_selected_occupations"
-      },
-      "selfReportProfile": {
-        "openness": 62,
-        "conscientiousness": 85,
-        "extraversion": 42,
-        "agreeableness": 42,
-        "emotional_stability": 68,
-        "income": 72,
-        "security": 78,
-        "freedom": 45,
-        "impact": 45,
-        "growth": 68,
-        "lifestyle": 50
-      },
-      "selfReportProfileStatus": "inherited_family_archetype_unvalidated"
+      }
     },
     {
       "id": "materials-engineering",
@@ -1970,21 +1550,7 @@
         "status": "editorial_pending_expert_review",
         "rationale": "نمونه مهندسی مواد.",
         "method": "equal_mean_selected_occupations"
-      },
-      "selfReportProfile": {
-        "openness": 62,
-        "conscientiousness": 85,
-        "extraversion": 42,
-        "agreeableness": 42,
-        "emotional_stability": 68,
-        "income": 72,
-        "security": 78,
-        "freedom": 45,
-        "impact": 45,
-        "growth": 68,
-        "lifestyle": 50
-      },
-      "selfReportProfileStatus": "inherited_family_archetype_unvalidated"
+      }
     },
     {
       "id": "architecture",
@@ -2029,21 +1595,7 @@
         "status": "editorial_pending_expert_review",
         "rationale": "نمونه معماری ساختمان.",
         "method": "equal_mean_selected_occupations"
-      },
-      "selfReportProfile": {
-        "openness": 90,
-        "conscientiousness": 58,
-        "extraversion": 58,
-        "agreeableness": 50,
-        "emotional_stability": 62,
-        "income": 55,
-        "security": 45,
-        "freedom": 78,
-        "impact": 48,
-        "growth": 85,
-        "lifestyle": 62
-      },
-      "selfReportProfileStatus": "inherited_family_archetype_unvalidated"
+      }
     },
     {
       "id": "industrial-design",
@@ -2088,21 +1640,7 @@
         "status": "editorial_pending_expert_review",
         "rationale": "نمونه طراحی محصول تجاری و صنعتی.",
         "method": "equal_mean_selected_occupations"
-      },
-      "selfReportProfile": {
-        "openness": 90,
-        "conscientiousness": 58,
-        "extraversion": 58,
-        "agreeableness": 50,
-        "emotional_stability": 62,
-        "income": 55,
-        "security": 45,
-        "freedom": 78,
-        "impact": 48,
-        "growth": 85,
-        "lifestyle": 62
-      },
-      "selfReportProfileStatus": "inherited_family_archetype_unvalidated"
+      }
     },
     {
       "id": "urban-planning",
@@ -2147,21 +1685,7 @@
         "status": "editorial_pending_expert_review",
         "rationale": "نمونه برنامه‌ریزی شهری و منطقه‌ای.",
         "method": "equal_mean_selected_occupations"
-      },
-      "selfReportProfile": {
-        "openness": 90,
-        "conscientiousness": 58,
-        "extraversion": 58,
-        "agreeableness": 50,
-        "emotional_stability": 62,
-        "income": 55,
-        "security": 45,
-        "freedom": 78,
-        "impact": 48,
-        "growth": 85,
-        "lifestyle": 62
-      },
-      "selfReportProfileStatus": "inherited_family_archetype_unvalidated"
+      }
     },
     {
       "id": "industrial-engineering",
@@ -2206,21 +1730,7 @@
         "status": "editorial_pending_expert_review",
         "rationale": "نمونه مهندسی صنایع.",
         "method": "equal_mean_selected_occupations"
-      },
-      "selfReportProfile": {
-        "openness": 58,
-        "conscientiousness": 80,
-        "extraversion": 68,
-        "agreeableness": 48,
-        "emotional_stability": 68,
-        "income": 72,
-        "security": 78,
-        "freedom": 52,
-        "impact": 55,
-        "growth": 62,
-        "lifestyle": 50
-      },
-      "selfReportProfileStatus": "inherited_family_archetype_unvalidated"
+      }
     },
     {
       "id": "economics",
@@ -2265,21 +1775,7 @@
         "status": "editorial_pending_expert_review",
         "rationale": "نمونه پژوهش اقتصادی؛ همه مشاغل فارغ‌التحصیلان اقتصاد نیست.",
         "method": "equal_mean_selected_occupations"
-      },
-      "selfReportProfile": {
-        "openness": 58,
-        "conscientiousness": 80,
-        "extraversion": 68,
-        "agreeableness": 48,
-        "emotional_stability": 68,
-        "income": 72,
-        "security": 78,
-        "freedom": 52,
-        "impact": 55,
-        "growth": 62,
-        "lifestyle": 50
-      },
-      "selfReportProfileStatus": "inherited_family_archetype_unvalidated"
+      }
     },
     {
       "id": "it-management",
@@ -2324,21 +1820,7 @@
         "status": "editorial_pending_expert_review",
         "rationale": "مسیر مدیریت سیستم‌های اطلاعاتی؛ معمولاً نیازمند تجربه پس از تحصیل.",
         "method": "equal_mean_selected_occupations"
-      },
-      "selfReportProfile": {
-        "openness": 58,
-        "conscientiousness": 80,
-        "extraversion": 68,
-        "agreeableness": 48,
-        "emotional_stability": 68,
-        "income": 72,
-        "security": 78,
-        "freedom": 52,
-        "impact": 55,
-        "growth": 62,
-        "lifestyle": 50
-      },
-      "selfReportProfileStatus": "inherited_family_archetype_unvalidated"
+      }
     },
     {
       "id": "industrial-management",
@@ -2383,21 +1865,7 @@
         "status": "editorial_pending_expert_review",
         "rationale": "نمونه مدیریت تولید؛ معمولاً نیازمند تجربه پس از تحصیل.",
         "method": "equal_mean_selected_occupations"
-      },
-      "selfReportProfile": {
-        "openness": 58,
-        "conscientiousness": 80,
-        "extraversion": 68,
-        "agreeableness": 48,
-        "emotional_stability": 68,
-        "income": 72,
-        "security": 78,
-        "freedom": 52,
-        "impact": 55,
-        "growth": 62,
-        "lifestyle": 50
-      },
-      "selfReportProfileStatus": "inherited_family_archetype_unvalidated"
+      }
     },
     {
       "id": "accounting",
@@ -2442,21 +1910,7 @@
         "status": "editorial_pending_expert_review",
         "rationale": "نمونه حسابداری و حسابرسی.",
         "method": "equal_mean_selected_occupations"
-      },
-      "selfReportProfile": {
-        "openness": 58,
-        "conscientiousness": 80,
-        "extraversion": 68,
-        "agreeableness": 48,
-        "emotional_stability": 68,
-        "income": 72,
-        "security": 78,
-        "freedom": 52,
-        "impact": 55,
-        "growth": 62,
-        "lifestyle": 50
-      },
-      "selfReportProfileStatus": "inherited_family_archetype_unvalidated"
+      }
     },
     {
       "id": "mathematics",
@@ -2501,21 +1955,7 @@
         "status": "editorial_pending_expert_review",
         "rationale": "نمونه پژوهش ریاضی؛ تدریس و مشاغل کاربردی متنوع‌ترند.",
         "method": "equal_mean_selected_occupations"
-      },
-      "selfReportProfile": {
-        "openness": 84,
-        "conscientiousness": 82,
-        "extraversion": 35,
-        "agreeableness": 42,
-        "emotional_stability": 58,
-        "income": 48,
-        "security": 52,
-        "freedom": 62,
-        "impact": 55,
-        "growth": 92,
-        "lifestyle": 55
-      },
-      "selfReportProfileStatus": "inherited_family_archetype_unvalidated"
+      }
     },
     {
       "id": "statistics",
@@ -2560,21 +2000,7 @@
         "status": "editorial_pending_expert_review",
         "rationale": "نمونه آمار.",
         "method": "equal_mean_selected_occupations"
-      },
-      "selfReportProfile": {
-        "openness": 84,
-        "conscientiousness": 82,
-        "extraversion": 35,
-        "agreeableness": 42,
-        "emotional_stability": 58,
-        "income": 48,
-        "security": 52,
-        "freedom": 62,
-        "impact": 55,
-        "growth": 92,
-        "lifestyle": 55
-      },
-      "selfReportProfileStatus": "inherited_family_archetype_unvalidated"
+      }
     },
     {
       "id": "physics",
@@ -2619,21 +2045,7 @@
         "status": "editorial_pending_expert_review",
         "rationale": "نمونه پژوهش فیزیک؛ همه مشاغل فارغ‌التحصیلان نیست.",
         "method": "equal_mean_selected_occupations"
-      },
-      "selfReportProfile": {
-        "openness": 84,
-        "conscientiousness": 82,
-        "extraversion": 35,
-        "agreeableness": 42,
-        "emotional_stability": 58,
-        "income": 48,
-        "security": 52,
-        "freedom": 62,
-        "impact": 55,
-        "growth": 92,
-        "lifestyle": 55
-      },
-      "selfReportProfileStatus": "inherited_family_archetype_unvalidated"
+      }
     },
     {
       "id": "cognitive-science",
@@ -2692,21 +2104,7 @@
         "status": "editorial_pending_expert_review",
         "rationale": "جانشین تقریبی دو مسیر عصب‌روان‌شناسی و محاسبات؛ علوم شناختی بسیار گسترده‌تر است.",
         "method": "equal_mean_selected_occupations"
-      },
-      "selfReportProfile": {
-        "openness": 84,
-        "conscientiousness": 82,
-        "extraversion": 35,
-        "agreeableness": 42,
-        "emotional_stability": 58,
-        "income": 48,
-        "security": 52,
-        "freedom": 62,
-        "impact": 55,
-        "growth": 92,
-        "lifestyle": 55
-      },
-      "selfReportProfileStatus": "inherited_family_archetype_unvalidated"
+      }
     }
   ],
   "profileSource": {
@@ -2714,7 +2112,7 @@
     "version": "31.0",
     "retrievedAt": "2026-09-27",
     "url": "https://www.onetcenter.org/dl_files/database/db_31_0_json/career_interest_types.json",
-    "sha256": "32c3770b734e3b5219de0edb0a67da87d6c86be07fe889329dfee5e8a5bae3ce",
+    "sha256": "3b1100f1f22c5e7c4394decba92777ba597a40e9c6b6096822253c26c23451de",
     "license": "https://creativecommons.org/licenses/by/4.0/",
     "attribution": "O*NET® 31.0 Database, U.S. Department of Labor, Employment and Training Administration (USDOL/ETA), CC BY 4.0. انتخاب‌یار has selected occupations, normalized and averaged ratings, and mapped them to exploratory educational pathways. USDOL/ETA has not approved, endorsed, or tested these modifications."
   }

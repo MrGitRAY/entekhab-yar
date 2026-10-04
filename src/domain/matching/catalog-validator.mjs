@@ -1,4 +1,7 @@
 export const interestAxes = ['realistic', 'investigative', 'artistic', 'social', 'enterprising', 'conventional'];
+const personalityAxes = ['openness', 'conscientiousness', 'extraversion', 'agreeableness', 'emotional_stability'];
+const valueAxes = ['income', 'security', 'freedom', 'impact', 'growth', 'lifestyle'];
+const rankedAxes = [...interestAxes, ...personalityAxes, ...valueAxes];
 const sections = ['riasec', 'personality', 'values', 'abilities', 'workstyle'];
 const groups = ['experimental', 'mathematics'];
 const dimensionIds = [...interestAxes, 'openness', 'conscientiousness', 'extraversion', 'agreeableness', 'emotional_stability', 'income', 'security', 'freedom', 'impact', 'growth', 'lifestyle', 'analytical', 'numerical', 'verbal', 'spatial', 'creativity', 'learning', 'focus', 'persistence', 'independence'];
@@ -18,11 +21,11 @@ export function validateCatalog(c) {
     require(c[n].status === 'pilot', 'only pilot release supported until validation gates are satisfied');
   }
   const { questions: q, scoring: s, families: f, majors: m, report_templates: t } = c;
-  require(s.method === 'riasec_profile_correlation_v1' && s.engineVersion === '0.2.0', 'unsupported matching method');
+  require(s.method === 'weighted_profile_correlation_v2' && s.engineVersion === '0.2.0', 'unsupported matching method');
   require(s.releaseGate?.status === 'pilot_only' && s.releaseGate.questionnaireValidation === 'pending' && s.releaseGate.crosswalkExpertReview === 'pending' && s.releaseGate.iranAdmissionVerification === 'pending', 'invalid evidence gate');
   require(sameKeys(s.sectionWeights, sections) && sections.every(x => number(s.sectionWeights[x], 0, 1)) && Math.abs(sections.reduce((n, x) => n + s.sectionWeights[x], 0) - 1) < 1e-10, 'section weights must sum to one');
-  require(s.sectionWeights.riasec === 1, 'unvalidated composite weights are disabled');
-  require(sameKeys(s.dimensionWeights, interestAxes) && interestAxes.every(a => s.dimensionWeights[a] === 1), 'baseline interest weights must be equal');
+  require(s.sectionWeights.riasec === 0.7 && s.sectionWeights.personality === 0.18 && s.sectionWeights.values === 0.12 && s.sectionWeights.abilities === 0 && s.sectionWeights.workstyle === 0, 'unsupported pilot section weights');
+  require(sameKeys(s.dimensionWeights, rankedAxes) && rankedAxes.every(a => s.dimensionWeights[a] === 1), 'ranked dimension weights must be equal within sections');
   require(s.sensitivity?.answerStep === 1 && s.sensitivity.dimensionWeightRelativeChange === 0.2, 'unsupported sensitivity settings');
   require(s.scale?.min === 1 && s.scale.max === 5 && s.scale.labels?.length === 5 && s.scale.labels.every(text), 'invalid Likert scale');
   require(s.missingAnswerPolicy === 'reject_submission' && s.ranking?.familyCount === 3 && s.ranking.recommendationCount === 5 && s.ranking.tieBreaker === 'id_ascending', 'invalid ranking settings');
@@ -32,7 +35,7 @@ export function validateCatalog(c) {
   const dimById = new Map(s.dimensions.map(d => [d.id, d]));
   require(s.dimensions.every(d => text(d.id) && text(d.label) && sections.includes(d.section) && d.kind === 'self_report'), 'invalid dimension');
   require(s.dimensions.filter(d => d.section === 'riasec').map(d => d.id).join() === interestAxes.join(), 'invalid RIASEC dimensions');
-  require(Array.isArray(q.items) && q.items.length === 64, 'expected 64 question records');
+  require(Array.isArray(q.items) && q.items.length === 74, 'expected 74 question records');
   unique(q.items.map(x => x.id), 'question IDs'); unique(q.items.map(x => x.text), 'question texts');
   for (const item of q.items) {
     require(text(item.id) && text(item.text) && item.text.length <= 220 && dimById.get(item.primaryDimension)?.section === item.section, `invalid question ${item.id}`);
@@ -45,9 +48,12 @@ export function validateCatalog(c) {
   const perGroup = {};
   for (const group of groups) {
     const selected = q.items.filter(x => x.groups.includes(group)); perGroup[group] = selected.length;
-    require(selected.length === 60, `${group}: expected 60 questions`);
+    require(selected.length === 70, `${group}: expected 70 questions`);
     for (const id of ids) require(selected.filter(x => x.primaryDimension === id).length >= 2, `missing dimension coverage ${id}`);
     for (const id of interestAxes) require(selected.filter(x => x.primaryDimension === id).length === 3, `unbalanced interest coverage ${id}`);
+    for (const id of ['openness', 'conscientiousness', 'extraversion', 'agreeableness', 'emotional_stability']) {
+      require(selected.filter(x => x.primaryDimension === id).length === 4, `personality coverage ${id} must be four items`);
+    }
   }
   require(Array.isArray(f.items) && f.items.length === 10 && Array.isArray(m.items) && m.items.length === 43, 'invalid candidate counts');
   unique(f.items.map(x => x.id), 'family IDs'); unique(m.items.map(x => x.id), 'major IDs');
@@ -64,12 +70,14 @@ export function validateCatalog(c) {
       occupations.set(o.code, o);
     }
     checkProfile(item.interestProfile, item.occupations);
+    checkSelfReportProfile(item.selfReportProfile, item.selfReportProfileStatus, 'major');
   }
   for (const item of f.items) {
     require(text(item.id) && text(item.title) && text(item.description) && groups.includes(item.group) && item.profileStatus === 'occupation_proxy_unvalidated' && item.aggregation === 'equal_mean_unique_occupations', 'invalid family');
     const codes = [...new Set(m.items.filter(x => x.familyId === item.id).flatMap(x => x.occupations.map(o => o.code)))].sort();
     require(codes.length > 0 && Array.isArray(item.occupationCodes) && item.occupationCodes.join() === codes.join(), 'invalid family source coverage');
     checkProfile(item.interestProfile, codes.map(code => occupations.get(code)));
+    checkSelfReportProfile(item.selfReportProfile, item.selfReportProfileStatus, 'family');
   }
   for (const g of groups) {
     const fs = f.items.filter(x => x.group === g); require(fs.length === 5, 'expected five families per group');
@@ -86,4 +94,9 @@ function checkProfile(p, occupations) {
     require(number(p[a], 0, 100) && Math.abs(p[a] - expected) < 1e-9, `profile differs from source ${a}`);
   }
   require(Math.max(...Object.values(p)) - Math.min(...Object.values(p)) > 1e-9, 'flat target profile');
+}
+function checkSelfReportProfile(p, status, kind) {
+  require(status === (kind === 'family' ? 'editorial_family_archetype_unvalidated' : 'inherited_family_archetype_unvalidated'), `invalid ${kind} self-report profile status`);
+  require(sameKeys(p, [...personalityAxes, ...valueAxes]), `${kind} self-report profile incomplete`);
+  for (const axis of [...personalityAxes, ...valueAxes]) require(number(p[axis], 0, 100), `invalid ${kind} self-report profile ${axis}`);
 }

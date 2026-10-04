@@ -2,8 +2,8 @@ export type ExamGroup = "experimental" | "mathematics";
 export type Section = "riasec" | "personality" | "values" | "abilities" | "workstyle";
 export type Question = { id: string; text: string; groups: string[]; section: string; primaryDimension: string; effects: { dimension: string; weight: number; direction: string }[] };
 export type Occupation = { code: string; title: string; rawInterests: Record<string, number>; dateUpdated: string; domainSource: string };
-export type Family = { id: string; title: string; description: string; group: string; interestProfile: Record<string, number>; occupationCodes: string[] };
-export type Major = { id: string; title: string; familyId: string; kind: string; groups: string[]; admissionStatus: string; interestProfile: Record<string, number>; occupations: Occupation[]; mapping: { rationale: string; status: string } };
+export type Family = { id: string; title: string; description: string; group: string; interestProfile: Record<string, number>; selfReportProfile: Record<string, number>; selfReportProfileStatus: string; occupationCodes: string[] };
+export type Major = { id: string; title: string; familyId: string; kind: string; groups: string[]; admissionStatus: string; interestProfile: Record<string, number>; selfReportProfile: Record<string, number>; selfReportProfileStatus: string; occupations: Occupation[]; mapping: { rationale: string; status: string } };
 export type Catalog = {
   questions: { catalogVersion: string; items: Question[] };
   families: { items: Family[] };

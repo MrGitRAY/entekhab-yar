@@ -28,7 +28,7 @@ export default async function AssessmentPage({ params }: Props) {
   if (attempt.status !== "draft") {
     return (
       <main className="simple-page">
-        <div className="brand"><img className="brand-logo" src="/logo-rahyar.png" alt=""/><span>انتخاب‌یار</span><small>مرکز مشاوره تحصیلی رهیار</small></div>
+        <div className="brand"><img className="brand-logo" src="/logo-rahyar.png" alt=""/><span className="brand-copy"><strong>انتخاب‌یار</strong><small>مرکز مشاوره تحصیلی رهیار</small></span></div>
         <span className="step-tag">آزمون ثبت شد</span>
         <h1>پاسخ‌های شما ثبت شده‌اند.</h1>
         <p>نتیجهٔ اکتشافی از همین پاسخ‌های ثبت‌شده محاسبه می‌شود.</p>
@@ -55,7 +55,7 @@ export default async function AssessmentPage({ params }: Props) {
     .filter((question) => Array.isArray(question.groups) && question.groups.includes(group))
     .sort((a, b) => (order.get(a.primary_dimension) ?? 999) - (order.get(b.primary_dimension) ?? 999) || a.position - b.position)
     .map((question) => ({ id: question.id, text: question.question_text, section: question.section, position: question.position }));
-  if (questions.length < 50 || questions.length > 60) throw new Error("Catalog question count is invalid");
+  if (questions.length < 50 || questions.length > 74) throw new Error("Catalog question count is invalid");
   const answers = Object.fromEntries((answerResult.data ?? []).map((item) => [item.question_id, item.value]));
   return (
     <AssessmentForm attemptId={attempt.id} displayName={attempt.display_name} group={group}

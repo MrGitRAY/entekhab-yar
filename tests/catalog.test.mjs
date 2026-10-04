@@ -5,13 +5,13 @@ import { loadCatalog, validateCatalog } from '../scripts/catalog/validate.mjs';
 const source = await loadCatalog();
 
 test('pilot catalog is complete for both exam groups', () => {
-  assert.deepEqual(validateCatalog(source).perGroup, { experimental: 60, mathematics: 60 });
+  assert.deepEqual(validateCatalog(source).perGroup, { experimental: 70, mathematics: 70 });
 });
 
 test('rejects a question leaked into the wrong group', () => {
   const catalog = structuredClone(source);
   catalog.questions.items.find((item) => item.groups.length === 1).groups.push('mathematics');
-  assert.throws(() => validateCatalog(catalog), /expected 60 questions/);
+  assert.throws(() => validateCatalog(catalog), /expected 70 questions/);
 });
 
 test('rejects a major whose family belongs to another group', () => {

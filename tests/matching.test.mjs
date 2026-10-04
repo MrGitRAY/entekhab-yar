@@ -31,15 +31,19 @@ test('catalog refuses invented target ratings, cross-section effects and publica
 });
 test('positive, reverse and minimum/maximum scores use actual item weights', () => {
   const a = answersFor('experimental');
-  a['Q-P-01'] = 5; a['Q-P-02'] = 1;
+  for (const id of ['Q-P-01', 'Q-P-11']) a[id] = 5;
+  for (const id of ['Q-P-02', 'Q-P-12']) a[id] = 1;
   assert.equal(scoreResponses(c, 'experimental', a).openness.score, 100);
-  a['Q-P-01'] = 1; a['Q-P-02'] = 5;
+  for (const id of ['Q-P-01', 'Q-P-11']) a[id] = 1;
+  for (const id of ['Q-P-02', 'Q-P-12']) a[id] = 5;
   assert.equal(scoreResponses(c, 'experimental', a).openness.score, 0);
-  a['Q-P-01'] = 5; a['Q-P-02'] = 5;
+  for (const id of ['Q-P-01', 'Q-P-11']) a[id] = 5;
+  for (const id of ['Q-P-02', 'Q-P-12']) a[id] = 1;
+  a['Q-P-02'] = 5;
   const weighted = structuredClone(c); weighted.questions.items.find(q => q.id === 'Q-P-02').effects[0].weight = 0.25;
-  assert.equal(scoreResponses(weighted, 'experimental', a).openness.score, 80);
+  assert.ok(Math.abs(scoreResponses(weighted, 'experimental', a).openness.score - (300 / 3.25)) < 1e-9);
   const p = scoreResponses(c, 'experimental', a);
-  assert.equal(p.realistic.itemCount, 3); assert.equal(p.openness.itemCount, 2);
+  assert.equal(p.realistic.itemCount, 3); assert.equal(p.openness.itemCount, 4);
 });
 test('rejects missing, foreign, out of range, fractional and nonnumeric answers', () => {
   const missing = { ...answers }; delete missing['Q-R-01'];
@@ -80,11 +84,11 @@ test('both groups are isolated; five recommendations belong to the top three fam
     assert.ok(r.majorRanking.every(m => c.majors.items.find(x => x.id === m.id).groups.includes(group)));
   }
 });
-test('personality, values, perceived abilities and workstyle never leak into the ranking', () => {
+test('personality and values contribute to the ranking; descriptive sections remain excluded', () => {
   const a = { ...answers }, b = { ...answers };
   for (const q of c.questions.items.filter(q => q.groups.includes('experimental') && q.section !== 'riasec')) { a[q.id] = 1; b[q.id] = 5; }
-  assert.deepEqual(evaluate(c, 'experimental', a).majorRanking, evaluate(c, 'experimental', b).majorRanking);
-  assert.deepEqual(evaluate(c, 'experimental', a).familyRanking, evaluate(c, 'experimental', b).familyRanking);
+  assert.notDeepEqual(evaluate(c, 'experimental', a).majorRanking, evaluate(c, 'experimental', b).majorRanking);
+  assert.notDeepEqual(evaluate(c, 'experimental', a).familyRanking, evaluate(c, 'experimental', b).familyRanking);
 });
 test('flat profile withholds ranking and all scores instead of inventing recommendations', () => {
   const r = evaluate(c, 'experimental', answersFor('experimental'));
@@ -96,8 +100,8 @@ test('flat profile withholds ranking and all scores instead of inventing recomme
 test('sensitivity includes unrankable perturbations and distinguishes scenario counts from confidence', () => {
   const a = answersFor('experimental'); a['Q-R-01'] = 4;
   const r = evaluate(c, 'experimental', a);
-  assert.equal(r.sensitivity.weightScenarioCount, 12);
-  assert.equal(r.sensitivity.answerScenarioCount, 36);
+  assert.equal(r.sensitivity.weightScenarioCount, 34);
+  assert.equal(r.sensitivity.answerScenarioCount, 100);
   assert.ok(r.sensitivity.unrankableScenarios >= 1);
   for (const s of r.sensitivity.majorRanges) assert.ok(s.minRank <= s.maxRank && s.selectedCount <= r.sensitivity.scenarioCount);
 });
@@ -118,8 +122,8 @@ test('canonical digests survive JSONB key ordering and distinguish answer edits'
 test('indistinguishable candidates receive tied ranks and disclose both shortlist boundaries', () => {
   const identical = structuredClone(c);
   const template = identical.majors.items[0];
-  for (const m of identical.majors.items) { m.occupations = structuredClone(template.occupations); m.interestProfile = { ...template.interestProfile }; }
-  for (const f of identical.families.items) { f.occupationCodes = template.occupations.map(o => o.code).sort(); f.interestProfile = { ...template.interestProfile }; }
+  for (const m of identical.majors.items) { m.occupations = structuredClone(template.occupations); m.interestProfile = { ...template.interestProfile }; m.selfReportProfile = { ...template.selfReportProfile }; }
+  for (const f of identical.families.items) { f.occupationCodes = template.occupations.map(o => o.code).sort(); f.interestProfile = { ...template.interestProfile }; f.selfReportProfile = { ...identical.families.items[0].selfReportProfile }; }
   const r = evaluate(identical, 'experimental', answers);
   assert.ok(r.majorRanking.every(m => m.rank === 1));
   assert.ok(r.familyRanking.every(f => f.rank === 1));

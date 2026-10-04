@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "catalogVersion": "0.3.0-pilot",
+  "catalogVersion": "0.2.0-pilot",
   "status": "pilot",
   "scale": {
     "min": 1,
@@ -172,9 +172,9 @@
     }
   ],
   "sectionWeights": {
-    "riasec": 0.7,
-    "personality": 0.18,
-    "values": 0.12,
+    "riasec": 1,
+    "personality": 0,
+    "values": 0,
     "abilities": 0,
     "workstyle": 0
   },
@@ -189,8 +189,8 @@
     "displayRoundDigits": 0,
     "tieBreaker": "id_ascending"
   },
-  "scoreMeaning": "شاخص شباهت وزن‌دار الگوی رغبت، شخصیت و ارزش‌ها از ۰ تا ۱۰۰؛ احتمال قبولی، موفقیت یا درصد استعداد نیست.",
-  "method": "weighted_profile_correlation_v2",
+  "scoreMeaning": "شاخص شباهت الگوی رغبت از ۰ تا ۱۰۰؛ احتمال قبولی، موفقیت یا درصد استعداد نیست.",
+  "method": "riasec_profile_correlation_v1",
   "engineVersion": "0.2.0",
   "dimensionWeights": {
     "realistic": 1,
@@ -198,22 +198,11 @@
     "artistic": 1,
     "social": 1,
     "enterprising": 1,
-    "conventional": 1,
-    "openness": 1,
-    "conscientiousness": 1,
-    "extraversion": 1,
-    "agreeableness": 1,
-    "emotional_stability": 1,
-    "income": 1,
-    "security": 1,
-    "freedom": 1,
-    "impact": 1,
-    "growth": 1,
-    "lifestyle": 1
+    "conventional": 1
   },
   "weightEvidence": {
     "status": "policy_not_empirically_calibrated",
-    "rationale": "Pilot composite: RIASEC 70%, personality 18%, values 12%; equal dimensions within each included section. Target self-report profiles are editorial family archetypes and require local validation."
+    "rationale": "Equal RIASEC dimensions; unsupported cross-construct composite weights removed. Other sections remain descriptive."
   },
   "sensitivity": {
     "answerStep": 1,

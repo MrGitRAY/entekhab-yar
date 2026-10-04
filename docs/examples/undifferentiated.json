@@ -61,12 +61,22 @@
     "Q-MAT-01": 3,
     "Q-MAT-02": 3,
     "Q-MAT-03": 3,
-    "Q-MAT-04": 3
+    "Q-MAT-04": 3,
+    "Q-P-11": 3,
+    "Q-P-12": 3,
+    "Q-P-13": 3,
+    "Q-P-14": 3,
+    "Q-P-15": 3,
+    "Q-P-16": 3,
+    "Q-P-17": 3,
+    "Q-P-18": 3,
+    "Q-P-19": 3,
+    "Q-P-20": 3
   },
   "result": {
     "schemaVersion": 2,
     "engineVersion": "0.2.0",
-    "catalogVersion": "0.2.0-pilot",
+    "catalogVersion": "0.3.0-pilot",
     "examGroup": "mathematics",
     "status": "insufficient_interest_differentiation",
     "profile": {
@@ -114,36 +124,36 @@
       },
       "openness": {
         "score": 50,
-        "itemCount": 2,
-        "totalWeight": 2,
+        "itemCount": 4,
+        "totalWeight": 4,
         "label": "گشودگی به تجربه",
         "section": "personality"
       },
       "conscientiousness": {
         "score": 50,
-        "itemCount": 2,
-        "totalWeight": 2,
+        "itemCount": 4,
+        "totalWeight": 4,
         "label": "نظم و مسئولیت‌پذیری",
         "section": "personality"
       },
       "extraversion": {
         "score": 50,
-        "itemCount": 2,
-        "totalWeight": 2,
+        "itemCount": 4,
+        "totalWeight": 4,
         "label": "برون‌گرایی",
         "section": "personality"
       },
       "agreeableness": {
         "score": 50,
-        "itemCount": 2,
-        "totalWeight": 2,
+        "itemCount": 4,
+        "totalWeight": 4,
         "label": "همکاری",
         "section": "personality"
       },
       "emotional_stability": {
         "score": 50,
-        "itemCount": 2,
-        "totalWeight": 2,
+        "itemCount": 4,
+        "totalWeight": 4,
         "label": "آرامش خودگزارشی در فشار",
         "section": "personality"
       },
@@ -308,6 +318,94 @@
             "targetScore": 49.27777777777779,
             "contribution": 0,
             "relationship": "neutral"
+          },
+          {
+            "dimension": "openness",
+            "label": "گشودگی به تجربه",
+            "userScore": 50,
+            "targetScore": 90,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "conscientiousness",
+            "label": "نظم و مسئولیت‌پذیری",
+            "userScore": 50,
+            "targetScore": 58,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "extraversion",
+            "label": "برون‌گرایی",
+            "userScore": 50,
+            "targetScore": 58,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "agreeableness",
+            "label": "همکاری",
+            "userScore": 50,
+            "targetScore": 50,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "emotional_stability",
+            "label": "آرامش خودگزارشی در فشار",
+            "userScore": 50,
+            "targetScore": 62,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "income",
+            "label": "درآمد",
+            "userScore": 50,
+            "targetScore": 55,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "security",
+            "label": "امنیت",
+            "userScore": 50,
+            "targetScore": 45,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "freedom",
+            "label": "آزادی عمل",
+            "userScore": 50,
+            "targetScore": 78,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "impact",
+            "label": "اثرگذاری",
+            "userScore": 50,
+            "targetScore": 48,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "growth",
+            "label": "رشد",
+            "userScore": 50,
+            "targetScore": 85,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "lifestyle",
+            "label": "سبک زندگی",
+            "userScore": 50,
+            "targetScore": 62,
+            "contribution": 0,
+            "relationship": "neutral"
           }
         ],
         "description": "حل مسئله با ترکیب شکل و کارکرد"
@@ -364,6 +462,94 @@
             "label": "ساختارمند",
             "userScore": 50,
             "targetScore": 58.611111111111114,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "openness",
+            "label": "گشودگی به تجربه",
+            "userScore": 50,
+            "targetScore": 62,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "conscientiousness",
+            "label": "نظم و مسئولیت‌پذیری",
+            "userScore": 50,
+            "targetScore": 85,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "extraversion",
+            "label": "برون‌گرایی",
+            "userScore": 50,
+            "targetScore": 42,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "agreeableness",
+            "label": "همکاری",
+            "userScore": 50,
+            "targetScore": 42,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "emotional_stability",
+            "label": "آرامش خودگزارشی در فشار",
+            "userScore": 50,
+            "targetScore": 68,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "income",
+            "label": "درآمد",
+            "userScore": 50,
+            "targetScore": 72,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "security",
+            "label": "امنیت",
+            "userScore": 50,
+            "targetScore": 78,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "freedom",
+            "label": "آزادی عمل",
+            "userScore": 50,
+            "targetScore": 45,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "impact",
+            "label": "اثرگذاری",
+            "userScore": 50,
+            "targetScore": 45,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "growth",
+            "label": "رشد",
+            "userScore": 50,
+            "targetScore": 68,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "lifestyle",
+            "label": "سبک زندگی",
+            "userScore": 50,
+            "targetScore": 50,
             "contribution": 0,
             "relationship": "neutral"
           }
@@ -424,6 +610,94 @@
             "targetScore": 63.266666666666666,
             "contribution": 0,
             "relationship": "neutral"
+          },
+          {
+            "dimension": "openness",
+            "label": "گشودگی به تجربه",
+            "userScore": 50,
+            "targetScore": 84,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "conscientiousness",
+            "label": "نظم و مسئولیت‌پذیری",
+            "userScore": 50,
+            "targetScore": 82,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "extraversion",
+            "label": "برون‌گرایی",
+            "userScore": 50,
+            "targetScore": 35,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "agreeableness",
+            "label": "همکاری",
+            "userScore": 50,
+            "targetScore": 42,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "emotional_stability",
+            "label": "آرامش خودگزارشی در فشار",
+            "userScore": 50,
+            "targetScore": 58,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "income",
+            "label": "درآمد",
+            "userScore": 50,
+            "targetScore": 48,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "security",
+            "label": "امنیت",
+            "userScore": 50,
+            "targetScore": 52,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "freedom",
+            "label": "آزادی عمل",
+            "userScore": 50,
+            "targetScore": 62,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "impact",
+            "label": "اثرگذاری",
+            "userScore": 50,
+            "targetScore": 55,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "growth",
+            "label": "رشد",
+            "userScore": 50,
+            "targetScore": 92,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "lifestyle",
+            "label": "سبک زندگی",
+            "userScore": 50,
+            "targetScore": 55,
+            "contribution": 0,
+            "relationship": "neutral"
           }
         ],
         "description": "پژوهش در مفاهیم بنیادی و مدل‌ها"
@@ -480,6 +754,94 @@
             "label": "ساختارمند",
             "userScore": 50,
             "targetScore": 76.76666666666667,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "openness",
+            "label": "گشودگی به تجربه",
+            "userScore": 50,
+            "targetScore": 58,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "conscientiousness",
+            "label": "نظم و مسئولیت‌پذیری",
+            "userScore": 50,
+            "targetScore": 80,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "extraversion",
+            "label": "برون‌گرایی",
+            "userScore": 50,
+            "targetScore": 68,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "agreeableness",
+            "label": "همکاری",
+            "userScore": 50,
+            "targetScore": 48,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "emotional_stability",
+            "label": "آرامش خودگزارشی در فشار",
+            "userScore": 50,
+            "targetScore": 68,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "income",
+            "label": "درآمد",
+            "userScore": 50,
+            "targetScore": 72,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "security",
+            "label": "امنیت",
+            "userScore": 50,
+            "targetScore": 78,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "freedom",
+            "label": "آزادی عمل",
+            "userScore": 50,
+            "targetScore": 52,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "impact",
+            "label": "اثرگذاری",
+            "userScore": 50,
+            "targetScore": 55,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "growth",
+            "label": "رشد",
+            "userScore": 50,
+            "targetScore": 62,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "lifestyle",
+            "label": "سبک زندگی",
+            "userScore": 50,
+            "targetScore": 50,
             "contribution": 0,
             "relationship": "neutral"
           }
@@ -540,6 +902,94 @@
             "targetScore": 75.80555555555556,
             "contribution": 0,
             "relationship": "neutral"
+          },
+          {
+            "dimension": "openness",
+            "label": "گشودگی به تجربه",
+            "userScore": 50,
+            "targetScore": 78,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "conscientiousness",
+            "label": "نظم و مسئولیت‌پذیری",
+            "userScore": 50,
+            "targetScore": 82,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "extraversion",
+            "label": "برون‌گرایی",
+            "userScore": 50,
+            "targetScore": 42,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "agreeableness",
+            "label": "همکاری",
+            "userScore": 50,
+            "targetScore": 42,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "emotional_stability",
+            "label": "آرامش خودگزارشی در فشار",
+            "userScore": 50,
+            "targetScore": 62,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "income",
+            "label": "درآمد",
+            "userScore": 50,
+            "targetScore": 78,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "security",
+            "label": "امنیت",
+            "userScore": 50,
+            "targetScore": 65,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "freedom",
+            "label": "آزادی عمل",
+            "userScore": 50,
+            "targetScore": 65,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "impact",
+            "label": "اثرگذاری",
+            "userScore": 50,
+            "targetScore": 45,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "growth",
+            "label": "رشد",
+            "userScore": 50,
+            "targetScore": 88,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "lifestyle",
+            "label": "سبک زندگی",
+            "userScore": 50,
+            "targetScore": 60,
+            "contribution": 0,
+            "relationship": "neutral"
           }
         ],
         "description": "ساخت نرم‌افزار و تحلیل داده"
@@ -598,6 +1048,94 @@
             "label": "ساختارمند",
             "userScore": 50,
             "targetScore": 100,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "openness",
+            "label": "گشودگی به تجربه",
+            "userScore": 50,
+            "targetScore": 58,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "conscientiousness",
+            "label": "نظم و مسئولیت‌پذیری",
+            "userScore": 50,
+            "targetScore": 80,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "extraversion",
+            "label": "برون‌گرایی",
+            "userScore": 50,
+            "targetScore": 68,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "agreeableness",
+            "label": "همکاری",
+            "userScore": 50,
+            "targetScore": 48,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "emotional_stability",
+            "label": "آرامش خودگزارشی در فشار",
+            "userScore": 50,
+            "targetScore": 68,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "income",
+            "label": "درآمد",
+            "userScore": 50,
+            "targetScore": 72,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "security",
+            "label": "امنیت",
+            "userScore": 50,
+            "targetScore": 78,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "freedom",
+            "label": "آزادی عمل",
+            "userScore": 50,
+            "targetScore": 52,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "impact",
+            "label": "اثرگذاری",
+            "userScore": 50,
+            "targetScore": 55,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "growth",
+            "label": "رشد",
+            "userScore": 50,
+            "targetScore": 62,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "lifestyle",
+            "label": "سبک زندگی",
+            "userScore": 50,
+            "targetScore": 50,
             "contribution": 0,
             "relationship": "neutral"
           }
@@ -676,6 +1214,94 @@
             "targetScore": 57.33333333333334,
             "contribution": 0,
             "relationship": "neutral"
+          },
+          {
+            "dimension": "openness",
+            "label": "گشودگی به تجربه",
+            "userScore": 50,
+            "targetScore": 62,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "conscientiousness",
+            "label": "نظم و مسئولیت‌پذیری",
+            "userScore": 50,
+            "targetScore": 85,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "extraversion",
+            "label": "برون‌گرایی",
+            "userScore": 50,
+            "targetScore": 42,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "agreeableness",
+            "label": "همکاری",
+            "userScore": 50,
+            "targetScore": 42,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "emotional_stability",
+            "label": "آرامش خودگزارشی در فشار",
+            "userScore": 50,
+            "targetScore": 68,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "income",
+            "label": "درآمد",
+            "userScore": 50,
+            "targetScore": 72,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "security",
+            "label": "امنیت",
+            "userScore": 50,
+            "targetScore": 78,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "freedom",
+            "label": "آزادی عمل",
+            "userScore": 50,
+            "targetScore": 45,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "impact",
+            "label": "اثرگذاری",
+            "userScore": 50,
+            "targetScore": 45,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "growth",
+            "label": "رشد",
+            "userScore": 50,
+            "targetScore": 68,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "lifestyle",
+            "label": "سبک زندگی",
+            "userScore": 50,
+            "targetScore": 50,
+            "contribution": 0,
+            "relationship": "neutral"
           }
         ],
         "familyId": "math-engineering",
@@ -752,6 +1378,94 @@
             "targetScore": 57.33333333333334,
             "contribution": 0,
             "relationship": "neutral"
+          },
+          {
+            "dimension": "openness",
+            "label": "گشودگی به تجربه",
+            "userScore": 50,
+            "targetScore": 90,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "conscientiousness",
+            "label": "نظم و مسئولیت‌پذیری",
+            "userScore": 50,
+            "targetScore": 58,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "extraversion",
+            "label": "برون‌گرایی",
+            "userScore": 50,
+            "targetScore": 58,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "agreeableness",
+            "label": "همکاری",
+            "userScore": 50,
+            "targetScore": 50,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "emotional_stability",
+            "label": "آرامش خودگزارشی در فشار",
+            "userScore": 50,
+            "targetScore": 62,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "income",
+            "label": "درآمد",
+            "userScore": 50,
+            "targetScore": 55,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "security",
+            "label": "امنیت",
+            "userScore": 50,
+            "targetScore": 45,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "freedom",
+            "label": "آزادی عمل",
+            "userScore": 50,
+            "targetScore": 78,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "impact",
+            "label": "اثرگذاری",
+            "userScore": 50,
+            "targetScore": 48,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "growth",
+            "label": "رشد",
+            "userScore": 50,
+            "targetScore": 85,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "lifestyle",
+            "label": "سبک زندگی",
+            "userScore": 50,
+            "targetScore": 62,
+            "contribution": 0,
+            "relationship": "neutral"
           }
         ],
         "familyId": "math-design",
@@ -826,6 +1540,94 @@
             "label": "ساختارمند",
             "userScore": 50,
             "targetScore": 68.25,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "openness",
+            "label": "گشودگی به تجربه",
+            "userScore": 50,
+            "targetScore": 78,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "conscientiousness",
+            "label": "نظم و مسئولیت‌پذیری",
+            "userScore": 50,
+            "targetScore": 82,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "extraversion",
+            "label": "برون‌گرایی",
+            "userScore": 50,
+            "targetScore": 42,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "agreeableness",
+            "label": "همکاری",
+            "userScore": 50,
+            "targetScore": 42,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "emotional_stability",
+            "label": "آرامش خودگزارشی در فشار",
+            "userScore": 50,
+            "targetScore": 62,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "income",
+            "label": "درآمد",
+            "userScore": 50,
+            "targetScore": 78,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "security",
+            "label": "امنیت",
+            "userScore": 50,
+            "targetScore": 65,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "freedom",
+            "label": "آزادی عمل",
+            "userScore": 50,
+            "targetScore": 65,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "impact",
+            "label": "اثرگذاری",
+            "userScore": 50,
+            "targetScore": 45,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "growth",
+            "label": "رشد",
+            "userScore": 50,
+            "targetScore": 88,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "lifestyle",
+            "label": "سبک زندگی",
+            "userScore": 50,
+            "targetScore": 60,
             "contribution": 0,
             "relationship": "neutral"
           }
@@ -918,6 +1720,94 @@
             "targetScore": 60.16666666666668,
             "contribution": 0,
             "relationship": "neutral"
+          },
+          {
+            "dimension": "openness",
+            "label": "گشودگی به تجربه",
+            "userScore": 50,
+            "targetScore": 62,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "conscientiousness",
+            "label": "نظم و مسئولیت‌پذیری",
+            "userScore": 50,
+            "targetScore": 85,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "extraversion",
+            "label": "برون‌گرایی",
+            "userScore": 50,
+            "targetScore": 42,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "agreeableness",
+            "label": "همکاری",
+            "userScore": 50,
+            "targetScore": 42,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "emotional_stability",
+            "label": "آرامش خودگزارشی در فشار",
+            "userScore": 50,
+            "targetScore": 68,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "income",
+            "label": "درآمد",
+            "userScore": 50,
+            "targetScore": 72,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "security",
+            "label": "امنیت",
+            "userScore": 50,
+            "targetScore": 78,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "freedom",
+            "label": "آزادی عمل",
+            "userScore": 50,
+            "targetScore": 45,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "impact",
+            "label": "اثرگذاری",
+            "userScore": 50,
+            "targetScore": 45,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "growth",
+            "label": "رشد",
+            "userScore": 50,
+            "targetScore": 68,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "lifestyle",
+            "label": "سبک زندگی",
+            "userScore": 50,
+            "targetScore": 50,
+            "contribution": 0,
+            "relationship": "neutral"
           }
         ],
         "familyId": "math-engineering",
@@ -992,6 +1882,94 @@
             "label": "ساختارمند",
             "userScore": 50,
             "targetScore": 51,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "openness",
+            "label": "گشودگی به تجربه",
+            "userScore": 50,
+            "targetScore": 84,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "conscientiousness",
+            "label": "نظم و مسئولیت‌پذیری",
+            "userScore": 50,
+            "targetScore": 82,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "extraversion",
+            "label": "برون‌گرایی",
+            "userScore": 50,
+            "targetScore": 35,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "agreeableness",
+            "label": "همکاری",
+            "userScore": 50,
+            "targetScore": 42,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "emotional_stability",
+            "label": "آرامش خودگزارشی در فشار",
+            "userScore": 50,
+            "targetScore": 58,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "income",
+            "label": "درآمد",
+            "userScore": 50,
+            "targetScore": 48,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "security",
+            "label": "امنیت",
+            "userScore": 50,
+            "targetScore": 52,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "freedom",
+            "label": "آزادی عمل",
+            "userScore": 50,
+            "targetScore": 62,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "impact",
+            "label": "اثرگذاری",
+            "userScore": 50,
+            "targetScore": 55,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "growth",
+            "label": "رشد",
+            "userScore": 50,
+            "targetScore": 92,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "lifestyle",
+            "label": "سبک زندگی",
+            "userScore": 50,
+            "targetScore": 55,
             "contribution": 0,
             "relationship": "neutral"
           }
@@ -1084,6 +2062,94 @@
             "targetScore": 74.91666666666666,
             "contribution": 0,
             "relationship": "neutral"
+          },
+          {
+            "dimension": "openness",
+            "label": "گشودگی به تجربه",
+            "userScore": 50,
+            "targetScore": 78,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "conscientiousness",
+            "label": "نظم و مسئولیت‌پذیری",
+            "userScore": 50,
+            "targetScore": 82,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "extraversion",
+            "label": "برون‌گرایی",
+            "userScore": 50,
+            "targetScore": 42,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "agreeableness",
+            "label": "همکاری",
+            "userScore": 50,
+            "targetScore": 42,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "emotional_stability",
+            "label": "آرامش خودگزارشی در فشار",
+            "userScore": 50,
+            "targetScore": 62,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "income",
+            "label": "درآمد",
+            "userScore": 50,
+            "targetScore": 78,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "security",
+            "label": "امنیت",
+            "userScore": 50,
+            "targetScore": 65,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "freedom",
+            "label": "آزادی عمل",
+            "userScore": 50,
+            "targetScore": 65,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "impact",
+            "label": "اثرگذاری",
+            "userScore": 50,
+            "targetScore": 45,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "growth",
+            "label": "رشد",
+            "userScore": 50,
+            "targetScore": 88,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "lifestyle",
+            "label": "سبک زندگی",
+            "userScore": 50,
+            "targetScore": 60,
+            "contribution": 0,
+            "relationship": "neutral"
           }
         ],
         "familyId": "math-tech",
@@ -1172,6 +2238,94 @@
             "label": "ساختارمند",
             "userScore": 50,
             "targetScore": 70.16666666666667,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "openness",
+            "label": "گشودگی به تجربه",
+            "userScore": 50,
+            "targetScore": 78,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "conscientiousness",
+            "label": "نظم و مسئولیت‌پذیری",
+            "userScore": 50,
+            "targetScore": 82,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "extraversion",
+            "label": "برون‌گرایی",
+            "userScore": 50,
+            "targetScore": 42,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "agreeableness",
+            "label": "همکاری",
+            "userScore": 50,
+            "targetScore": 42,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "emotional_stability",
+            "label": "آرامش خودگزارشی در فشار",
+            "userScore": 50,
+            "targetScore": 62,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "income",
+            "label": "درآمد",
+            "userScore": 50,
+            "targetScore": 78,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "security",
+            "label": "امنیت",
+            "userScore": 50,
+            "targetScore": 65,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "freedom",
+            "label": "آزادی عمل",
+            "userScore": 50,
+            "targetScore": 65,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "impact",
+            "label": "اثرگذاری",
+            "userScore": 50,
+            "targetScore": 45,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "growth",
+            "label": "رشد",
+            "userScore": 50,
+            "targetScore": 88,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "lifestyle",
+            "label": "سبک زندگی",
+            "userScore": 50,
+            "targetScore": 60,
             "contribution": 0,
             "relationship": "neutral"
           }
@@ -1264,6 +2418,94 @@
             "targetScore": 73.16666666666666,
             "contribution": 0,
             "relationship": "neutral"
+          },
+          {
+            "dimension": "openness",
+            "label": "گشودگی به تجربه",
+            "userScore": 50,
+            "targetScore": 78,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "conscientiousness",
+            "label": "نظم و مسئولیت‌پذیری",
+            "userScore": 50,
+            "targetScore": 82,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "extraversion",
+            "label": "برون‌گرایی",
+            "userScore": 50,
+            "targetScore": 42,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "agreeableness",
+            "label": "همکاری",
+            "userScore": 50,
+            "targetScore": 42,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "emotional_stability",
+            "label": "آرامش خودگزارشی در فشار",
+            "userScore": 50,
+            "targetScore": 62,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "income",
+            "label": "درآمد",
+            "userScore": 50,
+            "targetScore": 78,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "security",
+            "label": "امنیت",
+            "userScore": 50,
+            "targetScore": 65,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "freedom",
+            "label": "آزادی عمل",
+            "userScore": 50,
+            "targetScore": 65,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "impact",
+            "label": "اثرگذاری",
+            "userScore": 50,
+            "targetScore": 45,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "growth",
+            "label": "رشد",
+            "userScore": 50,
+            "targetScore": 88,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "lifestyle",
+            "label": "سبک زندگی",
+            "userScore": 50,
+            "targetScore": 60,
+            "contribution": 0,
+            "relationship": "neutral"
           }
         ],
         "familyId": "math-tech",
@@ -1340,6 +2582,94 @@
             "targetScore": 58.833333333333336,
             "contribution": 0,
             "relationship": "neutral"
+          },
+          {
+            "dimension": "openness",
+            "label": "گشودگی به تجربه",
+            "userScore": 50,
+            "targetScore": 58,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "conscientiousness",
+            "label": "نظم و مسئولیت‌پذیری",
+            "userScore": 50,
+            "targetScore": 80,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "extraversion",
+            "label": "برون‌گرایی",
+            "userScore": 50,
+            "targetScore": 68,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "agreeableness",
+            "label": "همکاری",
+            "userScore": 50,
+            "targetScore": 48,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "emotional_stability",
+            "label": "آرامش خودگزارشی در فشار",
+            "userScore": 50,
+            "targetScore": 68,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "income",
+            "label": "درآمد",
+            "userScore": 50,
+            "targetScore": 72,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "security",
+            "label": "امنیت",
+            "userScore": 50,
+            "targetScore": 78,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "freedom",
+            "label": "آزادی عمل",
+            "userScore": 50,
+            "targetScore": 52,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "impact",
+            "label": "اثرگذاری",
+            "userScore": 50,
+            "targetScore": 55,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "growth",
+            "label": "رشد",
+            "userScore": 50,
+            "targetScore": 62,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "lifestyle",
+            "label": "سبک زندگی",
+            "userScore": 50,
+            "targetScore": 50,
+            "contribution": 0,
+            "relationship": "neutral"
           }
         ],
         "familyId": "math-systems",
@@ -1414,6 +2744,94 @@
             "label": "ساختارمند",
             "userScore": 50,
             "targetScore": 59.25,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "openness",
+            "label": "گشودگی به تجربه",
+            "userScore": 50,
+            "targetScore": 62,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "conscientiousness",
+            "label": "نظم و مسئولیت‌پذیری",
+            "userScore": 50,
+            "targetScore": 85,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "extraversion",
+            "label": "برون‌گرایی",
+            "userScore": 50,
+            "targetScore": 42,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "agreeableness",
+            "label": "همکاری",
+            "userScore": 50,
+            "targetScore": 42,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "emotional_stability",
+            "label": "آرامش خودگزارشی در فشار",
+            "userScore": 50,
+            "targetScore": 68,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "income",
+            "label": "درآمد",
+            "userScore": 50,
+            "targetScore": 72,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "security",
+            "label": "امنیت",
+            "userScore": 50,
+            "targetScore": 78,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "freedom",
+            "label": "آزادی عمل",
+            "userScore": 50,
+            "targetScore": 45,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "impact",
+            "label": "اثرگذاری",
+            "userScore": 50,
+            "targetScore": 45,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "growth",
+            "label": "رشد",
+            "userScore": 50,
+            "targetScore": 68,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "lifestyle",
+            "label": "سبک زندگی",
+            "userScore": 50,
+            "targetScore": 50,
             "contribution": 0,
             "relationship": "neutral"
           }
@@ -1506,6 +2924,94 @@
             "targetScore": 41.16666666666667,
             "contribution": 0,
             "relationship": "neutral"
+          },
+          {
+            "dimension": "openness",
+            "label": "گشودگی به تجربه",
+            "userScore": 50,
+            "targetScore": 90,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "conscientiousness",
+            "label": "نظم و مسئولیت‌پذیری",
+            "userScore": 50,
+            "targetScore": 58,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "extraversion",
+            "label": "برون‌گرایی",
+            "userScore": 50,
+            "targetScore": 58,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "agreeableness",
+            "label": "همکاری",
+            "userScore": 50,
+            "targetScore": 50,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "emotional_stability",
+            "label": "آرامش خودگزارشی در فشار",
+            "userScore": 50,
+            "targetScore": 62,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "income",
+            "label": "درآمد",
+            "userScore": 50,
+            "targetScore": 55,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "security",
+            "label": "امنیت",
+            "userScore": 50,
+            "targetScore": 45,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "freedom",
+            "label": "آزادی عمل",
+            "userScore": 50,
+            "targetScore": 78,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "impact",
+            "label": "اثرگذاری",
+            "userScore": 50,
+            "targetScore": 48,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "growth",
+            "label": "رشد",
+            "userScore": 50,
+            "targetScore": 85,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "lifestyle",
+            "label": "سبک زندگی",
+            "userScore": 50,
+            "targetScore": 62,
+            "contribution": 0,
+            "relationship": "neutral"
           }
         ],
         "familyId": "math-design",
@@ -1580,6 +3086,94 @@
             "label": "ساختارمند",
             "userScore": 50,
             "targetScore": 72.49999999999999,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "openness",
+            "label": "گشودگی به تجربه",
+            "userScore": 50,
+            "targetScore": 58,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "conscientiousness",
+            "label": "نظم و مسئولیت‌پذیری",
+            "userScore": 50,
+            "targetScore": 80,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "extraversion",
+            "label": "برون‌گرایی",
+            "userScore": 50,
+            "targetScore": 68,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "agreeableness",
+            "label": "همکاری",
+            "userScore": 50,
+            "targetScore": 48,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "emotional_stability",
+            "label": "آرامش خودگزارشی در فشار",
+            "userScore": 50,
+            "targetScore": 68,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "income",
+            "label": "درآمد",
+            "userScore": 50,
+            "targetScore": 72,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "security",
+            "label": "امنیت",
+            "userScore": 50,
+            "targetScore": 78,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "freedom",
+            "label": "آزادی عمل",
+            "userScore": 50,
+            "targetScore": 52,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "impact",
+            "label": "اثرگذاری",
+            "userScore": 50,
+            "targetScore": 55,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "growth",
+            "label": "رشد",
+            "userScore": 50,
+            "targetScore": 62,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "lifestyle",
+            "label": "سبک زندگی",
+            "userScore": 50,
+            "targetScore": 50,
             "contribution": 0,
             "relationship": "neutral"
           }
@@ -1658,6 +3252,94 @@
             "targetScore": 70.16666666666667,
             "contribution": 0,
             "relationship": "neutral"
+          },
+          {
+            "dimension": "openness",
+            "label": "گشودگی به تجربه",
+            "userScore": 50,
+            "targetScore": 58,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "conscientiousness",
+            "label": "نظم و مسئولیت‌پذیری",
+            "userScore": 50,
+            "targetScore": 80,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "extraversion",
+            "label": "برون‌گرایی",
+            "userScore": 50,
+            "targetScore": 68,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "agreeableness",
+            "label": "همکاری",
+            "userScore": 50,
+            "targetScore": 48,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "emotional_stability",
+            "label": "آرامش خودگزارشی در فشار",
+            "userScore": 50,
+            "targetScore": 68,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "income",
+            "label": "درآمد",
+            "userScore": 50,
+            "targetScore": 72,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "security",
+            "label": "امنیت",
+            "userScore": 50,
+            "targetScore": 78,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "freedom",
+            "label": "آزادی عمل",
+            "userScore": 50,
+            "targetScore": 52,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "impact",
+            "label": "اثرگذاری",
+            "userScore": 50,
+            "targetScore": 55,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "growth",
+            "label": "رشد",
+            "userScore": 50,
+            "targetScore": 62,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "lifestyle",
+            "label": "سبک زندگی",
+            "userScore": 50,
+            "targetScore": 50,
+            "contribution": 0,
+            "relationship": "neutral"
           }
         ],
         "familyId": "math-systems",
@@ -1732,6 +3414,94 @@
             "label": "ساختارمند",
             "userScore": 50,
             "targetScore": 84.25,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "openness",
+            "label": "گشودگی به تجربه",
+            "userScore": 50,
+            "targetScore": 78,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "conscientiousness",
+            "label": "نظم و مسئولیت‌پذیری",
+            "userScore": 50,
+            "targetScore": 82,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "extraversion",
+            "label": "برون‌گرایی",
+            "userScore": 50,
+            "targetScore": 42,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "agreeableness",
+            "label": "همکاری",
+            "userScore": 50,
+            "targetScore": 42,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "emotional_stability",
+            "label": "آرامش خودگزارشی در فشار",
+            "userScore": 50,
+            "targetScore": 62,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "income",
+            "label": "درآمد",
+            "userScore": 50,
+            "targetScore": 78,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "security",
+            "label": "امنیت",
+            "userScore": 50,
+            "targetScore": 65,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "freedom",
+            "label": "آزادی عمل",
+            "userScore": 50,
+            "targetScore": 65,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "impact",
+            "label": "اثرگذاری",
+            "userScore": 50,
+            "targetScore": 45,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "growth",
+            "label": "رشد",
+            "userScore": 50,
+            "targetScore": 88,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "lifestyle",
+            "label": "سبک زندگی",
+            "userScore": 50,
+            "targetScore": 60,
             "contribution": 0,
             "relationship": "neutral"
           }
@@ -1824,6 +3594,94 @@
             "targetScore": 82.33333333333334,
             "contribution": 0,
             "relationship": "neutral"
+          },
+          {
+            "dimension": "openness",
+            "label": "گشودگی به تجربه",
+            "userScore": 50,
+            "targetScore": 58,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "conscientiousness",
+            "label": "نظم و مسئولیت‌پذیری",
+            "userScore": 50,
+            "targetScore": 80,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "extraversion",
+            "label": "برون‌گرایی",
+            "userScore": 50,
+            "targetScore": 68,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "agreeableness",
+            "label": "همکاری",
+            "userScore": 50,
+            "targetScore": 48,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "emotional_stability",
+            "label": "آرامش خودگزارشی در فشار",
+            "userScore": 50,
+            "targetScore": 68,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "income",
+            "label": "درآمد",
+            "userScore": 50,
+            "targetScore": 72,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "security",
+            "label": "امنیت",
+            "userScore": 50,
+            "targetScore": 78,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "freedom",
+            "label": "آزادی عمل",
+            "userScore": 50,
+            "targetScore": 52,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "impact",
+            "label": "اثرگذاری",
+            "userScore": 50,
+            "targetScore": 55,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "growth",
+            "label": "رشد",
+            "userScore": 50,
+            "targetScore": 62,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "lifestyle",
+            "label": "سبک زندگی",
+            "userScore": 50,
+            "targetScore": 50,
+            "contribution": 0,
+            "relationship": "neutral"
           }
         ],
         "familyId": "math-systems",
@@ -1898,6 +3756,94 @@
             "label": "ساختارمند",
             "userScore": 50,
             "targetScore": 51.83333333333334,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "openness",
+            "label": "گشودگی به تجربه",
+            "userScore": 50,
+            "targetScore": 62,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "conscientiousness",
+            "label": "نظم و مسئولیت‌پذیری",
+            "userScore": 50,
+            "targetScore": 85,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "extraversion",
+            "label": "برون‌گرایی",
+            "userScore": 50,
+            "targetScore": 42,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "agreeableness",
+            "label": "همکاری",
+            "userScore": 50,
+            "targetScore": 42,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "emotional_stability",
+            "label": "آرامش خودگزارشی در فشار",
+            "userScore": 50,
+            "targetScore": 68,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "income",
+            "label": "درآمد",
+            "userScore": 50,
+            "targetScore": 72,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "security",
+            "label": "امنیت",
+            "userScore": 50,
+            "targetScore": 78,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "freedom",
+            "label": "آزادی عمل",
+            "userScore": 50,
+            "targetScore": 45,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "impact",
+            "label": "اثرگذاری",
+            "userScore": 50,
+            "targetScore": 45,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "growth",
+            "label": "رشد",
+            "userScore": 50,
+            "targetScore": 68,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "lifestyle",
+            "label": "سبک زندگی",
+            "userScore": 50,
+            "targetScore": 50,
             "contribution": 0,
             "relationship": "neutral"
           }
@@ -1976,6 +3922,94 @@
             "targetScore": 67.16666666666667,
             "contribution": 0,
             "relationship": "neutral"
+          },
+          {
+            "dimension": "openness",
+            "label": "گشودگی به تجربه",
+            "userScore": 50,
+            "targetScore": 84,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "conscientiousness",
+            "label": "نظم و مسئولیت‌پذیری",
+            "userScore": 50,
+            "targetScore": 82,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "extraversion",
+            "label": "برون‌گرایی",
+            "userScore": 50,
+            "targetScore": 35,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "agreeableness",
+            "label": "همکاری",
+            "userScore": 50,
+            "targetScore": 42,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "emotional_stability",
+            "label": "آرامش خودگزارشی در فشار",
+            "userScore": 50,
+            "targetScore": 58,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "income",
+            "label": "درآمد",
+            "userScore": 50,
+            "targetScore": 48,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "security",
+            "label": "امنیت",
+            "userScore": 50,
+            "targetScore": 52,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "freedom",
+            "label": "آزادی عمل",
+            "userScore": 50,
+            "targetScore": 62,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "impact",
+            "label": "اثرگذاری",
+            "userScore": 50,
+            "targetScore": 55,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "growth",
+            "label": "رشد",
+            "userScore": 50,
+            "targetScore": 92,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "lifestyle",
+            "label": "سبک زندگی",
+            "userScore": 50,
+            "targetScore": 55,
+            "contribution": 0,
+            "relationship": "neutral"
           }
         ],
         "familyId": "math-science",
@@ -2050,6 +4084,94 @@
             "label": "ساختارمند",
             "userScore": 50,
             "targetScore": 63.833333333333336,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "openness",
+            "label": "گشودگی به تجربه",
+            "userScore": 50,
+            "targetScore": 62,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "conscientiousness",
+            "label": "نظم و مسئولیت‌پذیری",
+            "userScore": 50,
+            "targetScore": 85,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "extraversion",
+            "label": "برون‌گرایی",
+            "userScore": 50,
+            "targetScore": 42,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "agreeableness",
+            "label": "همکاری",
+            "userScore": 50,
+            "targetScore": 42,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "emotional_stability",
+            "label": "آرامش خودگزارشی در فشار",
+            "userScore": 50,
+            "targetScore": 68,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "income",
+            "label": "درآمد",
+            "userScore": 50,
+            "targetScore": 72,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "security",
+            "label": "امنیت",
+            "userScore": 50,
+            "targetScore": 78,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "freedom",
+            "label": "آزادی عمل",
+            "userScore": 50,
+            "targetScore": 45,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "impact",
+            "label": "اثرگذاری",
+            "userScore": 50,
+            "targetScore": 45,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "growth",
+            "label": "رشد",
+            "userScore": 50,
+            "targetScore": 68,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "lifestyle",
+            "label": "سبک زندگی",
+            "userScore": 50,
+            "targetScore": 50,
             "contribution": 0,
             "relationship": "neutral"
           }
@@ -2128,6 +4250,94 @@
             "targetScore": 63.333333333333336,
             "contribution": 0,
             "relationship": "neutral"
+          },
+          {
+            "dimension": "openness",
+            "label": "گشودگی به تجربه",
+            "userScore": 50,
+            "targetScore": 84,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "conscientiousness",
+            "label": "نظم و مسئولیت‌پذیری",
+            "userScore": 50,
+            "targetScore": 82,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "extraversion",
+            "label": "برون‌گرایی",
+            "userScore": 50,
+            "targetScore": 35,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "agreeableness",
+            "label": "همکاری",
+            "userScore": 50,
+            "targetScore": 42,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "emotional_stability",
+            "label": "آرامش خودگزارشی در فشار",
+            "userScore": 50,
+            "targetScore": 58,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "income",
+            "label": "درآمد",
+            "userScore": 50,
+            "targetScore": 48,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "security",
+            "label": "امنیت",
+            "userScore": 50,
+            "targetScore": 52,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "freedom",
+            "label": "آزادی عمل",
+            "userScore": 50,
+            "targetScore": 62,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "impact",
+            "label": "اثرگذاری",
+            "userScore": 50,
+            "targetScore": 55,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "growth",
+            "label": "رشد",
+            "userScore": 50,
+            "targetScore": 92,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "lifestyle",
+            "label": "سبک زندگی",
+            "userScore": 50,
+            "targetScore": 55,
+            "contribution": 0,
+            "relationship": "neutral"
           }
         ],
         "familyId": "math-science",
@@ -2202,6 +4412,94 @@
             "label": "ساختارمند",
             "userScore": 50,
             "targetScore": 83.83333333333333,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "openness",
+            "label": "گشودگی به تجربه",
+            "userScore": 50,
+            "targetScore": 84,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "conscientiousness",
+            "label": "نظم و مسئولیت‌پذیری",
+            "userScore": 50,
+            "targetScore": 82,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "extraversion",
+            "label": "برون‌گرایی",
+            "userScore": 50,
+            "targetScore": 35,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "agreeableness",
+            "label": "همکاری",
+            "userScore": 50,
+            "targetScore": 42,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "emotional_stability",
+            "label": "آرامش خودگزارشی در فشار",
+            "userScore": 50,
+            "targetScore": 58,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "income",
+            "label": "درآمد",
+            "userScore": 50,
+            "targetScore": 48,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "security",
+            "label": "امنیت",
+            "userScore": 50,
+            "targetScore": 52,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "freedom",
+            "label": "آزادی عمل",
+            "userScore": 50,
+            "targetScore": 62,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "impact",
+            "label": "اثرگذاری",
+            "userScore": 50,
+            "targetScore": 55,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "growth",
+            "label": "رشد",
+            "userScore": 50,
+            "targetScore": 92,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "lifestyle",
+            "label": "سبک زندگی",
+            "userScore": 50,
+            "targetScore": 55,
             "contribution": 0,
             "relationship": "neutral"
           }
@@ -2280,6 +4578,94 @@
             "targetScore": 49.333333333333336,
             "contribution": 0,
             "relationship": "neutral"
+          },
+          {
+            "dimension": "openness",
+            "label": "گشودگی به تجربه",
+            "userScore": 50,
+            "targetScore": 90,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "conscientiousness",
+            "label": "نظم و مسئولیت‌پذیری",
+            "userScore": 50,
+            "targetScore": 58,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "extraversion",
+            "label": "برون‌گرایی",
+            "userScore": 50,
+            "targetScore": 58,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "agreeableness",
+            "label": "همکاری",
+            "userScore": 50,
+            "targetScore": 50,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "emotional_stability",
+            "label": "آرامش خودگزارشی در فشار",
+            "userScore": 50,
+            "targetScore": 62,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "income",
+            "label": "درآمد",
+            "userScore": 50,
+            "targetScore": 55,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "security",
+            "label": "امنیت",
+            "userScore": 50,
+            "targetScore": 45,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "freedom",
+            "label": "آزادی عمل",
+            "userScore": 50,
+            "targetScore": 78,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "impact",
+            "label": "اثرگذاری",
+            "userScore": 50,
+            "targetScore": 48,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "growth",
+            "label": "رشد",
+            "userScore": 50,
+            "targetScore": 85,
+            "contribution": 0,
+            "relationship": "neutral"
+          },
+          {
+            "dimension": "lifestyle",
+            "label": "سبک زندگی",
+            "userScore": 50,
+            "targetScore": 62,
+            "contribution": 0,
+            "relationship": "neutral"
           }
         ],
         "familyId": "math-design",
@@ -2319,9 +4705,9 @@
     "method": {
       "id": "riasec_profile_correlation_v1",
       "sectionWeights": {
-        "riasec": 1,
-        "personality": 0,
-        "values": 0,
+        "riasec": 0.7,
+        "personality": 0.18,
+        "values": 0.12,
         "abilities": 0,
         "workstyle": 0
       },
@@ -2331,7 +4717,18 @@
         "artistic": 1,
         "social": 1,
         "enterprising": 1,
-        "conventional": 1
+        "conventional": 1,
+        "openness": 1,
+        "conscientiousness": 1,
+        "extraversion": 1,
+        "agreeableness": 1,
+        "emotional_stability": 1,
+        "income": 1,
+        "security": 1,
+        "freedom": 1,
+        "impact": 1,
+        "growth": 1,
+        "lifestyle": 1
       },
       "scoreMeaning": "شاخص شباهت الگوی رغبت از ۰ تا ۱۰۰؛ احتمال قبولی، موفقیت یا درصد استعداد نیست."
     },

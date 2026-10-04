@@ -1,12 +1,18 @@
+import fs from "node:fs";
 import path from "node:path";
 import { Font, Page, Text, View, Document, StyleSheet, Svg, Circle } from "@react-pdf/renderer";
 import type { Ranking, ResultSnapshot } from "@/domain/matching/types";
 
+const fontRoot = path.join(process.cwd(), "public", "fonts");
+if (!fs.existsSync(path.join(fontRoot, "Vazirmatn-FD-Regular.ttf")) || !fs.existsSync(path.join(fontRoot, "Vazirmatn-FD-Bold.ttf"))) {
+  console.error(`PDF font files are missing from ${fontRoot}`);
+}
+
 Font.register({
   family: "Vazirmatn",
   fonts: [
-    { src: path.join(process.cwd(), "public/fonts/Vazirmatn-FD-Regular.ttf"), fontWeight: 400 },
-    { src: path.join(process.cwd(), "public/fonts/Vazirmatn-FD-Bold.ttf"), fontWeight: 700 },
+    { src: path.join(fontRoot, "Vazirmatn-FD-Regular.ttf"), fontWeight: 400 },
+    { src: path.join(fontRoot, "Vazirmatn-FD-Bold.ttf"), fontWeight: 700 },
   ],
 });
 
@@ -111,8 +117,8 @@ export function AssessmentReport({ result, displayName }: { result: ResultSnapsh
       <Text style={styles.title}>روش محاسبه و تحلیل پایداری</Text>
       <View style={styles.section}>
         <Text style={styles.sectionTitle}>روش امتیازدهی</Text>
-        <Text style={styles.rightParagraph}>پاسخ‌های مثبت با فرمول (پاسخ - ۱) × ۲۵ و پاسخ‌های معکوس با (۵ - پاسخ) × ۲۵ به دامنه صفر تا صد تبدیل شدند. شش محور رغبت با وزن برابر در همبستگی پروفایل فرد و پروفایل هدف وارد شدند.</Text>
-        <Text style={styles.rightParagraph}>شخصیت، ارزش‌ها، توانایی خودگزارشی و سبک کار در این نسخه توصیفی‌اند و در رتبه‌بندی رشته‌ها وزن ندارند؛ برای ترکیب آن‌ها داده اعتبارسنجی لازم است.</Text>
+        <Text style={styles.rightParagraph}>پاسخ‌های مثبت با فرمول (پاسخ - ۱) × ۲۵ و پاسخ‌های معکوس با (۵ - پاسخ) × ۲۵ به دامنه صفر تا صد تبدیل شدند. در همبستگی پروفایل فرد و پروفایل هدف، رغبت‌های شغلی ۷۰٪، شخصیت ۱۸٪ و ارزش‌ها ۱۲٪ وزن دارند؛ درون هر بخش وزن محورها برابر است.</Text>
+        <Text style={styles.rightParagraph}>پروفایل‌های هدف شخصیت و ارزش‌ها در این نسخه الگوهای تحریریه‌ایِ آزمایشی‌اند و هنوز اعتبارسنجی روان‌سنجی نشده‌اند. توانایی خودگزارشی و سبک کار برای تفسیر مشاور نمایش داده می‌شوند و در رتبه‌بندی وزن ندارند.</Text>
       </View>
       <View style={styles.section}>
         <Text style={styles.sectionTitle}>پایداری در برابر تغییر</Text>

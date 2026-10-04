@@ -18,8 +18,17 @@ export async function GET(_request: NextRequest, { params }: { params: Promise<{
   if (!attempt || attempt.status !== "completed") return new Response("Not found", { status: 404 });
   const { data } = await session.client.from("results").select("snapshot").eq("attempt_id", attemptId).single();
   if (!data) return new Response("Not found", { status: 404 });
-  const pdf = await renderToBuffer(React.createElement(AssessmentReport, { result: data.snapshot as ResultSnapshot, displayName: attempt.display_name }) as any);
-  return new Response(new Uint8Array(pdf), { headers: { "Content-Type": "application/pdf", "Content-Disposition": `attachment; filename="entekhab-yar-${attemptId}.pdf"`, "Cache-Control": "private, no-store" } });
+  try {
+    const pdf = await renderToBuffer(React.createElement(AssessmentReport, { result: data.snapshot as ResultSnapshot, displayName: attempt.display_name }) as any);
+    return new Response(new Uint8Array(pdf), { headers: {
+      "Content-Type": "application/pdf",
+      "Content-Disposition": `attachment; filename="entekhab-yar-report.pdf"; filename*=UTF-8''entekhab-yar-${attemptId}.pdf`,
+      "Cache-Control": "private, no-store",
+    } });
+  } catch (error) {
+    console.error("PDF report generation failed", error instanceof Error ? error.message : error);
+    return Response.json({ error: "تولید گزارش PDF انجام نشد. دوباره تلاش کنید." }, { status: 500, headers: { "Cache-Control": "private, no-store" } });
+  }
 }
 
 

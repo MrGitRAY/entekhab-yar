@@ -61,12 +61,22 @@
     "Q-EXP-01": 3,
     "Q-EXP-02": 5,
     "Q-EXP-03": 2,
-    "Q-EXP-04": 5
+    "Q-EXP-04": 5,
+    "Q-P-11": 3,
+    "Q-P-12": 3,
+    "Q-P-13": 3,
+    "Q-P-14": 3,
+    "Q-P-15": 3,
+    "Q-P-16": 3,
+    "Q-P-17": 3,
+    "Q-P-18": 3,
+    "Q-P-19": 3,
+    "Q-P-20": 3
   },
   "result": {
     "schemaVersion": 2,
     "engineVersion": "0.2.0",
-    "catalogVersion": "0.2.0-pilot",
+    "catalogVersion": "0.3.0-pilot",
     "examGroup": "experimental",
     "status": "exploratory",
     "profile": {
@@ -114,36 +124,36 @@
       },
       "openness": {
         "score": 50,
-        "itemCount": 2,
-        "totalWeight": 2,
+        "itemCount": 4,
+        "totalWeight": 4,
         "label": "گشودگی به تجربه",
         "section": "personality"
       },
       "conscientiousness": {
         "score": 50,
-        "itemCount": 2,
-        "totalWeight": 2,
+        "itemCount": 4,
+        "totalWeight": 4,
         "label": "نظم و مسئولیت‌پذیری",
         "section": "personality"
       },
       "extraversion": {
         "score": 50,
-        "itemCount": 2,
-        "totalWeight": 2,
+        "itemCount": 4,
+        "totalWeight": 4,
         "label": "برون‌گرایی",
         "section": "personality"
       },
       "agreeableness": {
         "score": 50,
-        "itemCount": 2,
-        "totalWeight": 2,
+        "itemCount": 4,
+        "totalWeight": 4,
         "label": "همکاری",
         "section": "personality"
       },
       "emotional_stability": {
         "score": 50,
-        "itemCount": 2,
-        "totalWeight": 2,
+        "itemCount": 4,
+        "totalWeight": 4,
         "label": "آرامش خودگزارشی در فشار",
         "section": "personality"
       },
@@ -258,23 +268,23 @@
         "id": "exp-rehab",
         "title": "توانبخشی",
         "rank": 1,
-        "correlation": 0.9777131043616687,
-        "score": 98.88565521808343,
+        "correlation": 0.7909955241516547,
+        "score": 89.54977620758274,
         "contributions": [
           {
             "dimension": "realistic",
             "label": "عملی",
             "userScore": 50,
             "targetScore": 47.66666666666667,
-            "contribution": -0.0012102265395209657,
-            "relationship": "different"
+            "contribution": 0.00541785175172405,
+            "relationship": "shared_lower"
           },
           {
             "dimension": "investigative",
             "label": "پژوهشی",
             "userScore": 100,
             "targetScore": 71.26666666666668,
-            "contribution": 0.23353088225004043,
+            "contribution": 0.16705674744486457,
             "relationship": "shared_higher"
           },
           {
@@ -282,7 +292,7 @@
             "label": "خلاق",
             "userScore": 25,
             "targetScore": 23.4,
-            "contribution": 0.18228367878448465,
+            "contribution": 0.17800239353736286,
             "relationship": "shared_lower"
           },
           {
@@ -290,7 +300,7 @@
             "label": "یاری‌گر",
             "userScore": 100,
             "targetScore": 80.06666666666666,
-            "contribution": 0.3183538397102705,
+            "contribution": 0.24464501439164263,
             "relationship": "shared_higher"
           },
           {
@@ -298,7 +308,7 @@
             "label": "پیش‌برنده",
             "userScore": 25,
             "targetScore": 16.133333333333333,
-            "contribution": 0.2383182385612428,
+            "contribution": 0.22272987789933488,
             "relationship": "shared_lower"
           },
           {
@@ -306,8 +316,96 @@
             "label": "ساختارمند",
             "userScore": 50,
             "targetScore": 43.7,
-            "contribution": 0.006436691595151308,
+            "contribution": 0.010036993144424591,
             "relationship": "shared_lower"
+          },
+          {
+            "dimension": "openness",
+            "label": "گشودگی به تجربه",
+            "userScore": 50,
+            "targetScore": 70,
+            "contribution": -0.006353201451684355,
+            "relationship": "different"
+          },
+          {
+            "dimension": "conscientiousness",
+            "label": "نظم و مسئولیت‌پذیری",
+            "userScore": 50,
+            "targetScore": 60,
+            "contribution": -0.0027599197920565657,
+            "relationship": "different"
+          },
+          {
+            "dimension": "extraversion",
+            "label": "برون‌گرایی",
+            "userScore": 50,
+            "targetScore": 45,
+            "contribution": 0.002630002697385119,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "agreeableness",
+            "label": "همکاری",
+            "userScore": 50,
+            "targetScore": 82,
+            "contribution": -0.010665139443237702,
+            "relationship": "different"
+          },
+          {
+            "dimension": "emotional_stability",
+            "label": "آرامش خودگزارشی در فشار",
+            "userScore": 50,
+            "targetScore": 65,
+            "contribution": -0.004556560621870461,
+            "relationship": "different"
+          },
+          {
+            "dimension": "income",
+            "label": "درآمد",
+            "userScore": 50,
+            "targetScore": 55,
+            "contribution": -0.0005351549790237059,
+            "relationship": "different"
+          },
+          {
+            "dimension": "security",
+            "label": "امنیت",
+            "userScore": 50,
+            "targetScore": 60,
+            "contribution": -0.0015332887733647588,
+            "relationship": "different"
+          },
+          {
+            "dimension": "freedom",
+            "label": "آزادی عمل",
+            "userScore": 50,
+            "targetScore": 50,
+            "contribution": 0.00046297881531734685,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "impact",
+            "label": "اثرگذاری",
+            "userScore": 50,
+            "targetScore": 90,
+            "contribution": -0.007522091539411075,
+            "relationship": "different"
+          },
+          {
+            "dimension": "growth",
+            "label": "رشد",
+            "userScore": 50,
+            "targetScore": 80,
+            "contribution": -0.0055258239507289695,
+            "relationship": "different"
+          },
+          {
+            "dimension": "lifestyle",
+            "label": "سبک زندگی",
+            "userScore": 50,
+            "targetScore": 55,
+            "contribution": -0.0005351549790237059,
+            "relationship": "different"
           }
         ],
         "description": "کمک به بازیابی و تقویت توانایی‌های فرد"
@@ -316,15 +414,15 @@
         "id": "exp-health",
         "title": "سلامت و درمان",
         "rank": 2,
-        "correlation": 0.9073896815684964,
-        "score": 95.36948407842483,
+        "correlation": 0.7675216709541683,
+        "score": 88.37608354770842,
         "contributions": [
           {
             "dimension": "realistic",
             "label": "عملی",
             "userScore": 50,
             "targetScore": 57.366666666666674,
-            "contribution": -0.017814664912875307,
+            "contribution": -0.005918448835813683,
             "relationship": "different"
           },
           {
@@ -332,7 +430,7 @@
             "label": "پژوهشی",
             "userScore": 100,
             "targetScore": 83.4,
-            "contribution": 0.30444876259774495,
+            "contribution": 0.24923563920016267,
             "relationship": "shared_higher"
           },
           {
@@ -340,7 +438,7 @@
             "label": "خلاق",
             "userScore": 25,
             "targetScore": 5.133333333333333,
-            "contribution": 0.27444511642869185,
+            "contribution": 0.2550533400751523,
             "relationship": "shared_lower"
           },
           {
@@ -348,7 +446,7 @@
             "label": "یاری‌گر",
             "userScore": 100,
             "targetScore": 66.76666666666668,
-            "contribution": 0.1668401280540179,
+            "contribution": 0.11862380979365039,
             "relationship": "shared_higher"
           },
           {
@@ -356,7 +454,7 @@
             "label": "پیش‌برنده",
             "userScore": 25,
             "targetScore": 19.2,
-            "contribution": 0.18134556728648288,
+            "contribution": 0.1779416410411114,
             "relationship": "shared_lower"
           },
           {
@@ -364,8 +462,96 @@
             "label": "ساختارمند",
             "userScore": 50,
             "targetScore": 47.733333333333334,
-            "contribution": -0.0018752278855658198,
+            "contribution": 0.004072390612493244,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "openness",
+            "label": "گشودگی به تجربه",
+            "userScore": 50,
+            "targetScore": 55,
+            "contribution": -0.0010688766008284624,
             "relationship": "different"
+          },
+          {
+            "dimension": "conscientiousness",
+            "label": "نظم و مسئولیت‌پذیری",
+            "userScore": 50,
+            "targetScore": 80,
+            "contribution": -0.009069449960322882,
+            "relationship": "different"
+          },
+          {
+            "dimension": "extraversion",
+            "label": "برون‌گرایی",
+            "userScore": 50,
+            "targetScore": 50,
+            "contribution": 0.0005312380710704216,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "agreeableness",
+            "label": "همکاری",
+            "userScore": 50,
+            "targetScore": 70,
+            "contribution": -0.0058692206165251145,
+            "relationship": "different"
+          },
+          {
+            "dimension": "emotional_stability",
+            "label": "آرامش خودگزارشی در فشار",
+            "userScore": 50,
+            "targetScore": 60,
+            "contribution": -0.0026689912727273462,
+            "relationship": "different"
+          },
+          {
+            "dimension": "income",
+            "label": "درآمد",
+            "userScore": 50,
+            "targetScore": 70,
+            "contribution": -0.00326067812029173,
+            "relationship": "different"
+          },
+          {
+            "dimension": "security",
+            "label": "امنیت",
+            "userScore": 50,
+            "targetScore": 75,
+            "contribution": -0.00414963071579111,
+            "relationship": "different"
+          },
+          {
+            "dimension": "freedom",
+            "label": "آزادی عمل",
+            "userScore": 50,
+            "targetScore": 40,
+            "contribution": 0.00207303745270455,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "impact",
+            "label": "اثرگذاری",
+            "userScore": 50,
+            "targetScore": 85,
+            "contribution": -0.005927535906789871,
+            "relationship": "different"
+          },
+          {
+            "dimension": "growth",
+            "label": "رشد",
+            "userScore": 50,
+            "targetScore": 70,
+            "contribution": -0.00326067812029173,
+            "relationship": "different"
+          },
+          {
+            "dimension": "lifestyle",
+            "label": "سبک زندگی",
+            "userScore": 50,
+            "targetScore": 45,
+            "contribution": 0.0011840848572051697,
+            "relationship": "shared_lower"
           }
         ],
         "description": "شناخت بدن و ارائه خدمت درمانی"
@@ -374,15 +560,15 @@
         "id": "exp-people",
         "title": "انسان و رفتار",
         "rank": 3,
-        "correlation": 0.6239301290616701,
-        "score": 81.1965064530835,
+        "correlation": 0.49012469253599866,
+        "score": 74.50623462679992,
         "contributions": [
           {
             "dimension": "realistic",
             "label": "عملی",
             "userScore": 50,
             "targetScore": 3.4333333333333345,
-            "contribution": 0.077569309303598,
+            "contribution": 0.053296178584493814,
             "relationship": "shared_lower"
           },
           {
@@ -390,7 +576,7 @@
             "label": "پژوهشی",
             "userScore": 100,
             "targetScore": 58.93333333333334,
-            "contribution": 0.11698563585526342,
+            "contribution": 0.06164392164687653,
             "relationship": "shared_higher"
           },
           {
@@ -398,7 +584,7 @@
             "label": "خلاق",
             "userScore": 25,
             "targetScore": 36.46666666666667,
-            "contribution": 0.06989828575162002,
+            "contribution": 0.08842301329325626,
             "relationship": "shared_lower"
           },
           {
@@ -406,7 +592,7 @@
             "label": "یاری‌گر",
             "userScore": 100,
             "targetScore": 85.03333333333333,
-            "contribution": 0.35439320270106356,
+            "contribution": 0.28040054538127807,
             "relationship": "shared_higher"
           },
           {
@@ -414,7 +600,7 @@
             "label": "پیش‌برنده",
             "userScore": 25,
             "targetScore": 45,
-            "contribution": 0.007802411307150186,
+            "contribution": 0.038492587499568506,
             "relationship": "shared_lower"
           },
           {
@@ -422,7 +608,95 @@
             "label": "ساختارمند",
             "userScore": 50,
             "targetScore": 47.56666666666667,
-            "contribution": -0.0027187158570251336,
+            "contribution": 0.004441112467950683,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "openness",
+            "label": "گشودگی به تجربه",
+            "userScore": 50,
+            "targetScore": 65,
+            "contribution": -0.00458456193463448,
+            "relationship": "different"
+          },
+          {
+            "dimension": "conscientiousness",
+            "label": "نظم و مسئولیت‌پذیری",
+            "userScore": 50,
+            "targetScore": 55,
+            "contribution": -0.00116871354841092,
+            "relationship": "different"
+          },
+          {
+            "dimension": "extraversion",
+            "label": "برون‌گرایی",
+            "userScore": 50,
+            "targetScore": 60,
+            "contribution": -0.0028766377415226996,
+            "relationship": "different"
+          },
+          {
+            "dimension": "agreeableness",
+            "label": "همکاری",
+            "userScore": 50,
+            "targetScore": 88,
+            "contribution": -0.012441013222948667,
+            "relationship": "different"
+          },
+          {
+            "dimension": "emotional_stability",
+            "label": "آرامش خودگزارشی در فشار",
+            "userScore": 50,
+            "targetScore": 60,
+            "contribution": -0.0028766377415226996,
+            "relationship": "different"
+          },
+          {
+            "dimension": "income",
+            "label": "درآمد",
+            "userScore": 50,
+            "targetScore": 45,
+            "contribution": 0.0012484082432292444,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "security",
+            "label": "امنیت",
+            "userScore": 50,
+            "targetScore": 50,
+            "contribution": 0.00029956146927825547,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "freedom",
+            "label": "آزادی عمل",
+            "userScore": 50,
+            "targetScore": 55,
+            "contribution": -0.0006492853046727333,
+            "relationship": "different"
+          },
+          {
+            "dimension": "impact",
+            "label": "اثرگذاری",
+            "userScore": 50,
+            "targetScore": 88,
+            "contribution": -0.00691167401274926,
+            "relationship": "different"
+          },
+          {
+            "dimension": "growth",
+            "label": "رشد",
+            "userScore": 50,
+            "targetScore": 78,
+            "contribution": -0.005013980464847282,
+            "relationship": "different"
+          },
+          {
+            "dimension": "lifestyle",
+            "label": "سبک زندگی",
+            "userScore": 50,
+            "targetScore": 60,
+            "contribution": -0.001598132078623722,
             "relationship": "different"
           }
         ],
@@ -432,15 +706,15 @@
         "id": "exp-bio",
         "title": "زیست و فناوری",
         "rank": 4,
-        "correlation": 0.5865039302965569,
-        "score": 79.32519651482785,
+        "correlation": 0.4807539199695258,
+        "score": 74.0376959984763,
         "contributions": [
           {
             "dimension": "realistic",
             "label": "عملی",
             "userScore": 50,
             "targetScore": 51.83333333333333,
-            "contribution": -0.011436009782941214,
+            "contribution": -0.002563113951068801,
             "relationship": "different"
           },
           {
@@ -448,7 +722,7 @@
             "label": "پژوهشی",
             "userScore": 100,
             "targetScore": 93.14285714285714,
-            "contribution": 0.39462013349639,
+            "contribution": 0.33627226648635555,
             "relationship": "shared_higher"
           },
           {
@@ -456,7 +730,7 @@
             "label": "خلاق",
             "userScore": 25,
             "targetScore": 17.999999999999996,
-            "contribution": 0.17535215000509877,
+            "contribution": 0.16762610864596605,
             "relationship": "shared_lower"
           },
           {
@@ -464,7 +738,7 @@
             "label": "یاری‌گر",
             "userScore": 100,
             "targetScore": 28.595238095238095,
-            "contribution": -0.1326421542851346,
+            "contribution": -0.15884201093481767,
             "relationship": "different"
           },
           {
@@ -472,7 +746,7 @@
             "label": "پیش‌برنده",
             "userScore": 25,
             "targetScore": 16.142857142857142,
-            "contribution": 0.1874883236523017,
+            "contribution": 0.17757091634511973,
             "relationship": "shared_lower"
           },
           {
@@ -480,7 +754,95 @@
             "label": "ساختارمند",
             "userScore": 50,
             "targetScore": 61.285714285714285,
-            "contribution": -0.02687851278915777,
+            "contribution": -0.012139212563663432,
+            "relationship": "different"
+          },
+          {
+            "dimension": "openness",
+            "label": "گشودگی به تجربه",
+            "userScore": 50,
+            "targetScore": 85,
+            "contribution": -0.011159141082685944,
+            "relationship": "different"
+          },
+          {
+            "dimension": "conscientiousness",
+            "label": "نظم و مسئولیت‌پذیری",
+            "userScore": 50,
+            "targetScore": 70,
+            "contribution": -0.006469988512689987,
+            "relationship": "different"
+          },
+          {
+            "dimension": "extraversion",
+            "label": "برون‌گرایی",
+            "userScore": 50,
+            "targetScore": 35,
+            "contribution": 0.004471367483967249,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "agreeableness",
+            "label": "همکاری",
+            "userScore": 50,
+            "targetScore": 45,
+            "contribution": 0.0013452657706366097,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "emotional_stability",
+            "label": "آرامش خودگزارشی در فشار",
+            "userScore": 50,
+            "targetScore": 60,
+            "contribution": -0.0033438867993593486,
+            "relationship": "different"
+          },
+          {
+            "dimension": "income",
+            "label": "درآمد",
+            "userScore": 50,
+            "targetScore": 45,
+            "contribution": 0.0007473698725758944,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "security",
+            "label": "امنیت",
+            "userScore": 50,
+            "targetScore": 50,
+            "contribution": -0.00012099171446039426,
+            "relationship": "different"
+          },
+          {
+            "dimension": "freedom",
+            "label": "آزادی عمل",
+            "userScore": 50,
+            "targetScore": 65,
+            "contribution": -0.0027260764755692598,
+            "relationship": "different"
+          },
+          {
+            "dimension": "impact",
+            "label": "اثرگذاری",
+            "userScore": 50,
+            "targetScore": 60,
+            "contribution": -0.0018577148885329715,
+            "relationship": "different"
+          },
+          {
+            "dimension": "growth",
+            "label": "رشد",
+            "userScore": 50,
+            "targetScore": 90,
+            "contribution": -0.0070678844107507025,
+            "relationship": "different"
+          },
+          {
+            "dimension": "lifestyle",
+            "label": "سبک زندگی",
+            "userScore": 50,
+            "targetScore": 55,
+            "contribution": -0.0009893533014966828,
             "relationship": "different"
           }
         ],
@@ -490,15 +852,15 @@
         "id": "exp-clinical",
         "title": "علوم آزمایشگاهی و سلامت",
         "rank": 5,
-        "correlation": 0.5492349729493314,
-        "score": 77.46174864746658,
+        "correlation": 0.46201983681974085,
+        "score": 73.10099184098704,
         "contributions": [
           {
             "dimension": "realistic",
             "label": "عملی",
             "userScore": 50,
             "targetScore": 76.54166666666667,
-            "contribution": -0.05106585157883581,
+            "contribution": -0.028273619397961906,
             "relationship": "different"
           },
           {
@@ -506,7 +868,7 @@
             "label": "پژوهشی",
             "userScore": 100,
             "targetScore": 61.95833333333333,
-            "contribution": 0.143436219167598,
+            "contribution": 0.10677936511630969,
             "relationship": "shared_higher"
           },
           {
@@ -514,7 +876,7 @@
             "label": "خلاق",
             "userScore": 25,
             "targetScore": 0.5416666666666662,
-            "contribution": 0.2622346568555908,
+            "contribution": 0.24090113322829604,
             "relationship": "shared_lower"
           },
           {
@@ -522,15 +884,15 @@
             "label": "یاری‌گر",
             "userScore": 100,
             "targetScore": 45.41666666666667,
-            "contribution": 0.016517543812019145,
-            "relationship": "shared_higher"
+            "contribution": -0.014920785942586013,
+            "relationship": "different"
           },
           {
             "dimension": "enterprising",
             "label": "پیش‌برنده",
             "userScore": 25,
             "targetScore": 8.375,
-            "contribution": 0.21415261964279714,
+            "contribution": 0.20066795748732943,
             "relationship": "shared_lower"
           },
           {
@@ -538,7 +900,95 @@
             "label": "ساختارمند",
             "userScore": 50,
             "targetScore": 66.75,
-            "contribution": -0.036040214949837786,
+            "contribution": -0.018759017026787405,
+            "relationship": "different"
+          },
+          {
+            "dimension": "openness",
+            "label": "گشودگی به تجربه",
+            "userScore": 50,
+            "targetScore": 45,
+            "contribution": 0.0007330257889053971,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "conscientiousness",
+            "label": "نظم و مسئولیت‌پذیری",
+            "userScore": 50,
+            "targetScore": 85,
+            "contribution": -0.011260578756302767,
+            "relationship": "different"
+          },
+          {
+            "dimension": "extraversion",
+            "label": "برون‌گرایی",
+            "userScore": 50,
+            "targetScore": 35,
+            "contribution": 0.003731426925207438,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "agreeableness",
+            "label": "همکاری",
+            "userScore": 50,
+            "targetScore": 55,
+            "contribution": -0.002265375347396644,
+            "relationship": "different"
+          },
+          {
+            "dimension": "emotional_stability",
+            "label": "آرامش خودگزارشی در فشار",
+            "userScore": 50,
+            "targetScore": 65,
+            "contribution": -0.005263776483698686,
+            "relationship": "different"
+          },
+          {
+            "dimension": "income",
+            "label": "درآمد",
+            "userScore": 50,
+            "targetScore": 60,
+            "contribution": -0.0020914310641931473,
+            "relationship": "different"
+          },
+          {
+            "dimension": "security",
+            "label": "امنیت",
+            "userScore": 50,
+            "targetScore": 80,
+            "contribution": -0.005422987882306526,
+            "relationship": "different"
+          },
+          {
+            "dimension": "freedom",
+            "label": "آزادی عمل",
+            "userScore": 50,
+            "targetScore": 35,
+            "contribution": 0.0020730149584485768,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "impact",
+            "label": "اثرگذاری",
+            "userScore": 50,
+            "targetScore": 60,
+            "contribution": -0.0020914310641931473,
+            "relationship": "different"
+          },
+          {
+            "dimension": "growth",
+            "label": "رشد",
+            "userScore": 50,
+            "targetScore": 60,
+            "contribution": -0.0020914310641931473,
+            "relationship": "different"
+          },
+          {
+            "dimension": "lifestyle",
+            "label": "سبک زندگی",
+            "userScore": 50,
+            "targetScore": 50,
+            "contribution": -0.00042565265513645745,
             "relationship": "different"
           }
         ],
@@ -547,102 +997,26 @@
     ],
     "majorRanking": [
       {
-        "id": "audiology",
-        "title": "شنوایی‌شناسی",
-        "rank": 1,
-        "correlation": 0.9789680265688441,
-        "score": 98.9484013284422,
-        "contributions": [
-          {
-            "dimension": "realistic",
-            "label": "عملی",
-            "userScore": 50,
-            "targetScore": 49.666666666666664,
-            "contribution": -0.0004155212336879645,
-            "relationship": "different"
-          },
-          {
-            "dimension": "investigative",
-            "label": "پژوهشی",
-            "userScore": 100,
-            "targetScore": 82.16666666666667,
-            "contribution": 0.2721664080656167,
-            "relationship": "shared_higher"
-          },
-          {
-            "dimension": "artistic",
-            "label": "خلاق",
-            "userScore": 25,
-            "targetScore": 19.666666666666668,
-            "contribution": 0.19778810723547102,
-            "relationship": "shared_lower"
-          },
-          {
-            "dimension": "social",
-            "label": "یاری‌گر",
-            "userScore": 100,
-            "targetScore": 82,
-            "contribution": 0.27078133728665676,
-            "relationship": "shared_higher"
-          },
-          {
-            "dimension": "enterprising",
-            "label": "پیش‌برنده",
-            "userScore": 25,
-            "targetScore": 13.5,
-            "contribution": 0.23878620229268352,
-            "relationship": "shared_lower"
-          },
-          {
-            "dimension": "conventional",
-            "label": "ساختارمند",
-            "userScore": 50,
-            "targetScore": 49.5,
-            "contribution": -0.0001385070778959921,
-            "relationship": "different"
-          }
-        ],
-        "familyId": "exp-rehab",
-        "kind": "major",
-        "mappingRationale": "نمونه شنوایی‌شناسی.",
-        "occupations": [
-          {
-            "code": "29-1181.00",
-            "title": "Audiologists",
-            "rawInterests": {
-              "realistic": 3.98,
-              "investigative": 5.93,
-              "artistic": 2.18,
-              "social": 5.92,
-              "enterprising": 1.81,
-              "conventional": 3.97
-            },
-            "dateUpdated": "2026-02-01",
-            "domainSource": "Machine Learning/Expert"
-          }
-        ]
-      },
-      {
         "id": "medicine",
         "title": "پزشکی",
-        "rank": 2,
-        "correlation": 0.9779976318421837,
-        "score": 98.89988159210918,
+        "rank": 1,
+        "correlation": 0.8768456921369501,
+        "score": 93.8422846068475,
         "contributions": [
           {
             "dimension": "realistic",
             "label": "عملی",
             "userScore": 50,
             "targetScore": 51.5,
-            "contribution": -0.0016336263338121114,
-            "relationship": "different"
+            "contribution": 0.002646652413779283,
+            "relationship": "shared_lower"
           },
           {
             "dimension": "investigative",
             "label": "پژوهشی",
             "userScore": 100,
             "targetScore": 90.75,
-            "contribution": 0.29314516990072875,
+            "contribution": 0.2606134718549642,
             "relationship": "shared_higher"
           },
           {
@@ -650,7 +1024,7 @@
             "label": "خلاق",
             "userScore": 25,
             "targetScore": 7.416666666666666,
-            "contribution": 0.24952129632004244,
+            "contribution": 0.23404351454862707,
             "relationship": "shared_lower"
           },
           {
@@ -658,7 +1032,7 @@
             "label": "یاری‌گر",
             "userScore": 100,
             "targetScore": 85.75,
-            "contribution": 0.2568423624826819,
+            "contribution": 0.2248615722932708,
             "relationship": "shared_higher"
           },
           {
@@ -666,7 +1040,7 @@
             "label": "پیش‌برنده",
             "userScore": 25,
             "targetScore": 20.333333333333336,
-            "contribution": 0.17449549432274547,
+            "contribution": 0.16956642524475557,
             "relationship": "shared_lower"
           },
           {
@@ -674,7 +1048,95 @@
             "label": "ساختارمند",
             "userScore": 50,
             "targetScore": 46.5,
-            "contribution": 0.005626935149797273,
+            "contribution": 0.007368601412493481,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "openness",
+            "label": "گشودگی به تجربه",
+            "userScore": 50,
+            "targetScore": 55,
+            "contribution": -0.00020325966747037372,
+            "relationship": "different"
+          },
+          {
+            "dimension": "conscientiousness",
+            "label": "نظم و مسئولیت‌پذیری",
+            "userScore": 50,
+            "targetScore": 80,
+            "contribution": -0.0074885524083437086,
+            "relationship": "different"
+          },
+          {
+            "dimension": "extraversion",
+            "label": "برون‌گرایی",
+            "userScore": 50,
+            "targetScore": 50,
+            "contribution": 0.0012537988807042931,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "agreeableness",
+            "label": "همکاری",
+            "userScore": 50,
+            "targetScore": 70,
+            "contribution": -0.004574435311994375,
+            "relationship": "different"
+          },
+          {
+            "dimension": "emotional_stability",
+            "label": "آرامش خودگزارشی در فشار",
+            "userScore": 50,
+            "targetScore": 60,
+            "contribution": -0.0016603182156450407,
+            "relationship": "different"
+          },
+          {
+            "dimension": "income",
+            "label": "درآمد",
+            "userScore": 50,
+            "targetScore": 70,
+            "contribution": -0.002541352951107986,
+            "relationship": "different"
+          },
+          {
+            "dimension": "security",
+            "label": "امنیت",
+            "userScore": 50,
+            "targetScore": 75,
+            "contribution": -0.003350829922316134,
+            "relationship": "different"
+          },
+          {
+            "dimension": "freedom",
+            "label": "آزادی عمل",
+            "userScore": 50,
+            "targetScore": 40,
+            "contribution": 0.0023155088761409037,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "impact",
+            "label": "اثرگذاری",
+            "userScore": 50,
+            "targetScore": 85,
+            "contribution": -0.004969783864732431,
+            "relationship": "different"
+          },
+          {
+            "dimension": "growth",
+            "label": "رشد",
+            "userScore": 50,
+            "targetScore": 70,
+            "contribution": -0.002541352951107986,
+            "relationship": "different"
+          },
+          {
+            "dimension": "lifestyle",
+            "label": "سبک زندگی",
+            "userScore": 50,
+            "targetScore": 45,
+            "contribution": 0.0015060319049327558,
             "relationship": "shared_lower"
           }
         ],
@@ -713,75 +1175,163 @@
         ]
       },
       {
-        "id": "physiotherapy",
-        "title": "فیزیوتراپی",
-        "rank": 3,
-        "correlation": 0.9256800978632015,
-        "score": 96.28400489316007,
+        "id": "audiology",
+        "title": "شنوایی‌شناسی",
+        "rank": 2,
+        "correlation": 0.8426347139144904,
+        "score": 92.13173569572453,
         "contributions": [
           {
             "dimension": "realistic",
             "label": "عملی",
             "userScore": 50,
-            "targetScore": 55.5,
-            "contribution": -0.017388343546844078,
-            "relationship": "different"
+            "targetScore": 49.666666666666664,
+            "contribution": 0.004534129113668806,
+            "relationship": "shared_lower"
           },
           {
             "dimension": "investigative",
             "label": "پژوهشی",
             "userScore": 100,
-            "targetScore": 64.5,
-            "contribution": 0.17665227998226932,
+            "targetScore": 82.16666666666667,
+            "contribution": 0.22411807548092447,
             "relationship": "shared_higher"
           },
           {
             "dimension": "artistic",
             "label": "خلاق",
             "userScore": 25,
-            "targetScore": 19.5,
-            "contribution": 0.21752042500638044,
+            "targetScore": 19.666666666666668,
+            "contribution": 0.19051309525032678,
             "relationship": "shared_lower"
           },
           {
             "dimension": "social",
             "label": "یاری‌گر",
             "userScore": 100,
-            "targetScore": 81.83333333333333,
-            "contribution": 0.34942817764517836,
+            "targetScore": 82,
+            "contribution": 0.22279270158246953,
             "relationship": "shared_higher"
           },
           {
             "dimension": "enterprising",
             "label": "پیش‌برنده",
             "userScore": 25,
-            "targetScore": 24.83333333333334,
-            "contribution": 0.17499097327397198,
+            "targetScore": 13.5,
+            "contribution": 0.2247477531179633,
             "relationship": "shared_lower"
           },
           {
             "dimension": "conventional",
             "label": "ساختارمند",
             "userScore": 50,
-            "targetScore": 34.49999999999999,
-            "contribution": 0.02447658550224547,
+            "targetScore": 49.5,
+            "contribution": 0.004709178496483599,
             "relationship": "shared_lower"
+          },
+          {
+            "dimension": "openness",
+            "label": "گشودگی به تجربه",
+            "userScore": 50,
+            "targetScore": 70,
+            "contribution": -0.005190756353404321,
+            "relationship": "different"
+          },
+          {
+            "dimension": "conscientiousness",
+            "label": "نظم و مسئولیت‌پذیری",
+            "userScore": 50,
+            "targetScore": 60,
+            "contribution": -0.0019498420658618247,
+            "relationship": "different"
+          },
+          {
+            "dimension": "extraversion",
+            "label": "برون‌گرایی",
+            "userScore": 50,
+            "targetScore": 45,
+            "contribution": 0.0029115293654519195,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "agreeableness",
+            "label": "همکاری",
+            "userScore": 50,
+            "targetScore": 82,
+            "contribution": -0.009079853498455316,
+            "relationship": "different"
+          },
+          {
+            "dimension": "emotional_stability",
+            "label": "آرامش خودگزارشی در فشار",
+            "userScore": 50,
+            "targetScore": 65,
+            "contribution": -0.003570299209633073,
+            "relationship": "different"
+          },
+          {
+            "dimension": "income",
+            "label": "درآمد",
+            "userScore": 50,
+            "targetScore": 55,
+            "contribution": -0.00018299162338365372,
+            "relationship": "different"
+          },
+          {
+            "dimension": "security",
+            "label": "امنیت",
+            "userScore": 50,
+            "targetScore": 60,
+            "contribution": -0.0010832455921454581,
+            "relationship": "different"
+          },
+          {
+            "dimension": "freedom",
+            "label": "آزادی عمل",
+            "userScore": 50,
+            "targetScore": 50,
+            "contribution": 0.0007172623453781509,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "impact",
+            "label": "اثرگذاری",
+            "userScore": 50,
+            "targetScore": 90,
+            "contribution": -0.006484769404716285,
+            "relationship": "different"
+          },
+          {
+            "dimension": "growth",
+            "label": "رشد",
+            "userScore": 50,
+            "targetScore": 80,
+            "contribution": -0.004684261467192676,
+            "relationship": "different"
+          },
+          {
+            "dimension": "lifestyle",
+            "label": "سبک زندگی",
+            "userScore": 50,
+            "targetScore": 55,
+            "contribution": -0.00018299162338365372,
+            "relationship": "different"
           }
         ],
         "familyId": "exp-rehab",
         "kind": "major",
-        "mappingRationale": "نمونه فیزیوتراپی.",
+        "mappingRationale": "نمونه شنوایی‌شناسی.",
         "occupations": [
           {
-            "code": "29-1123.00",
-            "title": "Physical Therapists",
+            "code": "29-1181.00",
+            "title": "Audiologists",
             "rawInterests": {
-              "realistic": 4.33,
-              "investigative": 4.87,
-              "artistic": 2.17,
-              "social": 5.91,
-              "enterprising": 2.49,
-              "conventional": 3.07
+              "realistic": 3.98,
+              "investigative": 5.93,
+              "artistic": 2.18,
+              "social": 5.92,
+              "enterprising": 1.81,
+              "conventional": 3.97
             },
             "dateUpdated": "2026-02-01",
             "domainSource": "Machine Learning/Expert"
@@ -791,16 +1341,16 @@
       {
         "id": "speech-therapy",
         "title": "گفتاردرمانی",
-        "rank": 4,
-        "correlation": 0.9235173776211558,
-        "score": 96.1758688810578,
+        "rank": 3,
+        "correlation": 0.775180566437024,
+        "score": 88.7590283218512,
         "contributions": [
           {
             "dimension": "realistic",
             "label": "عملی",
             "userScore": 50,
             "targetScore": 27,
-            "contribution": 0.03192843102526175,
+            "contribution": 0.025448968901626966,
             "relationship": "shared_lower"
           },
           {
@@ -808,7 +1358,7 @@
             "label": "پژوهشی",
             "userScore": 100,
             "targetScore": 76.16666666666667,
-            "contribution": 0.24230182008502352,
+            "contribution": 0.18684753883963048,
             "relationship": "shared_higher"
           },
           {
@@ -816,7 +1366,7 @@
             "label": "خلاق",
             "userScore": 25,
             "targetScore": 33.333333333333336,
-            "contribution": 0.08629305682503172,
+            "contribution": 0.10038596119398474,
             "relationship": "shared_lower"
           },
           {
@@ -824,7 +1374,7 @@
             "label": "یاری‌گر",
             "userScore": 100,
             "targetScore": 84.83333333333333,
-            "contribution": 0.31315296147820737,
+            "contribution": 0.2537481986122744,
             "relationship": "shared_higher"
           },
           {
@@ -832,7 +1382,7 @@
             "label": "پیش‌برنده",
             "userScore": 25,
             "targetScore": 7.333333333333332,
-            "contribution": 0.25633579616867336,
+            "contribution": 0.24049866373669168,
             "relationship": "shared_lower"
           },
           {
@@ -840,7 +1390,95 @@
             "label": "ساختارمند",
             "userScore": 50,
             "targetScore": 50.5,
-            "contribution": -0.006494687961041877,
+            "contribution": 0.0014899880614240486,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "openness",
+            "label": "گشودگی به تجربه",
+            "userScore": 50,
+            "targetScore": 70,
+            "contribution": -0.005674896528823479,
+            "relationship": "different"
+          },
+          {
+            "dimension": "conscientiousness",
+            "label": "نظم و مسئولیت‌پذیری",
+            "userScore": 50,
+            "targetScore": 60,
+            "contribution": -0.002528914850109904,
+            "relationship": "different"
+          },
+          {
+            "dimension": "extraversion",
+            "label": "برون‌گرایی",
+            "userScore": 50,
+            "targetScore": 45,
+            "contribution": 0.0021900576679604582,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "agreeableness",
+            "label": "همکاری",
+            "userScore": 50,
+            "targetScore": 82,
+            "contribution": -0.00945007454327977,
+            "relationship": "different"
+          },
+          {
+            "dimension": "emotional_stability",
+            "label": "آرامش خودگزارشی در فشار",
+            "userScore": 50,
+            "targetScore": 65,
+            "contribution": -0.004101905689466692,
+            "relationship": "different"
+          },
+          {
+            "dimension": "income",
+            "label": "درآمد",
+            "userScore": 50,
+            "targetScore": 55,
+            "contribution": -0.0005310688948628427,
+            "relationship": "different"
+          },
+          {
+            "dimension": "security",
+            "label": "امنیت",
+            "userScore": 50,
+            "targetScore": 60,
+            "contribution": -0.0014049526945055025,
+            "relationship": "different"
+          },
+          {
+            "dimension": "freedom",
+            "label": "آزادی عمل",
+            "userScore": 50,
+            "targetScore": 50,
+            "contribution": 0.0003428149047798172,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "impact",
+            "label": "اثرگذاری",
+            "userScore": 50,
+            "targetScore": 90,
+            "contribution": -0.006648255492361461,
+            "relationship": "different"
+          },
+          {
+            "dimension": "growth",
+            "label": "رشد",
+            "userScore": 50,
+            "targetScore": 80,
+            "contribution": -0.004900487893076142,
+            "relationship": "different"
+          },
+          {
+            "dimension": "lifestyle",
+            "label": "سبک زندگی",
+            "userScore": 50,
+            "targetScore": 55,
+            "contribution": -0.0005310688948628427,
             "relationship": "different"
           }
         ],
@@ -867,16 +1505,16 @@
       {
         "id": "optometry",
         "title": "بینایی‌سنجی",
-        "rank": 5,
-        "correlation": 0.8834251309529333,
-        "score": 94.17125654764666,
+        "rank": 4,
+        "correlation": 0.7363175130664269,
+        "score": 86.81587565332134,
         "contributions": [
           {
             "dimension": "realistic",
             "label": "عملی",
             "userScore": 50,
             "targetScore": 63.333333333333336,
-            "contribution": -0.026730033324694483,
+            "contribution": -0.011171206956805787,
             "relationship": "different"
           },
           {
@@ -884,7 +1522,7 @@
             "label": "پژوهشی",
             "userScore": 100,
             "targetScore": 79.66666666666667,
-            "contribution": 0.2789113458741225,
+            "contribution": 0.2209940918462158,
             "relationship": "shared_higher"
           },
           {
@@ -892,7 +1530,7 @@
             "label": "خلاق",
             "userScore": 25,
             "targetScore": 10.000000000000002,
-            "contribution": 0.27253764107026734,
+            "contribution": 0.25191084031394784,
             "relationship": "shared_lower"
           },
           {
@@ -900,7 +1538,7 @@
             "label": "یاری‌گر",
             "userScore": 100,
             "targetScore": 66.99999999999999,
-            "contribution": 0.16625981910831203,
+            "contribution": 0.11520511919290244,
             "relationship": "shared_higher"
           },
           {
@@ -908,7 +1546,7 @@
             "label": "پیش‌برنده",
             "userScore": 25,
             "targetScore": 21.166666666666668,
-            "contribution": 0.1930886695617485,
+            "contribution": 0.18680387328128573,
             "relationship": "shared_lower"
           },
           {
@@ -916,7 +1554,95 @@
             "label": "ساختارمند",
             "userScore": 50,
             "targetScore": 48.666666666666664,
-            "contribution": -0.0006423113368226084,
+            "contribution": 0.005007047053730616,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "openness",
+            "label": "گشودگی به تجربه",
+            "userScore": 50,
+            "targetScore": 70,
+            "contribution": -0.005716272994902578,
+            "relationship": "different"
+          },
+          {
+            "dimension": "conscientiousness",
+            "label": "نظم و مسئولیت‌پذیری",
+            "userScore": 50,
+            "targetScore": 60,
+            "contribution": -0.002312536436841674,
+            "relationship": "different"
+          },
+          {
+            "dimension": "extraversion",
+            "label": "برون‌گرایی",
+            "userScore": 50,
+            "targetScore": 45,
+            "contribution": 0.002793068400249683,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "agreeableness",
+            "label": "همکاری",
+            "userScore": 50,
+            "targetScore": 82,
+            "contribution": -0.009800756864575665,
+            "relationship": "different"
+          },
+          {
+            "dimension": "emotional_stability",
+            "label": "آرامش خودگزارشی در فشار",
+            "userScore": 50,
+            "targetScore": 65,
+            "contribution": -0.004014404715872126,
+            "relationship": "different"
+          },
+          {
+            "dimension": "income",
+            "label": "درآمد",
+            "userScore": 50,
+            "targetScore": 55,
+            "contribution": -0.000339260087672901,
+            "relationship": "different"
+          },
+          {
+            "dimension": "security",
+            "label": "امنیت",
+            "userScore": 50,
+            "targetScore": 60,
+            "contribution": -0.0012847424649120411,
+            "relationship": "different"
+          },
+          {
+            "dimension": "freedom",
+            "label": "آزادی عمل",
+            "userScore": 50,
+            "targetScore": 50,
+            "contribution": 0.0006062222895662393,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "impact",
+            "label": "اثرگذاری",
+            "userScore": 50,
+            "targetScore": 90,
+            "contribution": -0.006957636728346882,
+            "relationship": "different"
+          },
+          {
+            "dimension": "growth",
+            "label": "رشد",
+            "userScore": 50,
+            "targetScore": 80,
+            "contribution": -0.005066671973868601,
+            "relationship": "different"
+          },
+          {
+            "dimension": "lifestyle",
+            "label": "سبک زندگی",
+            "userScore": 50,
+            "targetScore": 55,
+            "contribution": -0.000339260087672901,
             "relationship": "different"
           }
         ],
@@ -941,18 +1667,182 @@
         ]
       },
       {
+        "id": "physiotherapy",
+        "title": "فیزیوتراپی",
+        "rank": 5,
+        "correlation": 0.7358573902626416,
+        "score": 86.79286951313208,
+        "contributions": [
+          {
+            "dimension": "realistic",
+            "label": "عملی",
+            "userScore": 50,
+            "targetScore": 55.5,
+            "contribution": -0.004008891443360576,
+            "relationship": "different"
+          },
+          {
+            "dimension": "investigative",
+            "label": "پژوهشی",
+            "userScore": 100,
+            "targetScore": 64.5,
+            "contribution": 0.11156986437414017,
+            "relationship": "shared_higher"
+          },
+          {
+            "dimension": "artistic",
+            "label": "خلاق",
+            "userScore": 25,
+            "targetScore": 19.5,
+            "contribution": 0.20560430967509016,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "social",
+            "label": "یاری‌گر",
+            "userScore": 100,
+            "targetScore": 81.83333333333333,
+            "contribution": 0.2679874612751201,
+            "relationship": "shared_higher"
+          },
+          {
+            "dimension": "enterprising",
+            "label": "پیش‌برنده",
+            "userScore": 25,
+            "targetScore": 24.83333333333334,
+            "contribution": 0.1720051742014399,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "conventional",
+            "label": "ساختارمند",
+            "userScore": 50,
+            "targetScore": 34.49999999999999,
+            "contribution": 0.02102019427265243,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "openness",
+            "label": "گشودگی به تجربه",
+            "userScore": 50,
+            "targetScore": 70,
+            "contribution": -0.006569757010179339,
+            "relationship": "different"
+          },
+          {
+            "dimension": "conscientiousness",
+            "label": "نظم و مسئولیت‌پذیری",
+            "userScore": 50,
+            "targetScore": 60,
+            "contribution": -0.0028920138029284496,
+            "relationship": "different"
+          },
+          {
+            "dimension": "extraversion",
+            "label": "برون‌گرایی",
+            "userScore": 50,
+            "targetScore": 45,
+            "contribution": 0.0026246010079478844,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "agreeableness",
+            "label": "همکاری",
+            "userScore": 50,
+            "targetScore": 82,
+            "contribution": -0.010983048858880406,
+            "relationship": "different"
+          },
+          {
+            "dimension": "emotional_stability",
+            "label": "آرامش خودگزارشی در فشار",
+            "userScore": 50,
+            "targetScore": 65,
+            "contribution": -0.0047308854065538945,
+            "relationship": "different"
+          },
+          {
+            "dimension": "income",
+            "label": "درآمد",
+            "userScore": 50,
+            "targetScore": 55,
+            "contribution": -0.0005850789996127805,
+            "relationship": "different"
+          },
+          {
+            "dimension": "security",
+            "label": "امنیت",
+            "userScore": 50,
+            "targetScore": 60,
+            "contribution": -0.0016066743349602499,
+            "relationship": "different"
+          },
+          {
+            "dimension": "freedom",
+            "label": "آزادی عمل",
+            "userScore": 50,
+            "targetScore": 50,
+            "contribution": 0.00043651633573468877,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "impact",
+            "label": "اثرگذاری",
+            "userScore": 50,
+            "targetScore": 90,
+            "contribution": -0.007736246347045066,
+            "relationship": "different"
+          },
+          {
+            "dimension": "growth",
+            "label": "رشد",
+            "userScore": 50,
+            "targetScore": 80,
+            "contribution": -0.005693055676350127,
+            "relationship": "different"
+          },
+          {
+            "dimension": "lifestyle",
+            "label": "سبک زندگی",
+            "userScore": 50,
+            "targetScore": 55,
+            "contribution": -0.0005850789996127805,
+            "relationship": "different"
+          }
+        ],
+        "familyId": "exp-rehab",
+        "kind": "major",
+        "mappingRationale": "نمونه فیزیوتراپی.",
+        "occupations": [
+          {
+            "code": "29-1123.00",
+            "title": "Physical Therapists",
+            "rawInterests": {
+              "realistic": 4.33,
+              "investigative": 4.87,
+              "artistic": 2.17,
+              "social": 5.91,
+              "enterprising": 2.49,
+              "conventional": 3.07
+            },
+            "dateUpdated": "2026-02-01",
+            "domainSource": "Machine Learning/Expert"
+          }
+        ]
+      },
+      {
         "id": "pharmacy",
         "title": "داروسازی",
         "rank": 6,
-        "correlation": 0.8808393879500233,
-        "score": 94.04196939750116,
+        "correlation": 0.7087853090791875,
+        "score": 85.43926545395937,
         "contributions": [
           {
             "dimension": "realistic",
             "label": "عملی",
             "userScore": 50,
             "targetScore": 30.33333333333333,
-            "contribution": 0.02589511720414578,
+            "contribution": 0.021975873862623976,
             "relationship": "shared_lower"
           },
           {
@@ -960,7 +1850,7 @@
             "label": "پژوهشی",
             "userScore": 100,
             "targetScore": 77.83333333333333,
-            "contribution": 0.30379887991947935,
+            "contribution": 0.23124768079962277,
             "relationship": "shared_higher"
           },
           {
@@ -968,7 +1858,7 @@
             "label": "خلاق",
             "userScore": 25,
             "targetScore": 8,
-            "contribution": 0.26655247846146135,
+            "contribution": 0.24667665911875453,
             "relationship": "shared_lower"
           },
           {
@@ -976,7 +1866,7 @@
             "label": "یاری‌گر",
             "userScore": 100,
             "targetScore": 64.66666666666667,
-            "contribution": 0.1836982384834217,
+            "contribution": 0.1210256500502502,
             "relationship": "shared_higher"
           },
           {
@@ -984,7 +1874,7 @@
             "label": "پیش‌برنده",
             "userScore": 25,
             "targetScore": 27,
-            "contribution": 0.12790464936059476,
+            "contribution": 0.1356385588797163,
             "relationship": "shared_lower"
           },
           {
@@ -992,8 +1882,96 @@
             "label": "ساختارمند",
             "userScore": 50,
             "targetScore": 59.33333333333332,
-            "contribution": -0.027009975479079643,
+            "contribution": -0.01008775963456618,
             "relationship": "different"
+          },
+          {
+            "dimension": "openness",
+            "label": "گشودگی به تجربه",
+            "userScore": 50,
+            "targetScore": 55,
+            "contribution": -0.001634392384115894,
+            "relationship": "different"
+          },
+          {
+            "dimension": "conscientiousness",
+            "label": "نظم و مسئولیت‌پذیری",
+            "userScore": 50,
+            "targetScore": 80,
+            "contribution": -0.010163634792235443,
+            "relationship": "different"
+          },
+          {
+            "dimension": "extraversion",
+            "label": "برون‌گرایی",
+            "userScore": 50,
+            "targetScore": 50,
+            "contribution": 0.00007145609750801618,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "agreeableness",
+            "label": "همکاری",
+            "userScore": 50,
+            "targetScore": 70,
+            "contribution": -0.006751937828987625,
+            "relationship": "different"
+          },
+          {
+            "dimension": "emotional_stability",
+            "label": "آرامش خودگزارشی در فشار",
+            "userScore": 50,
+            "targetScore": 60,
+            "contribution": -0.0033402408657398036,
+            "relationship": "different"
+          },
+          {
+            "dimension": "income",
+            "label": "درآمد",
+            "userScore": 50,
+            "targetScore": 70,
+            "contribution": -0.0037510765716597914,
+            "relationship": "different"
+          },
+          {
+            "dimension": "security",
+            "label": "امنیت",
+            "userScore": 50,
+            "targetScore": 75,
+            "contribution": -0.0046987701725619635,
+            "relationship": "different"
+          },
+          {
+            "dimension": "freedom",
+            "label": "آزادی عمل",
+            "userScore": 50,
+            "targetScore": 40,
+            "contribution": 0.0019350850337532424,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "impact",
+            "label": "اثرگذاری",
+            "userScore": 50,
+            "targetScore": 85,
+            "contribution": -0.006594157374366308,
+            "relationship": "different"
+          },
+          {
+            "dimension": "growth",
+            "label": "رشد",
+            "userScore": 50,
+            "targetScore": 70,
+            "contribution": -0.0037510765716597914,
+            "relationship": "different"
+          },
+          {
+            "dimension": "lifestyle",
+            "label": "سبک زندگی",
+            "userScore": 50,
+            "targetScore": 45,
+            "contribution": 0.0009873914328510703,
+            "relationship": "shared_lower"
           }
         ],
         "familyId": "exp-health",
@@ -1020,15 +1998,15 @@
         "id": "occupational-therapy",
         "title": "کاردرمانی",
         "rank": 7,
-        "correlation": 0.8639234873780407,
-        "score": 93.19617436890204,
+        "correlation": 0.6531146815004818,
+        "score": 82.65573407502409,
         "contributions": [
           {
             "dimension": "realistic",
             "label": "عملی",
             "userScore": 50,
             "targetScore": 42.833333333333336,
-            "contribution": 0.0027360997224957933,
+            "contribution": 0.008896505941400004,
             "relationship": "shared_lower"
           },
           {
@@ -1036,7 +2014,7 @@
             "label": "پژوهشی",
             "userScore": 100,
             "targetScore": 53.83333333333334,
-            "contribution": 0.09918361494047176,
+            "contribution": 0.03176031425699352,
             "relationship": "shared_higher"
           },
           {
@@ -1044,7 +2022,7 @@
             "label": "خلاق",
             "userScore": 25,
             "targetScore": 34.49999999999999,
-            "contribution": 0.07934689195237758,
+            "contribution": 0.09944611840047295,
             "relationship": "shared_lower"
           },
           {
@@ -1052,7 +2030,7 @@
             "label": "یاری‌گر",
             "userScore": 100,
             "targetScore": 84.66666666666667,
-            "contribution": 0.41554514535404546,
+            "contribution": 0.3095954824782792,
             "relationship": "shared_higher"
           },
           {
@@ -1060,7 +2038,7 @@
             "label": "پیش‌برنده",
             "userScore": 25,
             "targetScore": 13.833333333333334,
-            "contribution": 0.24898507474711548,
+            "contribution": 0.2294520084360932,
             "relationship": "shared_lower"
           },
           {
@@ -1068,8 +2046,96 @@
             "label": "ساختارمند",
             "userScore": 50,
             "targetScore": 35.333333333333336,
-            "contribution": 0.018126660661534524,
+            "contribution": 0.017822368051517757,
             "relationship": "shared_lower"
+          },
+          {
+            "dimension": "openness",
+            "label": "گشودگی به تجربه",
+            "userScore": 50,
+            "targetScore": 70,
+            "contribution": -0.00723135604516247,
+            "relationship": "different"
+          },
+          {
+            "dimension": "conscientiousness",
+            "label": "نظم و مسئولیت‌پذیری",
+            "userScore": 50,
+            "targetScore": 60,
+            "contribution": -0.0035590013484283075,
+            "relationship": "different"
+          },
+          {
+            "dimension": "extraversion",
+            "label": "برون‌گرایی",
+            "userScore": 50,
+            "targetScore": 45,
+            "contribution": 0.001949530696672934,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "agreeableness",
+            "label": "همکاری",
+            "userScore": 50,
+            "targetScore": 82,
+            "contribution": -0.011638181681243462,
+            "relationship": "different"
+          },
+          {
+            "dimension": "emotional_stability",
+            "label": "آرامش خودگزارشی در فشار",
+            "userScore": 50,
+            "targetScore": 65,
+            "contribution": -0.005395178696795388,
+            "relationship": "different"
+          },
+          {
+            "dimension": "income",
+            "label": "درآمد",
+            "userScore": 50,
+            "targetScore": 55,
+            "contribution": -0.0009571244444784595,
+            "relationship": "different"
+          },
+          {
+            "dimension": "security",
+            "label": "امنیت",
+            "userScore": 50,
+            "targetScore": 60,
+            "contribution": -0.00197722297134906,
+            "relationship": "different"
+          },
+          {
+            "dimension": "freedom",
+            "label": "آزادی عمل",
+            "userScore": 50,
+            "targetScore": 50,
+            "contribution": 0.00006297408239214085,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "impact",
+            "label": "اثرگذاری",
+            "userScore": 50,
+            "targetScore": 90,
+            "contribution": -0.008097814132572663,
+            "relationship": "different"
+          },
+          {
+            "dimension": "growth",
+            "label": "رشد",
+            "userScore": 50,
+            "targetScore": 80,
+            "contribution": -0.006057617078831462,
+            "relationship": "different"
+          },
+          {
+            "dimension": "lifestyle",
+            "label": "سبک زندگی",
+            "userScore": 50,
+            "targetScore": 55,
+            "contribution": -0.0009571244444784595,
+            "relationship": "different"
           }
         ],
         "familyId": "exp-rehab",
@@ -1096,15 +2162,15 @@
         "id": "dentistry",
         "title": "دندانپزشکی",
         "rank": 8,
-        "correlation": 0.7763544027193343,
-        "score": 88.81772013596671,
+        "correlation": 0.6340822364072018,
+        "score": 81.7041118203601,
         "contributions": [
           {
             "dimension": "realistic",
             "label": "عملی",
             "userScore": 50,
             "targetScore": 70.50000000000001,
-            "contribution": -0.04361123666012313,
+            "contribution": -0.02102455411136378,
             "relationship": "different"
           },
           {
@@ -1112,7 +2178,7 @@
             "label": "پژوهشی",
             "userScore": 100,
             "targetScore": 74.66666666666667,
-            "contribution": 0.2529265750864282,
+            "contribution": 0.1917810370005462,
             "relationship": "shared_higher"
           },
           {
@@ -1120,7 +2186,7 @@
             "label": "خلاق",
             "userScore": 25,
             "targetScore": 2.833333333333332,
-            "contribution": 0.27859118344078637,
+            "contribution": 0.25841285723101715,
             "relationship": "shared_lower"
           },
           {
@@ -1128,7 +2194,7 @@
             "label": "یاری‌گر",
             "userScore": 100,
             "targetScore": 56.833333333333336,
-            "contribution": 0.10368129824314977,
+            "contribution": 0.052273892155605885,
             "relationship": "shared_higher"
           },
           {
@@ -1136,7 +2202,7 @@
             "label": "پیش‌برنده",
             "userScore": 25,
             "targetScore": 16.666666666666668,
-            "contribution": 0.18597542285766783,
+            "contribution": 0.18286596218273451,
             "relationship": "shared_lower"
           },
           {
@@ -1144,8 +2210,96 @@
             "label": "ساختارمند",
             "userScore": 50,
             "targetScore": 45.166666666666664,
-            "contribution": -0.0012088402485748277,
+            "contribution": 0.005149948113114408,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "openness",
+            "label": "گشودگی به تجربه",
+            "userScore": 50,
+            "targetScore": 55,
+            "contribution": -0.0015459093975467822,
             "relationship": "different"
+          },
+          {
+            "dimension": "conscientiousness",
+            "label": "نظم و مسئولیت‌پذیری",
+            "userScore": 50,
+            "targetScore": 80,
+            "contribution": -0.009516340526053293,
+            "relationship": "different"
+          },
+          {
+            "dimension": "extraversion",
+            "label": "برون‌گرایی",
+            "userScore": 50,
+            "targetScore": 50,
+            "contribution": 0.000048176828154519924,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "agreeableness",
+            "label": "همکاری",
+            "userScore": 50,
+            "targetScore": 70,
+            "contribution": -0.006328168074650689,
+            "relationship": "different"
+          },
+          {
+            "dimension": "emotional_stability",
+            "label": "آرامش خودگزارشی در فشار",
+            "userScore": 50,
+            "targetScore": 60,
+            "contribution": -0.0031399956232480842,
+            "relationship": "different"
+          },
+          {
+            "dimension": "income",
+            "label": "درآمد",
+            "userScore": 50,
+            "targetScore": 70,
+            "contribution": -0.0035156489303614937,
+            "relationship": "different"
+          },
+          {
+            "dimension": "security",
+            "label": "امنیت",
+            "userScore": 50,
+            "targetScore": 75,
+            "contribution": -0.00440125238908444,
+            "relationship": "different"
+          },
+          {
+            "dimension": "freedom",
+            "label": "آزادی عمل",
+            "userScore": 50,
+            "targetScore": 40,
+            "contribution": 0.0017979718219761803,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "impact",
+            "label": "اثرگذاری",
+            "userScore": 50,
+            "targetScore": 85,
+            "contribution": -0.0061724593065303306,
+            "relationship": "different"
+          },
+          {
+            "dimension": "growth",
+            "label": "رشد",
+            "userScore": 50,
+            "targetScore": 70,
+            "contribution": -0.0035156489303614937,
+            "relationship": "different"
+          },
+          {
+            "dimension": "lifestyle",
+            "label": "سبک زندگی",
+            "userScore": 50,
+            "targetScore": 45,
+            "contribution": 0.0009123683632532346,
+            "relationship": "shared_lower"
           }
         ],
         "familyId": "exp-health",
@@ -1169,18 +2323,182 @@
         ]
       },
       {
+        "id": "anesthesia",
+        "title": "هوشبری",
+        "rank": 9,
+        "correlation": 0.627505874487549,
+        "score": 81.37529372437746,
+        "contributions": [
+          {
+            "dimension": "realistic",
+            "label": "عملی",
+            "userScore": 50,
+            "targetScore": 56.66666666666668,
+            "contribution": -0.008986493402404013,
+            "relationship": "different"
+          },
+          {
+            "dimension": "investigative",
+            "label": "پژوهشی",
+            "userScore": 100,
+            "targetScore": 60.333333333333336,
+            "contribution": 0.09714981136284213,
+            "relationship": "shared_higher"
+          },
+          {
+            "dimension": "artistic",
+            "label": "خلاق",
+            "userScore": 25,
+            "targetScore": 0,
+            "contribution": 0.26655997048841995,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "social",
+            "label": "یاری‌گر",
+            "userScore": 100,
+            "targetScore": 65.00000000000001,
+            "contribution": 0.13419790758329317,
+            "relationship": "shared_higher"
+          },
+          {
+            "dimension": "enterprising",
+            "label": "پیش‌برنده",
+            "userScore": 25,
+            "targetScore": 14.83333333333333,
+            "contribution": 0.18435014511514178,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "conventional",
+            "label": "ساختارمند",
+            "userScore": 50,
+            "targetScore": 68.33333333333333,
+            "contribution": -0.021219355361986797,
+            "relationship": "different"
+          },
+          {
+            "dimension": "openness",
+            "label": "گشودگی به تجربه",
+            "userScore": 50,
+            "targetScore": 45,
+            "contribution": 0.0010017365833580308,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "conscientiousness",
+            "label": "نظم و مسئولیت‌پذیری",
+            "userScore": 50,
+            "targetScore": 85,
+            "contribution": -0.011940132069392428,
+            "relationship": "different"
+          },
+          {
+            "dimension": "extraversion",
+            "label": "برون‌گرایی",
+            "userScore": 50,
+            "targetScore": 35,
+            "contribution": 0.004237203746545646,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "agreeableness",
+            "label": "همکاری",
+            "userScore": 50,
+            "targetScore": 55,
+            "contribution": -0.0022337305798295843,
+            "relationship": "different"
+          },
+          {
+            "dimension": "emotional_stability",
+            "label": "آرامش خودگزارشی در فشار",
+            "userScore": 50,
+            "targetScore": 65,
+            "contribution": -0.005469197743017199,
+            "relationship": "different"
+          },
+          {
+            "dimension": "income",
+            "label": "درآمد",
+            "userScore": 50,
+            "targetScore": 60,
+            "contribution": -0.0021397023119018844,
+            "relationship": "different"
+          },
+          {
+            "dimension": "security",
+            "label": "امنیت",
+            "userScore": 50,
+            "targetScore": 80,
+            "contribution": -0.005734665826554791,
+            "relationship": "different"
+          },
+          {
+            "dimension": "freedom",
+            "label": "آزادی عمل",
+            "userScore": 50,
+            "targetScore": 35,
+            "contribution": 0.0023540020814142477,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "impact",
+            "label": "اثرگذاری",
+            "userScore": 50,
+            "targetScore": 60,
+            "contribution": -0.0021397023119018844,
+            "relationship": "different"
+          },
+          {
+            "dimension": "growth",
+            "label": "رشد",
+            "userScore": 50,
+            "targetScore": 60,
+            "contribution": -0.0021397023119018844,
+            "relationship": "different"
+          },
+          {
+            "dimension": "lifestyle",
+            "label": "سبک زندگی",
+            "userScore": 50,
+            "targetScore": 50,
+            "contribution": -0.0003422205545754316,
+            "relationship": "different"
+          }
+        ],
+        "familyId": "exp-clinical",
+        "kind": "major",
+        "mappingRationale": "جانشین تقریبی فعالیت‌های کمک به بیهوشی؛ معادل مدرک هوشبری ایران نیست.",
+        "occupations": [
+          {
+            "code": "29-1071.01",
+            "title": "Anesthesiologist Assistants",
+            "rawInterests": {
+              "realistic": 4.4,
+              "investigative": 4.62,
+              "artistic": 1,
+              "social": 4.9,
+              "enterprising": 1.89,
+              "conventional": 5.1
+            },
+            "dateUpdated": "2026-02-01",
+            "domainSource": "Machine Learning/Expert"
+          }
+        ]
+      },
+      {
         "id": "health-information-technology",
         "title": "فناوری اطلاعات سلامت",
-        "rank": 9,
-        "correlation": 0.7528845335917485,
-        "score": 87.64422667958742,
+        "rank": 10,
+        "correlation": 0.613783494502122,
+        "score": 80.6891747251061,
         "contributions": [
           {
             "dimension": "realistic",
             "label": "عملی",
             "userScore": 50,
             "targetScore": 28.5,
-            "contribution": 0.025535109565114168,
+            "contribution": 0.020645551162977272,
             "relationship": "shared_lower"
           },
           {
@@ -1188,7 +2506,7 @@
             "label": "پژوهشی",
             "userScore": 100,
             "targetScore": 78.83333333333334,
-            "contribution": 0.2999549376826257,
+            "contribution": 0.23926643941925016,
             "relationship": "shared_higher"
           },
           {
@@ -1196,7 +2514,7 @@
             "label": "خلاق",
             "userScore": 25,
             "targetScore": 9.75,
-            "contribution": 0.22957998692183973,
+            "contribution": 0.21200123288910852,
             "relationship": "shared_lower"
           },
           {
@@ -1204,7 +2522,7 @@
             "label": "یاری‌گر",
             "userScore": 100,
             "targetScore": 52.91666666666666,
-            "contribution": 0.07976771749545819,
+            "contribution": 0.03558061670518579,
             "relationship": "shared_higher"
           },
           {
@@ -1212,7 +2530,7 @@
             "label": "پیش‌برنده",
             "userScore": 25,
             "targetScore": 19,
-            "contribution": 0.1667098095822241,
+            "contribution": 0.16124969045832163,
             "relationship": "shared_lower"
           },
           {
@@ -1220,7 +2538,95 @@
             "label": "ساختارمند",
             "userScore": 50,
             "targetScore": 72.16666666666667,
-            "contribution": -0.04866302765551333,
+            "contribution": -0.024681124667586575,
+            "relationship": "different"
+          },
+          {
+            "dimension": "openness",
+            "label": "گشودگی به تجربه",
+            "userScore": 50,
+            "targetScore": 85,
+            "contribution": -0.011726431186488534,
+            "relationship": "different"
+          },
+          {
+            "dimension": "conscientiousness",
+            "label": "نظم و مسئولیت‌پذیری",
+            "userScore": 50,
+            "targetScore": 70,
+            "contribution": -0.006921902407065626,
+            "relationship": "different"
+          },
+          {
+            "dimension": "extraversion",
+            "label": "برون‌گرایی",
+            "userScore": 50,
+            "targetScore": 35,
+            "contribution": 0.004288664744921156,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "agreeableness",
+            "label": "همکاری",
+            "userScore": 50,
+            "targetScore": 45,
+            "contribution": 0.0010856455586392185,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "emotional_stability",
+            "label": "آرامش خودگزارشی در فشار",
+            "userScore": 50,
+            "targetScore": 60,
+            "contribution": -0.0037188832207836887,
+            "relationship": "different"
+          },
+          {
+            "dimension": "income",
+            "label": "درآمد",
+            "userScore": 50,
+            "targetScore": 45,
+            "contribution": 0.0006031364214662325,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "security",
+            "label": "امنیت",
+            "userScore": 50,
+            "targetScore": 50,
+            "contribution": -0.0002865911302787503,
+            "relationship": "different"
+          },
+          {
+            "dimension": "freedom",
+            "label": "آزادی عمل",
+            "userScore": 50,
+            "targetScore": 65,
+            "contribution": -0.002955773785513699,
+            "relationship": "different"
+          },
+          {
+            "dimension": "impact",
+            "label": "اثرگذاری",
+            "userScore": 50,
+            "targetScore": 60,
+            "contribution": -0.002066046233768716,
+            "relationship": "different"
+          },
+          {
+            "dimension": "growth",
+            "label": "رشد",
+            "userScore": 50,
+            "targetScore": 90,
+            "contribution": -0.007404411544238613,
+            "relationship": "different"
+          },
+          {
+            "dimension": "lifestyle",
+            "label": "سبک زندگی",
+            "userScore": 50,
+            "targetScore": 55,
+            "contribution": -0.001176318682023733,
             "relationship": "different"
           }
         ],
@@ -1259,26 +2665,26 @@
         ]
       },
       {
-        "id": "anesthesia",
-        "title": "هوشبری",
-        "rank": 10,
-        "correlation": 0.740592097218672,
-        "score": 87.0296048609336,
+        "id": "veterinary",
+        "title": "دامپزشکی",
+        "rank": 11,
+        "correlation": 0.5234122837116492,
+        "score": 76.17061418558247,
         "contributions": [
           {
             "dimension": "realistic",
             "label": "عملی",
             "userScore": 50,
-            "targetScore": 56.66666666666668,
-            "contribution": -0.02088205549178497,
+            "targetScore": 83.00000000000001,
+            "contribution": -0.029939017753592135,
             "relationship": "different"
           },
           {
             "dimension": "investigative",
             "label": "پژوهشی",
             "userScore": 100,
-            "targetScore": 60.333333333333336,
-            "contribution": 0.13510550379428793,
+            "targetScore": 83.00000000000001,
+            "contribution": 0.22668113442005586,
             "relationship": "shared_higher"
           },
           {
@@ -1286,48 +2692,136 @@
             "label": "خلاق",
             "userScore": 25,
             "targetScore": 0,
-            "contribution": 0.2959763945428051,
+            "contribution": 0.23190263756587037,
             "relationship": "shared_lower"
           },
           {
             "dimension": "social",
             "label": "یاری‌گر",
             "userScore": 100,
-            "targetScore": 65.00000000000001,
-            "contribution": 0.17417215549384119,
-            "relationship": "shared_higher"
+            "targetScore": 40.833333333333336,
+            "contribution": -0.05724074588098091,
+            "relationship": "different"
           },
           {
             "dimension": "enterprising",
             "label": "پیش‌برنده",
             "userScore": 25,
-            "targetScore": 14.83333333333333,
-            "contribution": 0.19663548022108426,
+            "targetScore": 11.666666666666666,
+            "contribution": 0.1770620327497257,
             "relationship": "shared_lower"
           },
           {
             "dimension": "conventional",
             "label": "ساختارمند",
             "userScore": 50,
-            "targetScore": 68.33333333333333,
-            "contribution": -0.04041538134156152,
+            "targetScore": 41.16666666666667,
+            "contribution": 0.007263662810873455,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "openness",
+            "label": "گشودگی به تجربه",
+            "userScore": 50,
+            "targetScore": 55,
+            "contribution": -0.001554712089956878,
             "relationship": "different"
+          },
+          {
+            "dimension": "conscientiousness",
+            "label": "نظم و مسئولیت‌پذیری",
+            "userScore": 50,
+            "targetScore": 80,
+            "contribution": -0.008415081186648311,
+            "relationship": "different"
+          },
+          {
+            "dimension": "extraversion",
+            "label": "برون‌گرایی",
+            "userScore": 50,
+            "targetScore": 50,
+            "contribution": -0.00018263827061859141,
+            "relationship": "different"
+          },
+          {
+            "dimension": "agreeableness",
+            "label": "همکاری",
+            "userScore": 50,
+            "targetScore": 70,
+            "contribution": -0.005670933547971738,
+            "relationship": "different"
+          },
+          {
+            "dimension": "emotional_stability",
+            "label": "آرامش خودگزارشی در فشار",
+            "userScore": 50,
+            "targetScore": 60,
+            "contribution": -0.002926785909295165,
+            "relationship": "different"
+          },
+          {
+            "dimension": "income",
+            "label": "درآمد",
+            "userScore": 50,
+            "targetScore": 70,
+            "contribution": -0.0031505186377620772,
+            "relationship": "different"
+          },
+          {
+            "dimension": "security",
+            "label": "امنیت",
+            "userScore": 50,
+            "targetScore": 75,
+            "contribution": -0.003912781870727792,
+            "relationship": "different"
+          },
+          {
+            "dimension": "freedom",
+            "label": "آزادی عمل",
+            "userScore": 50,
+            "targetScore": 40,
+            "contribution": 0.0014230607600322124,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "impact",
+            "label": "اثرگذاری",
+            "userScore": 50,
+            "targetScore": 85,
+            "contribution": -0.0054373083366592205,
+            "relationship": "different"
+          },
+          {
+            "dimension": "growth",
+            "label": "رشد",
+            "userScore": 50,
+            "targetScore": 70,
+            "contribution": -0.0031505186377620772,
+            "relationship": "different"
+          },
+          {
+            "dimension": "lifestyle",
+            "label": "سبک زندگی",
+            "userScore": 50,
+            "targetScore": 45,
+            "contribution": 0.0006607975270664975,
+            "relationship": "shared_lower"
           }
         ],
-        "familyId": "exp-clinical",
+        "familyId": "exp-health",
         "kind": "major",
-        "mappingRationale": "جانشین تقریبی فعالیت‌های کمک به بیهوشی؛ معادل مدرک هوشبری ایران نیست.",
+        "mappingRationale": "نمونه دامپزشکی.",
         "occupations": [
           {
-            "code": "29-1071.01",
-            "title": "Anesthesiologist Assistants",
+            "code": "29-1131.00",
+            "title": "Veterinarians",
             "rawInterests": {
-              "realistic": 4.4,
-              "investigative": 4.62,
+              "realistic": 5.98,
+              "investigative": 5.98,
               "artistic": 1,
-              "social": 4.9,
-              "enterprising": 1.89,
-              "conventional": 5.1
+              "social": 3.45,
+              "enterprising": 1.7,
+              "conventional": 3.47
             },
             "dateUpdated": "2026-02-01",
             "domainSource": "Machine Learning/Expert"
@@ -1337,16 +2831,16 @@
       {
         "id": "psychology",
         "title": "روانشناسی",
-        "rank": 11,
-        "correlation": 0.6554430038055685,
-        "score": 82.77215019027842,
+        "rank": 12,
+        "correlation": 0.5154314590858317,
+        "score": 75.77157295429157,
         "contributions": [
           {
             "dimension": "realistic",
             "label": "عملی",
             "userScore": 50,
             "targetScore": 0.833333333333334,
-            "contribution": 0.081432452584506,
+            "contribution": 0.055636821640810845,
             "relationship": "shared_lower"
           },
           {
@@ -1354,7 +2848,7 @@
             "label": "پژوهشی",
             "userScore": 100,
             "targetScore": 74.33333333333333,
-            "contribution": 0.25992835484404236,
+            "contribution": 0.19208999692762654,
             "relationship": "shared_higher"
           },
           {
@@ -1362,7 +2856,7 @@
             "label": "خلاق",
             "userScore": 25,
             "targetScore": 34.91666666666667,
-            "contribution": 0.07825583059514127,
+            "contribution": 0.09552479771793711,
             "relationship": "shared_lower"
           },
           {
@@ -1370,7 +2864,7 @@
             "label": "یاری‌گر",
             "userScore": 100,
             "targetScore": 71.33333333333333,
-            "contribution": 0.23270016636377414,
+            "contribution": 0.16705570231855146,
             "relationship": "shared_higher"
           },
           {
@@ -1378,7 +2872,7 @@
             "label": "پیش‌برنده",
             "userScore": 25,
             "targetScore": 44.66666666666667,
-            "contribution": 0.007462540546443796,
+            "contribution": 0.03872528966621496,
             "relationship": "shared_lower"
           },
           {
@@ -1386,7 +2880,95 @@
             "label": "ساختارمند",
             "userScore": 50,
             "targetScore": 48.083333333333336,
-            "contribution": -0.00433634112833904,
+            "contribution": 0.003560765402121912,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "openness",
+            "label": "گشودگی به تجربه",
+            "userScore": 50,
+            "targetScore": 65,
+            "contribution": -0.004654413841333729,
+            "relationship": "different"
+          },
+          {
+            "dimension": "conscientiousness",
+            "label": "نظم و مسئولیت‌پذیری",
+            "userScore": 50,
+            "targetScore": 55,
+            "contribution": -0.0012535285359499622,
+            "relationship": "different"
+          },
+          {
+            "dimension": "extraversion",
+            "label": "برون‌گرایی",
+            "userScore": 50,
+            "targetScore": 60,
+            "contribution": -0.0029539711886418457,
+            "relationship": "different"
+          },
+          {
+            "dimension": "agreeableness",
+            "label": "همکاری",
+            "userScore": 50,
+            "targetScore": 88,
+            "contribution": -0.012476450043716393,
+            "relationship": "different"
+          },
+          {
+            "dimension": "emotional_stability",
+            "label": "آرامش خودگزارشی در فشار",
+            "userScore": 50,
+            "targetScore": 60,
+            "contribution": -0.0029539711886418457,
+            "relationship": "different"
+          },
+          {
+            "dimension": "income",
+            "label": "درآمد",
+            "userScore": 50,
+            "targetScore": 45,
+            "contribution": 0.0011929759830187803,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "security",
+            "label": "امنیت",
+            "userScore": 50,
+            "targetScore": 50,
+            "contribution": 0.0002482856204121785,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "freedom",
+            "label": "آزادی عمل",
+            "userScore": 50,
+            "targetScore": 55,
+            "contribution": -0.0006964047421944235,
+            "relationship": "different"
+          },
+          {
+            "dimension": "impact",
+            "label": "اثرگذاری",
+            "userScore": 50,
+            "targetScore": 88,
+            "contribution": -0.006931361135397996,
+            "relationship": "different"
+          },
+          {
+            "dimension": "growth",
+            "label": "رشد",
+            "userScore": 50,
+            "targetScore": 78,
+            "contribution": -0.005041980410184792,
+            "relationship": "different"
+          },
+          {
+            "dimension": "lifestyle",
+            "label": "سبک زندگی",
+            "userScore": 50,
+            "targetScore": 60,
+            "contribution": -0.0016410951048010255,
             "relationship": "different"
           }
         ],
@@ -1425,94 +3007,18 @@
         ]
       },
       {
-        "id": "veterinary",
-        "title": "دامپزشکی",
-        "rank": 12,
-        "correlation": 0.6295083757399543,
-        "score": 81.47541878699771,
-        "contributions": [
-          {
-            "dimension": "realistic",
-            "label": "عملی",
-            "userScore": 50,
-            "targetScore": 83.00000000000001,
-            "contribution": -0.05577428607857095,
-            "relationship": "different"
-          },
-          {
-            "dimension": "investigative",
-            "label": "پژوهشی",
-            "userScore": 100,
-            "targetScore": 83.00000000000001,
-            "contribution": 0.27887143039285467,
-            "relationship": "shared_higher"
-          },
-          {
-            "dimension": "artistic",
-            "label": "خلاق",
-            "userScore": 25,
-            "targetScore": 0,
-            "contribution": 0.24306667891024752,
-            "relationship": "shared_lower"
-          },
-          {
-            "dimension": "social",
-            "label": "یاری‌گر",
-            "userScore": 100,
-            "targetScore": 40.833333333333336,
-            "contribution": -0.017161318793406422,
-            "relationship": "different"
-          },
-          {
-            "dimension": "enterprising",
-            "label": "پیش‌برنده",
-            "userScore": 25,
-            "targetScore": 11.666666666666666,
-            "contribution": 0.17754164351724117,
-            "relationship": "shared_lower"
-          },
-          {
-            "dimension": "conventional",
-            "label": "ساختارمند",
-            "userScore": 50,
-            "targetScore": 41.16666666666667,
-            "contribution": 0.0029642277915883793,
-            "relationship": "shared_lower"
-          }
-        ],
-        "familyId": "exp-health",
-        "kind": "major",
-        "mappingRationale": "نمونه دامپزشکی.",
-        "occupations": [
-          {
-            "code": "29-1131.00",
-            "title": "Veterinarians",
-            "rawInterests": {
-              "realistic": 5.98,
-              "investigative": 5.98,
-              "artistic": 1,
-              "social": 3.45,
-              "enterprising": 1.7,
-              "conventional": 3.47
-            },
-            "dateUpdated": "2026-02-01",
-            "domainSource": "Machine Learning/Expert"
-          }
-        ]
-      },
-      {
         "id": "counseling",
         "title": "مشاوره",
         "rank": 13,
-        "correlation": 0.5986370364513232,
-        "score": 79.93185182256616,
+        "correlation": 0.48316278264397666,
+        "score": 74.15813913219883,
         "contributions": [
           {
             "dimension": "realistic",
             "label": "عملی",
             "userScore": 50,
             "targetScore": 2.583333333333334,
-            "contribution": 0.0670787905794745,
+            "contribution": 0.0474808951199307,
             "relationship": "shared_lower"
           },
           {
@@ -1520,15 +3026,15 @@
             "label": "پژوهشی",
             "userScore": 100,
             "targetScore": 47.666666666666664,
-            "contribution": 0.02096898363450015,
-            "relationship": "shared_higher"
+            "contribution": -0.02362456160582442,
+            "relationship": "different"
           },
           {
             "dimension": "artistic",
             "label": "خلاق",
             "userScore": 25,
             "targetScore": 34.91666666666667,
-            "contribution": 0.06385110409332627,
+            "contribution": 0.0828052017597975,
             "relationship": "shared_lower"
           },
           {
@@ -1536,7 +3042,7 @@
             "label": "یاری‌گر",
             "userScore": 100,
             "targetScore": 98.25,
-            "contribution": 0.42080688100020563,
+            "contribution": 0.35322442562421263,
             "relationship": "shared_higher"
           },
           {
@@ -1544,7 +3050,7 @@
             "label": "پیش‌برنده",
             "userScore": 25,
             "targetScore": 40.666666666666664,
-            "contribution": 0.027490227759575176,
+            "contribution": 0.052899526947131376,
             "relationship": "shared_lower"
           },
           {
@@ -1552,7 +3058,95 @@
             "label": "ساختارمند",
             "userScore": 50,
             "targetScore": 46,
-            "contribution": -0.001558950615758648,
+            "contribution": 0.004760175949623957,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "openness",
+            "label": "گشودگی به تجربه",
+            "userScore": 50,
+            "targetScore": 65,
+            "contribution": -0.004300024176123896,
+            "relationship": "different"
+          },
+          {
+            "dimension": "conscientiousness",
+            "label": "نظم و مسئولیت‌پذیری",
+            "userScore": 50,
+            "targetScore": 55,
+            "contribution": -0.001263772350255098,
+            "relationship": "different"
+          },
+          {
+            "dimension": "extraversion",
+            "label": "برون‌گرایی",
+            "userScore": 50,
+            "targetScore": 60,
+            "contribution": -0.0027818982631894968,
+            "relationship": "different"
+          },
+          {
+            "dimension": "agreeableness",
+            "label": "همکاری",
+            "userScore": 50,
+            "targetScore": 88,
+            "contribution": -0.011283403375622131,
+            "relationship": "different"
+          },
+          {
+            "dimension": "emotional_stability",
+            "label": "آرامش خودگزارشی در فشار",
+            "userScore": 50,
+            "targetScore": 60,
+            "contribution": -0.0027818982631894968,
+            "relationship": "different"
+          },
+          {
+            "dimension": "income",
+            "label": "درآمد",
+            "userScore": 50,
+            "targetScore": 45,
+            "contribution": 0.0009847108197853893,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "security",
+            "label": "امنیت",
+            "userScore": 50,
+            "targetScore": 50,
+            "contribution": 0.00014130753482183414,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "freedom",
+            "label": "آزادی عمل",
+            "userScore": 50,
+            "targetScore": 55,
+            "contribution": -0.000702095750141721,
+            "relationship": "different"
+          },
+          {
+            "dimension": "impact",
+            "label": "اثرگذاری",
+            "userScore": 50,
+            "targetScore": 88,
+            "contribution": -0.006268557430901185,
+            "relationship": "different"
+          },
+          {
+            "dimension": "growth",
+            "label": "رشد",
+            "userScore": 50,
+            "targetScore": 78,
+            "contribution": -0.004581750860974075,
+            "relationship": "different"
+          },
+          {
+            "dimension": "lifestyle",
+            "label": "سبک زندگی",
+            "userScore": 50,
+            "targetScore": 60,
+            "contribution": -0.0015454990351052762,
             "relationship": "different"
           }
         ],
@@ -1591,94 +3185,18 @@
         ]
       },
       {
-        "id": "radiology",
-        "title": "تکنولوژی پرتوشناسی (تصویربرداری)",
-        "rank": 14,
-        "correlation": 0.5150680641707374,
-        "score": 75.75340320853687,
-        "contributions": [
-          {
-            "dimension": "realistic",
-            "label": "عملی",
-            "userScore": 50,
-            "targetScore": 81.66666666666667,
-            "contribution": -0.05398243396181963,
-            "relationship": "different"
-          },
-          {
-            "dimension": "investigative",
-            "label": "پژوهشی",
-            "userScore": 100,
-            "targetScore": 64.66666666666667,
-            "contribution": 0.15300753575165432,
-            "relationship": "shared_higher"
-          },
-          {
-            "dimension": "artistic",
-            "label": "خلاق",
-            "userScore": 25,
-            "targetScore": 0,
-            "contribution": 0.23335081856956416,
-            "relationship": "shared_lower"
-          },
-          {
-            "dimension": "social",
-            "label": "یاری‌گر",
-            "userScore": 100,
-            "targetScore": 40.166666666666664,
-            "contribution": -0.01547267215466167,
-            "relationship": "different"
-          },
-          {
-            "dimension": "enterprising",
-            "label": "پیش‌برنده",
-            "userScore": 25,
-            "targetScore": 0,
-            "contribution": 0.23335081856956416,
-            "relationship": "shared_lower"
-          },
-          {
-            "dimension": "conventional",
-            "label": "ساختارمند",
-            "userScore": 50,
-            "targetScore": 68,
-            "contribution": -0.03518600260356396,
-            "relationship": "different"
-          }
-        ],
-        "familyId": "exp-clinical",
-        "kind": "major",
-        "mappingRationale": "نمونه فناوری تصویربرداری؛ این مدخل تخصص پزشکی رادیولوژی نیست.",
-        "occupations": [
-          {
-            "code": "29-2034.00",
-            "title": "Radiologic Technologists and Technicians",
-            "rawInterests": {
-              "realistic": 5.9,
-              "investigative": 4.88,
-              "artistic": 1,
-              "social": 3.41,
-              "enterprising": 1,
-              "conventional": 5.08
-            },
-            "dateUpdated": "2026-02-01",
-            "domainSource": "Machine Learning/Expert"
-          }
-        ]
-      },
-      {
         "id": "laboratory-sciences",
         "title": "علوم آزمایشگاهی",
-        "rank": 15,
-        "correlation": 0.51354281946469,
-        "score": 75.6771409732345,
+        "rank": 14,
+        "correlation": 0.45155010234147525,
+        "score": 72.57750511707376,
         "contributions": [
           {
             "dimension": "realistic",
             "label": "عملی",
             "userScore": 50,
             "targetScore": 80.16666666666666,
-            "contribution": -0.04603618218092819,
+            "contribution": -0.026928365653598907,
             "relationship": "different"
           },
           {
@@ -1686,7 +3204,7 @@
             "label": "پژوهشی",
             "userScore": 100,
             "targetScore": 85.83333333333333,
-            "contribution": 0.26774643556427835,
+            "contribution": 0.2409220855787429,
             "relationship": "shared_higher"
           },
           {
@@ -1694,7 +3212,7 @@
             "label": "خلاق",
             "userScore": 25,
             "targetScore": 2.1666666666666647,
-            "contribution": 0.22951798988123553,
+            "contribution": 0.21355416709396718,
             "relationship": "shared_lower"
           },
           {
@@ -1702,7 +3220,7 @@
             "label": "یاری‌گر",
             "userScore": 100,
             "targetScore": 29.5,
-            "contribution": -0.10569907428741106,
+            "contribution": -0.12725821761761183,
             "relationship": "different"
           },
           {
@@ -1710,7 +3228,7 @@
             "label": "پیش‌برنده",
             "userScore": 25,
             "targetScore": 8.5,
-            "contribution": 0.19592999136203032,
+            "contribution": 0.18465713090472557,
             "relationship": "shared_lower"
           },
           {
@@ -1718,7 +3236,95 @@
             "label": "ساختارمند",
             "userScore": 50,
             "targetScore": 66.5,
-            "contribution": -0.027916340874514868,
+            "contribution": -0.015131140353012412,
+            "relationship": "different"
+          },
+          {
+            "dimension": "openness",
+            "label": "گشودگی به تجربه",
+            "userScore": 50,
+            "targetScore": 45,
+            "contribution": 0.0010577548404701461,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "conscientiousness",
+            "label": "نظم و مسئولیت‌پذیری",
+            "userScore": 50,
+            "targetScore": 85,
+            "contribution": -0.009596742713230275,
+            "relationship": "different"
+          },
+          {
+            "dimension": "extraversion",
+            "label": "برون‌گرایی",
+            "userScore": 50,
+            "targetScore": 35,
+            "contribution": 0.0037213792288952516,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "agreeableness",
+            "label": "همکاری",
+            "userScore": 50,
+            "targetScore": 55,
+            "contribution": -0.001605869547954959,
+            "relationship": "different"
+          },
+          {
+            "dimension": "emotional_stability",
+            "label": "آرامش خودگزارشی در فشار",
+            "userScore": 50,
+            "targetScore": 65,
+            "contribution": -0.004269493936380065,
+            "relationship": "different"
+          },
+          {
+            "dimension": "income",
+            "label": "درآمد",
+            "userScore": 50,
+            "targetScore": 60,
+            "contribution": -0.0016320454123152843,
+            "relationship": "different"
+          },
+          {
+            "dimension": "security",
+            "label": "امنیت",
+            "userScore": 50,
+            "targetScore": 80,
+            "contribution": -0.004591628066120957,
+            "relationship": "different"
+          },
+          {
+            "dimension": "freedom",
+            "label": "آزادی عمل",
+            "userScore": 50,
+            "targetScore": 35,
+            "contribution": 0.0020674329049418065,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "impact",
+            "label": "اثرگذاری",
+            "userScore": 50,
+            "targetScore": 60,
+            "contribution": -0.0016320454123152843,
+            "relationship": "different"
+          },
+          {
+            "dimension": "growth",
+            "label": "رشد",
+            "userScore": 50,
+            "targetScore": 60,
+            "contribution": -0.0016320454123152843,
+            "relationship": "different"
+          },
+          {
+            "dimension": "lifestyle",
+            "label": "سبک زندگی",
+            "userScore": 50,
+            "targetScore": 50,
+            "contribution": -0.00015225408541244805,
             "relationship": "different"
           }
         ],
@@ -1743,18 +3349,182 @@
         ]
       },
       {
+        "id": "radiology",
+        "title": "تکنولوژی پرتوشناسی (تصویربرداری)",
+        "rank": 15,
+        "correlation": 0.43867263672882,
+        "score": 71.93363183644101,
+        "contributions": [
+          {
+            "dimension": "realistic",
+            "label": "عملی",
+            "userScore": 50,
+            "targetScore": 81.66666666666667,
+            "contribution": -0.03073003389979494,
+            "relationship": "different"
+          },
+          {
+            "dimension": "investigative",
+            "label": "پژوهشی",
+            "userScore": 100,
+            "targetScore": 64.66666666666667,
+            "contribution": 0.11905846969909123,
+            "relationship": "shared_higher"
+          },
+          {
+            "dimension": "artistic",
+            "label": "خلاق",
+            "userScore": 25,
+            "targetScore": 0,
+            "contribution": 0.21858752295749737,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "social",
+            "label": "یاری‌گر",
+            "userScore": 100,
+            "targetScore": 40.166666666666664,
+            "contribution": -0.04467616446468853,
+            "relationship": "different"
+          },
+          {
+            "dimension": "enterprising",
+            "label": "پیش‌برنده",
+            "userScore": 25,
+            "targetScore": 0,
+            "contribution": 0.21858752295749737,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "conventional",
+            "label": "ساختارمند",
+            "userScore": 50,
+            "targetScore": 68,
+            "contribution": -0.018666925183326053,
+            "relationship": "different"
+          },
+          {
+            "dimension": "openness",
+            "label": "گشودگی به تجربه",
+            "userScore": 50,
+            "targetScore": 45,
+            "contribution": 0.000504330414171315,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "conscientiousness",
+            "label": "نظم و مسئولیت‌پذیری",
+            "userScore": 50,
+            "targetScore": 85,
+            "contribution": -0.01039029599456992,
+            "relationship": "different"
+          },
+          {
+            "dimension": "extraversion",
+            "label": "برون‌گرایی",
+            "userScore": 50,
+            "targetScore": 35,
+            "contribution": 0.003227987016356624,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "agreeableness",
+            "label": "همکاری",
+            "userScore": 50,
+            "targetScore": 55,
+            "contribution": -0.0022193261880139943,
+            "relationship": "different"
+          },
+          {
+            "dimension": "emotional_stability",
+            "label": "آرامش خودگزارشی در فشار",
+            "userScore": 50,
+            "targetScore": 65,
+            "contribution": -0.004942982790199303,
+            "relationship": "different"
+          },
+          {
+            "dimension": "income",
+            "label": "درآمد",
+            "userScore": 50,
+            "targetScore": 60,
+            "contribution": -0.001989530271725916,
+            "relationship": "different"
+          },
+          {
+            "dimension": "security",
+            "label": "امنیت",
+            "userScore": 50,
+            "targetScore": 80,
+            "contribution": -0.005015815385265148,
+            "relationship": "different"
+          },
+          {
+            "dimension": "freedom",
+            "label": "آزادی عمل",
+            "userScore": 50,
+            "targetScore": 35,
+            "contribution": 0.0017933261201981247,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "impact",
+            "label": "اثرگذاری",
+            "userScore": 50,
+            "targetScore": 60,
+            "contribution": -0.001989530271725916,
+            "relationship": "different"
+          },
+          {
+            "dimension": "growth",
+            "label": "رشد",
+            "userScore": 50,
+            "targetScore": 60,
+            "contribution": -0.001989530271725916,
+            "relationship": "different"
+          },
+          {
+            "dimension": "lifestyle",
+            "label": "سبک زندگی",
+            "userScore": 50,
+            "targetScore": 50,
+            "contribution": -0.0004763877149562998,
+            "relationship": "different"
+          }
+        ],
+        "familyId": "exp-clinical",
+        "kind": "major",
+        "mappingRationale": "نمونه فناوری تصویربرداری؛ این مدخل تخصص پزشکی رادیولوژی نیست.",
+        "occupations": [
+          {
+            "code": "29-2034.00",
+            "title": "Radiologic Technologists and Technicians",
+            "rawInterests": {
+              "realistic": 5.9,
+              "investigative": 4.88,
+              "artistic": 1,
+              "social": 3.41,
+              "enterprising": 1,
+              "conventional": 5.08
+            },
+            "dateUpdated": "2026-02-01",
+            "domainSource": "Machine Learning/Expert"
+          }
+        ]
+      },
+      {
         "id": "microbiology",
         "title": "میکروبیولوژی",
         "rank": 16,
-        "correlation": 0.5064921534205892,
-        "score": 75.32460767102947,
+        "correlation": 0.42520416302995606,
+        "score": 71.2602081514978,
         "contributions": [
           {
             "dimension": "realistic",
             "label": "عملی",
             "userScore": 50,
             "targetScore": 71.5,
-            "contribution": -0.037703162400986444,
+            "contribution": -0.01975009322236631,
             "relationship": "different"
           },
           {
@@ -1762,7 +3532,7 @@
             "label": "پژوهشی",
             "userScore": 100,
             "targetScore": 100,
-            "contribution": 0.37046992594384126,
+            "contribution": 0.32564740410531556,
             "relationship": "shared_higher"
           },
           {
@@ -1770,7 +3540,7 @@
             "label": "خلاق",
             "userScore": 25,
             "targetScore": 15.333333333333334,
-            "contribution": 0.13605769611494256,
+            "contribution": 0.13790256309833543,
             "relationship": "shared_lower"
           },
           {
@@ -1778,7 +3548,7 @@
             "label": "یاری‌گر",
             "userScore": 100,
             "targetScore": 16.333333333333332,
-            "contribution": -0.16368776526862877,
+            "contribution": -0.19135677112592778,
             "relationship": "different"
           },
           {
@@ -1786,7 +3556,7 @@
             "label": "پیش‌برنده",
             "userScore": 25,
             "targetScore": 1.1666666666666676,
-            "contribution": 0.20841371803216963,
+            "contribution": 0.19901577557305009,
             "relationship": "shared_lower"
           },
           {
@@ -1794,7 +3564,95 @@
             "label": "ساختارمند",
             "userScore": 50,
             "targetScore": 47.5,
-            "contribution": -0.00705825900074911,
+            "contribution": -0.00016277424795863176,
+            "relationship": "different"
+          },
+          {
+            "dimension": "openness",
+            "label": "گشودگی به تجربه",
+            "userScore": 50,
+            "targetScore": 85,
+            "contribution": -0.009494113416316651,
+            "relationship": "different"
+          },
+          {
+            "dimension": "conscientiousness",
+            "label": "نظم و مسئولیت‌پذیری",
+            "userScore": 50,
+            "targetScore": 70,
+            "contribution": -0.005716559042680884,
+            "relationship": "different"
+          },
+          {
+            "dimension": "extraversion",
+            "label": "برون‌گرایی",
+            "userScore": 50,
+            "targetScore": 35,
+            "contribution": 0.00309773449580257,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "agreeableness",
+            "label": "همکاری",
+            "userScore": 50,
+            "targetScore": 45,
+            "contribution": 0.0005793649133787261,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "emotional_stability",
+            "label": "آرامش خودگزارشی در فشار",
+            "userScore": 50,
+            "targetScore": 60,
+            "contribution": -0.00319818946025704,
+            "relationship": "different"
+          },
+          {
+            "dimension": "income",
+            "label": "درآمد",
+            "userScore": 50,
+            "targetScore": 45,
+            "contribution": 0.0003218693963215145,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "security",
+            "label": "امنیت",
+            "userScore": 50,
+            "targetScore": 50,
+            "contribution": -0.0003776777099073311,
+            "relationship": "different"
+          },
+          {
+            "dimension": "freedom",
+            "label": "آزادی عمل",
+            "userScore": 50,
+            "targetScore": 65,
+            "contribution": -0.002476319028593868,
+            "relationship": "different"
+          },
+          {
+            "dimension": "impact",
+            "label": "اثرگذاری",
+            "userScore": 50,
+            "targetScore": 60,
+            "contribution": -0.0017767719223650224,
+            "relationship": "different"
+          },
+          {
+            "dimension": "growth",
+            "label": "رشد",
+            "userScore": 50,
+            "targetScore": 90,
+            "contribution": -0.0059740545597380965,
+            "relationship": "different"
+          },
+          {
+            "dimension": "lifestyle",
+            "label": "سبک زندگی",
+            "userScore": 50,
+            "targetScore": 55,
+            "contribution": -0.0010772248161361768,
             "relationship": "different"
           }
         ],
@@ -1822,15 +3680,15 @@
         "id": "biology",
         "title": "زیست‌شناسی",
         "rank": 17,
-        "correlation": 0.47547381120696564,
-        "score": 73.77369056034829,
+        "correlation": 0.3992698752764785,
+        "score": 69.96349376382392,
         "contributions": [
           {
             "dimension": "realistic",
             "label": "عملی",
             "userScore": 50,
             "targetScore": 59.50000000000001,
-            "contribution": -0.017757308057823894,
+            "contribution": -0.0077737350597098884,
             "relationship": "different"
           },
           {
@@ -1838,7 +3696,7 @@
             "label": "پژوهشی",
             "userScore": 100,
             "targetScore": 97.16666666666666,
-            "contribution": 0.39319753556610015,
+            "contribution": 0.34979192652984803,
             "relationship": "shared_higher"
           },
           {
@@ -1846,7 +3704,7 @@
             "label": "خلاق",
             "userScore": 25,
             "targetScore": 19.583333333333332,
-            "contribution": 0.1870466381008706,
+            "contribution": 0.17414723458675777,
             "relationship": "shared_lower"
           },
           {
@@ -1854,7 +3712,7 @@
             "label": "یاری‌گر",
             "userScore": 100,
             "targetScore": 24.083333333333336,
-            "contribution": -0.1974406123496347,
+            "contribution": -0.2146965872679903,
             "relationship": "different"
           },
           {
@@ -1862,7 +3720,7 @@
             "label": "پیش‌برنده",
             "userScore": 25,
             "targetScore": 27.83333333333333,
-            "contribution": 0.1337073663620722,
+            "contribution": 0.12966193035402873,
             "relationship": "shared_lower"
           },
           {
@@ -1870,7 +3728,95 @@
             "label": "ساختارمند",
             "userScore": 50,
             "targetScore": 62.916666666666664,
-            "contribution": -0.023279808414618665,
+            "contribution": -0.011259206617119977,
+            "relationship": "different"
+          },
+          {
+            "dimension": "openness",
+            "label": "گشودگی به تجربه",
+            "userScore": 50,
+            "targetScore": 85,
+            "contribution": -0.010425781384925736,
+            "relationship": "different"
+          },
+          {
+            "dimension": "conscientiousness",
+            "label": "نظم و مسئولیت‌پذیری",
+            "userScore": 50,
+            "targetScore": 70,
+            "contribution": -0.005703999707152054,
+            "relationship": "different"
+          },
+          {
+            "dimension": "extraversion",
+            "label": "برون‌گرایی",
+            "userScore": 50,
+            "targetScore": 35,
+            "contribution": 0.005313490874319868,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "agreeableness",
+            "label": "همکاری",
+            "userScore": 50,
+            "targetScore": 45,
+            "contribution": 0.0021656364224707475,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "emotional_stability",
+            "label": "آرامش خودگزارشی در فشار",
+            "userScore": 50,
+            "targetScore": 60,
+            "contribution": -0.0025561452553029334,
+            "relationship": "different"
+          },
+          {
+            "dimension": "income",
+            "label": "درآمد",
+            "userScore": 50,
+            "targetScore": 45,
+            "contribution": 0.001203131345817082,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "security",
+            "label": "امنیت",
+            "userScore": 50,
+            "targetScore": 50,
+            "contribution": 0.00032872733141454843,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "freedom",
+            "label": "آزادی عمل",
+            "userScore": 50,
+            "targetScore": 65,
+            "contribution": -0.0022944847117930523,
+            "relationship": "different"
+          },
+          {
+            "dimension": "impact",
+            "label": "اثرگذاری",
+            "userScore": 50,
+            "targetScore": 60,
+            "contribution": -0.0014200806973905188,
+            "relationship": "different"
+          },
+          {
+            "dimension": "growth",
+            "label": "رشد",
+            "userScore": 50,
+            "targetScore": 90,
+            "contribution": -0.00666650478380572,
+            "relationship": "different"
+          },
+          {
+            "dimension": "lifestyle",
+            "label": "سبک زندگی",
+            "userScore": 50,
+            "targetScore": 55,
+            "contribution": -0.0005456766829879852,
             "relationship": "different"
           }
         ],
@@ -1909,94 +3855,18 @@
         ]
       },
       {
-        "id": "educational-sciences",
-        "title": "علوم تربیتی",
-        "rank": 18,
-        "correlation": 0.4738876223309769,
-        "score": 73.69438111654884,
-        "contributions": [
-          {
-            "dimension": "realistic",
-            "label": "عملی",
-            "userScore": 50,
-            "targetScore": 10.333333333333336,
-            "contribution": 0.07775068402266974,
-            "relationship": "shared_lower"
-          },
-          {
-            "dimension": "investigative",
-            "label": "پژوهشی",
-            "userScore": 100,
-            "targetScore": 50.666666666666664,
-            "contribution": 0.017340080609372303,
-            "relationship": "shared_higher"
-          },
-          {
-            "dimension": "artistic",
-            "label": "خلاق",
-            "userScore": 25,
-            "targetScore": 42.666666666666664,
-            "contribution": 0.05056591248668599,
-            "relationship": "shared_lower"
-          },
-          {
-            "dimension": "social",
-            "label": "یاری‌گر",
-            "userScore": 100,
-            "targetScore": 86,
-            "contribution": 0.3730914118210122,
-            "relationship": "shared_higher"
-          },
-          {
-            "dimension": "enterprising",
-            "label": "پیش‌برنده",
-            "userScore": 25,
-            "targetScore": 54.333333333333336,
-            "contribution": -0.04340613726733214,
-            "relationship": "different"
-          },
-          {
-            "dimension": "conventional",
-            "label": "ساختارمند",
-            "userScore": 50,
-            "targetScore": 49.666666666666664,
-            "contribution": -0.0014543293414312167,
-            "relationship": "different"
-          }
-        ],
-        "familyId": "exp-people",
-        "kind": "major",
-        "mappingRationale": "نمونه طراحی و هماهنگی آموزش؛ نماینده همه مشاغل علوم تربیتی نیست.",
-        "occupations": [
-          {
-            "code": "25-9031.00",
-            "title": "Instructional Coordinators",
-            "rawInterests": {
-              "realistic": 1.62,
-              "investigative": 4.04,
-              "artistic": 3.56,
-              "social": 6.16,
-              "enterprising": 4.26,
-              "conventional": 3.98
-            },
-            "dateUpdated": "2026-02-01",
-            "domainSource": "Machine Learning/Expert"
-          }
-        ]
-      },
-      {
         "id": "biotechnology",
         "title": "زیست‌فناوری",
-        "rank": 19,
-        "correlation": 0.45208601961298367,
-        "score": 72.60430098064919,
+        "rank": 18,
+        "correlation": 0.37827954909490014,
+        "score": 68.91397745474501,
         "contributions": [
           {
             "dimension": "realistic",
             "label": "عملی",
             "userScore": 50,
             "targetScore": 67.83333333333334,
-            "contribution": -0.03152171040230823,
+            "contribution": -0.016339066444184844,
             "relationship": "different"
           },
           {
@@ -2004,7 +3874,7 @@
             "label": "پژوهشی",
             "userScore": 100,
             "targetScore": 97.16666666666666,
-            "contribution": 0.3808609073759774,
+            "contribution": 0.33810594977603164,
             "relationship": "shared_higher"
           },
           {
@@ -2012,7 +3882,7 @@
             "label": "خلاق",
             "userScore": 25,
             "targetScore": 21.333333333333332,
-            "contribution": 0.15703773633021154,
+            "contribution": 0.1509014381678755,
             "relationship": "shared_lower"
           },
           {
@@ -2020,7 +3890,7 @@
             "label": "یاری‌گر",
             "userScore": 100,
             "targetScore": 20.166666666666664,
-            "contribution": -0.20517652545566814,
+            "contribution": -0.22468322280787625,
             "relationship": "different"
           },
           {
@@ -2028,7 +3898,7 @@
             "label": "پیش‌برنده",
             "userScore": 25,
             "targetScore": 20.083333333333332,
-            "contribution": 0.16464861208127188,
+            "contribution": 0.1572795315841964,
             "relationship": "shared_lower"
           },
           {
@@ -2036,7 +3906,95 @@
             "label": "ساختارمند",
             "userScore": 50,
             "targetScore": 56.166666666666664,
-            "contribution": -0.01376300031650077,
+            "contribution": -0.005076847438789364,
+            "relationship": "different"
+          },
+          {
+            "dimension": "openness",
+            "label": "گشودگی به تجربه",
+            "userScore": 50,
+            "targetScore": 85,
+            "contribution": -0.010155276185063535,
+            "relationship": "different"
+          },
+          {
+            "dimension": "conscientiousness",
+            "label": "نظم و مسئولیت‌پذیری",
+            "userScore": 50,
+            "targetScore": 70,
+            "contribution": -0.005687163175576025,
+            "relationship": "different"
+          },
+          {
+            "dimension": "extraversion",
+            "label": "برون‌گرایی",
+            "userScore": 50,
+            "targetScore": 35,
+            "contribution": 0.004738433846561497,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "agreeableness",
+            "label": "همکاری",
+            "userScore": 50,
+            "targetScore": 45,
+            "contribution": 0.001759691840236491,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "emotional_stability",
+            "label": "آرامش خودگزارشی در فشار",
+            "userScore": 50,
+            "targetScore": 60,
+            "contribution": -0.002708421169251019,
+            "relationship": "different"
+          },
+          {
+            "dimension": "income",
+            "label": "درآمد",
+            "userScore": 50,
+            "targetScore": 45,
+            "contribution": 0.0009776065779091617,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "security",
+            "label": "امنیت",
+            "userScore": 50,
+            "targetScore": 50,
+            "contribution": 0.00015017824281888202,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "freedom",
+            "label": "آزادی عمل",
+            "userScore": 50,
+            "targetScore": 65,
+            "contribution": -0.0023321067624519566,
+            "relationship": "different"
+          },
+          {
+            "dimension": "impact",
+            "label": "اثرگذاری",
+            "userScore": 50,
+            "targetScore": 60,
+            "contribution": -0.0015046784273616773,
+            "relationship": "different"
+          },
+          {
+            "dimension": "growth",
+            "label": "رشد",
+            "userScore": 50,
+            "targetScore": 90,
+            "contribution": -0.0064692484379033546,
+            "relationship": "different"
+          },
+          {
+            "dimension": "lifestyle",
+            "label": "سبک زندگی",
+            "userScore": 50,
+            "targetScore": 55,
+            "contribution": -0.0006772500922713976,
             "relationship": "different"
           }
         ],
@@ -2075,26 +4033,190 @@
         ]
       },
       {
+        "id": "educational-sciences",
+        "title": "علوم تربیتی",
+        "rank": 19,
+        "correlation": 0.3621844198249983,
+        "score": 68.10922099124991,
+        "contributions": [
+          {
+            "dimension": "realistic",
+            "label": "عملی",
+            "userScore": 50,
+            "targetScore": 10.333333333333336,
+            "contribution": 0.052859906610741685,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "investigative",
+            "label": "پژوهشی",
+            "userScore": 100,
+            "targetScore": 50.666666666666664,
+            "contribution": -0.027039979602619727,
+            "relationship": "different"
+          },
+          {
+            "dimension": "artistic",
+            "label": "خلاق",
+            "userScore": 25,
+            "targetScore": 42.666666666666664,
+            "contribution": 0.07055142572641666,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "social",
+            "label": "یاری‌گر",
+            "userScore": 100,
+            "targetScore": 86,
+            "contribution": 0.29988244126397356,
+            "relationship": "shared_higher"
+          },
+          {
+            "dimension": "enterprising",
+            "label": "پیش‌برنده",
+            "userScore": 25,
+            "targetScore": 54.333333333333336,
+            "contribution": -0.004807160073198474,
+            "relationship": "different"
+          },
+          {
+            "dimension": "conventional",
+            "label": "ساختارمند",
+            "userScore": 50,
+            "targetScore": 49.666666666666664,
+            "contribution": 0.004793349181798177,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "openness",
+            "label": "گشودگی به تجربه",
+            "userScore": 50,
+            "targetScore": 65,
+            "contribution": -0.004302862356759212,
+            "relationship": "different"
+          },
+          {
+            "dimension": "conscientiousness",
+            "label": "نظم و مسئولیت‌پذیری",
+            "userScore": 50,
+            "targetScore": 55,
+            "contribution": -0.0005320234688711492,
+            "relationship": "different"
+          },
+          {
+            "dimension": "extraversion",
+            "label": "برون‌گرایی",
+            "userScore": 50,
+            "targetScore": 60,
+            "contribution": -0.0024174429128151803,
+            "relationship": "different"
+          },
+          {
+            "dimension": "agreeableness",
+            "label": "همکاری",
+            "userScore": 50,
+            "targetScore": 88,
+            "contribution": -0.012975791798901758,
+            "relationship": "different"
+          },
+          {
+            "dimension": "emotional_stability",
+            "label": "آرامش خودگزارشی در فشار",
+            "userScore": 50,
+            "targetScore": 60,
+            "contribution": -0.0024174429128151803,
+            "relationship": "different"
+          },
+          {
+            "dimension": "income",
+            "label": "درآمد",
+            "userScore": 50,
+            "targetScore": 45,
+            "contribution": 0.0017993418994538407,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "security",
+            "label": "امنیت",
+            "userScore": 50,
+            "targetScore": 50,
+            "contribution": 0.0007518866528182679,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "freedom",
+            "label": "آزادی عمل",
+            "userScore": 50,
+            "targetScore": 55,
+            "contribution": -0.0002955685938173051,
+            "relationship": "different"
+          },
+          {
+            "dimension": "impact",
+            "label": "اثرگذاری",
+            "userScore": 50,
+            "targetScore": 88,
+            "contribution": -0.007208773221612087,
+            "relationship": "different"
+          },
+          {
+            "dimension": "growth",
+            "label": "رشد",
+            "userScore": 50,
+            "targetScore": 78,
+            "contribution": -0.005113862728340942,
+            "relationship": "different"
+          },
+          {
+            "dimension": "lifestyle",
+            "label": "سبک زندگی",
+            "userScore": 50,
+            "targetScore": 60,
+            "contribution": -0.0013430238404528781,
+            "relationship": "different"
+          }
+        ],
+        "familyId": "exp-people",
+        "kind": "major",
+        "mappingRationale": "نمونه طراحی و هماهنگی آموزش؛ نماینده همه مشاغل علوم تربیتی نیست.",
+        "occupations": [
+          {
+            "code": "25-9031.00",
+            "title": "Instructional Coordinators",
+            "rawInterests": {
+              "realistic": 1.62,
+              "investigative": 4.04,
+              "artistic": 3.56,
+              "social": 6.16,
+              "enterprising": 4.26,
+              "conventional": 3.98
+            },
+            "dateUpdated": "2026-02-01",
+            "domainSource": "Machine Learning/Expert"
+          }
+        ]
+      },
+      {
         "id": "bioinformatics",
         "title": "بیوانفورماتیک",
         "rank": 20,
-        "correlation": 0.42772048881612257,
-        "score": 71.38602444080612,
+        "correlation": 0.3508905586345363,
+        "score": 67.54452793172682,
         "contributions": [
           {
             "dimension": "realistic",
             "label": "عملی",
             "userScore": 50,
             "targetScore": 46.833333333333336,
-            "contribution": -0.005918982720167766,
-            "relationship": "different"
+            "contribution": 0.0006428798249607844,
+            "relationship": "shared_lower"
           },
           {
             "dimension": "investigative",
             "label": "پژوهشی",
             "userScore": 100,
             "targetScore": 100,
-            "contribution": 0.38362406755087275,
+            "contribution": 0.33614385553400816,
             "relationship": "shared_higher"
           },
           {
@@ -2102,7 +4224,7 @@
             "label": "خلاق",
             "userScore": 25,
             "targetScore": 25.16666666666666,
-            "contribution": 0.09174423216260026,
+            "contribution": 0.10041497798908264,
             "relationship": "shared_lower"
           },
           {
@@ -2110,7 +4232,7 @@
             "label": "یاری‌گر",
             "userScore": 100,
             "targetScore": 10.666666666666666,
-            "contribution": -0.2112336958259868,
+            "contribution": -0.23684077323047223,
             "relationship": "different"
           },
           {
@@ -2118,7 +4240,7 @@
             "label": "پیش‌برنده",
             "userScore": 25,
             "targetScore": 4.333333333333333,
-            "contribution": 0.20272515816574568,
+            "contribution": 0.1937004577143613,
             "relationship": "shared_lower"
           },
           {
@@ -2126,7 +4248,95 @@
             "label": "ساختارمند",
             "userScore": 50,
             "targetScore": 67.33333333333333,
-            "contribution": -0.033220290516941545,
+            "contribution": -0.016723346779031572,
+            "relationship": "different"
+          },
+          {
+            "dimension": "openness",
+            "label": "گشودگی به تجربه",
+            "userScore": 50,
+            "targetScore": 85,
+            "contribution": -0.00977843207375517,
+            "relationship": "different"
+          },
+          {
+            "dimension": "conscientiousness",
+            "label": "نظم و مسئولیت‌پذیری",
+            "userScore": 50,
+            "targetScore": 70,
+            "contribution": -0.00585741645027536,
+            "relationship": "different"
+          },
+          {
+            "dimension": "extraversion",
+            "label": "برون‌گرایی",
+            "userScore": 50,
+            "targetScore": 35,
+            "contribution": 0.0032916200045108603,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "agreeableness",
+            "label": "همکاری",
+            "userScore": 50,
+            "targetScore": 45,
+            "contribution": 0.0006776095888576544,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "emotional_stability",
+            "label": "آرامش خودگزارشی در فشار",
+            "userScore": 50,
+            "targetScore": 60,
+            "contribution": -0.003243406034622155,
+            "relationship": "different"
+          },
+          {
+            "dimension": "income",
+            "label": "درآمد",
+            "userScore": 50,
+            "targetScore": 45,
+            "contribution": 0.0003764497715875857,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "security",
+            "label": "امنیت",
+            "userScore": 50,
+            "targetScore": 50,
+            "contribution": -0.0003496642327605271,
+            "relationship": "different"
+          },
+          {
+            "dimension": "freedom",
+            "label": "آزادی عمل",
+            "userScore": 50,
+            "targetScore": 65,
+            "contribution": -0.002528006245804866,
+            "relationship": "different"
+          },
+          {
+            "dimension": "impact",
+            "label": "اثرگذاری",
+            "userScore": 50,
+            "targetScore": 60,
+            "contribution": -0.0018018922414567528,
+            "relationship": "different"
+          },
+          {
+            "dimension": "growth",
+            "label": "رشد",
+            "userScore": 50,
+            "targetScore": 90,
+            "contribution": -0.00615857626754543,
+            "relationship": "different"
+          },
+          {
+            "dimension": "lifestyle",
+            "label": "سبک زندگی",
+            "userScore": 50,
+            "targetScore": 55,
+            "contribution": -0.00107577823710864,
             "relationship": "different"
           }
         ],
@@ -2154,15 +4364,15 @@
         "id": "operating-room",
         "title": "اتاق عمل",
         "rank": 21,
-        "correlation": 0.33784586933134025,
-        "score": 66.89229346656701,
+        "correlation": 0.265306901185516,
+        "score": 63.2653450592758,
         "contributions": [
           {
             "dimension": "realistic",
             "label": "عملی",
             "userScore": 50,
             "targetScore": 87.66666666666667,
-            "contribution": -0.06930171678591596,
+            "contribution": -0.0391454977692869,
             "relationship": "different"
           },
           {
@@ -2170,7 +4380,7 @@
             "label": "پژوهشی",
             "userScore": 100,
             "targetScore": 37.00000000000001,
-            "contribution": -0.02970073576539249,
+            "contribution": -0.06281275318074749,
             "relationship": "different"
           },
           {
@@ -2178,7 +4388,7 @@
             "label": "خلاق",
             "userScore": 25,
             "targetScore": 0,
-            "contribution": 0.24354603327621885,
+            "contribution": 0.22697290313078897,
             "relationship": "shared_lower"
           },
           {
@@ -2186,7 +4396,7 @@
             "label": "یاری‌گر",
             "userScore": 100,
             "targetScore": 47,
-            "contribution": 0.04455110364808881,
+            "contribution": 0.008082002102263232,
             "relationship": "shared_higher"
           },
           {
@@ -2194,7 +4404,7 @@
             "label": "پیش‌برنده",
             "userScore": 25,
             "targetScore": 10.166666666666668,
-            "contribution": 0.1831545372199207,
+            "contribution": 0.17665546203841315,
             "relationship": "shared_lower"
           },
           {
@@ -2202,7 +4412,95 @@
             "label": "ساختارمند",
             "userScore": 50,
             "targetScore": 64.16666666666666,
-            "contribution": -0.034403352261579694,
+            "contribution": -0.01714137089371101,
+            "relationship": "different"
+          },
+          {
+            "dimension": "openness",
+            "label": "گشودگی به تجربه",
+            "userScore": 50,
+            "targetScore": 45,
+            "contribution": 0.0002484794290824907,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "conscientiousness",
+            "label": "نظم و مسئولیت‌پذیری",
+            "userScore": 50,
+            "targetScore": 85,
+            "contribution": -0.01130870331894034,
+            "relationship": "different"
+          },
+          {
+            "dimension": "extraversion",
+            "label": "برون‌گرایی",
+            "userScore": 50,
+            "targetScore": 35,
+            "contribution": 0.003137775116088198,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "agreeableness",
+            "label": "همکاری",
+            "userScore": 50,
+            "targetScore": 55,
+            "contribution": -0.0026408162579232165,
+            "relationship": "different"
+          },
+          {
+            "dimension": "emotional_stability",
+            "label": "آرامش خودگزارشی در فشار",
+            "userScore": 50,
+            "targetScore": 65,
+            "contribution": -0.005530111944928924,
+            "relationship": "different"
+          },
+          {
+            "dimension": "income",
+            "label": "درآمد",
+            "userScore": 50,
+            "targetScore": 60,
+            "contribution": -0.002269702278570039,
+            "relationship": "different"
+          },
+          {
+            "dimension": "security",
+            "label": "امنیت",
+            "userScore": 50,
+            "targetScore": 80,
+            "contribution": -0.005480030819687492,
+            "relationship": "different"
+          },
+          {
+            "dimension": "freedom",
+            "label": "آزادی عمل",
+            "userScore": 50,
+            "targetScore": 35,
+            "contribution": 0.0017432083978267765,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "impact",
+            "label": "اثرگذاری",
+            "userScore": 50,
+            "targetScore": 60,
+            "contribution": -0.002269702278570039,
+            "relationship": "different"
+          },
+          {
+            "dimension": "growth",
+            "label": "رشد",
+            "userScore": 50,
+            "targetScore": 60,
+            "contribution": -0.002269702278570039,
+            "relationship": "different"
+          },
+          {
+            "dimension": "lifestyle",
+            "label": "سبک زندگی",
+            "userScore": 50,
+            "targetScore": 50,
+            "contribution": -0.0006645380080113127,
             "relationship": "different"
           }
         ],
@@ -2232,23 +4530,23 @@
         "id": "exp-rehab",
         "title": "توانبخشی",
         "rank": 1,
-        "correlation": 0.9777131043616687,
-        "score": 98.88565521808343,
+        "correlation": 0.7909955241516547,
+        "score": 89.54977620758274,
         "contributions": [
           {
             "dimension": "realistic",
             "label": "عملی",
             "userScore": 50,
             "targetScore": 47.66666666666667,
-            "contribution": -0.0012102265395209657,
-            "relationship": "different"
+            "contribution": 0.00541785175172405,
+            "relationship": "shared_lower"
           },
           {
             "dimension": "investigative",
             "label": "پژوهشی",
             "userScore": 100,
             "targetScore": 71.26666666666668,
-            "contribution": 0.23353088225004043,
+            "contribution": 0.16705674744486457,
             "relationship": "shared_higher"
           },
           {
@@ -2256,7 +4554,7 @@
             "label": "خلاق",
             "userScore": 25,
             "targetScore": 23.4,
-            "contribution": 0.18228367878448465,
+            "contribution": 0.17800239353736286,
             "relationship": "shared_lower"
           },
           {
@@ -2264,7 +4562,7 @@
             "label": "یاری‌گر",
             "userScore": 100,
             "targetScore": 80.06666666666666,
-            "contribution": 0.3183538397102705,
+            "contribution": 0.24464501439164263,
             "relationship": "shared_higher"
           },
           {
@@ -2272,7 +4570,7 @@
             "label": "پیش‌برنده",
             "userScore": 25,
             "targetScore": 16.133333333333333,
-            "contribution": 0.2383182385612428,
+            "contribution": 0.22272987789933488,
             "relationship": "shared_lower"
           },
           {
@@ -2280,8 +4578,96 @@
             "label": "ساختارمند",
             "userScore": 50,
             "targetScore": 43.7,
-            "contribution": 0.006436691595151308,
+            "contribution": 0.010036993144424591,
             "relationship": "shared_lower"
+          },
+          {
+            "dimension": "openness",
+            "label": "گشودگی به تجربه",
+            "userScore": 50,
+            "targetScore": 70,
+            "contribution": -0.006353201451684355,
+            "relationship": "different"
+          },
+          {
+            "dimension": "conscientiousness",
+            "label": "نظم و مسئولیت‌پذیری",
+            "userScore": 50,
+            "targetScore": 60,
+            "contribution": -0.0027599197920565657,
+            "relationship": "different"
+          },
+          {
+            "dimension": "extraversion",
+            "label": "برون‌گرایی",
+            "userScore": 50,
+            "targetScore": 45,
+            "contribution": 0.002630002697385119,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "agreeableness",
+            "label": "همکاری",
+            "userScore": 50,
+            "targetScore": 82,
+            "contribution": -0.010665139443237702,
+            "relationship": "different"
+          },
+          {
+            "dimension": "emotional_stability",
+            "label": "آرامش خودگزارشی در فشار",
+            "userScore": 50,
+            "targetScore": 65,
+            "contribution": -0.004556560621870461,
+            "relationship": "different"
+          },
+          {
+            "dimension": "income",
+            "label": "درآمد",
+            "userScore": 50,
+            "targetScore": 55,
+            "contribution": -0.0005351549790237059,
+            "relationship": "different"
+          },
+          {
+            "dimension": "security",
+            "label": "امنیت",
+            "userScore": 50,
+            "targetScore": 60,
+            "contribution": -0.0015332887733647588,
+            "relationship": "different"
+          },
+          {
+            "dimension": "freedom",
+            "label": "آزادی عمل",
+            "userScore": 50,
+            "targetScore": 50,
+            "contribution": 0.00046297881531734685,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "impact",
+            "label": "اثرگذاری",
+            "userScore": 50,
+            "targetScore": 90,
+            "contribution": -0.007522091539411075,
+            "relationship": "different"
+          },
+          {
+            "dimension": "growth",
+            "label": "رشد",
+            "userScore": 50,
+            "targetScore": 80,
+            "contribution": -0.0055258239507289695,
+            "relationship": "different"
+          },
+          {
+            "dimension": "lifestyle",
+            "label": "سبک زندگی",
+            "userScore": 50,
+            "targetScore": 55,
+            "contribution": -0.0005351549790237059,
+            "relationship": "different"
           }
         ],
         "description": "کمک به بازیابی و تقویت توانایی‌های فرد"
@@ -2290,15 +4676,15 @@
         "id": "exp-health",
         "title": "سلامت و درمان",
         "rank": 2,
-        "correlation": 0.9073896815684964,
-        "score": 95.36948407842483,
+        "correlation": 0.7675216709541683,
+        "score": 88.37608354770842,
         "contributions": [
           {
             "dimension": "realistic",
             "label": "عملی",
             "userScore": 50,
             "targetScore": 57.366666666666674,
-            "contribution": -0.017814664912875307,
+            "contribution": -0.005918448835813683,
             "relationship": "different"
           },
           {
@@ -2306,7 +4692,7 @@
             "label": "پژوهشی",
             "userScore": 100,
             "targetScore": 83.4,
-            "contribution": 0.30444876259774495,
+            "contribution": 0.24923563920016267,
             "relationship": "shared_higher"
           },
           {
@@ -2314,7 +4700,7 @@
             "label": "خلاق",
             "userScore": 25,
             "targetScore": 5.133333333333333,
-            "contribution": 0.27444511642869185,
+            "contribution": 0.2550533400751523,
             "relationship": "shared_lower"
           },
           {
@@ -2322,7 +4708,7 @@
             "label": "یاری‌گر",
             "userScore": 100,
             "targetScore": 66.76666666666668,
-            "contribution": 0.1668401280540179,
+            "contribution": 0.11862380979365039,
             "relationship": "shared_higher"
           },
           {
@@ -2330,7 +4716,7 @@
             "label": "پیش‌برنده",
             "userScore": 25,
             "targetScore": 19.2,
-            "contribution": 0.18134556728648288,
+            "contribution": 0.1779416410411114,
             "relationship": "shared_lower"
           },
           {
@@ -2338,8 +4724,96 @@
             "label": "ساختارمند",
             "userScore": 50,
             "targetScore": 47.733333333333334,
-            "contribution": -0.0018752278855658198,
+            "contribution": 0.004072390612493244,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "openness",
+            "label": "گشودگی به تجربه",
+            "userScore": 50,
+            "targetScore": 55,
+            "contribution": -0.0010688766008284624,
             "relationship": "different"
+          },
+          {
+            "dimension": "conscientiousness",
+            "label": "نظم و مسئولیت‌پذیری",
+            "userScore": 50,
+            "targetScore": 80,
+            "contribution": -0.009069449960322882,
+            "relationship": "different"
+          },
+          {
+            "dimension": "extraversion",
+            "label": "برون‌گرایی",
+            "userScore": 50,
+            "targetScore": 50,
+            "contribution": 0.0005312380710704216,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "agreeableness",
+            "label": "همکاری",
+            "userScore": 50,
+            "targetScore": 70,
+            "contribution": -0.0058692206165251145,
+            "relationship": "different"
+          },
+          {
+            "dimension": "emotional_stability",
+            "label": "آرامش خودگزارشی در فشار",
+            "userScore": 50,
+            "targetScore": 60,
+            "contribution": -0.0026689912727273462,
+            "relationship": "different"
+          },
+          {
+            "dimension": "income",
+            "label": "درآمد",
+            "userScore": 50,
+            "targetScore": 70,
+            "contribution": -0.00326067812029173,
+            "relationship": "different"
+          },
+          {
+            "dimension": "security",
+            "label": "امنیت",
+            "userScore": 50,
+            "targetScore": 75,
+            "contribution": -0.00414963071579111,
+            "relationship": "different"
+          },
+          {
+            "dimension": "freedom",
+            "label": "آزادی عمل",
+            "userScore": 50,
+            "targetScore": 40,
+            "contribution": 0.00207303745270455,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "impact",
+            "label": "اثرگذاری",
+            "userScore": 50,
+            "targetScore": 85,
+            "contribution": -0.005927535906789871,
+            "relationship": "different"
+          },
+          {
+            "dimension": "growth",
+            "label": "رشد",
+            "userScore": 50,
+            "targetScore": 70,
+            "contribution": -0.00326067812029173,
+            "relationship": "different"
+          },
+          {
+            "dimension": "lifestyle",
+            "label": "سبک زندگی",
+            "userScore": 50,
+            "targetScore": 45,
+            "contribution": 0.0011840848572051697,
+            "relationship": "shared_lower"
           }
         ],
         "description": "شناخت بدن و ارائه خدمت درمانی"
@@ -2348,15 +4822,15 @@
         "id": "exp-people",
         "title": "انسان و رفتار",
         "rank": 3,
-        "correlation": 0.6239301290616701,
-        "score": 81.1965064530835,
+        "correlation": 0.49012469253599866,
+        "score": 74.50623462679992,
         "contributions": [
           {
             "dimension": "realistic",
             "label": "عملی",
             "userScore": 50,
             "targetScore": 3.4333333333333345,
-            "contribution": 0.077569309303598,
+            "contribution": 0.053296178584493814,
             "relationship": "shared_lower"
           },
           {
@@ -2364,7 +4838,7 @@
             "label": "پژوهشی",
             "userScore": 100,
             "targetScore": 58.93333333333334,
-            "contribution": 0.11698563585526342,
+            "contribution": 0.06164392164687653,
             "relationship": "shared_higher"
           },
           {
@@ -2372,7 +4846,7 @@
             "label": "خلاق",
             "userScore": 25,
             "targetScore": 36.46666666666667,
-            "contribution": 0.06989828575162002,
+            "contribution": 0.08842301329325626,
             "relationship": "shared_lower"
           },
           {
@@ -2380,7 +4854,7 @@
             "label": "یاری‌گر",
             "userScore": 100,
             "targetScore": 85.03333333333333,
-            "contribution": 0.35439320270106356,
+            "contribution": 0.28040054538127807,
             "relationship": "shared_higher"
           },
           {
@@ -2388,7 +4862,7 @@
             "label": "پیش‌برنده",
             "userScore": 25,
             "targetScore": 45,
-            "contribution": 0.007802411307150186,
+            "contribution": 0.038492587499568506,
             "relationship": "shared_lower"
           },
           {
@@ -2396,7 +4870,95 @@
             "label": "ساختارمند",
             "userScore": 50,
             "targetScore": 47.56666666666667,
-            "contribution": -0.0027187158570251336,
+            "contribution": 0.004441112467950683,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "openness",
+            "label": "گشودگی به تجربه",
+            "userScore": 50,
+            "targetScore": 65,
+            "contribution": -0.00458456193463448,
+            "relationship": "different"
+          },
+          {
+            "dimension": "conscientiousness",
+            "label": "نظم و مسئولیت‌پذیری",
+            "userScore": 50,
+            "targetScore": 55,
+            "contribution": -0.00116871354841092,
+            "relationship": "different"
+          },
+          {
+            "dimension": "extraversion",
+            "label": "برون‌گرایی",
+            "userScore": 50,
+            "targetScore": 60,
+            "contribution": -0.0028766377415226996,
+            "relationship": "different"
+          },
+          {
+            "dimension": "agreeableness",
+            "label": "همکاری",
+            "userScore": 50,
+            "targetScore": 88,
+            "contribution": -0.012441013222948667,
+            "relationship": "different"
+          },
+          {
+            "dimension": "emotional_stability",
+            "label": "آرامش خودگزارشی در فشار",
+            "userScore": 50,
+            "targetScore": 60,
+            "contribution": -0.0028766377415226996,
+            "relationship": "different"
+          },
+          {
+            "dimension": "income",
+            "label": "درآمد",
+            "userScore": 50,
+            "targetScore": 45,
+            "contribution": 0.0012484082432292444,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "security",
+            "label": "امنیت",
+            "userScore": 50,
+            "targetScore": 50,
+            "contribution": 0.00029956146927825547,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "freedom",
+            "label": "آزادی عمل",
+            "userScore": 50,
+            "targetScore": 55,
+            "contribution": -0.0006492853046727333,
+            "relationship": "different"
+          },
+          {
+            "dimension": "impact",
+            "label": "اثرگذاری",
+            "userScore": 50,
+            "targetScore": 88,
+            "contribution": -0.00691167401274926,
+            "relationship": "different"
+          },
+          {
+            "dimension": "growth",
+            "label": "رشد",
+            "userScore": 50,
+            "targetScore": 78,
+            "contribution": -0.005013980464847282,
+            "relationship": "different"
+          },
+          {
+            "dimension": "lifestyle",
+            "label": "سبک زندگی",
+            "userScore": 50,
+            "targetScore": 60,
+            "contribution": -0.001598132078623722,
             "relationship": "different"
           }
         ],
@@ -2405,102 +4967,26 @@
     ],
     "topMajors": [
       {
-        "id": "audiology",
-        "title": "شنوایی‌شناسی",
-        "rank": 1,
-        "correlation": 0.9789680265688441,
-        "score": 98.9484013284422,
-        "contributions": [
-          {
-            "dimension": "realistic",
-            "label": "عملی",
-            "userScore": 50,
-            "targetScore": 49.666666666666664,
-            "contribution": -0.0004155212336879645,
-            "relationship": "different"
-          },
-          {
-            "dimension": "investigative",
-            "label": "پژوهشی",
-            "userScore": 100,
-            "targetScore": 82.16666666666667,
-            "contribution": 0.2721664080656167,
-            "relationship": "shared_higher"
-          },
-          {
-            "dimension": "artistic",
-            "label": "خلاق",
-            "userScore": 25,
-            "targetScore": 19.666666666666668,
-            "contribution": 0.19778810723547102,
-            "relationship": "shared_lower"
-          },
-          {
-            "dimension": "social",
-            "label": "یاری‌گر",
-            "userScore": 100,
-            "targetScore": 82,
-            "contribution": 0.27078133728665676,
-            "relationship": "shared_higher"
-          },
-          {
-            "dimension": "enterprising",
-            "label": "پیش‌برنده",
-            "userScore": 25,
-            "targetScore": 13.5,
-            "contribution": 0.23878620229268352,
-            "relationship": "shared_lower"
-          },
-          {
-            "dimension": "conventional",
-            "label": "ساختارمند",
-            "userScore": 50,
-            "targetScore": 49.5,
-            "contribution": -0.0001385070778959921,
-            "relationship": "different"
-          }
-        ],
-        "familyId": "exp-rehab",
-        "kind": "major",
-        "mappingRationale": "نمونه شنوایی‌شناسی.",
-        "occupations": [
-          {
-            "code": "29-1181.00",
-            "title": "Audiologists",
-            "rawInterests": {
-              "realistic": 3.98,
-              "investigative": 5.93,
-              "artistic": 2.18,
-              "social": 5.92,
-              "enterprising": 1.81,
-              "conventional": 3.97
-            },
-            "dateUpdated": "2026-02-01",
-            "domainSource": "Machine Learning/Expert"
-          }
-        ]
-      },
-      {
         "id": "medicine",
         "title": "پزشکی",
-        "rank": 2,
-        "correlation": 0.9779976318421837,
-        "score": 98.89988159210918,
+        "rank": 1,
+        "correlation": 0.8768456921369501,
+        "score": 93.8422846068475,
         "contributions": [
           {
             "dimension": "realistic",
             "label": "عملی",
             "userScore": 50,
             "targetScore": 51.5,
-            "contribution": -0.0016336263338121114,
-            "relationship": "different"
+            "contribution": 0.002646652413779283,
+            "relationship": "shared_lower"
           },
           {
             "dimension": "investigative",
             "label": "پژوهشی",
             "userScore": 100,
             "targetScore": 90.75,
-            "contribution": 0.29314516990072875,
+            "contribution": 0.2606134718549642,
             "relationship": "shared_higher"
           },
           {
@@ -2508,7 +4994,7 @@
             "label": "خلاق",
             "userScore": 25,
             "targetScore": 7.416666666666666,
-            "contribution": 0.24952129632004244,
+            "contribution": 0.23404351454862707,
             "relationship": "shared_lower"
           },
           {
@@ -2516,7 +5002,7 @@
             "label": "یاری‌گر",
             "userScore": 100,
             "targetScore": 85.75,
-            "contribution": 0.2568423624826819,
+            "contribution": 0.2248615722932708,
             "relationship": "shared_higher"
           },
           {
@@ -2524,7 +5010,7 @@
             "label": "پیش‌برنده",
             "userScore": 25,
             "targetScore": 20.333333333333336,
-            "contribution": 0.17449549432274547,
+            "contribution": 0.16956642524475557,
             "relationship": "shared_lower"
           },
           {
@@ -2532,7 +5018,95 @@
             "label": "ساختارمند",
             "userScore": 50,
             "targetScore": 46.5,
-            "contribution": 0.005626935149797273,
+            "contribution": 0.007368601412493481,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "openness",
+            "label": "گشودگی به تجربه",
+            "userScore": 50,
+            "targetScore": 55,
+            "contribution": -0.00020325966747037372,
+            "relationship": "different"
+          },
+          {
+            "dimension": "conscientiousness",
+            "label": "نظم و مسئولیت‌پذیری",
+            "userScore": 50,
+            "targetScore": 80,
+            "contribution": -0.0074885524083437086,
+            "relationship": "different"
+          },
+          {
+            "dimension": "extraversion",
+            "label": "برون‌گرایی",
+            "userScore": 50,
+            "targetScore": 50,
+            "contribution": 0.0012537988807042931,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "agreeableness",
+            "label": "همکاری",
+            "userScore": 50,
+            "targetScore": 70,
+            "contribution": -0.004574435311994375,
+            "relationship": "different"
+          },
+          {
+            "dimension": "emotional_stability",
+            "label": "آرامش خودگزارشی در فشار",
+            "userScore": 50,
+            "targetScore": 60,
+            "contribution": -0.0016603182156450407,
+            "relationship": "different"
+          },
+          {
+            "dimension": "income",
+            "label": "درآمد",
+            "userScore": 50,
+            "targetScore": 70,
+            "contribution": -0.002541352951107986,
+            "relationship": "different"
+          },
+          {
+            "dimension": "security",
+            "label": "امنیت",
+            "userScore": 50,
+            "targetScore": 75,
+            "contribution": -0.003350829922316134,
+            "relationship": "different"
+          },
+          {
+            "dimension": "freedom",
+            "label": "آزادی عمل",
+            "userScore": 50,
+            "targetScore": 40,
+            "contribution": 0.0023155088761409037,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "impact",
+            "label": "اثرگذاری",
+            "userScore": 50,
+            "targetScore": 85,
+            "contribution": -0.004969783864732431,
+            "relationship": "different"
+          },
+          {
+            "dimension": "growth",
+            "label": "رشد",
+            "userScore": 50,
+            "targetScore": 70,
+            "contribution": -0.002541352951107986,
+            "relationship": "different"
+          },
+          {
+            "dimension": "lifestyle",
+            "label": "سبک زندگی",
+            "userScore": 50,
+            "targetScore": 45,
+            "contribution": 0.0015060319049327558,
             "relationship": "shared_lower"
           }
         ],
@@ -2571,75 +5145,163 @@
         ]
       },
       {
-        "id": "physiotherapy",
-        "title": "فیزیوتراپی",
-        "rank": 3,
-        "correlation": 0.9256800978632015,
-        "score": 96.28400489316007,
+        "id": "audiology",
+        "title": "شنوایی‌شناسی",
+        "rank": 2,
+        "correlation": 0.8426347139144904,
+        "score": 92.13173569572453,
         "contributions": [
           {
             "dimension": "realistic",
             "label": "عملی",
             "userScore": 50,
-            "targetScore": 55.5,
-            "contribution": -0.017388343546844078,
-            "relationship": "different"
+            "targetScore": 49.666666666666664,
+            "contribution": 0.004534129113668806,
+            "relationship": "shared_lower"
           },
           {
             "dimension": "investigative",
             "label": "پژوهشی",
             "userScore": 100,
-            "targetScore": 64.5,
-            "contribution": 0.17665227998226932,
+            "targetScore": 82.16666666666667,
+            "contribution": 0.22411807548092447,
             "relationship": "shared_higher"
           },
           {
             "dimension": "artistic",
             "label": "خلاق",
             "userScore": 25,
-            "targetScore": 19.5,
-            "contribution": 0.21752042500638044,
+            "targetScore": 19.666666666666668,
+            "contribution": 0.19051309525032678,
             "relationship": "shared_lower"
           },
           {
             "dimension": "social",
             "label": "یاری‌گر",
             "userScore": 100,
-            "targetScore": 81.83333333333333,
-            "contribution": 0.34942817764517836,
+            "targetScore": 82,
+            "contribution": 0.22279270158246953,
             "relationship": "shared_higher"
           },
           {
             "dimension": "enterprising",
             "label": "پیش‌برنده",
             "userScore": 25,
-            "targetScore": 24.83333333333334,
-            "contribution": 0.17499097327397198,
+            "targetScore": 13.5,
+            "contribution": 0.2247477531179633,
             "relationship": "shared_lower"
           },
           {
             "dimension": "conventional",
             "label": "ساختارمند",
             "userScore": 50,
-            "targetScore": 34.49999999999999,
-            "contribution": 0.02447658550224547,
+            "targetScore": 49.5,
+            "contribution": 0.004709178496483599,
             "relationship": "shared_lower"
+          },
+          {
+            "dimension": "openness",
+            "label": "گشودگی به تجربه",
+            "userScore": 50,
+            "targetScore": 70,
+            "contribution": -0.005190756353404321,
+            "relationship": "different"
+          },
+          {
+            "dimension": "conscientiousness",
+            "label": "نظم و مسئولیت‌پذیری",
+            "userScore": 50,
+            "targetScore": 60,
+            "contribution": -0.0019498420658618247,
+            "relationship": "different"
+          },
+          {
+            "dimension": "extraversion",
+            "label": "برون‌گرایی",
+            "userScore": 50,
+            "targetScore": 45,
+            "contribution": 0.0029115293654519195,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "agreeableness",
+            "label": "همکاری",
+            "userScore": 50,
+            "targetScore": 82,
+            "contribution": -0.009079853498455316,
+            "relationship": "different"
+          },
+          {
+            "dimension": "emotional_stability",
+            "label": "آرامش خودگزارشی در فشار",
+            "userScore": 50,
+            "targetScore": 65,
+            "contribution": -0.003570299209633073,
+            "relationship": "different"
+          },
+          {
+            "dimension": "income",
+            "label": "درآمد",
+            "userScore": 50,
+            "targetScore": 55,
+            "contribution": -0.00018299162338365372,
+            "relationship": "different"
+          },
+          {
+            "dimension": "security",
+            "label": "امنیت",
+            "userScore": 50,
+            "targetScore": 60,
+            "contribution": -0.0010832455921454581,
+            "relationship": "different"
+          },
+          {
+            "dimension": "freedom",
+            "label": "آزادی عمل",
+            "userScore": 50,
+            "targetScore": 50,
+            "contribution": 0.0007172623453781509,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "impact",
+            "label": "اثرگذاری",
+            "userScore": 50,
+            "targetScore": 90,
+            "contribution": -0.006484769404716285,
+            "relationship": "different"
+          },
+          {
+            "dimension": "growth",
+            "label": "رشد",
+            "userScore": 50,
+            "targetScore": 80,
+            "contribution": -0.004684261467192676,
+            "relationship": "different"
+          },
+          {
+            "dimension": "lifestyle",
+            "label": "سبک زندگی",
+            "userScore": 50,
+            "targetScore": 55,
+            "contribution": -0.00018299162338365372,
+            "relationship": "different"
           }
         ],
         "familyId": "exp-rehab",
         "kind": "major",
-        "mappingRationale": "نمونه فیزیوتراپی.",
+        "mappingRationale": "نمونه شنوایی‌شناسی.",
         "occupations": [
           {
-            "code": "29-1123.00",
-            "title": "Physical Therapists",
+            "code": "29-1181.00",
+            "title": "Audiologists",
             "rawInterests": {
-              "realistic": 4.33,
-              "investigative": 4.87,
-              "artistic": 2.17,
-              "social": 5.91,
-              "enterprising": 2.49,
-              "conventional": 3.07
+              "realistic": 3.98,
+              "investigative": 5.93,
+              "artistic": 2.18,
+              "social": 5.92,
+              "enterprising": 1.81,
+              "conventional": 3.97
             },
             "dateUpdated": "2026-02-01",
             "domainSource": "Machine Learning/Expert"
@@ -2649,16 +5311,16 @@
       {
         "id": "speech-therapy",
         "title": "گفتاردرمانی",
-        "rank": 4,
-        "correlation": 0.9235173776211558,
-        "score": 96.1758688810578,
+        "rank": 3,
+        "correlation": 0.775180566437024,
+        "score": 88.7590283218512,
         "contributions": [
           {
             "dimension": "realistic",
             "label": "عملی",
             "userScore": 50,
             "targetScore": 27,
-            "contribution": 0.03192843102526175,
+            "contribution": 0.025448968901626966,
             "relationship": "shared_lower"
           },
           {
@@ -2666,7 +5328,7 @@
             "label": "پژوهشی",
             "userScore": 100,
             "targetScore": 76.16666666666667,
-            "contribution": 0.24230182008502352,
+            "contribution": 0.18684753883963048,
             "relationship": "shared_higher"
           },
           {
@@ -2674,7 +5336,7 @@
             "label": "خلاق",
             "userScore": 25,
             "targetScore": 33.333333333333336,
-            "contribution": 0.08629305682503172,
+            "contribution": 0.10038596119398474,
             "relationship": "shared_lower"
           },
           {
@@ -2682,7 +5344,7 @@
             "label": "یاری‌گر",
             "userScore": 100,
             "targetScore": 84.83333333333333,
-            "contribution": 0.31315296147820737,
+            "contribution": 0.2537481986122744,
             "relationship": "shared_higher"
           },
           {
@@ -2690,7 +5352,7 @@
             "label": "پیش‌برنده",
             "userScore": 25,
             "targetScore": 7.333333333333332,
-            "contribution": 0.25633579616867336,
+            "contribution": 0.24049866373669168,
             "relationship": "shared_lower"
           },
           {
@@ -2698,7 +5360,95 @@
             "label": "ساختارمند",
             "userScore": 50,
             "targetScore": 50.5,
-            "contribution": -0.006494687961041877,
+            "contribution": 0.0014899880614240486,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "openness",
+            "label": "گشودگی به تجربه",
+            "userScore": 50,
+            "targetScore": 70,
+            "contribution": -0.005674896528823479,
+            "relationship": "different"
+          },
+          {
+            "dimension": "conscientiousness",
+            "label": "نظم و مسئولیت‌پذیری",
+            "userScore": 50,
+            "targetScore": 60,
+            "contribution": -0.002528914850109904,
+            "relationship": "different"
+          },
+          {
+            "dimension": "extraversion",
+            "label": "برون‌گرایی",
+            "userScore": 50,
+            "targetScore": 45,
+            "contribution": 0.0021900576679604582,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "agreeableness",
+            "label": "همکاری",
+            "userScore": 50,
+            "targetScore": 82,
+            "contribution": -0.00945007454327977,
+            "relationship": "different"
+          },
+          {
+            "dimension": "emotional_stability",
+            "label": "آرامش خودگزارشی در فشار",
+            "userScore": 50,
+            "targetScore": 65,
+            "contribution": -0.004101905689466692,
+            "relationship": "different"
+          },
+          {
+            "dimension": "income",
+            "label": "درآمد",
+            "userScore": 50,
+            "targetScore": 55,
+            "contribution": -0.0005310688948628427,
+            "relationship": "different"
+          },
+          {
+            "dimension": "security",
+            "label": "امنیت",
+            "userScore": 50,
+            "targetScore": 60,
+            "contribution": -0.0014049526945055025,
+            "relationship": "different"
+          },
+          {
+            "dimension": "freedom",
+            "label": "آزادی عمل",
+            "userScore": 50,
+            "targetScore": 50,
+            "contribution": 0.0003428149047798172,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "impact",
+            "label": "اثرگذاری",
+            "userScore": 50,
+            "targetScore": 90,
+            "contribution": -0.006648255492361461,
+            "relationship": "different"
+          },
+          {
+            "dimension": "growth",
+            "label": "رشد",
+            "userScore": 50,
+            "targetScore": 80,
+            "contribution": -0.004900487893076142,
+            "relationship": "different"
+          },
+          {
+            "dimension": "lifestyle",
+            "label": "سبک زندگی",
+            "userScore": 50,
+            "targetScore": 55,
+            "contribution": -0.0005310688948628427,
             "relationship": "different"
           }
         ],
@@ -2725,16 +5475,16 @@
       {
         "id": "optometry",
         "title": "بینایی‌سنجی",
-        "rank": 5,
-        "correlation": 0.8834251309529333,
-        "score": 94.17125654764666,
+        "rank": 4,
+        "correlation": 0.7363175130664269,
+        "score": 86.81587565332134,
         "contributions": [
           {
             "dimension": "realistic",
             "label": "عملی",
             "userScore": 50,
             "targetScore": 63.333333333333336,
-            "contribution": -0.026730033324694483,
+            "contribution": -0.011171206956805787,
             "relationship": "different"
           },
           {
@@ -2742,7 +5492,7 @@
             "label": "پژوهشی",
             "userScore": 100,
             "targetScore": 79.66666666666667,
-            "contribution": 0.2789113458741225,
+            "contribution": 0.2209940918462158,
             "relationship": "shared_higher"
           },
           {
@@ -2750,7 +5500,7 @@
             "label": "خلاق",
             "userScore": 25,
             "targetScore": 10.000000000000002,
-            "contribution": 0.27253764107026734,
+            "contribution": 0.25191084031394784,
             "relationship": "shared_lower"
           },
           {
@@ -2758,7 +5508,7 @@
             "label": "یاری‌گر",
             "userScore": 100,
             "targetScore": 66.99999999999999,
-            "contribution": 0.16625981910831203,
+            "contribution": 0.11520511919290244,
             "relationship": "shared_higher"
           },
           {
@@ -2766,7 +5516,7 @@
             "label": "پیش‌برنده",
             "userScore": 25,
             "targetScore": 21.166666666666668,
-            "contribution": 0.1930886695617485,
+            "contribution": 0.18680387328128573,
             "relationship": "shared_lower"
           },
           {
@@ -2774,7 +5524,95 @@
             "label": "ساختارمند",
             "userScore": 50,
             "targetScore": 48.666666666666664,
-            "contribution": -0.0006423113368226084,
+            "contribution": 0.005007047053730616,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "openness",
+            "label": "گشودگی به تجربه",
+            "userScore": 50,
+            "targetScore": 70,
+            "contribution": -0.005716272994902578,
+            "relationship": "different"
+          },
+          {
+            "dimension": "conscientiousness",
+            "label": "نظم و مسئولیت‌پذیری",
+            "userScore": 50,
+            "targetScore": 60,
+            "contribution": -0.002312536436841674,
+            "relationship": "different"
+          },
+          {
+            "dimension": "extraversion",
+            "label": "برون‌گرایی",
+            "userScore": 50,
+            "targetScore": 45,
+            "contribution": 0.002793068400249683,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "agreeableness",
+            "label": "همکاری",
+            "userScore": 50,
+            "targetScore": 82,
+            "contribution": -0.009800756864575665,
+            "relationship": "different"
+          },
+          {
+            "dimension": "emotional_stability",
+            "label": "آرامش خودگزارشی در فشار",
+            "userScore": 50,
+            "targetScore": 65,
+            "contribution": -0.004014404715872126,
+            "relationship": "different"
+          },
+          {
+            "dimension": "income",
+            "label": "درآمد",
+            "userScore": 50,
+            "targetScore": 55,
+            "contribution": -0.000339260087672901,
+            "relationship": "different"
+          },
+          {
+            "dimension": "security",
+            "label": "امنیت",
+            "userScore": 50,
+            "targetScore": 60,
+            "contribution": -0.0012847424649120411,
+            "relationship": "different"
+          },
+          {
+            "dimension": "freedom",
+            "label": "آزادی عمل",
+            "userScore": 50,
+            "targetScore": 50,
+            "contribution": 0.0006062222895662393,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "impact",
+            "label": "اثرگذاری",
+            "userScore": 50,
+            "targetScore": 90,
+            "contribution": -0.006957636728346882,
+            "relationship": "different"
+          },
+          {
+            "dimension": "growth",
+            "label": "رشد",
+            "userScore": 50,
+            "targetScore": 80,
+            "contribution": -0.005066671973868601,
+            "relationship": "different"
+          },
+          {
+            "dimension": "lifestyle",
+            "label": "سبک زندگی",
+            "userScore": 50,
+            "targetScore": 55,
+            "contribution": -0.000339260087672901,
             "relationship": "different"
           }
         ],
@@ -2797,6 +5635,170 @@
             "domainSource": "Machine Learning/Expert"
           }
         ]
+      },
+      {
+        "id": "physiotherapy",
+        "title": "فیزیوتراپی",
+        "rank": 5,
+        "correlation": 0.7358573902626416,
+        "score": 86.79286951313208,
+        "contributions": [
+          {
+            "dimension": "realistic",
+            "label": "عملی",
+            "userScore": 50,
+            "targetScore": 55.5,
+            "contribution": -0.004008891443360576,
+            "relationship": "different"
+          },
+          {
+            "dimension": "investigative",
+            "label": "پژوهشی",
+            "userScore": 100,
+            "targetScore": 64.5,
+            "contribution": 0.11156986437414017,
+            "relationship": "shared_higher"
+          },
+          {
+            "dimension": "artistic",
+            "label": "خلاق",
+            "userScore": 25,
+            "targetScore": 19.5,
+            "contribution": 0.20560430967509016,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "social",
+            "label": "یاری‌گر",
+            "userScore": 100,
+            "targetScore": 81.83333333333333,
+            "contribution": 0.2679874612751201,
+            "relationship": "shared_higher"
+          },
+          {
+            "dimension": "enterprising",
+            "label": "پیش‌برنده",
+            "userScore": 25,
+            "targetScore": 24.83333333333334,
+            "contribution": 0.1720051742014399,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "conventional",
+            "label": "ساختارمند",
+            "userScore": 50,
+            "targetScore": 34.49999999999999,
+            "contribution": 0.02102019427265243,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "openness",
+            "label": "گشودگی به تجربه",
+            "userScore": 50,
+            "targetScore": 70,
+            "contribution": -0.006569757010179339,
+            "relationship": "different"
+          },
+          {
+            "dimension": "conscientiousness",
+            "label": "نظم و مسئولیت‌پذیری",
+            "userScore": 50,
+            "targetScore": 60,
+            "contribution": -0.0028920138029284496,
+            "relationship": "different"
+          },
+          {
+            "dimension": "extraversion",
+            "label": "برون‌گرایی",
+            "userScore": 50,
+            "targetScore": 45,
+            "contribution": 0.0026246010079478844,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "agreeableness",
+            "label": "همکاری",
+            "userScore": 50,
+            "targetScore": 82,
+            "contribution": -0.010983048858880406,
+            "relationship": "different"
+          },
+          {
+            "dimension": "emotional_stability",
+            "label": "آرامش خودگزارشی در فشار",
+            "userScore": 50,
+            "targetScore": 65,
+            "contribution": -0.0047308854065538945,
+            "relationship": "different"
+          },
+          {
+            "dimension": "income",
+            "label": "درآمد",
+            "userScore": 50,
+            "targetScore": 55,
+            "contribution": -0.0005850789996127805,
+            "relationship": "different"
+          },
+          {
+            "dimension": "security",
+            "label": "امنیت",
+            "userScore": 50,
+            "targetScore": 60,
+            "contribution": -0.0016066743349602499,
+            "relationship": "different"
+          },
+          {
+            "dimension": "freedom",
+            "label": "آزادی عمل",
+            "userScore": 50,
+            "targetScore": 50,
+            "contribution": 0.00043651633573468877,
+            "relationship": "shared_lower"
+          },
+          {
+            "dimension": "impact",
+            "label": "اثرگذاری",
+            "userScore": 50,
+            "targetScore": 90,
+            "contribution": -0.007736246347045066,
+            "relationship": "different"
+          },
+          {
+            "dimension": "growth",
+            "label": "رشد",
+            "userScore": 50,
+            "targetScore": 80,
+            "contribution": -0.005693055676350127,
+            "relationship": "different"
+          },
+          {
+            "dimension": "lifestyle",
+            "label": "سبک زندگی",
+            "userScore": 50,
+            "targetScore": 55,
+            "contribution": -0.0005850789996127805,
+            "relationship": "different"
+          }
+        ],
+        "familyId": "exp-rehab",
+        "kind": "major",
+        "mappingRationale": "نمونه فیزیوتراپی.",
+        "occupations": [
+          {
+            "code": "29-1123.00",
+            "title": "Physical Therapists",
+            "rawInterests": {
+              "realistic": 4.33,
+              "investigative": 4.87,
+              "artistic": 2.17,
+              "social": 5.91,
+              "enterprising": 2.49,
+              "conventional": 3.07
+            },
+            "dateUpdated": "2026-02-01",
+            "domainSource": "Machine Learning/Expert"
+          }
+        ]
       }
     ],
     "explanations": {
@@ -2811,9 +5813,9 @@
     "method": {
       "id": "riasec_profile_correlation_v1",
       "sectionWeights": {
-        "riasec": 1,
-        "personality": 0,
-        "values": 0,
+        "riasec": 0.7,
+        "personality": 0.18,
+        "values": 0.12,
         "abilities": 0,
         "workstyle": 0
       },
@@ -2823,7 +5825,18 @@
         "artistic": 1,
         "social": 1,
         "enterprising": 1,
-        "conventional": 1
+        "conventional": 1,
+        "openness": 1,
+        "conscientiousness": 1,
+        "extraversion": 1,
+        "agreeableness": 1,
+        "emotional_stability": 1,
+        "income": 1,
+        "security": 1,
+        "freedom": 1,
+        "impact": 1,
+        "growth": 1,
+        "lifestyle": 1
       },
       "scoreMeaning": "شاخص شباهت الگوی رغبت از ۰ تا ۱۰۰؛ احتمال قبولی، موفقیت یا درصد استعداد نیست."
     },
@@ -2849,88 +5862,94 @@
       "tiedMajorBoundary": false
     },
     "sensitivity": {
-      "scenarioCount": 42,
-      "answerScenarioCount": 30,
-      "weightScenarioCount": 12,
+      "scenarioCount": 128,
+      "answerScenarioCount": 94,
+      "weightScenarioCount": 34,
       "unrankableScenarios": 0,
       "familyRanges": [
         {
           "id": "exp-rehab",
           "minRank": 1,
-          "maxRank": 1,
-          "selectedCount": 42
+          "maxRank": 2,
+          "selectedCount": 128
         },
         {
           "id": "exp-health",
-          "minRank": 2,
+          "minRank": 1,
           "maxRank": 2,
-          "selectedCount": 42
+          "selectedCount": 128
         },
         {
           "id": "exp-people",
           "minRank": 3,
           "maxRank": 5,
-          "selectedCount": 32
+          "selectedCount": 103
         },
         {
           "id": "exp-bio",
           "minRank": 3,
           "maxRank": 5,
-          "selectedCount": 7
+          "selectedCount": 19
         },
         {
           "id": "exp-clinical",
           "minRank": 3,
           "maxRank": 5,
-          "selectedCount": 3
+          "selectedCount": 6
         }
       ],
       "majorRanges": [
         {
-          "id": "audiology",
-          "minRank": 1,
-          "maxRank": 2,
-          "selectedCount": 42
-        },
-        {
           "id": "medicine",
           "minRank": 1,
-          "maxRank": 2,
-          "selectedCount": 42
+          "maxRank": 1,
+          "selectedCount": 128
         },
         {
-          "id": "physiotherapy",
-          "minRank": 3,
-          "maxRank": 5,
-          "selectedCount": 42
+          "id": "audiology",
+          "minRank": 2,
+          "maxRank": 2,
+          "selectedCount": 128
         },
         {
           "id": "speech-therapy",
           "minRank": 3,
-          "maxRank": 6,
-          "selectedCount": 39
+          "maxRank": 5,
+          "selectedCount": 128
         },
         {
           "id": "optometry",
+          "minRank": 3,
+          "maxRank": 6,
+          "selectedCount": 125
+        },
+        {
+          "id": "physiotherapy",
           "minRank": 4,
-          "maxRank": 7,
-          "selectedCount": 24
+          "maxRank": 6,
+          "selectedCount": 122
         },
         {
           "id": "pharmacy",
           "minRank": 4,
-          "maxRank": 7,
-          "selectedCount": 15
+          "maxRank": 6,
+          "selectedCount": 9
         },
         {
           "id": "occupational-therapy",
-          "minRank": 5,
-          "maxRank": 7,
-          "selectedCount": 6
+          "minRank": 7,
+          "maxRank": 10,
+          "selectedCount": 0
         },
         {
           "id": "dentistry",
-          "minRank": 8,
+          "minRank": 7,
+          "maxRank": 10,
+          "selectedCount": 0
+        },
+        {
+          "id": "anesthesia",
+          "minRank": 7,
           "maxRank": 10,
           "selectedCount": 0
         },
@@ -2941,27 +5960,27 @@
           "selectedCount": 0
         },
         {
-          "id": "anesthesia",
-          "minRank": 9,
-          "maxRank": 11,
-          "selectedCount": 0
-        },
-        {
-          "id": "psychology",
-          "minRank": 9,
-          "maxRank": 12,
-          "selectedCount": 0
-        },
-        {
           "id": "veterinary",
           "minRank": 11,
           "maxRank": 13,
           "selectedCount": 0
         },
         {
+          "id": "psychology",
+          "minRank": 11,
+          "maxRank": 15,
+          "selectedCount": 0
+        },
+        {
           "id": "counseling",
+          "minRank": 11,
+          "maxRank": 18,
+          "selectedCount": 0
+        },
+        {
+          "id": "laboratory-sciences",
           "minRank": 12,
-          "maxRank": 17,
+          "maxRank": 15,
           "selectedCount": 0
         },
         {
@@ -2971,33 +5990,27 @@
           "selectedCount": 0
         },
         {
-          "id": "laboratory-sciences",
+          "id": "microbiology",
           "minRank": 14,
           "maxRank": 17,
           "selectedCount": 0
         },
         {
-          "id": "microbiology",
-          "minRank": 13,
-          "maxRank": 17,
+          "id": "biology",
+          "minRank": 15,
+          "maxRank": 18,
           "selectedCount": 0
         },
         {
-          "id": "biology",
-          "minRank": 16,
-          "maxRank": 18,
+          "id": "biotechnology",
+          "minRank": 17,
+          "maxRank": 19,
           "selectedCount": 0
         },
         {
           "id": "educational-sciences",
           "minRank": 14,
           "maxRank": 21,
-          "selectedCount": 0
-        },
-        {
-          "id": "biotechnology",
-          "minRank": 18,
-          "maxRank": 20,
           "selectedCount": 0
         },
         {

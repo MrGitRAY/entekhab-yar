@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "catalogVersion": "0.3.0-pilot",
+  "catalogVersion": "0.2.0-pilot",
   "status": "pilot",
   "audiences": {
     "student": {
@@ -31,7 +31,7 @@
     }
   },
   "labels": {
-    "matchScore": "شباهت الگوی رغبت، شخصیت و ارزش‌ها",
+    "matchScore": "شباهت الگوی رغبت",
     "strengths": "رغبت‌های همسو",
     "reviewPoints": "مواردی برای بررسی",
     "why": "چرا پیشنهاد شده"

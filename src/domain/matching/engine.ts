@@ -29,7 +29,17 @@ export function scoreResponses(catalog: Catalog, group: ExamGroup, answers: Reco
   }));
 }
 
-// Weighted Pearson correlation; equal weights are the production baseline.
+const rankedSections = new Set(["riasec", "personality", "values"]);
+function rankedAxes(catalog: Catalog) {
+  return catalog.scoring.dimensions.filter((dimension) => rankedSections.has(dimension.section) && (catalog.scoring.sectionWeights[dimension.section] ?? 0) > 0 && (catalog.scoring.dimensionWeights[dimension.id] ?? 0) > 0);
+}
+
+function targetScore(item: { interestProfile: Record<string, number>; selfReportProfile: Record<string, number> }, axis: { id: string; section: string }) {
+  return axis.section === "riasec" ? item.interestProfile[axis.id] : item.selfReportProfile[axis.id];
+}
+
+// Weighted Pearson correlation. Section weights are the product decision for
+// this pilot; dimensions within each included section remain equal.
 // Per-axis terms sum to r. They are contributions, not causal explanations.
 export function profileCorrelation(x: number[], y: number[], weights = x.map(() => 1)) {
   if (x.length < 2 || x.length !== y.length || x.length !== weights.length || [...x, ...y, ...weights].some(v => !Number.isFinite(v)) || weights.some(w => w <= 0)) throw new Error("Invalid correlation vectors");
@@ -44,12 +54,16 @@ export function profileCorrelation(x: number[], y: number[], weights = x.map(() 
 }
 
 function rank(catalog: Catalog, group: ExamGroup, profile: Record<string, DimensionScore>, weights: Record<string, number>) {
-  const x = interestAxes.map(a => profile[a].score);
-  function candidate(item: { id: string; title: string; interestProfile: Record<string, number> }): Ranking {
-    const y = interestAxes.map(a => item.interestProfile[a]);
-    const { correlation, terms, mx, my } = profileCorrelation(x, y, interestAxes.map(a => weights[a]));
+  const axes = rankedAxes(catalog);
+  const x = axes.map((axis) => profile[axis.id].score);
+  function candidate(item: { id: string; title: string; interestProfile: Record<string, number>; selfReportProfile: Record<string, number> }): Ranking {
+    const y = axes.map((axis) => targetScore(item, axis));
+    const sectionCounts = new Map<string, number>();
+    for (const axis of axes) sectionCounts.set(axis.section, (sectionCounts.get(axis.section) ?? 0) + 1);
+    const axisWeights = axes.map((axis) => ((catalog.scoring.sectionWeights[axis.section] ?? 0) / (sectionCounts.get(axis.section) ?? 1)) * (weights[axis.id] ?? 1));
+    const { correlation, terms, mx, my } = profileCorrelation(x, y, axisWeights);
     return { id: item.id, title: item.title, rank: null, correlation, score: correlation === null ? null : 50 * (correlation + 1),
-      contributions: interestAxes.map((a, i) => ({ dimension: a, label: profile[a].label, userScore: x[i], targetScore: y[i], contribution: terms[i],
+      contributions: axes.map((axis, i) => ({ dimension: axis.id, label: profile[axis.id].label, userScore: x[i], targetScore: y[i], contribution: terms[i],
         relationship: Math.abs(terms[i]) < EPSILON ? "neutral" : terms[i] < 0 ? "different" : x[i] > mx && y[i] > my ? "shared_higher" : "shared_lower" })) };
   }
   function sort(items: Ranking[]) {
@@ -70,16 +84,18 @@ export function evaluate(catalog: Catalog, group: ExamGroup, answers: Record<str
   const profile = scoreResponses(catalog, group, answers);
   const ranked = rank(catalog, group, profile, catalog.scoring.dimensionWeights);
   const { eligible, ...rankings } = ranked;
-  const range = Math.max(...interestAxes.map(a => profile[a].score)) - Math.min(...interestAxes.map(a => profile[a].score));
-  const flat = ranked.topFamilies.length === 0;
+  const interestRange = Math.max(...interestAxes.map(a => profile[a].score)) - Math.min(...interestAxes.map(a => profile[a].score));
+  const axes = rankedAxes(catalog);
+  const range = Math.max(...axes.map((axis) => profile[axis.id].score)) - Math.min(...axes.map((axis) => profile[axis.id].score));
+  const flat = ranked.topFamilies.length === 0 || range < EPSILON;
   const tied = (items: Ranking[], cut: number) => items.length > cut && items[cut - 1].score !== null && Math.abs(items[cut - 1].score! - items[cut].score!) <= EPSILON;
   const notices = [
     "پرسش‌نامه فارسی هنوز روی دانش‌آموزان ایرانی اعتبارسنجی نشده است؛ نتیجه برای بررسی مسیرهاست.",
     "داده‌های هدف از شغل‌های نمونه در آمریکا آمده‌اند. نگاشت آن‌ها به رشته‌های این فهرست نیازمند بازبینی متخصص است.",
     "گروه و عنوان‌های رشته‌ها فهرست اکتشافی محصول‌اند؛ مجاز بودن پذیرش باید با دفترچه رسمی همان سال بررسی شود.",
   ];
-  if (flat) notices.unshift("شش رغبت امتیاز یکسان دارند؛ رتبه‌بندی معنادار نیست و پیشنهادی به عنوان برتر نمایش داده نمی‌شود.");
-  else if (range < 25) notices.unshift("فاصله بین رغبت‌ها کم است؛ تغییر اندک پاسخ‌ها ممکن است ترتیب مسیرها را عوض کند. تحلیل حساسیت را ببینید.");
+  if (flat) notices.unshift("محورهای واردشده به رتبه‌بندی امتیاز یکسان دارند؛ رتبه‌بندی معنادار نیست و پیشنهادی به عنوان برتر نمایش داده نمی‌شود.");
+  else if (interestRange < 25) notices.unshift("فاصله بین رغبت‌ها کم است؛ تغییر اندک پاسخ‌ها ممکن است ترتیب مسیرها را عوض کند. تحلیل حساسیت را ببینید.");
   const uniformResponses = new Set(Object.values(answers)).size === 1;
   if (uniformResponses) notices.push("همه گزینه‌های انتخاب‌شده یکسان‌اند؛ اگر قصدت این نبوده پاسخ‌ها را در یک آزمون تازه بازبینی کن. این الگو به‌تنهایی نشانه بی‌دقتی نیست.");
   const tiedFamilyBoundary = tied(ranked.familyRanking, 3), tiedMajorBoundary = tied(eligible, 5);
@@ -98,13 +114,13 @@ export function evaluate(catalog: Catalog, group: ExamGroup, answers: Record<str
         for (const r of list) { const v = map.get(r.id)!; v.minRank = Math.min(v.minRank, r.rank!); v.maxRank = Math.max(v.maxRank, r.rank!); if (selected.some(x => x.id === r.id)) v.selectedCount++; }
       }
     }
-    for (const q of catalog.questions.items.filter(q => q.groups.includes(group) && q.section === "riasec")) {
+    for (const q of catalog.questions.items.filter(q => q.groups.includes(group) && rankedSections.has(q.section))) {
       for (const delta of [-1, 1]) {
         const value = answers[q.id] + delta * catalog.scoring.sensitivity.answerStep;
         if (value >= 1 && value <= 5) scenario(scoreResponses(catalog, group, { ...answers, [q.id]: value }), catalog.scoring.dimensionWeights, "answer");
       }
     }
-    for (const axis of interestAxes) for (const sign of [-1, 1]) scenario(profile, { ...catalog.scoring.dimensionWeights, [axis]: 1 + sign * catalog.scoring.sensitivity.dimensionWeightRelativeChange }, "weight");
+    for (const axis of axes) for (const sign of [-1, 1]) scenario(profile, { ...catalog.scoring.dimensionWeights, [axis.id]: 1 + sign * catalog.scoring.sensitivity.dimensionWeightRelativeChange }, "weight");
     sensitivity.familyRanges = [...familyMap.values()]; sensitivity.majorRanges = [...majorMap.values()];
   }
   const highest = Math.max(...interestAxes.map(a => profile[a].score));
@@ -116,6 +132,6 @@ export function evaluate(catalog: Catalog, group: ExamGroup, answers: Record<str
       interpretation: catalog.report_templates.audiences.student.disclaimer, notices },
     method: { id: catalog.scoring.method, sectionWeights: { ...catalog.scoring.sectionWeights }, dimensionWeights: { ...catalog.scoring.dimensionWeights }, scoreMeaning: catalog.scoring.scoreMeaning },
     evidence: { status: "unvalidated_pilot", source: structuredClone(catalog.majors.profileSource), questionnaire: "authored_fa_unvalidated", crosswalk: "editorial_pending_expert_review", admission: "unverified" },
-    quality: { uniformResponses, interestRange: range, tiedFamilyBoundary, tiedMajorBoundary }, sensitivity,
+    quality: { uniformResponses, interestRange, tiedFamilyBoundary, tiedMajorBoundary }, sensitivity,
   };
 }

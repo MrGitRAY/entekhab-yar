@@ -19,7 +19,7 @@ if (PGlite) test('real engine snapshots: authorization, atomic completion, retri
       create schema auth; create table auth.users(id uuid primary key);
       create function auth.uid() returns uuid language sql stable as $$ select nullif(current_setting('request.jwt.claim.sub', true), '')::uuid $$;
       grant usage on schema public, auth to anon, authenticated, service_role;`);
-    for (const file of ['supabase/migrations/202609270001_initial_catalog_and_attempts.sql', 'supabase/migrations/202609270002_matching_snapshot.sql', 'supabase/seed.sql']) {
+    for (const file of ['supabase/migrations/202609270001_initial_catalog_and_attempts.sql', 'supabase/migrations/202609270002_matching_snapshot.sql', 'supabase/migrations/202610040001_catalog_030_question_count.sql', 'supabase/seed.sql']) {
       try { await db.exec(await readFile(new URL(`../${file}`, import.meta.url), 'utf8')); }
       catch (e) { console.error({ file, message: e.message, position: e.position, internalPosition: e.internalPosition, where: e.where }); throw e; }
     }
