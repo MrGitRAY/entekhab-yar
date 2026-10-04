@@ -11,27 +11,31 @@ Font.register({ family: "Vazirmatn", fonts: [{ src: path.join(fontRoot, "Vazirma
 
 const styles = StyleSheet.create({
   page: { padding: 38, fontFamily: "Vazirmatn", fontSize: 9.5, color: "#26301c", direction: "rtl", textAlign: "right", lineHeight: 1.55, backgroundColor: "#fbfcf7" },
-  header: { flexDirection: "row-reverse", alignItems: "center", justifyContent: "space-between", paddingBottom: 12, borderBottom: "1.5 solid #687c2b", marginBottom: 14 },
+  header: { flexDirection: "row-reverse", alignItems: "center", paddingBottom: 12, borderBottom: "1.5 solid #687c2b", marginBottom: 14 },
   logo: { width: 52, height: 52, objectFit: "contain", marginLeft: 12 },
+  identity: { width: "55%", flexDirection: "row-reverse", alignItems: "center", textAlign: "right" },
   brandBlock: { flexGrow: 1, textAlign: "right" },
-  brand: { fontSize: 21, fontWeight: 700, color: "#526522", textAlign: "right" },
+  brand: { fontSize: 21, fontWeight: 700, color: "#526522", textAlign: "right", marginBottom: 2 },
   center: { fontSize: 9, color: "#68745a", textAlign: "right" },
-  reportName: { fontSize: 11, fontWeight: 700, color: "#26301c", textAlign: "left" },
-  student: { fontSize: 10, color: "#68745a", textAlign: "left" },
+  headerMeta: { width: "45%", textAlign: "right" },
+  reportName: { fontSize: 11, fontWeight: 700, color: "#26301c", textAlign: "right", marginBottom: 3 },
+  student: { fontSize: 10, color: "#68745a", textAlign: "right" },
   card: { marginBottom: 11, padding: 12, borderRadius: 10, border: "1 solid #dfe6c9", backgroundColor: "#f5f7ed" },
   cardTitle: { marginBottom: 8, fontSize: 12, fontWeight: 700, color: "#526522", textAlign: "right" },
-  lead: { marginBottom: 11, padding: 11, borderRadius: 8, backgroundColor: "#e9efcf", color: "#465527", textAlign: "right", lineHeight: 1.8 },
+  lead: { marginBottom: 11, padding: 10, borderRadius: 8, backgroundColor: "#e9efcf", color: "#465527", textAlign: "right", lineHeight: 1.7 },
   interestGrid: { flexDirection: "row-reverse", flexWrap: "wrap" },
-  interestItem: { width: "32.4%", marginLeft: "1.2%", marginBottom: 6, padding: 7, borderRadius: 7, backgroundColor: "#ffffff", border: "1 solid #e3e8d6" },
+  interestItem: { width: "33%", marginBottom: 5, padding: 6, borderRadius: 7, backgroundColor: "#ffffff", border: "1 solid #e3e8d6" },
   itemTop: { flexDirection: "row-reverse", justifyContent: "space-between", alignItems: "center", marginBottom: 4 },
   itemLabel: { fontSize: 9, fontWeight: 700, color: "#354321" },
   itemScore: { fontSize: 9, fontWeight: 700, color: "#697d2b" },
   bar: { height: 5, borderRadius: 4, backgroundColor: "#e3e8d6", overflow: "hidden" },
   barFill: { height: 5, borderRadius: 4, backgroundColor: "#71852f" },
   tiny: { marginTop: 3, fontSize: 7.5, color: "#7b846f", textAlign: "right" },
-  category: { marginBottom: 8, paddingBottom: 6, borderBottom: "1 solid #e3e8d6" },
+  axisGrid: { flexDirection: "row-reverse", flexWrap: "wrap", justifyContent: "space-between" },
+  category: { width: "49%", marginBottom: 7, padding: 7, borderRadius: 7, backgroundColor: "#ffffff", border: "1 solid #e3e8d6" },
+  categoryWide: { width: "100%" },
   categoryTitle: { marginBottom: 4, fontSize: 9.5, fontWeight: 700, color: "#526522" },
-  axisRow: { flexDirection: "row-reverse", justifyContent: "space-between", alignItems: "center", paddingVertical: 3 },
+  axisRow: { flexDirection: "row-reverse", justifyContent: "space-between", alignItems: "center", paddingVertical: 2.5 },
   axisLabel: { flexGrow: 1, textAlign: "right" },
   axisValue: { width: 72, fontWeight: 700, color: "#61742a", textAlign: "left" },
   familyCard: { marginBottom: 8, padding: 9, borderRadius: 8, backgroundColor: "#ffffff", border: "1 solid #dfe6c9" },
@@ -62,7 +66,7 @@ function InterestMap({ items }: { items: DimensionScore[] }) {
 
 function AxisGroups({ profile }: { profile: Record<string, DimensionScore> }) {
   const groups: [string, string][] = [["رغبت‌ها", "riasec"], ["ویژگی‌های فردی خودگزارشی", "personality"], ["ارزش‌ها", "values"], ["توانایی‌های خودگزارشی", "abilities"], ["سبک کار", "workstyle"]];
-  return <View>{groups.map(([title, section]) => { const items = Object.values(profile).filter((item) => item.section === section); if (!items.length) return null; return <View style={styles.category} key={section} wrap={false}><Text style={styles.categoryTitle}>{title}</Text>{items.map((item) => <View style={styles.axisRow} key={item.label}><Text style={styles.axisLabel}>{item.label}</Text><Text style={styles.axisValue}>{fa(item.score)} از ۱۰۰</Text></View>)}</View>; })}</View>;
+  return <View style={styles.axisGrid}>{groups.map(([title, section]) => { const items = Object.values(profile).filter((item) => item.section === section); if (!items.length) return null; return <View style={[styles.category, section === "workstyle" ? styles.categoryWide : {}]} key={section} wrap={false}><Text style={styles.categoryTitle}>{title}</Text>{items.map((item) => <View style={styles.axisRow} key={item.label}><Text style={styles.axisLabel}>{item.label}</Text><Text style={styles.axisValue}>{fa(item.score)} از ۱۰۰</Text></View>)}</View>; })}</View>;
 }
 
 function FamilyCard({ family, majors }: { family: Ranking; majors: Ranking[] }) {
@@ -74,15 +78,14 @@ function FamilyCard({ family, majors }: { family: Ranking; majors: Ranking[] }) 
 
 function highlightSentence(result: ResultSnapshot) {
   const interests = Object.values(result.profile).filter((x) => x.section === "riasec").sort((a, b) => b.score - a.score).slice(0, 2).map((x) => x.label);
-  const traits = Object.values(result.profile).filter((x) => x.section === "personality").sort((a, b) => b.score - a.score).slice(0, 2).map((x) => x.label);
-  return `در این آزمون، رغبت‌های برجسته‌تر ${interests.join(" و ")} و ویژگی‌های خودگزارشی برجسته‌تر ${traits.join(" و ")} دیده شد. این خلاصه برای شروع گفت‌وگو و بررسی مسیرهاست.`;
+  return `رغبت‌های برجسته‌تر در پاسخ‌های تو: ${interests.join(" و ")}.`;
 }
 
 export function AssessmentReport({ result, displayName }: { result: ResultSnapshot; displayName: string }) {
   const interests = Object.values(result.profile).filter((item) => item.section === "riasec");
   return <Document title={`گزارش انتخاب‌یار - ${displayName}`} author="انتخاب‌یار">
     <Page size="A4" style={styles.page} wrap>
-      <View style={styles.header}><Image style={styles.logo} src={logoPath} /><View style={styles.brandBlock}><Text style={styles.brand}>انتخاب‌یار</Text><Text style={styles.center}>مرکز مشاوره تحصیلی رهیار</Text></View><View><Text style={styles.reportName}>گزارش شناخت مسیر تحصیلی</Text><Text style={styles.student}>دانش‌آموز: {displayName} · گروه {group(result.examGroup)}</Text></View></View>
+      <View style={styles.header}><View style={styles.identity}><Image style={styles.logo} src={logoPath} /><View style={styles.brandBlock}><Text style={styles.brand}>انتخاب‌یار</Text><Text style={styles.center}>مرکز مشاوره تحصیلی رهیار</Text></View></View><View style={styles.headerMeta}><Text style={styles.reportName}>گزارش شناخت مسیر تحصیلی</Text><Text style={styles.student}>دانش‌آموز: {displayName} · گروه {group(result.examGroup)}</Text></View></View>
       <Text style={styles.lead}>{rtlSentence(highlightSentence(result))}</Text>
       <View style={styles.card}><Text style={styles.cardTitle}>نقشهٔ رغبت‌های تو</Text><InterestMap items={interests}/></View>
       <View style={styles.card}><Text style={styles.cardTitle}>همهٔ محورهای خودگزارشی بر اساس کاربرد</Text><AxisGroups profile={result.profile}/></View>

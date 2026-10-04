@@ -20,9 +20,11 @@ export async function GET(_request: NextRequest, { params }: { params: Promise<{
   if (!data) return new Response("Not found", { status: 404 });
   try {
     const pdf = await renderToBuffer(React.createElement(AssessmentReport, { result: data.snapshot as ResultSnapshot, displayName: attempt.display_name }) as any);
+    const safeDisplayName = attempt.display_name.normalize("NFC").replace(/[\\/:*?"<>|\r\n]+/g, " ").trim() || "دانش‌آموز";
+    const downloadName = `گزارش انتخاب یار - ${safeDisplayName}.pdf`;
     return new Response(new Uint8Array(pdf), { headers: {
       "Content-Type": "application/pdf",
-      "Content-Disposition": `attachment; filename="entekhab-yar-report.pdf"; filename*=UTF-8''entekhab-yar-${attemptId}.pdf`,
+      "Content-Disposition": `attachment; filename="entekhab-yar-report.pdf"; filename*=UTF-8''${encodeURIComponent(downloadName)}`,
       "Cache-Control": "private, no-store",
     } });
   } catch (error) {
