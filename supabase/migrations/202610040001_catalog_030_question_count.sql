@@ -19,8 +19,8 @@ begin
     from public.active_catalog a join public.catalog_releases r on r.version = a.catalog_version
     where a.singleton = true and r.sealed_at is not null;
   if v_version is null then raise exception 'no active catalog' using errcode = '23514'; end if;
-  if (select count(*) from public.catalog_questions q
-      where q.catalog_version = v_version and p_exam_group = any(q.groups)) not between 50 and 70 then
+    if (select count(*) from public.catalog_questions q
+      where q.catalog_version = v_version and p_exam_group = any(q.groups)) <> 70 then
     raise exception 'catalog question count invalid' using errcode = '23514';
   end if;
   insert into public.attempts (owner_id, display_name, exam_year, exam_group, catalog_version)

@@ -55,7 +55,7 @@ export default async function AssessmentPage({ params }: Props) {
     .filter((question) => Array.isArray(question.groups) && question.groups.includes(group))
     .sort((a, b) => (order.get(a.primary_dimension) ?? 999) - (order.get(b.primary_dimension) ?? 999) || a.position - b.position)
     .map((question) => ({ id: question.id, text: question.question_text, section: question.section, position: question.position }));
-  if (questions.length < 50 || questions.length > 74) throw new Error("Catalog question count is invalid");
+  if (questions.length !== 70) throw new Error("نسخهٔ پرسش‌نامه به‌روز نیست؛ لطفاً migration و seed نسخهٔ ۰٫۳ را اجرا کنید.");
   const answers = Object.fromEntries((answerResult.data ?? []).map((item) => [item.question_id, item.value]));
   return (
     <AssessmentForm attemptId={attempt.id} displayName={attempt.display_name} group={group}

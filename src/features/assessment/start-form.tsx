@@ -154,7 +154,7 @@ export function StartForm({ configured, accessRequired }: { configured: boolean;
       <button className="primary-button" type="submit" disabled={busy}>
         {busy ? "در حال آماده‌سازی آزمون…" : configured ? "شروع آزمون" : "پیش‌نمایش آزمون"}<span aria-hidden="true">←</span>
       </button>
-      <p className="form-caption">۶۰ پرسش · پاسخ‌ها در همین مرورگر قابل ادامه‌اند</p>
+      <p className="form-caption">۷۰ پرسش · پاسخ‌ها در همین مرورگر قابل ادامه‌اند</p>
       {configured && lastAttempt && <a className="resume-link" href={`/assessment/${lastAttempt}`}>ادامه آزمون قبلی</a>}
       {!configured && hasPreview && <a className="resume-link" href="/preview/assessment">ادامه پیش‌نمایش قبلی</a>}
     </form>
